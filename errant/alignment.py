@@ -43,7 +43,7 @@ class Alignment:
         for i in range(o_len):
             for j in range(c_len):
                 # Matches
-                if self.orig[i].orth == self.cor[j].orth:
+                if self.orig[i].text == self.cor[j].text:       # The two tokens are the same, change orth to text
                     cost_matrix[i+1][j+1] = cost_matrix[i][j]
                     op_matrix[i+1][j+1] = "M"
                 # Non-matches
@@ -51,11 +51,21 @@ class Alignment:
                     del_cost = cost_matrix[i][j+1] + 1
                     ins_cost = cost_matrix[i+1][j] + 1
                     trans_cost = float("inf")
+
+                    #print('cost_matrix')
+                    #print('\n'.join([' '.join(['{:4}'.format(item) for item in row]) 
+                    #for row in cost_matrix]))
+
+                    #print('\n\nop_matrix')
+                    #print('\n'.join([' '.join(['{:4}'.format(item) for item in row]) 
+                    #    for row in op_matrix]))
+
                     # Standard Levenshtein (S = 1)
                     if lev: sub_cost = cost_matrix[i][j] + 1
                     # Linguistic Damerau-Levenshtein
                     else:
                         # Custom substitution
+                        # The \ is for line continuation
                         sub_cost = cost_matrix[i][j] + \
                             self.get_sub_cost(self.orig[i], self.cor[j])
                         # Transpositions require >=2 tokens
@@ -63,7 +73,7 @@ class Alignment:
                         k = 1
                         while i-k >= 0 and j-k >= 0 and \
                                 cost_matrix[i-k+1][j-k+1] != cost_matrix[i-k][j-k]:
-                            if sorted(o_low[i-k:i+1]) == sorted(c_low[j-k:j+1]):
+                            if sorted(o_low[i-k:i+1], key=str) == sorted(c_low[j-k:j+1], key=str):            # add key=str to order the list as strings. This rule must be handled in Arabic as there is no lowercase.
                                 trans_cost = cost_matrix[i-k][j-k] + k
                                 break
                             k += 1

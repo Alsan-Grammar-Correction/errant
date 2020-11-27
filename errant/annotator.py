@@ -1,4 +1,5 @@
 from errant.alignment import Alignment
+from errant.parsedToken import ParsedToken
 from errant.edit import Edit
 from spacy.tokens import Doc
 
@@ -17,15 +18,31 @@ class Annotator:
 
     # Input 1: A text string
     # Input 2: A flag for word tokenisation
-    # Output: The input string parsed by spacy
+    # Output:  An array of ParsedToken objects
     def parse(self, text, tokenise=False):
-        if tokenise:
-            text = self.nlp(text)
-        else:
-            text = Doc(self.nlp.vocab, text.split())
-            self.nlp.tagger(text)
-            self.nlp.parser(text)
-        return text
+
+        tokens = []
+        
+        if self.lang == "en":
+            if tokenise:
+                text = self.nlp(text)
+            else:
+                text = Doc(self.nlp.vocab, text.split())
+                self.nlp.tagger(text)
+                self.nlp.parser(text)
+
+            for o in text:
+                tokens.append(ParsedToken(o.text, o.lemma_, o.pos_, o.tag_, o.dep_)) # Spacy values
+                                                                                     # dep_ is only needed in the Engliah classifier, never care if it doesn't exist in Arabic analyzer.
+        
+        if self.lang == "ar":
+
+            # Parse the sentence by an Arbic morphological analyzer
+
+            for o in text:
+                tokens.append(ParsedToken(o.text, o.lemma_, o.pos_, o.tag_)) # Replace this by the values from an Arbic morphological analyzer 
+
+        return tokens
 
     # Input 1: An original text string parsed by spacy
     # Input 2: A corrected text string parsed by spacy
