@@ -70,6 +70,8 @@ dep_map = {
 # Output: The same Edit object with an updated error type
 def classify(edit):
     # Nothing to nothing is a detected but not corrected edit
+    # Add this line to not classifying the english error type as it requires a lot of work to remove spacy dependency
+    return edit
     if not edit.o_toks and not edit.c_toks:
         edit.type = "UNK"
     # Missing
@@ -108,7 +110,7 @@ def classify(edit):
             op = "R:"
             cat = get_two_sided_type(edit.o_toks, edit.c_toks)
             edit.type = op+cat
-    return edit
+    # return edit
 
 # Input: Spacy tokens
 # Output: A list of pos and dep tag strings

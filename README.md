@@ -26,6 +26,8 @@ In M2 format, a line preceded by S denotes an original sentence while a line pre
 
 A "noop" edit is a special kind of edit that explicitly indicates an annotator/system made no changes to the original sentence. If there is only one annotator, noop edits are optional, otherwise a noop edit should be included whenever at least 1 out of n annotators considered the original sentence to be correct. This is something to be aware of when combining individual M2 files, as missing noops can affect evaluation. 
 
+Currently, ther is a support to the Arabic language. Because of that spacy dependency is removed and the English classifier is stopped as it requires more effort to remove spacy dependency. 
+
 # Installation
 
 ## Pip Install
@@ -76,18 +78,18 @@ Three main commands are provided with ERRANT: `errant_parallel`, `errant_m2` and
 
 1. `errant_parallel`  
 
-     This is the main annotation command that takes an original text file and at least one parallel corrected text file as input, and outputs an annotated M2 file. By default, it is assumed that the original and corrected text files are word tokenised with one sentence per line.  
+     This is the main annotation command that takes an original text file and at least one parallel corrected text file as input, and outputs an annotated M2 file. By default, it is assumed that the original and corrected text files are word tokenised with one sentence per line. A lang argument specified whether to run the English(en) nor the Arabic(ar) version of the command.   
 	 Example:
 	 ```
-	 errant_parallel -orig <orig_file> -cor <cor_file1> [<cor_file2> ...] -out <out_m2>
+	 errant_parallel -lang {en|ar} -orig <orig_file> -cor <cor_file1> [<cor_file2> ...] -out <out_m2>
 	 ```
 
 2. `errant_m2`  
 
-     This is a variant of `errant_parallel` that operates on an M2 file instead of parallel text files. This makes it easier to reprocess existing M2 files. You must also specify whether you want to use gold or auto edits; i.e. `-gold` will only classify the existing edits, while `-auto` will extract and classify automatic edits. In both settings, uncorrected edits and noops are preserved.  
+     This is a variant of `errant_parallel` that operates on an M2 file instead of parallel text files. This makes it easier to reprocess existing M2 files. You must also specify whether you want to use gold or auto edits; i.e. `-gold` will only classify the existing edits, while `-auto` will extract and classify automatic edits. In both settings, uncorrected edits and noops are preserved. A lang argument specified whether to run the English(en) nor the Arabic(ar) version of the command.  
      Example:
 	 ```
-	 errant_m2 {-auto|-gold} m2_file -out <out_m2>
+	 errant_m2 -lang {en|ar} {-auto|-gold} m2_file -out <out_m2>
 	 ```
 
 3. `errant_compare`  

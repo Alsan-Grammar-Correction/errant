@@ -6,10 +6,10 @@ def main():
     # Parse command line args
     args = parse_args()
     print("Loading resources...")
-    # Load Errant
-    annotator = errant.load("en")
+    # Load Errant based on the language
+    annotator = errant.load(args.lang)
     # Open output m2 file
-    out_m2 = open(args.out, "w")
+    out_m2 = open(args.out, "w", encoding='utf-8')
 
     print("Processing parallel files...")
     # Process an arbitrary number of files line by line simultaneously. Python 3.3+
@@ -23,7 +23,7 @@ def main():
             cors = line[1:]
             # Skip the line if orig is empty
             if not orig: continue
-            # Parse orig with spacy
+            # Parse orig to get a list of ParsedToken objects
             orig = annotator.parse(orig, args.tok)
             # Write orig to the output m2 file
             out_m2.write(" ".join(["S"]+[token.text for token in orig])+"\n")
@@ -31,7 +31,7 @@ def main():
             for cor_id, cor in enumerate(cors):
                 cor = cor.strip()
                 # If the texts are the same, write a noop edit
-                if orig.text.strip() == cor:
+                if ' '.join(o.text for o in orig) == cor:           # replace orig.text.strip() to ' '.join(o.text for o in orig) to get the original text
                     out_m2.write(noop_edit(cor_id)+"\n")
                 # Otherwise, do extra processing
                 else:
@@ -55,6 +55,10 @@ def parse_args():
         description="Align parallel text files and extract and classify the edits.\n",
         formatter_class=argparse.RawTextHelpFormatter,
         usage="%(prog)s [-h] [options] -orig ORIG -cor COR [COR ...] -out OUT")
+    parser.add_argument(
+        "-lang",
+        help="The language, currently support either en or ar for English and Arabic respectively.",
+        required=True)
     parser.add_argument(
         "-orig",
         help="The path to the original text file.",

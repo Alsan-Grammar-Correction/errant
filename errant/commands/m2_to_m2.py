@@ -6,9 +6,9 @@ def main():
     args = parse_args()
     print("Loading resources...")
     # Load Errant
-    annotator = errant.load("en")
+    annotator = errant.load(args.lang)
     # Open output M2 file
-    out_m2 = open(args.out, "w")
+    out_m2 = open(args.out, "w", encoding="utf-8")
 
     print("Processing M2 file...")
     # Open the m2 file and split it into text+edit blocks
@@ -74,6 +74,10 @@ def parse_args():
         description = "Automatically extract and/or classify edits in an m2 file.",
         formatter_class = argparse.RawTextHelpFormatter,
         usage = "%(prog)s [-h] (-auto | -gold) [options] m2_file -out OUT")
+    parser.add_argument(
+        "-lang",
+        help="The language, currently support either en or ar for English and Arabic respectively.",
+        required=True)
     parser.add_argument(
         "m2_file",
         help = "The path to an m2 file.")
