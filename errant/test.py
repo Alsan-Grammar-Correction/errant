@@ -1,13 +1,13 @@
 import errant
 
-annotator = errant.load('en')
-orig = annotator.parse('This wide spread propaganda benefits only to the companys .')
+annotator = errant.load('ar')
+orig = annotator.parse('ذهبت الطالب إلى المدرسة')
 #print('Type of orig is ', type(orig))
 
 #for t in orig:
 #  print(t, t.pos_, t.dep_)
 
-cor = annotator.parse('This widespread publicity only benefits their companies .')
+cor = annotator.parse('ذهب الطالب إلى المدرسة')
 #print('\nType of cor is ', type(cor))
 
 #for t in cor:

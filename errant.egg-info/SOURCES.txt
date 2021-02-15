@@ -5,7 +5,7 @@ errant/__init__.py
 errant/alignment.py
 errant/annotator.py
 errant/edit.py
-errant/parser.py
+errant/parsedToken.py
 errant/test.py
 errant.egg-info/PKG-INFO
 errant.egg-info/SOURCES.txt
