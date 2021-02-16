@@ -82,7 +82,7 @@ def process_seq_ar(seq, alignment):
         # Merge whitespace/hyphens: [acat -> a cat], [sub - way -> subway]
         ##If a punctation mark is encontered, remove it
         ##I wrote this to remove splits involving punctation marks
-        if any(arab_punct.match(line) for line in c):
+        if any(arab_punct.match(line.text) for line in c):
             c = filter(lambda i: not arab_punct.search(i), c)
             return process_seq_ar(seq[:start+1], alignment) + \
                 process_seq_ar(seq[start+1:], alignment)
@@ -104,7 +104,7 @@ def process_seq_ar(seq, alignment):
                 c[1].tag =='verb' and c[0].tag =='pron_rel' or\
                 o[0].tag == 'noun' or\
                 c[1].tag =='prep' and c[0].tag =='verb':
-                if fuzz.partial_ratio( str(s_str),c[1] )>=50:
+                if fuzz.partial_ratio( str(s_str),c[1].text )>=50:
             
                     return process_seq_ar(seq[:start], alignment) + \
                     merge_edits(seq[start:end+1]) + \
@@ -125,8 +125,8 @@ def process_seq_ar(seq, alignment):
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
             # Split similar substitutions at sequence boundaries
-            if (ops[start] == "S" and char_cost(o[0], c[0]) > 0.75) or \
-                    (ops[end] == "S" and char_cost(o[-1], c[-1]) > 0.75):
+            if (ops[start] == "S" and char_cost(o[0].text, c[0].text) > 0.75) or \
+                    (ops[end] == "S" and char_cost(o[-1].text, c[-1].text) > 0.75):
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
             # Split final determiners
@@ -203,8 +203,8 @@ def process_seq_en(seq, alignment):
                 return process_seq_en(seq[:start+1], alignment) + \
                     process_seq_en(seq[start+1:], alignment)
             # Split similar substitutions at sequence boundaries
-            if (ops[start] == "S" and char_cost(o[0], c[0]) > 0.75) or \
-                    (ops[end] == "S" and char_cost(o[-1], c[-1]) > 0.75):
+            if (ops[start] == "S" and char_cost(o[0].text, c[0].text) > 0.75) or \
+                    (ops[end] == "S" and char_cost(o[-1].text, c[-1].text) > 0.75):
                 return process_seq_en(seq[:start+1], alignment) + \
                     process_seq_en(seq[start+1:], alignment)
             # Split final determiners
@@ -223,8 +223,10 @@ def is_punct(token):
     return token.pos == POS.PUNCT or token.text in punctuation or arab_punct.search(token)   # needs Arabic punctuations
 
 # Calculate the cost of character alignment; i.e. char similarity
+# Input 1: string a 
+# Input 2: string b 
 def char_cost(a, b):
-    return Levenshtein.ratio(a.text, b.text)
+    return Levenshtein.ratio(a, b)
     
 # Merge the input alignment sequence to a single edit span
 def merge_edits(seq):
