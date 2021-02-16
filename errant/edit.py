@@ -1,17 +1,17 @@
 # ERRANT edit class
 class Edit:
 
-    # Input 1: An original text string parsed by spacy
-    # Input 2: A corrected text string parsed by spacy
+    # Input 1: An array of ParsedToken objects of the original text
+    # Input 2: An array of ParsedToken objects of the corrected text
     # Input 3: A token span edit list: [o_start, o_end, c_start, c_end]
     # Input 4: An error type string, if known
     def __init__(self, orig, cor, edit, type="NA"):
-        # Orig offsets, spacy tokens and string
+        # Orig offsets, ParsedToken object and string
         self.o_start = edit[0]
         self.o_end = edit[1]
         self.o_toks = orig[self.o_start:self.o_end]
         self.o_str = ' '.join(o.text for o in self.o_toks) if self.o_toks else ""       # Change self.o_toks.text to  ' '.join(o.text for o in self.o_toks)
-        # Cor offsets, spacy tokens and string
+        # Cor offsets, ParsedToken object tokens and string
         self.c_start = edit[2]
         self.c_end = edit[3]
         self.c_toks = cor[self.c_start:self.c_end]

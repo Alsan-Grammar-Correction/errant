@@ -12,7 +12,7 @@ from camel_tools.disambig.mle import MLEDisambiguator
 class Annotator:
 
     # Input 1: A string language id: e.g. "en"
-    # Input 2: A spacy processing object for the language
+    # Input 2: A spacy processing object for the language, None in case of Arabic language
     # Input 3: A merging module for the language
     # Input 4: A classifier module for the language
     def __init__(self, lang, nlp=None, merger=None, classifier=None):
@@ -53,15 +53,20 @@ class Annotator:
             for o in text:
                 # To analyze a word, we can use the analyze() method
                 analyzedWord = analyzer.analyze(o)
-                lemma = analyzedWord[0]["stem"]
-                pos = analyzedWord[0]["pos"]
+                # Handle the problem if the token is null
+                if analyzedWord:
+                    lemma = analyzedWord[0]["stem"]
+                    pos = analyzedWord[0]["pos"]
+                else:
+                    lemma = ''
+                    pos = ''
                 tag = tagger.tag(o.split())[0]
                 tokens.append(ParsedToken(o, lemma, pos, tag)) # Replace this by the values from an Arbic morphological analyzer 
 
         return tokens
 
-    # Input 1: An original text string parsed by spacy
-    # Input 2: A corrected text string parsed by spacy
+    # Input 1: An array of ParsedToken objects of the original text
+    # Input 2: An array of ParsedToken objects of the corrected text
     # Input 3: A flag for standard Levenshtein alignment
     # Output: An Alignment object
     def align(self, orig, cor, lev=False):
@@ -73,7 +78,7 @@ class Annotator:
     def merge(self, alignment, merging="rules"):
         # rules: Rule-based merging
         if merging == "rules":
-            edits = self.merger.get_rule_edits(alignment)
+            edits = self.merger.get_rule_edits(alignment, self.lang)
         # all-split: Don't merge anything
         elif merging == "all-split":
             edits = alignment.get_all_split_edits()
@@ -94,8 +99,8 @@ class Annotator:
     def classify(self, edit):
         return self.classifier.classify(edit)
 
-    # Input 1: An original text string parsed by spacy
-    # Input 2: A corrected text string parsed by spacy
+    # Input 1: An array of ParsedToken objects of the original text
+    # Input 2: An array of ParsedToken objects of the corrected text
     # Input 3: A flag for standard Levenshtein alignment
     # Input 4: A flag for merging strategy
     # Output: A list of automatically extracted, typed Edit objects
@@ -106,8 +111,8 @@ class Annotator:
             edit = self.classify(edit)
         return edits
 
-    # Input 1: An original text string parsed by spacy
-    # Input 2: A corrected text string parsed by spacy
+    # Input 1: An array of ParsedToken objects of the original text
+    # Input 2: An array of ParsedToken objects of the corrected text
     # Input 3: A token span edit list; [o_start, o_end, c_start, c_end, (cat)]
     # Input 4: A flag for gold edit minimisation; e.g. [a b -> a c] = [b -> c]
     # Input 5: A flag to preserve the old error category (i.e. turn off classifier)

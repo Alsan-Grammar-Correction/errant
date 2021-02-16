@@ -18,7 +18,7 @@ def main():
         m2_block = m2_block.strip().split("\n")
         # Write the original text to the output M2 file
         out_m2.write(m2_block[0]+"\n")
-        # Parse orig with spacy
+        # Parse orig to get an array of ParsedToken objects
         orig = annotator.parse(m2_block[0][2:])
         # Simplify the edits and sort by coder id
         edit_dict = simplify_edits(m2_block[1:])
@@ -32,7 +32,7 @@ def main():
             # Apply the edits to generate the corrected text
             # Also redefine the edits as orig and cor token offsets
             cor, gold_edits = get_cor_and_edits(m2_block[0][2:], raw_edits)
-            # Parse cor with spacy
+            # Parse cor to get an array of ParsedToken objects
             cor = annotator.parse(cor)
             # Save detection edits here for auto
             det_edits = []

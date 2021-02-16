@@ -35,7 +35,7 @@ def main():
                     out_m2.write(noop_edit(cor_id)+"\n")
                 # Otherwise, do extra processing
                 else:
-                    # Parse cor with spacy
+                    # Parse cor to get an array of ParsedToken objects
                     cor = annotator.parse(cor, args.tok)
                     # Align the texts and extract and classify the edits
                     edits = annotator.annotate(orig, cor, args.lev, args.merge)

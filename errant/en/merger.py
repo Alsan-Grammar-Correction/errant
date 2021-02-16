@@ -10,7 +10,7 @@ open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB}              # Not su
 
 # Input: An Alignment object
 # Output: A list of Edit objects
-def get_rule_edits(alignment):
+def get_rule_edits(alignment, lang):
     edits = []
     # Split alignment into groups of M, T and rest. (T has a number after it)
     for op, group in groupby(alignment.align_seq, 
