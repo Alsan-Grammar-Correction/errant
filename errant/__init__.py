@@ -1,6 +1,10 @@
 from importlib import import_module
 import spacy
 from errant.annotator import Annotator
+from camel_tools.morphology.database import MorphologyDB
+from camel_tools.morphology.analyzer import Analyzer
+from camel_tools.tagger.default import DefaultTagger
+from camel_tools.disambig.mle import MLEDisambiguator
 
 # ERRANT version
 __version__ = '2.2.2'
@@ -30,6 +34,11 @@ def load(lang, nlp=None):
     if lang == "ar":
         # Load spacy
         # nlp = nlp or spacy.load(lang, disable=["ner"])
+        db = MorphologyDB.builtin_db()
+        analyzer = Analyzer(db)
+        mled = MLEDisambiguator.pretrained()
+        tagger = DefaultTagger(mled, 'pos')
+        nlp = [analyzer, tagger]
 
         # Load language edit merger
         merger = import_module("errant.%s.merger" % lang)

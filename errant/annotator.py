@@ -3,10 +3,7 @@ from errant.parsedToken import ParsedToken
 from errant.edit import Edit
 from spacy.tokens import Doc
 import camel_tools.tokenizers.word
-from camel_tools.morphology.database import MorphologyDB
-from camel_tools.morphology.analyzer import Analyzer
-from camel_tools.tagger.default import DefaultTagger
-from camel_tools.disambig.mle import MLEDisambiguator
+
 
 # Main ERRANT Annotator class
 class Annotator:
@@ -45,14 +42,10 @@ class Annotator:
             # Parse the sentence by an Arbic morphological analyzer
 
             text = camel_tools.tokenizers.word.simple_word_tokenize(text)
-            db = MorphologyDB.builtin_db()
-            analyzer = Analyzer(db)
-            mled = MLEDisambiguator.pretrained()
-            tagger = DefaultTagger(mled, 'pos')
 
             for o in text:
                 # To analyze a word, we can use the analyze() method
-                analyzedWord = analyzer.analyze(o)
+                analyzedWord = self.nlp[0].analyze(o)
                 # Handle the problem if the token is null
                 if analyzedWord:
                     lemma = analyzedWord[0]["stem"]
@@ -60,7 +53,7 @@ class Annotator:
                 else:
                     lemma = ''
                     pos = ''
-                tag = tagger.tag(o.split())[0]
+                tag = self.nlp[1].tag(o.split())[0]
                 tokens.append(ParsedToken(o, lemma, pos, tag)) # Replace this by the values from an Arbic morphological analyzer 
 
         return tokens
