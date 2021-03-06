@@ -1,3 +1,6 @@
 !errant/test.py
 __pycache__/
 test_files/
+errant/m2_out.m2
+errant/ref.txt
+errant/source.txt
