@@ -80,7 +80,7 @@ def process_seq_ar(seq, alignment):
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
                 process_seq_ar(seq[end+1:], alignment)
-        print([is_punct(tok) for tok in o])
+        print(is_punct(','))
 
         # Merge same POS or auxiliary/infinitive/phrasal verbs:
         # [to eat -> eating], [watch -> look at]
@@ -200,7 +200,7 @@ def is_punct(token):
     if(isinstance(token,errant.parsedToken.ParsedToken)):
         return token.pos=="punc" or token.pos == POS.PUNCT or token.text in punctuation   # needs Arabic punctuations
     elif(isinstance(token, str)):
-       return arab_punct.search(token)
+       return bool(arab_punct.match(token))
 # Calculate the cost of character alignment; i.e. char similarity
 # Input 1: string a 
 # Input 2: string b 
