@@ -8,7 +8,9 @@ import re
 from fuzzywuzzy import fuzz
 
 # Merger resources
-open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB}              # Not sure if it is language dependent. 
+#--edited--# open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB} 
+open_pos = {'adj','adj_comp','adj_num','adv','adv_interrog','adv_rel','noun','noun_prop','noun_num','noun_quant','verb','verb_pseudo'} #Testing a version of open_pos that works with arabic (because camel_tools' morphological analyzer produces textual tags)
+
 #Arabic punctation regex
 arab_punct_rx=r"[\".,:;!?،؛؟]"
 arab_punct = re.compile(arab_punct_rx)
@@ -61,6 +63,7 @@ def process_seq_ar(seq, alignment):
         # Get the tokens in orig and cor. They will now never be empty.
         o = alignment.orig[seq[start][1]:seq[end][2]]
         c = alignment.cor[seq[start][3]:seq[end][4]]
+        
         # Merge possessive suffixes: [friends -> friend 's]
         if o[-1].tag == "POS" or c[-1].tag == "POS":                              # what is POS? + change tag_ to tag
             return process_seq_ar(seq[:end-1], alignment) + \
@@ -80,12 +83,7 @@ def process_seq_ar(seq, alignment):
                     merge_edits(seq[end-1:end+1]) + \
                     process_seq_ar(seq[end+1:], alignment)
         # Merge whitespace/hyphens: [acat -> a cat], [sub - way -> subway]
-        ##If a punctation mark is encontered, remove it
-        ##I wrote this to remove splits involving punctation marks
-        if any(arab_punct.match(line.text) for line in c):
-            c = filter(lambda i: not arab_punct.search(i), c)
-            return process_seq_ar(seq[:start+1], alignment) + \
-                process_seq_ar(seq[start+1:], alignment)
+
         #hyphens removed (they were messing up some edits but might rewrite it later)
         s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
         t_str = sub("['-]", "", "".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
@@ -93,28 +91,12 @@ def process_seq_ar(seq, alignment):
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
                 process_seq_ar(seq[end+1:], alignment)
-        #######################################################
-        #instead of merging them only when they are equal \
-        #they are now merged if the distance between them is \
-        #less than 15
-        
-        # if char_cost(s_str , t_str) >= 0.75 and 'I' in ops and 'S' in ops:        
-        if char_cost(s_str , t_str) > 0.8 and 'T' not in ops and 'D' not in ops:
-            if o[0].tag == 'noun_prop' or\
-                c[1].tag =='verb' and c[0].tag =='pron_rel' or\
-                o[0].tag == 'noun' or\
-                c[1].tag =='prep' and c[0].tag =='verb':
-                if fuzz.partial_ratio( str(s_str),c[1].text )>=50:
-            
-                    return process_seq_ar(seq[:start], alignment) + \
-                    merge_edits(seq[start:end+1]) + \
-                    process_seq_ar(seq[end+1:], alignment)
-                    
+
         # Merge same POS or auxiliary/infinitive/phrasal verbs:
         # [to eat -> eating], [watch -> look at]
         pos_set = set([tok.pos for tok in o]+[tok.pos for tok in c])            # This is not applied on Arabic
         if len(o) != len(c) and (len(pos_set) == 1 or \
-                pos_set.issubset({POS.AUX, POS.PART, POS.VERB})):               # Not sure if it is language dependent. This is not applied on Arabic
+                pos_set.issubset({'part','part_dem','part_det','part_focus','part_fut','part_interrog','part_neg','part_restrict','part_verb','part_voc','verb','verb_pseudo'})):               # Not sure if it is language dependent. This is not applied on Arabic
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
                 process_seq_ar(seq[end+1:], alignment)
@@ -130,10 +112,10 @@ def process_seq_ar(seq, alignment):
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
             # Split final determiners
-            if end == len(seq)-1 and ((ops[-1] in {"D", "S"} and \
-                    o[-1].pos == POS.DET) or (ops[-1] in {"I", "S"} and \
-                    c[-1].pos == POS.DET)):                                     # This is not applied on Arabic
-                return process_seq_ar(seq[:-1], alignment) + [seq[-1]]
+            #if end == len(seq)-1 and ((ops[-1] in {"D", "S"} and \
+            #        o[-1].pos == POS.DET) or (ops[-1] in {"I", "S"} and \
+            #        c[-1].pos == POS.DET)):                                     # This is not applied on Arabic
+            #    return process_seq_ar(seq[:-1], alignment) + [seq[-1]]
         # Set content word flag
         if not pos_set.isdisjoint(open_pos): content = True                     # Not sure if it is language dependent.
     # Merge sequences that contain content words

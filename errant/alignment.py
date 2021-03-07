@@ -6,7 +6,7 @@ from errant.edit import Edit
 class Alignment:
     # Protected class resource
     _open_pos = {POS.ADJ, POS.ADV, POS.NOUN, POS.VERB}
-
+    
     # Input 1: An array of ParsedToken objects of the original text
     # Input 2: An array of ParsedToken objects of the corrected text
     # Input 3: A flag for standard Levenshtein alignment
