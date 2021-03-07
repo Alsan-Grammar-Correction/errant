@@ -84,10 +84,8 @@ A 11 11|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||مع|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||سلفية|||REQUIRED|||-NONE-|||0
 A 24 24|||Add|||،|||REQUIRED|||-NONE-|||0
-A 28 29|||Edit|||الناس|||REQUIRED|||-NONE-|||0
-A 29 29|||Add|||هم|||REQUIRED|||-NONE-|||0
-A 30 31|||Edit|||صوفية|||REQUIRED|||-NONE-|||0
-A 31 31|||Add|||،|||REQUIRED|||-NONE-|||0
+A 28 29|||Split|||الناس هم|||REQUIRED|||-NONE-|||0
+A 30 31|||Split|||صوفية ،|||REQUIRED|||-NONE-|||0
 A 32 32|||Add|||،|||REQUIRED|||-NONE-|||0
 A 34 34|||Add|||،|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||عقيدتهم|||REQUIRED|||-NONE-|||0
@@ -106,16 +104,14 @@ A 82 83|||Edit|||أجمعين|||REQUIRED|||-NONE-|||0
 
 S أحلامي في البنك الإسلامي أنني أفضل كلية الاقتصاد ( فيه البنك الإسلامي ) . لأنني أريد العالم أن أنظر عالما إسلاميا في المستقبل . في الدعوة الإسلامية والشريعة وفي أصول الدين قد شارك كثير من الطلاب والعلماء . أنهم يهتمون بنشر الإسلام في احكامها وحل المشاكل بين الناس باعتبار الإسلام . هناك يوجد كثير من المراكز الإسلام لنشر الدعوة الإسلامية للمسلمين وغيرهم . وهذا مجال ممتلئ ولا سيما في بلدنا سريلانكا . ولهذا الآن نحتاج بلدي إلى فن مختلف اسلامي . في الإقتصاد والسياسي والمهنة وغير ذلك من الفنون التي لا تعد ولا تحصى . ولهذا اخترت أنا البنك الإسلامي مناسبة لبلدنا . هناك توجد كثيرا من البنك . فيها كثيرا من الظلم والربى والخيانة للناس . أنا أتعلم البنك الإسلامي وأشتغل فيه دعوة إلى الله .
 A 1 2|||Edit|||هي|||REQUIRED|||-NONE-|||0
-A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
-A 4 5|||Edit|||إنني|||REQUIRED|||-NONE-|||0
+A 4 5|||Split|||. إنني|||REQUIRED|||-NONE-|||0
 A 9 9|||Add|||على أن يكون|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||فيها|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||بنكا|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||إسلاميا|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 16 17|||Delete||||||REQUIRED|||-NONE-|||0
-A 18 19|||Edit|||يرى|||REQUIRED|||-NONE-|||0
-A 19 19|||Add|||العالم|||REQUIRED|||-NONE-|||0
+A 18 19|||Split|||يرى العالم|||REQUIRED|||-NONE-|||0
 A 27 27|||Add|||، وفي|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||الشريعة|||REQUIRED|||-NONE-|||0
 A 28 28|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -149,8 +145,7 @@ A 108 109|||Delete||||||REQUIRED|||-NONE-|||0
 A 110 111|||Edit|||الكثير|||REQUIRED|||-NONE-|||0
 A 113 113|||Add|||،|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||والرباء|||REQUIRED|||-NONE-|||0
-A 114 114|||Add|||،|||REQUIRED|||-NONE-|||0
-A 114 115|||Edit|||وخداع|||REQUIRED|||-NONE-|||0
+A 114 115|||Split|||، وخداع|||REQUIRED|||-NONE-|||0
 A 119 119|||Add|||من|||REQUIRED|||-NONE-|||0
 A 121 121|||Add|||،|||REQUIRED|||-NONE-|||0
 
@@ -166,15 +161,13 @@ A 56 57|||Edit|||وفرحوا|||REQUIRED|||-NONE-|||0
 A 57 58|||Delete||||||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||سمعوا|||REQUIRED|||-NONE-|||0
 A 64 64|||Add|||،|||REQUIRED|||-NONE-|||0
-A 66 66|||Add|||من|||REQUIRED|||-NONE-|||0
-A 66 67|||Edit|||فراق|||REQUIRED|||-NONE-|||0
+A 66 67|||Split|||من فراق|||REQUIRED|||-NONE-|||0
 A 68 69|||Edit|||بسبب|||REQUIRED|||-NONE-|||0
 A 75 75|||Add|||،|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||فازددت|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||سمعته|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||وإقداما|||REQUIRED|||-NONE-|||0
-A 82 82|||Add|||،|||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||ولحب|||REQUIRED|||-NONE-|||0
+A 82 83|||Split|||، ولحب|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||أهل|||REQUIRED|||-NONE-|||0
 A 86 86|||Add|||،|||REQUIRED|||-NONE-|||0
 A 87 87|||Add|||إلى|||REQUIRED|||-NONE-|||0
@@ -194,8 +187,7 @@ A 140 140|||Add|||،|||REQUIRED|||-NONE-|||0
 A 144 145|||Edit|||؟|||REQUIRED|||-NONE-|||0
 A 150 151|||Edit|||أجيبهم|||REQUIRED|||-NONE-|||0
 A 151 152|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 159 159|||Add|||،|||REQUIRED|||-NONE-|||0
-A 159 160|||Edit|||واعظا|||REQUIRED|||-NONE-|||0
+A 159 160|||Split|||، واعظا|||REQUIRED|||-NONE-|||0
 A 165 165|||Add|||،|||REQUIRED|||-NONE-|||0
 A 165 166|||Edit|||وبما|||REQUIRED|||-NONE-|||0
 A 171 172|||Edit|||أساتذتي|||REQUIRED|||-NONE-|||0
@@ -214,13 +206,9 @@ A 19 19|||Add|||-|||REQUIRED|||-NONE-|||0
 A 23 23|||Add|||- .|||REQUIRED|||-NONE-|||0
 A 27 27|||Add|||أن أدرس|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||فيها|||REQUIRED|||-NONE-|||0
-A 28 28|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 28 29|||Edit|||لأن|||REQUIRED|||-NONE-|||0
-A 29 29|||Add|||فيها|||REQUIRED|||-NONE-|||0
-A 29 30|||Edit|||علم|||REQUIRED|||-NONE-|||0
+A 28 30|||Split|||؛ لأن فيها علم|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||الأصول|||REQUIRED|||-NONE-|||0
-A 32 33|||Edit|||أنواعه|||REQUIRED|||-NONE-|||0
-A 33 33|||Add|||،|||REQUIRED|||-NONE-|||0
+A 32 33|||Split|||أنواعه ،|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||والدين|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||الإسلامي|||REQUIRED|||-NONE-|||0
 A 35 35|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -236,8 +224,7 @@ A 51 52|||Edit|||سليمي|||REQUIRED|||-NONE-|||0
 A 54 55|||Edit|||نشرك|||REQUIRED|||-NONE-|||0
 A 57 57|||Add|||،|||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||فإذا|||REQUIRED|||-NONE-|||0
-A 62 63|||Edit|||حقيقة|||REQUIRED|||-NONE-|||0
-A 63 63|||Add|||.|||REQUIRED|||-NONE-|||0
+A 62 63|||Split|||حقيقة .|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||كلية|||REQUIRED|||-NONE-|||0
 A 67 67|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||لأنني|||REQUIRED|||-NONE-|||0
@@ -257,8 +244,7 @@ A 103 104|||Edit|||مدرسا|||REQUIRED|||-NONE-|||0
 A 109 109|||Add|||،|||REQUIRED|||-NONE-|||0
 A 114 114|||Add|||،|||REQUIRED|||-NONE-|||0
 A 120 120|||Add|||،|||REQUIRED|||-NONE-|||0
-A 125 126|||Edit|||لنا|||REQUIRED|||-NONE-|||0
-A 126 126|||Add|||،|||REQUIRED|||-NONE-|||0
+A 125 126|||Split|||لنا ،|||REQUIRED|||-NONE-|||0
 A 130 130|||Add|||،|||REQUIRED|||-NONE-|||0
 A 137 137|||Add|||.|||REQUIRED|||-NONE-|||0
 
@@ -269,8 +255,7 @@ A 11 12|||Edit|||آله|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||أتخصص|||REQUIRED|||-NONE-|||0
 A 26 26|||Add|||،|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||؛|||REQUIRED|||-NONE-|||0
-A 29 30|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
-A 30 31|||Delete||||||REQUIRED|||-NONE-|||0
+A 29 31|||Merge|||بلدي|||REQUIRED|||-NONE-|||0
 A 32 33|||Delete||||||REQUIRED|||-NONE-|||0
 A 34 35|||Delete||||||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||بعيدون|||REQUIRED|||-NONE-|||0
@@ -285,20 +270,17 @@ A 91 92|||Edit|||،|||REQUIRED|||-NONE-|||0
 S طالب العلم في المسجد إن مما يحمد للمسلم عامه ولطالب العلم خاصه ، حرصه على أن يكون من السابقين إلى الجمعة والجماعه ، والمحافطة على الصف الأول ، ويتأكد هذا الحرص في طالب العلم ؛ لكونه قدوه للآخرين ، وحتى يطايق فعله قوله فقييح بطالب العلم أن يحث الناس على التبكير إلى المسجد ويحذرهم من التأخير فاحرص - رعاك الله - أن تكون مثل طالب العلم المتصف بصفات السلف الصالح . كالحرص على الحمعه والجماعه والمسارعه إلى المسجد عند سماع النداء وفي تزجمه إبراهيم بن ميمون الصائع قال عنه ابن معين ، كان إذا رفع المطرقة فسمع النداء لم يردها قال الشعبي ( ما دخل وقت صلاه حتى أشتاق إليها وقال أيضا : ( ما أقمت الصلاة منذ أسلمت ، إلا وأنا على وضوء وقول إبراهيم بن يزيد رحمه الله تعالى إذا رأيت الرجل يتهاون في التكبيره الأولى فاعسل يدك منه وإلى آخر
 A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||عامة|||REQUIRED|||-NONE-|||0
-A 11 12|||Edit|||خاصة|||REQUIRED|||-NONE-|||0
-A 12 13|||Delete||||||REQUIRED|||-NONE-|||0
+A 11 13|||Merge|||خاصة|||REQUIRED|||-NONE-|||0
 A 21 21|||Add|||،|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||والجماعة|||REQUIRED|||-NONE-|||0
 A 34 35|||Delete||||||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||قدوة|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||يطابق|||REQUIRED|||-NONE-|||0
-A 43 43|||Add|||،|||REQUIRED|||-NONE-|||0
-A 43 44|||Edit|||فحقيق|||REQUIRED|||-NONE-|||0
+A 43 44|||Split|||، فحقيق|||REQUIRED|||-NONE-|||0
 A 53 53|||Add|||،|||REQUIRED|||-NONE-|||0
 A 56 56|||Add|||.|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 73 74|||Edit|||الجمعة|||REQUIRED|||-NONE-|||0
-A 74 74|||Add|||،|||REQUIRED|||-NONE-|||0
+A 73 74|||Split|||الجمعة ،|||REQUIRED|||-NONE-|||0
 A 74 75|||Edit|||والجماعة|||REQUIRED|||-NONE-|||0
 A 75 75|||Add|||،|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||والمسارعة|||REQUIRED|||-NONE-|||0
@@ -394,8 +376,7 @@ A 81 82|||Edit|||وتطيبنا|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||للإحرام|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||وبعد|||REQUIRED|||-NONE-|||0
-A 86 86|||Add|||،|||REQUIRED|||-NONE-|||0
-A 86 87|||Edit|||نوينا|||REQUIRED|||-NONE-|||0
+A 86 87|||Split|||، نوينا|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||العمرة|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||وقلنا|||REQUIRED|||-NONE-|||0
 A 92 92|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -423,14 +404,12 @@ A 143 144|||Edit|||الرئيس|||REQUIRED|||-NONE-|||0
 A 149 150|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 150 150|||Add|||في|||REQUIRED|||-NONE-|||0
 A 150 151|||Edit|||كل|||REQUIRED|||-NONE-|||0
-A 152 152|||Add|||طالب|||REQUIRED|||-NONE-|||0
-A 152 153|||Edit|||قديم|||REQUIRED|||-NONE-|||0
+A 152 153|||Split|||طالب قديم|||REQUIRED|||-NONE-|||0
 A 153 154|||Edit|||واحد|||REQUIRED|||-NONE-|||0
 A 155 156|||Edit|||أكثر|||REQUIRED|||-NONE-|||0
 A 156 158|||Delete||||||REQUIRED|||-NONE-|||0
 A 159 160|||Edit|||الطلاب|||REQUIRED|||-NONE-|||0
-A 160 161|||Edit|||الجدد|||REQUIRED|||-NONE-|||0
-A 161 161|||Add|||في|||REQUIRED|||-NONE-|||0
+A 160 161|||Split|||الجدد في|||REQUIRED|||-NONE-|||0
 A 161 162|||Edit|||العمرة|||REQUIRED|||-NONE-|||0
 A 162 162|||Add|||،|||REQUIRED|||-NONE-|||0
 A 166 166|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -452,8 +431,7 @@ A 205 206|||Edit|||تقصيره|||REQUIRED|||-NONE-|||0
 
 S رحلة العمره إلى مكه بسم الله الرحمن الرحيم . سأكتب مقالا قصيرا حول رحلة قمت بها قبل السنة . قررت أنا وبعض أصدقائي أن نعتمر ونزور بيت الله الحرام . فبعدما استعدنا للسفر غادرنا الجامعة بعد صلاة الظهر يوم الثلاثاء في ذاك الأشبوع . أخذت الرحلة عشر ساعات . وبعدما وصلنا مكة المكرمة نزلنا في فندقنا الذي حجزناه أمس الأول ، وضعنا أعراضنا وخرجنا متجهين إلى الحرم لأداء العمرة . بعد ساعتين فارغنا من أعمال العمرة ورجعنا إلى الفندق حتى نأخذ حظنا من الراحة قيل أن تحون صلاة الفجر . لم بكن لدينا برنامجا خاصا نقوم به ، لذا قررنا أن نذهب إلى البادبة حتى نشرب حليب الإبل ، وكنت وأنا صغير أحب حليب الإبل لأنني فضيت بداية حياتي في البادية . مضت الأيام ونحن بين الحرام والبادية والفندف وقي يوم التالي رجعنا إلى الرياض .
 A 1 2|||Edit|||العمرة|||REQUIRED|||-NONE-|||0
-A 3 4|||Edit|||مكة|||REQUIRED|||-NONE-|||0
-A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
+A 3 4|||Split|||مكة .|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||سنة|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||وبعدما|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||استعددنا|||REQUIRED|||-NONE-|||0
@@ -481,8 +459,7 @@ A 126 127|||Edit|||الحرم|||REQUIRED|||-NONE-|||0
 A 127 127|||Add|||،|||REQUIRED|||-NONE-|||0
 A 128 128|||Add|||،|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||والفندق|||REQUIRED|||-NONE-|||0
-A 129 129|||Add|||.|||REQUIRED|||-NONE-|||0
-A 129 130|||Edit|||وفي|||REQUIRED|||-NONE-|||0
+A 129 130|||Split|||. وفي|||REQUIRED|||-NONE-|||0
 A 132 132|||Add|||،|||REQUIRED|||-NONE-|||0
 
 S الالتحاق بكلية الشريعة أريد أن ألاحق في كلية الشريعة وكنت أريد علم الرشي منذ صغري ودعوت الله أن أكون عالما شرعيا لهذا الدين وأخدم هذا الدين بنفسي ومالي وكما قال صلى الله عليه وسلم : " من أراد الله به الخير يفقه في الدين " أ كما قال . لهذا أريد أن أكون مفقها في الدين ، وأخدم المسلمين .
@@ -503,18 +480,14 @@ A 34 34|||Add|||-|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||يرد|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||خيرا|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||يفقهه|||REQUIRED|||-NONE-|||0
-A 45 46|||Delete||||||REQUIRED|||-NONE-|||0
-A 46 47|||Delete||||||REQUIRED|||-NONE-|||0
-A 47 48|||Delete||||||REQUIRED|||-NONE-|||0
-A 48 49|||Edit|||؛|||REQUIRED|||-NONE-|||0
+A 45 49|||Merge|||؛|||REQUIRED|||-NONE-|||0
 A 56 57|||Delete||||||REQUIRED|||-NONE-|||0
 
 S ألتحق بكلية الشريعة من المعلوم أن كلية الشريعة فيها تدريس شريعة الإسلام مثل : فقه وأصول الفقه والفرائض والتوحيد والتفسير إلى غير ذلك ، اختار إلى كلية الشريعة بعدة أسباب : 1 - أحب كلية الشريعة ، منذ أدرس اللغة العربية والدين الإسلامي أحب أن أتعلم مواد حول الشريعة ، وأبي هو إمام المسجد وأنا صغير في السن حتى إلى يومنا هذا ، ويشرح للجماهير أمور الدين ويخطب أمام الناس في الجمعة أو في حلق التعليم . تأثرت بوالدى تأثرا كثيرا . 2 - حسب وضع الوطني . لأن الآن في الصين انتشر البدعة والخرافات انتشارا كثيرا . والناس يبتعدون عن الكتاب والسنة بسبب ضعف الايمان والجهل . أفكر كيف يعالج هذه المسألة وكيف صحح عقيدهم وكيف ببين لهم أن هذا الأمر حلال وهذا حرام ؟ وأختار إلى كلية الشريعة لأعالج هذه المشاكل إن شاء الله 3 - كلية الشريعة مجال واسع . فيها يشمل عدة مواد كثيرة .
 A 0 1|||Edit|||سألتحق|||REQUIRED|||-NONE-|||0
 A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||لشريعة|||REQUIRED|||-NONE-|||0
-A 14 15|||Edit|||الفقه|||REQUIRED|||-NONE-|||0
-A 15 15|||Add|||،|||REQUIRED|||-NONE-|||0
+A 14 15|||Split|||الفقه ،|||REQUIRED|||-NONE-|||0
 A 17 17|||Add|||،|||REQUIRED|||-NONE-|||0
 A 18 18|||Add|||،|||REQUIRED|||-NONE-|||0
 A 19 19|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -530,8 +503,7 @@ A 43 43|||Add|||،|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||وأحب|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||موادا|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||مسجد|||REQUIRED|||-NONE-|||0
-A 54 54|||Add|||منذ|||REQUIRED|||-NONE-|||0
-A 54 55|||Edit|||كنت|||REQUIRED|||-NONE-|||0
+A 54 55|||Split|||منذ كنت|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||صغيرا|||REQUIRED|||-NONE-|||0
 A 59 60|||Delete||||||REQUIRED|||-NONE-|||0
 A 67 67|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -552,8 +524,7 @@ A 114 115|||Edit|||أصحح|||REQUIRED|||-NONE-|||0
 A 115 116|||Edit|||عقيدتهم|||REQUIRED|||-NONE-|||0
 A 116 116|||Add|||،|||REQUIRED|||-NONE-|||0
 A 117 118|||Edit|||أبين|||REQUIRED|||-NONE-|||0
-A 126 127|||Edit|||واخترت|||REQUIRED|||-NONE-|||0
-A 127 128|||Delete||||||REQUIRED|||-NONE-|||0
+A 126 128|||Merge|||واخترت|||REQUIRED|||-NONE-|||0
 A 133 133|||Add|||-|||REQUIRED|||-NONE-|||0
 A 136 136|||Add|||- .|||REQUIRED|||-NONE-|||0
 A 142 144|||Delete||||||REQUIRED|||-NONE-|||0
@@ -596,22 +567,18 @@ A 82 83|||Edit|||:|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||زيارة|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||مستشفيات|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||تامالي|||REQUIRED|||-NONE-|||0
-A 93 93|||Add|||.|||REQUIRED|||-NONE-|||0
-A 93 94|||Edit|||ومن|||REQUIRED|||-NONE-|||0
-A 96 97|||Edit|||:|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||عند|||REQUIRED|||-NONE-|||0
+A 93 94|||Split|||. ومن|||REQUIRED|||-NONE-|||0
+A 96 97|||Split|||: عند|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||ذهابنا|||REQUIRED|||-NONE-|||0
 A 98 99|||Split|||إلى القرية|||REQUIRED|||-NONE-|||0
 A 100 101|||Edit|||تسمى|||REQUIRED|||-NONE-|||0
-A 101 102|||Edit|||يونى|||REQUIRED|||-NONE-|||0
-A 102 102|||Add|||،|||REQUIRED|||-NONE-|||0
+A 101 102|||Split|||يونى ،|||REQUIRED|||-NONE-|||0
 A 108 109|||Delete||||||REQUIRED|||-NONE-|||0
 A 111 112|||Delete||||||REQUIRED|||-NONE-|||0
 A 114 115|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
 A 123 123|||Add|||،|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||أصدقاؤنا|||REQUIRED|||-NONE-|||0
-A 134 135|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 135 135|||Add|||وأنهم|||REQUIRED|||-NONE-|||0
+A 134 135|||Split|||، وأنهم|||REQUIRED|||-NONE-|||0
 A 135 136|||Edit|||بعد|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||كسروا|||REQUIRED|||-NONE-|||0
 A 139 140|||Edit|||ورموها|||REQUIRED|||-NONE-|||0
@@ -638,8 +605,7 @@ A 59 60|||Edit|||الإحرام|||REQUIRED|||-NONE-|||0
 A 64 64|||Add|||،|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||رجعنا|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||صباحا|||REQUIRED|||-NONE-|||0
-A 78 78|||Add|||،|||REQUIRED|||-NONE-|||0
-A 78 79|||Edit|||وقبل|||REQUIRED|||-NONE-|||0
+A 78 79|||Split|||، وقبل|||REQUIRED|||-NONE-|||0
 A 79 80|||Split|||أن نصل|||REQUIRED|||-NONE-|||0
 A 80 80|||Add|||،|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||لنأكل|||REQUIRED|||-NONE-|||0
@@ -663,8 +629,7 @@ A 5 5|||Add|||منذ|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||السنوات|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||الماضية|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 12 13|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
-A 13 13|||Add|||،|||REQUIRED|||-NONE-|||0
+A 12 13|||Split|||بلدي ،|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||وتخرجت|||REQUIRED|||-NONE-|||0
 A 14 14|||Add|||من|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||المرحلة|||REQUIRED|||-NONE-|||0
@@ -677,8 +642,7 @@ A 22 23|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||الإمام|||REQUIRED|||-NONE-|||0
 A 29 29|||Add|||.|||REQUIRED|||-NONE-|||0
 A 29 31|||Move|||والآن ،|||REQUIRED|||-NONE-|||0
-A 31 31|||Add|||أنا|||REQUIRED|||-NONE-|||0
-A 31 32|||Edit|||في|||REQUIRED|||-NONE-|||0
+A 31 32|||Split|||أنا في|||REQUIRED|||-NONE-|||0
 A 34 34|||Add|||،|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||وبعد|||REQUIRED|||-NONE-|||0
 A 37 37|||Add|||-|||REQUIRED|||-NONE-|||0
@@ -689,30 +653,23 @@ A 46 47|||Delete||||||REQUIRED|||-NONE-|||0
 A 47 48|||Edit|||بكلية|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||الشريعة|||REQUIRED|||-NONE-|||0
 A 54 55|||Edit|||الشريعة|||REQUIRED|||-NONE-|||0
-A 58 58|||Add|||،|||REQUIRED|||-NONE-|||0
-A 58 59|||Edit|||وبلدي|||REQUIRED|||-NONE-|||0
+A 58 59|||Split|||، وبلدي|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 65 65|||Add|||،|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||دينهم|||REQUIRED|||-NONE-|||0
-A 72 72|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 72 73|||Edit|||ولكي|||REQUIRED|||-NONE-|||0
+A 72 73|||Split|||؛ ولكي|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||لأدعوهم|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||وبصيرة|||REQUIRED|||-NONE-|||0
 
 S رحلة إلى زيارت تاج محل . دائما كنت فكرت لزيارت إلى تاج محل التي هي أول عجيب من عجائب الثمانية العالمية ، وذلك الوقت قرأت في الكتاب بلغة الإنجليزية في مرحلة المتوسطة . الذي بناها الملك شاهجهان لذكر حبيته ممتاز بيغم ، كان يحبها كثيرا فاستشار الملك مع الوزراء كيف تبقى المحبة بعد وفاتها ؟ : فقالوا : أن تجعل القصر جميلا ، شاهقا لناظرين ، تشويقا في قلوب المحبين ، متمنيا لزائرين بعد الزيارة ، فبناه بعد عشرين سنة ، وزينة بجحر كريم ( الفيروز ) وحجر مرمر ، وسجل القرآن على الجدار ، وجوارها وقعت القلعةالحمراء لما ينظر إليها من المجلس سرتها بعد الرؤية . فاتفقت في يوم من الأيام مع الأصدقاء ، وركبنا بالقطار من عاصمة الهند إلى آغره منطقة جنوب برديس ثم وصلت بعد أربع ساعات ، فصادق من قال ما قال ، حقيقتا كانت عجيب من عجائب العالم ، فقضيت أليوم كله ، والحمد لله كانت رحلة جيدا ممتعة من المعلومات والمشاهدات .
-A 1 2|||Delete||||||REQUIRED|||-NONE-|||0
-A 2 3|||Edit|||لزيارة|||REQUIRED|||-NONE-|||0
+A 1 3|||Merge|||لزيارة|||REQUIRED|||-NONE-|||0
 A 6 8|||Move|||كنت دائما|||REQUIRED|||-NONE-|||0
-A 8 9|||Edit|||أفكر|||REQUIRED|||-NONE-|||0
-A 9 9|||Add|||في|||REQUIRED|||-NONE-|||0
-A 9 10|||Edit|||زيارة|||REQUIRED|||-NONE-|||0
-A 13 13|||Add|||،|||REQUIRED|||-NONE-|||0
-A 13 14|||Edit|||الذي|||REQUIRED|||-NONE-|||0
+A 8 10|||Split|||أفكر في زيارة|||REQUIRED|||-NONE-|||0
+A 13 14|||Split|||، الذي|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||هو|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||العجائب|||REQUIRED|||-NONE-|||0
-A 21 22|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 22 22|||Add|||وفي|||REQUIRED|||-NONE-|||0
+A 21 22|||Split|||. وفي|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||ذلك|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||كتاب|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||باللغة|||REQUIRED|||-NONE-|||0
@@ -721,8 +678,7 @@ A 32 33|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||بناه|||REQUIRED|||-NONE-|||0
 A 35 35|||Add|||هو|||REQUIRED|||-NONE-|||0
 A 36 37|||Split|||شاه جهان|||REQUIRED|||-NONE-|||0
-A 37 37|||Add|||في|||REQUIRED|||-NONE-|||0
-A 37 38|||Edit|||ذكرى|||REQUIRED|||-NONE-|||0
+A 37 38|||Split|||في ذكرى|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||حبيبته|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 45 45|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -805,8 +761,7 @@ A 131 132|||Edit|||فيها|||REQUIRED|||-NONE-|||0
 A 136 137|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||وفيها|||REQUIRED|||-NONE-|||0
 A 140 141|||Edit|||الحجر|||REQUIRED|||-NONE-|||0
-A 141 142|||Edit|||العجيب|||REQUIRED|||-NONE-|||0
-A 142 142|||Add|||،|||REQUIRED|||-NONE-|||0
+A 141 142|||Split|||العجيب ،|||REQUIRED|||-NONE-|||0
 A 152 153|||Edit|||فبعد|||REQUIRED|||-NONE-|||0
 A 153 154|||Edit|||قليل|||REQUIRED|||-NONE-|||0
 A 161 162|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -819,9 +774,7 @@ A 12 13|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||كنا|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||مناظرا|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||جميلة|||REQUIRED|||-NONE-|||0
-A 21 22|||Delete||||||REQUIRED|||-NONE-|||0
-A 22 23|||Delete||||||REQUIRED|||-NONE-|||0
-A 23 24|||Edit|||كالصحاري|||REQUIRED|||-NONE-|||0
+A 21 24|||Merge|||كالصحاري|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||المسجد|||REQUIRED|||-NONE-|||0
@@ -874,8 +827,7 @@ A 148 149|||Edit|||ذلك|||REQUIRED|||-NONE-|||0
 A 150 150|||Add|||،|||REQUIRED|||-NONE-|||0
 A 151 152|||Edit|||يقرؤون|||REQUIRED|||-NONE-|||0
 A 163 164|||Edit|||وما|||REQUIRED|||-NONE-|||0
-A 171 171|||Add|||،|||REQUIRED|||-NONE-|||0
-A 171 172|||Edit|||وأستمد|||REQUIRED|||-NONE-|||0
+A 171 172|||Split|||، وأستمد|||REQUIRED|||-NONE-|||0
 A 178 179|||Edit|||كانوا|||REQUIRED|||-NONE-|||0
 A 183 184|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 190 191|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -885,8 +837,7 @@ A 194 194|||Add|||،|||REQUIRED|||-NONE-|||0
 
 S رحلتى إلى بلدى بعد انتهاء فصل الدرس الثانى بدأت رحلة إلى بلدد أنا ورملائى . بدأ السفر من الرياض إلى أدس أبب اثيوبيا وصلنا هناك السعة السابع صبحا ، ثم انطلقنا من اثيوبيا إلى دار السلام عاصة تنزانيا السعة العشر ووصلنا الحمد لله السعة الواحدة ظهرا ، وجدت بعض الإخوة فى المطار ينتظرونني . بعد ذلك خرجنا من المطار إلى البيت وجد الإخوة كلهم في أمان والسلام . مكثت فى بلد ثلاثة أشهر بعد انتهاء الاجارة رجعت في السوعودية للدراس والأن الحمد لله أستمر بدراسة
 A 0 1|||Edit|||رحلتي|||REQUIRED|||-NONE-|||0
-A 2 3|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
-A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
+A 2 3|||Split|||بلدي .|||REQUIRED|||-NONE-|||0
 A 5 6|||Edit|||الفصل|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||الدراسي|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||الثاني|||REQUIRED|||-NONE-|||0
@@ -894,8 +845,7 @@ A 11 12|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||وزملائي|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||بدأنا|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||أديس|||REQUIRED|||-NONE-|||0
-A 21 22|||Edit|||أبابا|||REQUIRED|||-NONE-|||0
-A 22 22|||Add|||،|||REQUIRED|||-NONE-|||0
+A 21 22|||Split|||أبابا ،|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||إثيوبيا|||REQUIRED|||-NONE-|||0
 A 23 23|||Add|||،|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||ووصلنا|||REQUIRED|||-NONE-|||0
@@ -912,14 +862,12 @@ A 43 43|||Add|||-|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||الساعة|||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 61 61|||Add|||،|||REQUIRED|||-NONE-|||0
-A 61 62|||Edit|||ووجدت|||REQUIRED|||-NONE-|||0
+A 61 62|||Split|||، ووجدت|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||وسلام|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
 A 73 73|||Add|||.|||REQUIRED|||-NONE-|||0
-A 75 76|||Edit|||الإجازة|||REQUIRED|||-NONE-|||0
-A 76 76|||Add|||،|||REQUIRED|||-NONE-|||0
+A 75 76|||Split|||الإجازة ،|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||السعودية|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||للدراسة|||REQUIRED|||-NONE-|||0
@@ -937,8 +885,7 @@ A 10 11|||Edit|||الأماكن|||REQUIRED|||-NONE-|||0
 A 12 12|||Add|||،|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||فكثير|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||يقصدون|||REQUIRED|||-NONE-|||0
-A 17 17|||Add|||لا|||REQUIRED|||-NONE-|||0
-A 17 18|||Edit|||يفعلون|||REQUIRED|||-NONE-|||0
+A 17 18|||Split|||لا يفعلون|||REQUIRED|||-NONE-|||0
 A 24 24|||Add|||-|||REQUIRED|||-NONE-|||0
 A 28 28|||Add|||-|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||وأصحابه|||REQUIRED|||-NONE-|||0
@@ -955,24 +902,19 @@ A 49 49|||Add|||، قمنا|||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||الطلاب|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||الصينيون|||REQUIRED|||-NONE-|||0
 A 55 57|||Merge|||برحلة|||REQUIRED|||-NONE-|||0
-A 60 61|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 61 61|||Add|||وكان|||REQUIRED|||-NONE-|||0
+A 60 61|||Split|||، وكان|||REQUIRED|||-NONE-|||0
 A 67 68|||Delete||||||REQUIRED|||-NONE-|||0
 A 72 72|||Add|||،|||REQUIRED|||-NONE-|||0
 A 75 75|||Add|||،|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||وينشد|||REQUIRED|||-NONE-|||0
-A 77 77|||Add|||،|||REQUIRED|||-NONE-|||0
-A 77 78|||Edit|||ويصلي|||REQUIRED|||-NONE-|||0
-A 78 78|||Add|||على|||REQUIRED|||-NONE-|||0
+A 77 78|||Split|||، ويصلي على|||REQUIRED|||-NONE-|||0
 A 79 79|||Add|||-|||REQUIRED|||-NONE-|||0
 A 83 83|||Add|||-|||REQUIRED|||-NONE-|||0
 A 92 93|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||والسفر|||REQUIRED|||-NONE-|||0
 A 94 95|||Edit|||متعب|||REQUIRED|||-NONE-|||0
-A 100 101|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 101 101|||Add|||كان|||REQUIRED|||-NONE-|||0
-A 102 102|||Add|||من|||REQUIRED|||-NONE-|||0
-A 102 103|||Edit|||الطلاب|||REQUIRED|||-NONE-|||0
+A 100 101|||Split|||، كان|||REQUIRED|||-NONE-|||0
+A 102 103|||Split|||من الطلاب|||REQUIRED|||-NONE-|||0
 A 105 105|||Add|||ما|||REQUIRED|||-NONE-|||0
 A 105 106|||Edit|||وقع|||REQUIRED|||-NONE-|||0
 A 106 106|||Add|||من|||REQUIRED|||-NONE-|||0
@@ -994,8 +936,7 @@ A 133 134|||Edit|||لتخفف|||REQUIRED|||-NONE-|||0
 A 138 139|||Edit|||ذهبنا|||REQUIRED|||-NONE-|||0
 A 143 144|||Edit|||بتعب|||REQUIRED|||-NONE-|||0
 A 145 146|||Edit|||؛|||REQUIRED|||-NONE-|||0
-A 149 149|||Add|||كانت|||REQUIRED|||-NONE-|||0
-A 149 150|||Edit|||ناشطة|||REQUIRED|||-NONE-|||0
+A 149 150|||Split|||كانت ناشطة|||REQUIRED|||-NONE-|||0
 A 153 154|||Edit|||المسجد|||REQUIRED|||-NONE-|||0
 A 154 155|||Edit|||النبوي|||REQUIRED|||-NONE-|||0
 A 155 155|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -1036,8 +977,7 @@ A 39 39|||Add|||-|||REQUIRED|||-NONE-|||0
 A 43 43|||Add|||-|||REQUIRED|||-NONE-|||0
 A 47 47|||Add|||كنت|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||أني|||REQUIRED|||-NONE-|||0
-A 51 52|||Edit|||النبي|||REQUIRED|||-NONE-|||0
-A 52 52|||Add|||-|||REQUIRED|||-NONE-|||0
+A 51 52|||Split|||النبي -|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||-|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||كانت|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||صعبة|||REQUIRED|||-NONE-|||0
@@ -1087,8 +1027,7 @@ A 20 21|||Edit|||للعام|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||الدراسي|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||لأداء|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||العمرة|||REQUIRED|||-NONE-|||0
-A 32 33|||Edit|||جدا|||REQUIRED|||-NONE-|||0
-A 33 33|||Add|||،|||REQUIRED|||-NONE-|||0
+A 32 33|||Split|||جدا ،|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||مساءا|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||طلاب|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||معهد|||REQUIRED|||-NONE-|||0
@@ -1106,13 +1045,10 @@ A 126 126|||Add|||بين|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||سبع|||REQUIRED|||-NONE-|||0
 A 130 131|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||الساعة|||REQUIRED|||-NONE-|||0
-A 141 142|||Edit|||وبعدها|||REQUIRED|||-NONE-|||0
-A 142 143|||Delete||||||REQUIRED|||-NONE-|||0
+A 141 143|||Merge|||وبعدها|||REQUIRED|||-NONE-|||0
 A 154 155|||Delete||||||REQUIRED|||-NONE-|||0
 A 156 157|||Edit|||الأواني|||REQUIRED|||-NONE-|||0
-A 157 158|||Edit|||التي|||REQUIRED|||-NONE-|||0
-A 158 158|||Add|||كان|||REQUIRED|||-NONE-|||0
-A 158 158|||Add|||يستخدمها|||REQUIRED|||-NONE-|||0
+A 157 158|||Split|||التي كان يستخدمها|||REQUIRED|||-NONE-|||0
 A 158 159|||Edit|||أصحاب|||REQUIRED|||-NONE-|||0
 A 159 160|||Edit|||النبي|||REQUIRED|||-NONE-|||0
 A 164 165|||Delete||||||REQUIRED|||-NONE-|||0
@@ -1143,8 +1079,7 @@ A 59 59|||Add|||،|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||اغتسلنا|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||ولبسنا|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||واصلنا|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||،|||REQUIRED|||-NONE-|||0
-A 97 98|||Edit|||وفي|||REQUIRED|||-NONE-|||0
+A 97 98|||Split|||، وفي|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||صباح|||REQUIRED|||-NONE-|||0
 A 99 100|||Delete||||||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||وهو|||REQUIRED|||-NONE-|||0
@@ -1158,14 +1093,12 @@ A 145 146|||Edit|||اليوم|||REQUIRED|||-NONE-|||0
 A 148 149|||Edit|||يوم|||REQUIRED|||-NONE-|||0
 A 161 162|||Edit|||التزمنا|||REQUIRED|||-NONE-|||0
 A 168 169|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 183 184|||Edit|||وفي|||REQUIRED|||-NONE-|||0
-A 184 184|||Add|||الأيام|||REQUIRED|||-NONE-|||0
+A 183 184|||Split|||وفي الأيام|||REQUIRED|||-NONE-|||0
 A 184 185|||Edit|||الحادي|||REQUIRED|||-NONE-|||0
 A 186 187|||Edit|||والثاني|||REQUIRED|||-NONE-|||0
 A 188 189|||Edit|||والثالث|||REQUIRED|||-NONE-|||0
 A 190 190|||Add|||-|||REQUIRED|||-NONE-|||0
-A 192 192|||Add|||-|||REQUIRED|||-NONE-|||0
-A 192 193|||Edit|||رمينا|||REQUIRED|||-NONE-|||0
+A 192 193|||Split|||- رمينا|||REQUIRED|||-NONE-|||0
 A 193 194|||Edit|||الجمرات|||REQUIRED|||-NONE-|||0
 A 194 195|||Edit|||الثلاث|||REQUIRED|||-NONE-|||0
 A 197 197|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -1180,8 +1113,7 @@ A 2 3|||Edit|||السعودية|||REQUIRED|||-NONE-|||0
 A 6 6|||Add|||.|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||المملكة|||REQUIRED|||-NONE-|||0
 A 11 11|||Add|||السعودية|||REQUIRED|||-NONE-|||0
-A 14 15|||Delete||||||REQUIRED|||-NONE-|||0
-A 15 16|||Edit|||قبولي|||REQUIRED|||-NONE-|||0
+A 14 16|||Merge|||قبولي|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||لإكمال|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||دراستي|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||في|||REQUIRED|||-NONE-|||0
@@ -1269,11 +1201,9 @@ A 273 274|||Edit|||وكنت|||REQUIRED|||-NONE-|||0
 A 274 275|||Edit|||مستغربا|||REQUIRED|||-NONE-|||0
 A 280 281|||Edit|||إثيوبيا|||REQUIRED|||-NONE-|||0
 A 291 292|||Edit|||تماما|||REQUIRED|||-NONE-|||0
-A 298 298|||Add|||،|||REQUIRED|||-NONE-|||0
-A 298 299|||Edit|||وبالتالي|||REQUIRED|||-NONE-|||0
+A 298 299|||Split|||، وبالتالي|||REQUIRED|||-NONE-|||0
 A 299 301|||Merge|||التخلي|||REQUIRED|||-NONE-|||0
-A 302 303|||Edit|||جسدي|||REQUIRED|||-NONE-|||0
-A 303 303|||Add|||،|||REQUIRED|||-NONE-|||0
+A 302 303|||Split|||جسدي ،|||REQUIRED|||-NONE-|||0
 A 308 309|||Edit|||الأرض|||REQUIRED|||-NONE-|||0
 A 313 313|||Add|||بي|||REQUIRED|||-NONE-|||0
 A 313 314|||Edit|||بالمملكة|||REQUIRED|||-NONE-|||0
@@ -1313,17 +1243,14 @@ A 54 55|||Edit|||أبي|||REQUIRED|||-NONE-|||0
 A 59 59|||Add|||،|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||الدكاتير|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||للناس|||REQUIRED|||-NONE-|||0
-A 68 69|||Delete||||||REQUIRED|||-NONE-|||0
-A 69 70|||Edit|||بذلك|||REQUIRED|||-NONE-|||0
-A 70 70|||Add|||،|||REQUIRED|||-NONE-|||0
+A 68 70|||Edit|||بذلك ،|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||ذهبنا|||REQUIRED|||-NONE-|||0
 A 74 74|||Add|||إلى|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||رماة|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||حمزة|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||أسماءهم|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||للناس|||REQUIRED|||-NONE-|||0
-A 96 97|||Delete||||||REQUIRED|||-NONE-|||0
-A 97 98|||Edit|||بذلك|||REQUIRED|||-NONE-|||0
+A 96 98|||Merge|||بذلك|||REQUIRED|||-NONE-|||0
 A 99 100|||Edit|||فتساءلت|||REQUIRED|||-NONE-|||0
 A 100 101|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||نفسي|||REQUIRED|||-NONE-|||0
@@ -1462,14 +1389,11 @@ A 61 62|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||كثيرا|||REQUIRED|||-NONE-|||0
 A 63 63|||Add|||من|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
-A 70 70|||Add|||،|||REQUIRED|||-NONE-|||0
-A 70 71|||Edit|||عجبت|||REQUIRED|||-NONE-|||0
+A 70 71|||Split|||، عجبت|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||مثلا|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||نامة|||REQUIRED|||-NONE-|||0
 A 79 79|||Add|||!|||REQUIRED|||-NONE-|||0
-A 82 82|||Add|||في|||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||السعودية|||REQUIRED|||-NONE-|||0
-A 83 83|||Add|||في|||REQUIRED|||-NONE-|||0
+A 82 83|||Split|||في السعودية في|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||جامعة|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||الإمام|||REQUIRED|||-NONE-|||0
 A 85 85|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -1484,8 +1408,7 @@ A 96 97|||Split|||إن شاء|||REQUIRED|||-NONE-|||0
 
 S أحب وسأختار فى كلية الشريعة سأخذ كلية الشريعة فى المستقبل إن شاء الله . أحب كلية الشريعة لأن هذه كلية مهم بنسبة لي لكي سأدرس العلم الشريعة فى بلاد بعد انتهيت من الدراسة . العلم الشريعة هى العلم من العلوم التي وقعت إليها العلم الفقه والعلم الحديث والعلم النحو والصرف وغيرها . هذه العلم يتجمع من العلوم الاسلامية ، وفي بلاد وحصوصا على المسلمين في ماليزيا . هم يحتاجون ليفلمون الدين الإسلام بطريق صحيح وتابع إلى القرآن والسنة ، إذا فهموا المسلمين العلم الشريعة بطريق صحيح فينتهى عن أخطاء الذى فعلوا فى الصلاة وفى الزكاة وفى الحج وفى الحد شريعة . أو وفي غيرها الذي تكون فى مسألة المسلمون فى بلادي . وخلاصة ، العلم الشريعة هي العلم مهمة والعلم ضرورية فى العالم الاسلامية .
 A 2 3|||Delete||||||REQUIRED|||-NONE-|||0
-A 5 5|||Add|||،|||REQUIRED|||-NONE-|||0
-A 5 6|||Edit|||سأختار|||REQUIRED|||-NONE-|||0
+A 5 6|||Split|||، سأختار|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||مهمة|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||بالنسبة|||REQUIRED|||-NONE-|||0
@@ -1519,25 +1442,20 @@ A 81 82|||Edit|||المسلمون|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||علوم|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||بطريقة|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||صحيحة|||REQUIRED|||-NONE-|||0
-A 86 86|||Add|||،|||REQUIRED|||-NONE-|||0
-A 86 87|||Edit|||ينتهون|||REQUIRED|||-NONE-|||0
+A 86 87|||Split|||، ينتهون|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||الأخطاء|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||التي|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||يفعلونها|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 93 93|||Add|||،|||REQUIRED|||-NONE-|||0
-A 93 94|||Edit|||وفي|||REQUIRED|||-NONE-|||0
-A 95 95|||Add|||،|||REQUIRED|||-NONE-|||0
-A 95 96|||Edit|||وفي|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||،|||REQUIRED|||-NONE-|||0
-A 97 98|||Edit|||وفي|||REQUIRED|||-NONE-|||0
+A 93 94|||Split|||، وفي|||REQUIRED|||-NONE-|||0
+A 95 96|||Split|||، وفي|||REQUIRED|||-NONE-|||0
+A 97 98|||Split|||، وفي|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||حدود|||REQUIRED|||-NONE-|||0
 A 99 100|||Edit|||الشريعة|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 104 104|||Add|||،|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||كالذي|||REQUIRED|||-NONE-|||0
-A 105 106|||Edit|||يتعلق|||REQUIRED|||-NONE-|||0
-A 106 107|||Delete||||||REQUIRED|||-NONE-|||0
+A 105 107|||Merge|||يتعلق|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||بمسألة|||REQUIRED|||-NONE-|||0
 A 108 109|||Edit|||المسلمين|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||في|||REQUIRED|||-NONE-|||0
@@ -1570,9 +1488,7 @@ A 48 49|||Edit|||أسماءهم|||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||أصدقائي|||REQUIRED|||-NONE-|||0
 A 55 55|||Add|||،|||REQUIRED|||-NONE-|||0
-A 56 56|||Add|||،|||REQUIRED|||-NONE-|||0
-A 56 57|||Edit|||وعلي|||REQUIRED|||-NONE-|||0
-A 57 57|||Add|||،|||REQUIRED|||-NONE-|||0
+A 56 57|||Split|||، وعلي ،|||REQUIRED|||-NONE-|||0
 A 58 58|||Add|||،|||REQUIRED|||-NONE-|||0
 A 58 59|||Edit|||وزملائي|||REQUIRED|||-NONE-|||0
 A 62 62|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -1583,15 +1499,11 @@ A 64 65|||Edit|||وزكريا|||REQUIRED|||-NONE-|||0
 A 65 65|||Add|||،|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||.|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||وأقاربي|||REQUIRED|||-NONE-|||0
-A 69 70|||Edit|||أبي|||REQUIRED|||-NONE-|||0
-A 70 70|||Add|||،|||REQUIRED|||-NONE-|||0
-A 70 71|||Edit|||وأمي|||REQUIRED|||-NONE-|||0
-A 71 71|||Add|||،|||REQUIRED|||-NONE-|||0
+A 69 71|||Split|||أبي ، وأمي ،|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||وخالي|||REQUIRED|||-NONE-|||0
 A 72 72|||Add|||،|||REQUIRED|||-NONE-|||0
 A 72 73|||Edit|||وخالتي|||REQUIRED|||-NONE-|||0
-A 73 73|||Add|||،|||REQUIRED|||-NONE-|||0
-A 73 74|||Edit|||وأخي|||REQUIRED|||-NONE-|||0
+A 73 74|||Split|||، وأخي|||REQUIRED|||-NONE-|||0
 A 75 75|||Add|||،|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||وأختي|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||الصغيرة|||REQUIRED|||-NONE-|||0
@@ -1618,8 +1530,7 @@ A 135 136|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 142 143|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 145 146|||Split|||أن تسمن|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 148 149|||Delete||||||REQUIRED|||-NONE-|||0
-A 149 150|||Edit|||بأكل|||REQUIRED|||-NONE-|||0
+A 148 150|||Merge|||بأكل|||REQUIRED|||-NONE-|||0
 A 150 151|||Edit|||الكثير|||REQUIRED|||-NONE-|||0
 A 153 153|||Add|||،|||REQUIRED|||-NONE-|||0
 A 159 159|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -1629,8 +1540,7 @@ A 168 168|||Add|||،|||REQUIRED|||-NONE-|||0
 A 168 169|||Edit|||ولكنها|||REQUIRED|||-NONE-|||0
 A 169 170|||Delete||||||REQUIRED|||-NONE-|||0
 A 172 172|||Add|||.|||REQUIRED|||-NONE-|||0
-A 174 174|||Add|||أن|||REQUIRED|||-NONE-|||0
-A 174 175|||Edit|||تنحف|||REQUIRED|||-NONE-|||0
+A 174 175|||Split|||أن تنحف|||REQUIRED|||-NONE-|||0
 A 175 176|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 179 179|||Add|||،|||REQUIRED|||-NONE-|||0
 A 181 181|||Add|||الرياضة|||REQUIRED|||-NONE-|||0
@@ -1662,8 +1572,7 @@ A 149 149|||Add|||،|||REQUIRED|||-NONE-|||0
 A 156 157|||Edit|||الكثير|||REQUIRED|||-NONE-|||0
 A 162 163|||Edit|||يوفقني|||REQUIRED|||-NONE-|||0
 A 163 164|||Edit|||بهذا|||REQUIRED|||-NONE-|||0
-A 166 167|||Edit|||وسيستفيد|||REQUIRED|||-NONE-|||0
-A 167 167|||Add|||مني|||REQUIRED|||-NONE-|||0
+A 166 167|||Split|||وسيستفيد مني|||REQUIRED|||-NONE-|||0
 A 167 168|||Edit|||أهلي|||REQUIRED|||-NONE-|||0
 A 168 169|||Edit|||والمسلمون|||REQUIRED|||-NONE-|||0
 A 169 170|||Edit|||كافة|||REQUIRED|||-NONE-|||0
@@ -1775,8 +1684,7 @@ A 27 28|||Edit|||طريقهم|||REQUIRED|||-NONE-|||0
 A 43 44|||Delete||||||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||للدراسة|||REQUIRED|||-NONE-|||0
 A 54 54|||Add|||،|||REQUIRED|||-NONE-|||0
-A 62 63|||Delete||||||REQUIRED|||-NONE-|||0
-A 63 64|||Edit|||الدراسة|||REQUIRED|||-NONE-|||0
+A 62 64|||Merge|||الدراسة|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||أنهيت|||REQUIRED|||-NONE-|||0
 A 81 81|||Add|||،|||REQUIRED|||-NONE-|||0
 A 103 104|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -1807,22 +1715,19 @@ A 64 66|||Merge|||استرحنا|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||وشربنا|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||زمزم|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||حلقنا|||REQUIRED|||-NONE-|||0
-A 72 73|||Edit|||رؤوسنا|||REQUIRED|||-NONE-|||0
-A 73 73|||Add|||،|||REQUIRED|||-NONE-|||0
+A 72 73|||Split|||رؤوسنا ،|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||أكلنا|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||مطعم|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||ذهبنا|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||فندق|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||ونمنا|||REQUIRED|||-NONE-|||0
 A 96 97|||Edit|||مسرورين|||REQUIRED|||-NONE-|||0
-A 100 101|||Edit|||لأننا|||REQUIRED|||-NONE-|||0
-A 101 102|||Delete||||||REQUIRED|||-NONE-|||0
+A 100 102|||Merge|||لأننا|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||نذهب|||REQUIRED|||-NONE-|||0
 A 108 108|||Add|||،|||REQUIRED|||-NONE-|||0
 A 122 122|||Add|||،|||REQUIRED|||-NONE-|||0
 A 140 140|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 155 155|||Add|||،|||REQUIRED|||-NONE-|||0
-A 155 156|||Edit|||والسبب|||REQUIRED|||-NONE-|||0
+A 155 156|||Split|||، والسبب|||REQUIRED|||-NONE-|||0
 A 156 157|||Edit|||الحاجة|||REQUIRED|||-NONE-|||0
 A 160 160|||Add|||،|||REQUIRED|||-NONE-|||0
 A 162 162|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -1834,8 +1739,7 @@ A 187 188|||Edit|||تكفي|||REQUIRED|||-NONE-|||0
 S اختيارى تخصص الشرعي ادعو الله سبحانه وتعالى ان يجعل المسلمين والمسلمات فى ميزان الحسانته وان يرزقنا عما نافعا . لأني افضل على الشرعى لأكون في المستقبل داعيا إلى الله ومعلم أولاد المسلمين أمور الدين ليكون كلمة الله العليا . ليبقى الدين على الأرض سالما
 A 0 1|||Edit|||اختياري|||REQUIRED|||-NONE-|||0
 A 2 3|||Edit|||الشريعة|||REQUIRED|||-NONE-|||0
-A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
-A 3 4|||Edit|||أدعو|||REQUIRED|||-NONE-|||0
+A 3 4|||Split|||. أدعو|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||الحسنات|||REQUIRED|||-NONE-|||0
@@ -1851,8 +1755,7 @@ A 44 44|||Add|||.|||REQUIRED|||-NONE-|||0
 
 S التخصص الذي أريده في المستقبل كلية اللغة العربية : - أريد أن أتخصص بكلية اللغة العربية ، لأن اللغة العربية التى نزلت فيها القرآن الكريم وفيها فضاحة وبلاغة تعجز فصحاء العرب وشعراءها والله سبحانه تعالى يتحدى أصجاب اللغة العربية أن يأتوا بمثل هذا القرآن ولكنهم ما استطاعوا وكيف استطاعوا إذن هو كلام الله تبارك وتعالى فلا بد لنا أن نتعلم اللغة العربية لكى نفهم اللغة العربية ونفهم ديننا الإسلام . وبلدى النيبال يحتاج كثيرا أن يتعلم اللغة العربيه لكى يعرف أهلها ديينا السمحة وهذا مقصودنا في الدنيا لكى نفوز بالجنة .
 A 16 17|||Edit|||؛|||REQUIRED|||-NONE-|||0
-A 20 20|||Add|||هي|||REQUIRED|||-NONE-|||0
-A 20 21|||Edit|||التي|||REQUIRED|||-NONE-|||0
+A 20 21|||Split|||هي التي|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||نزل|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||بها|||REQUIRED|||-NONE-|||0
 A 25 25|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -1860,10 +1763,8 @@ A 26 27|||Edit|||فصاحة|||REQUIRED|||-NONE-|||0
 A 32 32|||Add|||،|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||وتعالى|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||أصحاب|||REQUIRED|||-NONE-|||0
-A 47 47|||Add|||،|||REQUIRED|||-NONE-|||0
-A 47 48|||Edit|||ولن|||REQUIRED|||-NONE-|||0
-A 48 49|||Edit|||يستطيعوا|||REQUIRED|||-NONE-|||0
-A 49 49|||Add|||.|||REQUIRED|||-NONE-|||0
+A 47 48|||Split|||، ولن|||REQUIRED|||-NONE-|||0
+A 48 49|||Split|||يستطيعوا .|||REQUIRED|||-NONE-|||0
 A 55 57|||Merge|||فلابد|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||لكي|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||وبلدي|||REQUIRED|||-NONE-|||0
@@ -1876,8 +1777,7 @@ A 87 88|||Edit|||لكي|||REQUIRED|||-NONE-|||0
 
 S السفر إلى البلدي السفرت إلى البلد قبل سنة مع صديقي في النهية الإختبارات أول سفرنا إلى تركية وقفنا تقريبا يوم في الفندق كان مريحا وأيضا خرجنا من الفندق إلى خارج وإشترينا ملابس وأكلنا الطعام وأيضا ذهبنا مع صديقي إلى مكان خطيرة الذين يبعون المواد المخدرة وجاء الشرطة وأخذ منا تذاكر وتأشيرة وجواز السفر وقال لنا ماذا تفعلون هنا وأنا قلت نحن جاءنا لسياحة وأخذنا كلتني عندما وصل وقت السفر ذهبنا إلى الفندق وأخذنا الحقائب وذهبنا إلى المطار وركبنا في الطائرة وكانت هذه الرحلة خمس سعات ووصلنا في البلد إستقبلنا الأب والأم وكنا مسرور جدا وجائو أصديقاء وهكذا
 A 2 3|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
-A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
-A 3 4|||Edit|||سافرت|||REQUIRED|||-NONE-|||0
+A 3 4|||Split|||. سافرت|||REQUIRED|||-NONE-|||0
 A 5 6|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||بعد|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||نهاية|||REQUIRED|||-NONE-|||0
@@ -1886,8 +1786,7 @@ A 13 13|||Add|||،|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||أولا|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||سافرنا|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||تركيا|||REQUIRED|||-NONE-|||0
-A 17 17|||Add|||،|||REQUIRED|||-NONE-|||0
-A 17 18|||Edit|||مكثنا|||REQUIRED|||-NONE-|||0
+A 17 18|||Split|||، مكثنا|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||يوما|||REQUIRED|||-NONE-|||0
 A 22 22|||Add|||،|||REQUIRED|||-NONE-|||0
 A 24 24|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -1910,8 +1809,7 @@ A 58 58|||Add|||؟|||REQUIRED|||-NONE-|||0
 A 60 60|||Add|||:|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||جئنا|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||للسياحة|||REQUIRED|||-NONE-|||0
-A 64 65|||Edit|||كليتنا|||REQUIRED|||-NONE-|||0
-A 65 65|||Add|||،|||REQUIRED|||-NONE-|||0
+A 64 65|||Split|||كليتنا ،|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||حان|||REQUIRED|||-NONE-|||0
 A 72 72|||Add|||،|||REQUIRED|||-NONE-|||0
 A 74 74|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -1932,14 +1830,12 @@ A 6 6|||Add|||،|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||سافرت|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||أول|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||عودتي|||REQUIRED|||-NONE-|||0
-A 20 21|||Delete||||||REQUIRED|||-NONE-|||0
-A 21 22|||Edit|||صمت|||REQUIRED|||-NONE-|||0
+A 20 22|||Merge|||صمت|||REQUIRED|||-NONE-|||0
 A 26 27|||Delete||||||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||صديقي|||REQUIRED|||-NONE-|||0
 A 38 38|||Add|||،|||REQUIRED|||-NONE-|||0
 A 43 43|||Add|||أماكن|||REQUIRED|||-NONE-|||0
-A 44 45|||Delete||||||REQUIRED|||-NONE-|||0
-A 45 46|||Edit|||في|||REQUIRED|||-NONE-|||0
+A 44 46|||Merge|||في|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||وفي|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||نصلي|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||مثل|||REQUIRED|||-NONE-|||0
@@ -1975,18 +1871,14 @@ A 104 105|||Edit|||آكل|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||ونصوم|||REQUIRED|||-NONE-|||0
 A 108 109|||Edit|||وندعو|||REQUIRED|||-NONE-|||0
 A 111 112|||Edit|||العشرة|||REQUIRED|||-NONE-|||0
-A 112 113|||Edit|||الأخيرة|||REQUIRED|||-NONE-|||0
-A 113 113|||Add|||من|||REQUIRED|||-NONE-|||0
+A 112 113|||Split|||الأخيرة من|||REQUIRED|||-NONE-|||0
 A 114 115|||Edit|||سافرت|||REQUIRED|||-NONE-|||0
 A 119 120|||Edit|||وركبت|||REQUIRED|||-NONE-|||0
 A 123 124|||Edit|||السفر|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||تعب|||REQUIRED|||-NONE-|||0
 A 127 128|||Edit|||السفر|||REQUIRED|||-NONE-|||0
-A 135 135|||Add|||،|||REQUIRED|||-NONE-|||0
-A 135 136|||Edit|||الازدحام|||REQUIRED|||-NONE-|||0
-A 136 136|||Add|||شديد|||REQUIRED|||-NONE-|||0
-A 139 139|||Add|||،|||REQUIRED|||-NONE-|||0
-A 139 140|||Edit|||الناس|||REQUIRED|||-NONE-|||0
+A 135 136|||Split|||، الازدحام شديد|||REQUIRED|||-NONE-|||0
+A 139 140|||Split|||، الناس|||REQUIRED|||-NONE-|||0
 A 140 141|||Edit|||حمدوا|||REQUIRED|||-NONE-|||0
 A 142 142|||Add|||على|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||ماتوا|||REQUIRED|||-NONE-|||0
@@ -2011,8 +1903,7 @@ S تخصصي في المستقبل الحمد لله رب العالمين وا�
 A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||حكومية|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||أنهيت|||REQUIRED|||-NONE-|||0
-A 55 56|||Edit|||سهل|||REQUIRED|||-NONE-|||0
-A 56 56|||Add|||لي|||REQUIRED|||-NONE-|||0
+A 55 56|||Split|||سهل لي|||REQUIRED|||-NONE-|||0
 A 64 64|||Add|||:|||REQUIRED|||-NONE-|||0
 A 68 69|||Edit|||يسرا|||REQUIRED|||-NONE-|||0
 A 77 77|||Add|||في|||REQUIRED|||-NONE-|||0
@@ -2067,8 +1958,7 @@ A 136 136|||Add|||على|||REQUIRED|||-NONE-|||0
 A 140 140|||Add|||.|||REQUIRED|||-NONE-|||0
 A 145 146|||Edit|||نورة|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||أعجبت|||REQUIRED|||-NONE-|||0
-A 149 149|||Add|||،|||REQUIRED|||-NONE-|||0
-A 149 150|||Edit|||إنها|||REQUIRED|||-NONE-|||0
+A 149 150|||Split|||، إنها|||REQUIRED|||-NONE-|||0
 A 151 152|||Edit|||الكبرى|||REQUIRED|||-NONE-|||0
 A 157 158|||Edit|||نصف|||REQUIRED|||-NONE-|||0
 A 160 160|||Add|||إلى|||REQUIRED|||-NONE-|||0
@@ -2082,19 +1972,16 @@ A 173 173|||Add|||،|||REQUIRED|||-NONE-|||0
 S الرحلة في الأردن قبل جئت إلى المملكة العربية السعودية قضيت الشهرين في أردن . أظن أن هذا البلد جميلا جدا . في البداية لا أتكلم اللغة العربية كثيرا ، ولا أتكلم اللغة الانجلزية أيضا . أنا في المعهد لتعليم اللغة العربية . اليوم من الأيام قال صديقي لي : نزور إلى البحر الميت والبحر الأحمر . نوافقه . بعد ذلك نستعد لزيارتهما . نختار اليوم الذي عندنا وقت فاض فيه . ننطلق من الساعة السابعة صباحا . ونبحث عن السيارة إلى البحر الميت لكن السعر غال جدا في النهاية نبحث عن الحافلة ، السعر مناسب لنا عندما وصلنا إلى البحر الميت ، نشعر بجمالها ونحبها كثيرا جدا . نرى كثيرا من الناس يلعبون ويسبحون في البحر ، الناس الذي يجيئون من الأماكن المختلفة يجبها أيضا ، نحن مسرورون بزيارتها بعد نهاية الزيارة نلتقي المشكلة هي مشكلة عن السكن في الليل ونبدأ أن نبحث الفندق ، لا ندري الفندق الذي أين يقع فيه . ونسأل الناس ونبحث من الصعب أن نتحدث مع الناس بسبب لا نجيد اللغة العربية واللغة الانجلزية . في الأخير الشخص يفهم ماذا نريد ، وشيرينا الطريق إلى الفندق ، ونقضي الليل الجميل . اليوم التالي نقرر أن نزور البحر الأحمر . ونركب الحافلة إلى مدينة عقبة ، هذه المدينة ليست بعيدة عننا عندما وصلنا إلى المدينة ، في الأول نبحث عن الفندق للرياح والنوم . الآن عندنا خبرة لإكمال هذه الأشياء بعد نضع حقائبنا في الفندق ونذهب إلى البحر الأحمر البحر الأحمر ليس ماء البحر أزرق جدا ، نستطيع أن نجد السمك فيه ، وعددهم كثيرة شكلهم مختلف ، ويسبحون في البحر حرا . نحن نلعب ونسبح فيه . نقضي اليوم الحلو والجميل . اليوم الثاني نقرر أن نرجع نشعر بسرور في هذه الرحلة ، نتمنى أن عندنا فرصة أخرى لزيارتها .
 A 0 1|||Edit|||رحلتي|||REQUIRED|||-NONE-|||0
 A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
-A 4 5|||Edit|||أن|||REQUIRED|||-NONE-|||0
-A 5 5|||Add|||آتي|||REQUIRED|||-NONE-|||0
+A 4 5|||Split|||أن آتي|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||شهرين|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||الأردن|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||جميل|||REQUIRED|||-NONE-|||0
-A 23 24|||Edit|||لم|||REQUIRED|||-NONE-|||0
-A 24 24|||Add|||أكن|||REQUIRED|||-NONE-|||0
+A 23 24|||Split|||لم أكن|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||الإنجليزية|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||فأنا|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||معهد|||REQUIRED|||-NONE-|||0
-A 42 42|||Add|||في|||REQUIRED|||-NONE-|||0
-A 42 43|||Edit|||يوم|||REQUIRED|||-NONE-|||0
+A 42 43|||Split|||في يوم|||REQUIRED|||-NONE-|||0
 A 50 51|||Delete||||||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||فوافقت|||REQUIRED|||-NONE-|||0
@@ -2108,8 +1995,7 @@ A 76 77|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||وبحثنا|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||سيارة|||REQUIRED|||-NONE-|||0
 A 83 83|||Add|||،|||REQUIRED|||-NONE-|||0
-A 85 85|||Add|||كان|||REQUIRED|||-NONE-|||0
-A 85 86|||Edit|||غاليا|||REQUIRED|||-NONE-|||0
+A 85 86|||Split|||كان غاليا|||REQUIRED|||-NONE-|||0
 A 87 87|||Add|||،|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||بحثنا|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||حافلة|||REQUIRED|||-NONE-|||0
@@ -2137,15 +2023,13 @@ A 148 149|||Delete||||||REQUIRED|||-NONE-|||0
 A 151 152|||Delete||||||REQUIRED|||-NONE-|||0
 A 152 153|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 153 154|||Edit|||وسألنا|||REQUIRED|||-NONE-|||0
-A 155 156|||Edit|||وبحثنا|||REQUIRED|||-NONE-|||0
-A 156 156|||Add|||،|||REQUIRED|||-NONE-|||0
+A 155 156|||Split|||وبحثنا ،|||REQUIRED|||-NONE-|||0
 A 163 163|||Add|||أننا|||REQUIRED|||-NONE-|||0
 A 168 169|||Edit|||الإنجليزية|||REQUIRED|||-NONE-|||0
 A 172 172|||Add|||وجدنا|||REQUIRED|||-NONE-|||0
 A 173 173|||Add|||الذي|||REQUIRED|||-NONE-|||0
 A 173 174|||Edit|||فهم|||REQUIRED|||-NONE-|||0
-A 177 178|||Edit|||وأرشدنا|||REQUIRED|||-NONE-|||0
-A 178 178|||Add|||إلى|||REQUIRED|||-NONE-|||0
+A 177 178|||Split|||وأرشدنا إلى|||REQUIRED|||-NONE-|||0
 A 182 183|||Edit|||وقضينا|||REQUIRED|||-NONE-|||0
 A 188 189|||Edit|||قررنا|||REQUIRED|||-NONE-|||0
 A 193 194|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -2157,10 +2041,8 @@ A 212 213|||Edit|||بحثنا|||REQUIRED|||-NONE-|||0
 A 215 216|||Edit|||للراحة|||REQUIRED|||-NONE-|||0
 A 217 218|||Edit|||-|||REQUIRED|||-NONE-|||0
 A 224 224|||Add|||-|||REQUIRED|||-NONE-|||0
-A 225 225|||Add|||ذلك|||REQUIRED|||-NONE-|||0
-A 225 226|||Edit|||وضعنا|||REQUIRED|||-NONE-|||0
-A 229 229|||Add|||،|||REQUIRED|||-NONE-|||0
-A 229 230|||Edit|||وذهبنا|||REQUIRED|||-NONE-|||0
+A 225 226|||Split|||ذلك وضعنا|||REQUIRED|||-NONE-|||0
+A 229 230|||Split|||، وذهبنا|||REQUIRED|||-NONE-|||0
 A 233 233|||Add|||.|||REQUIRED|||-NONE-|||0
 A 236 238|||Merge|||ماؤه|||REQUIRED|||-NONE-|||0
 A 238 239|||Edit|||أزرقا|||REQUIRED|||-NONE-|||0
@@ -2178,8 +2060,7 @@ A 263 264|||Edit|||يوما|||REQUIRED|||-NONE-|||0
 A 264 265|||Edit|||حلوا|||REQUIRED|||-NONE-|||0
 A 265 266|||Edit|||وجميلا|||REQUIRED|||-NONE-|||0
 A 269 270|||Edit|||قررنا|||REQUIRED|||-NONE-|||0
-A 272 272|||Add|||،|||REQUIRED|||-NONE-|||0
-A 272 273|||Edit|||شعرنا|||REQUIRED|||-NONE-|||0
+A 272 273|||Split|||، شعرنا|||REQUIRED|||-NONE-|||0
 A 280 280|||Add|||يكون|||REQUIRED|||-NONE-|||0
 
 S رحلة إلى مصر بعد حفلة الزواجي أصل مع زوجتي على مصر ، كانت هذه الرحلة قبل ست السنوات في شهر سبتمبر ، ذهبنا بالشريكة ( مكتب خاصة للرحله ) إسمها سبيرت تراول من عاصمة صربيا ما عندنا كثير الوقت للستعداد بسبب خفلة ، اخذنا بعض الملابس وحقائب ، جوازات السفر ، تذكرات ، نقود وذهبنا مباشرة إلى مطار نكولة تسلة في عاصمة صربيا . سافرنا من مدينتي نوفي بازار إلى عاصمة بسيارة . ركب أخي شقيق وبعد من عاصمة إلى مصر بطايار ، وصلنا في مصر في مدينة غرقضة في فندق إسمه رومة ، كان فندقا ممتازا كبيراونظيفا . وجدنا في غرقضة بحر جميل وشاطيه جميل ومائه نظيف ، وجدنا الناس الطيبون ، وجدنا مراعي كثيرة من ثقافة قديمة كان براميل سفر ينغة من الوقت فرعون ، أكلنا فواكه وخضروات مختلفة ، بعد بعض أيام وجهنا إلى عاصمة مصر ( قاهرة ) ، فيها مساجد كثير ، جامعة مشورة الأزهر ، الناس الطيبون الشوارع كبيرة وقصيرة ، جزء من مدينة قديمة وجديدة ، وجدنا كثير من الآثار ثقافية من وقت قديم . ذهبنا إلى محل تجارية وإشترينا بعض الملابس وهداية للإصدقاء والأقارب . ما عندنا صعوبات في هذه الرحلة ، كانت رحلة ممتعة وإستراحة لنفسنا ، بعد إثنا عشر يوما رجعنا إلى بلدي ، كلمنا مع الأصدقاء والأقارب لهذه الرحلة ، كلهم يريدون أن يعرفوا كيف بلد مصر ( واحد من بلدان العربية ، كيف ثقافتهم ، كيف طعامهم ، كيف لغتهم ، أهم شيء لي لغة العربية حببت لغة العربية كثير وقبل ثلاث سنوات قدمت أوراق في جامعة الإمام محمد بن سعود الإسلامية .
@@ -2214,10 +2095,7 @@ A 81 82|||Edit|||بالطائرة|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||الغردقة|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||اسمه|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||،|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||كبيرا|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||،|||REQUIRED|||-NONE-|||0
-A 97 98|||Edit|||ونظيفا|||REQUIRED|||-NONE-|||0
+A 97 98|||Split|||، كبيرا ، ونظيفا|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||الغردقة|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||بحرا|||REQUIRED|||-NONE-|||0
 A 103 104|||Edit|||جميلا|||REQUIRED|||-NONE-|||0
@@ -2274,8 +2152,7 @@ A 10 11|||Edit|||العالمين|||REQUIRED|||-NONE-|||0
 A 11 11|||Add|||،|||REQUIRED|||-NONE-|||0
 A 13 13|||Add|||على|||REQUIRED|||-NONE-|||0
 A 15 15|||Add|||،|||REQUIRED|||-NONE-|||0
-A 19 19|||Add|||،|||REQUIRED|||-NONE-|||0
-A 19 20|||Edit|||أما|||REQUIRED|||-NONE-|||0
+A 19 20|||Split|||، أما|||REQUIRED|||-NONE-|||0
 A 21 21|||Add|||:|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||إكمال|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||الدراسة|||REQUIRED|||-NONE-|||0
@@ -2299,8 +2176,7 @@ A 56 57|||Edit|||الصحيحة|||REQUIRED|||-NONE-|||0
 A 57 57|||Add|||.|||REQUIRED|||-NONE-|||0
 A 60 63|||Move|||الناس في بلدي|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||والعقائد|||REQUIRED|||-NONE-|||0
-A 68 69|||Edit|||الصحيحة|||REQUIRED|||-NONE-|||0
-A 69 69|||Add|||.|||REQUIRED|||-NONE-|||0
+A 68 69|||Split|||الصحيحة .|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||يفرق|||REQUIRED|||-NONE-|||0
 A 74 75|||Edit|||الحق|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||والباطل|||REQUIRED|||-NONE-|||0
@@ -2457,11 +2333,9 @@ A 55 55|||Add|||،|||REQUIRED|||-NONE-|||0
 A 59 59|||Add|||السنة|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||إن|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||التي|||REQUIRED|||-NONE-|||0
-A 69 69|||Add|||،|||REQUIRED|||-NONE-|||0
-A 69 70|||Edit|||إن|||REQUIRED|||-NONE-|||0
+A 69 70|||Split|||، إن|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||كلية|||REQUIRED|||-NONE-|||0
-A 77 77|||Add|||بالنسبة|||REQUIRED|||-NONE-|||0
-A 77 78|||Edit|||لي|||REQUIRED|||-NONE-|||0
+A 77 78|||Split|||بالنسبة لي|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||لأجله|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||كلية|||REQUIRED|||-NONE-|||0
@@ -2469,13 +2343,10 @@ A 88 89|||Delete||||||REQUIRED|||-NONE-|||0
 A 91 91|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 96 97|||Edit|||جيدا|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||جيدا|||REQUIRED|||-NONE-|||0
-A 103 104|||Edit|||جيدا|||REQUIRED|||-NONE-|||0
-A 104 104|||Add|||،|||REQUIRED|||-NONE-|||0
+A 103 104|||Split|||جيدا ،|||REQUIRED|||-NONE-|||0
 A 105 106|||Edit|||الكتب|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||الكثيرة|||REQUIRED|||-NONE-|||0
-A 107 108|||Edit|||المكتوبة|||REQUIRED|||-NONE-|||0
-A 108 109|||Delete||||||REQUIRED|||-NONE-|||0
-A 109 110|||Delete||||||REQUIRED|||-NONE-|||0
+A 107 110|||Merge|||المكتوبة|||REQUIRED|||-NONE-|||0
 A 110 111|||Edit|||باللغة|||REQUIRED|||-NONE-|||0
 A 115 115|||Add|||.|||REQUIRED|||-NONE-|||0
 A 116 117|||Edit|||آخر|||REQUIRED|||-NONE-|||0
@@ -2495,8 +2366,7 @@ A 8 9|||Edit|||الطحاوية|||REQUIRED|||-NONE-|||0
 A 9 9|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 10 10|||Add|||الناس|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||يحتاجون|||REQUIRED|||-NONE-|||0
-A 13 13|||Add|||إلى|||REQUIRED|||-NONE-|||0
-A 13 14|||Edit|||من|||REQUIRED|||-NONE-|||0
+A 13 14|||Split|||إلى من|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||يعلمهم|||REQUIRED|||-NONE-|||0
 A 15 16|||Delete||||||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||أولا|||REQUIRED|||-NONE-|||0
@@ -2514,8 +2384,7 @@ A 41 41|||Add|||أن|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||منه|||REQUIRED|||-NONE-|||0
 A 46 46|||Add|||،|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||ويستفيد|||REQUIRED|||-NONE-|||0
-A 49 50|||Delete||||||REQUIRED|||-NONE-|||0
-A 50 51|||Edit|||تخرجت|||REQUIRED|||-NONE-|||0
+A 49 51|||Merge|||تخرجت|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||التخصص|||REQUIRED|||-NONE-|||0
 
@@ -2551,8 +2420,7 @@ A 136 138|||Move|||: إذا|||REQUIRED|||-NONE-|||0
 A 140 141|||Edit|||بطاقة|||REQUIRED|||-NONE-|||0
 A 145 146|||Delete||||||REQUIRED|||-NONE-|||0
 A 157 158|||Edit|||إليها|||REQUIRED|||-NONE-|||0
-A 159 160|||Delete||||||REQUIRED|||-NONE-|||0
-A 160 161|||Edit|||عندئذ|||REQUIRED|||-NONE-|||0
+A 159 161|||Merge|||عندئذ|||REQUIRED|||-NONE-|||0
 A 175 175|||Add|||.|||REQUIRED|||-NONE-|||0
 A 179 180|||Edit|||واستخرجت|||REQUIRED|||-NONE-|||0
 A 184 184|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -2616,19 +2484,16 @@ A 92 92|||Add|||-|||REQUIRED|||-NONE-|||0
 A 96 96|||Add|||-|||REQUIRED|||-NONE-|||0
 A 99 99|||Add|||-|||REQUIRED|||-NONE-|||0
 A 103 103|||Add|||-|||REQUIRED|||-NONE-|||0
-A 106 106|||Add|||-|||REQUIRED|||-NONE-|||0
-A 106 107|||Edit|||وسلمنا|||REQUIRED|||-NONE-|||0
+A 106 107|||Split|||- وسلمنا|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||عليهم|||REQUIRED|||-NONE-|||0
 A 108 108|||Add|||.|||REQUIRED|||-NONE-|||0
 A 112 113|||Edit|||قباء|||REQUIRED|||-NONE-|||0
 A 113 113|||Add|||،|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||وهو|||REQUIRED|||-NONE-|||0
-A 118 118|||Add|||،|||REQUIRED|||-NONE-|||0
-A 118 119|||Edit|||حين|||REQUIRED|||-NONE-|||0
+A 118 119|||Split|||، حين|||REQUIRED|||-NONE-|||0
 A 121 121|||Add|||-|||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||-|||REQUIRED|||-NONE-|||0
-A 129 129|||Add|||.|||REQUIRED|||-NONE-|||0
-A 129 130|||Edit|||وصلينا|||REQUIRED|||-NONE-|||0
+A 129 130|||Split|||. وصلينا|||REQUIRED|||-NONE-|||0
 A 132 132|||Add|||،|||REQUIRED|||-NONE-|||0
 A 138 138|||Add|||،|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||ورجعنا|||REQUIRED|||-NONE-|||0
@@ -2637,20 +2502,15 @@ A 146 146|||Add|||.|||REQUIRED|||-NONE-|||0
 A 148 149|||Edit|||ذهبنا|||REQUIRED|||-NONE-|||0
 A 150 151|||Edit|||الجامعة|||REQUIRED|||-NONE-|||0
 A 154 155|||Edit|||لنزور|||REQUIRED|||-NONE-|||0
-A 158 158|||Add|||،|||REQUIRED|||-NONE-|||0
-A 158 159|||Edit|||وهم|||REQUIRED|||-NONE-|||0
+A 158 159|||Split|||، وهم|||REQUIRED|||-NONE-|||0
 A 159 160|||Edit|||قادونا|||REQUIRED|||-NONE-|||0
 A 160 161|||Edit|||للتجول|||REQUIRED|||-NONE-|||0
 A 163 164|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 172 172|||Add|||.|||REQUIRED|||-NONE-|||0
-A 180 181|||Edit|||أحد|||REQUIRED|||-NONE-|||0
-A 181 181|||Add|||،|||REQUIRED|||-NONE-|||0
-A 181 182|||Edit|||وقعت|||REQUIRED|||-NONE-|||0
-A 183 184|||Edit|||أحد|||REQUIRED|||-NONE-|||0
-A 184 185|||Delete||||||REQUIRED|||-NONE-|||0
+A 180 182|||Split|||أحد ، وقعت|||REQUIRED|||-NONE-|||0
+A 183 185|||Merge|||أحد|||REQUIRED|||-NONE-|||0
 A 186 186|||Add|||،|||REQUIRED|||-NONE-|||0
-A 190 190|||Add|||،|||REQUIRED|||-NONE-|||0
-A 190 191|||Edit|||تناولنا|||REQUIRED|||-NONE-|||0
+A 190 191|||Split|||، تناولنا|||REQUIRED|||-NONE-|||0
 A 194 194|||Add|||،|||REQUIRED|||-NONE-|||0
 A 195 196|||Edit|||الانتهاء|||REQUIRED|||-NONE-|||0
 A 196 197|||Edit|||صاحبنا|||REQUIRED|||-NONE-|||0
@@ -2678,9 +2538,7 @@ A 65 66|||Edit|||بمسابقة|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||علمية|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||كانت|||REQUIRED|||-NONE-|||0
-A 71 72|||Edit|||مفيدة|||REQUIRED|||-NONE-|||0
-A 72 72|||Add|||لي|||REQUIRED|||-NONE-|||0
-A 72 72|||Add|||؛|||REQUIRED|||-NONE-|||0
+A 71 72|||Split|||مفيدة لي ؛|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||مرة|||REQUIRED|||-NONE-|||0
 A 74 75|||Edit|||أسمع|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||قصصا|||REQUIRED|||-NONE-|||0
@@ -2751,10 +2609,7 @@ A 45 46|||Edit|||أخذني|||REQUIRED|||-NONE-|||0
 A 47 48|||Edit|||لتعلم|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||القرآن|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 51 52|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 52 53|||Delete||||||REQUIRED|||-NONE-|||0
-A 53 54|||Edit|||وبين|||REQUIRED|||-NONE-|||0
-A 54 54|||Add|||لي|||REQUIRED|||-NONE-|||0
+A 51 54|||Edit|||، وبين لي|||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 58 60|||Merge|||وما|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -2790,8 +2645,7 @@ A 19 19|||Add|||،|||REQUIRED|||-NONE-|||0
 A 25 25|||Add|||أن|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||موضوع|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 35 36|||Edit|||والحمد|||REQUIRED|||-NONE-|||0
-A 36 36|||Add|||لله|||REQUIRED|||-NONE-|||0
+A 35 36|||Split|||والحمد لله|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||للمحاضرة|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||والآن|||REQUIRED|||-NONE-|||0
@@ -2812,13 +2666,11 @@ A 67 68|||Edit|||لزيادة|||REQUIRED|||-NONE-|||0
 
 S قاضي انا اريد ان ادرس في كلية الشريعة انا أحب مادة الفقه في المستقبل أريد قاضي و أستاذ في بلدي ان شاء الله
 A 0 1|||Edit|||قاض|||REQUIRED|||-NONE-|||0
-A 1 1|||Add|||.|||REQUIRED|||-NONE-|||0
-A 1 2|||Edit|||أنا|||REQUIRED|||-NONE-|||0
+A 1 2|||Split|||. أنا|||REQUIRED|||-NONE-|||0
 A 2 3|||Edit|||أريد|||REQUIRED|||-NONE-|||0
 A 3 4|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||أدرس|||REQUIRED|||-NONE-|||0
-A 8 8|||Add|||.|||REQUIRED|||-NONE-|||0
-A 8 9|||Edit|||أنا|||REQUIRED|||-NONE-|||0
+A 8 9|||Split|||. أنا|||REQUIRED|||-NONE-|||0
 A 12 12|||Add|||.|||REQUIRED|||-NONE-|||0
 A 15 15|||Add|||أن أصبح|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||قاض|||REQUIRED|||-NONE-|||0
@@ -2835,11 +2687,9 @@ A 25 25|||Add|||،|||REQUIRED|||-NONE-|||0
 A 27 27|||Add|||،|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||لرؤية|||REQUIRED|||-NONE-|||0
 A 61 61|||Add|||أنه|||REQUIRED|||-NONE-|||0
-A 65 65|||Add|||،|||REQUIRED|||-NONE-|||0
-A 65 66|||Edit|||جعل|||REQUIRED|||-NONE-|||0
+A 65 66|||Split|||، جعل|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||قلوب|||REQUIRED|||-NONE-|||0
-A 72 72|||Add|||،|||REQUIRED|||-NONE-|||0
-A 72 73|||Edit|||وهو|||REQUIRED|||-NONE-|||0
+A 72 73|||Split|||، وهو|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||ولما|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||الإسلامية|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||الإسلامية|||REQUIRED|||-NONE-|||0
@@ -2893,8 +2743,7 @@ A 15 16|||Edit|||النهاية|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||أتخصص|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||أصول|||REQUIRED|||-NONE-|||0
-A 24 24|||Add|||.|||REQUIRED|||-NONE-|||0
-A 24 25|||Edit|||أريد|||REQUIRED|||-NONE-|||0
+A 24 25|||Split|||. أريد|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||أتخصص|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||فيه|||REQUIRED|||-NONE-|||0
@@ -2909,17 +2758,12 @@ A 38 39|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||لأنه|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||مهم|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||والأمة|||REQUIRED|||-NONE-|||0
-A 48 49|||Edit|||أحبه|||REQUIRED|||-NONE-|||0
-A 49 49|||Add|||؛|||REQUIRED|||-NONE-|||0
+A 48 49|||Split|||أحبه ؛|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||لأفهم|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||علي|||REQUIRED|||-NONE-|||0
-A 55 56|||Edit|||شخص|||REQUIRED|||-NONE-|||0
-A 56 57|||Delete||||||REQUIRED|||-NONE-|||0
-A 57 58|||Edit|||يسألني|||REQUIRED|||-NONE-|||0
-A 58 59|||Delete||||||REQUIRED|||-NONE-|||0
+A 55 59|||Merge|||شخص يسألني|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||مسألة|||REQUIRED|||-NONE-|||0
-A 61 62|||Edit|||فأجيبه|||REQUIRED|||-NONE-|||0
-A 62 63|||Delete||||||REQUIRED|||-NONE-|||0
+A 61 63|||Merge|||فأجيبه|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||القرآن|||REQUIRED|||-NONE-|||0
 A 67 69|||Merge|||والحديث|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||فيصدقني|||REQUIRED|||-NONE-|||0
@@ -2937,15 +2781,13 @@ A 90 91|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||أسلوب|||REQUIRED|||-NONE-|||0
 A 94 95|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||التفرق|||REQUIRED|||-NONE-|||0
-A 99 100|||Delete||||||REQUIRED|||-NONE-|||0
-A 100 101|||Edit|||لا|||REQUIRED|||-NONE-|||0
+A 99 101|||Merge|||لا|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||أريدها|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||لديننا|||REQUIRED|||-NONE-|||0
 A 103 104|||Edit|||.|||REQUIRED|||-NONE-|||0
 
 S ( الرحلة إلى الدمام ) كانت هذه الرحلة عام 1432هـ رحلت مع بعض أصدقائي وزملائي وكانت هذه الرحلة في الدمام . وقبل أن نذهب إلى الرحلة كنا مستعدا ولا سيما التخطيط قد أتمنا قبل أن نغادر ونذهب إلى الرحلة . لما غادرنا قد مررنا وشاهدنا مناظرا كثيرة طيبة عندما وصلنا في الدمام . ذهبنا أولا في الفندق لكي نأخذ الإستراحة وبعد ذلك أكلنا العشاء ثم ننام وفي الغد ذهبنا في صناعة السفن وشاهدنا ما فيها . وتعلمت خلال تلك الرحلة هو أن الرحلة تعطي للإنسان طيب الإستراحة وطمأنينة النفس ، ولا سيما ان العقل قد أخذ الإستراحة وحسن التفكير ، ولهذا أصبح العقل نقي .
-A 10 10|||Add|||،|||REQUIRED|||-NONE-|||0
-A 10 11|||Edit|||رحلة|||REQUIRED|||-NONE-|||0
+A 10 11|||Split|||، رحلة|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||مستعدين|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||وقد|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||أتممنا|||REQUIRED|||-NONE-|||0
@@ -2963,13 +2805,11 @@ A 7 8|||Edit|||الأسبوعية|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||الماضية|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 20 21|||Edit|||عامر|||REQUIRED|||-NONE-|||0
-A 21 21|||Add|||إلى|||REQUIRED|||-NONE-|||0
+A 20 21|||Split|||عامر إلى|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 35 36|||Edit|||وفي|||REQUIRED|||-NONE-|||0
-A 36 37|||Delete||||||REQUIRED|||-NONE-|||0
+A 35 37|||Merge|||وفي|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -3006,8 +2846,7 @@ A 157 158|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 160 162|||Merge|||وقد|||REQUIRED|||-NONE-|||0
 A 167 168|||Edit|||كثيرة|||REQUIRED|||-NONE-|||0
 A 168 170|||Merge|||وتذكرت|||REQUIRED|||-NONE-|||0
-A 172 173|||Delete||||||REQUIRED|||-NONE-|||0
-A 173 174|||Edit|||وبعض|||REQUIRED|||-NONE-|||0
+A 172 174|||Merge|||وبعض|||REQUIRED|||-NONE-|||0
 A 176 177|||Delete||||||REQUIRED|||-NONE-|||0
 
 S الرحلة إلى العمرة الرحلةإلى العمرة مع زملائي . وصلنا في مكة اليوم احد وبدأنا طواف حول الكعبة سبعة ثم سعي سبعةالمرات وحلقنا وبعدإنتهاء من العمرة ذهبنا إلى الصندوق حتى حان وقت الظهر صلينا في المسجد الحرم وبعد ذلك ذهبنا لزيارة الحجاج من بلدي . ثم خرجنا لنستري شيئا . أنا أستري الثوب لي أبي وخاتم لأختي وجواز لأخي وبعض زملائي وبعد سترينا نحن نأكل الغدأ وبعدذاك رجعنا إلى الصندوق بالحافلة مبكرا . هذه رحلة طيبة . الرحلة إلى العمرة شهدنا الجبال كبيرة وكثيرة .
@@ -3017,19 +2856,14 @@ A 9 10|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||يوم|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||الأحد|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||الطواف|||REQUIRED|||-NONE-|||0
-A 19 20|||Edit|||سعينا|||REQUIRED|||-NONE-|||0
-A 20 20|||Add|||سبع|||REQUIRED|||-NONE-|||0
-A 20 21|||Edit|||مرات|||REQUIRED|||-NONE-|||0
-A 22 22|||Add|||،|||REQUIRED|||-NONE-|||0
-A 22 23|||Edit|||وبعد|||REQUIRED|||-NONE-|||0
-A 23 23|||Add|||الانتهاء|||REQUIRED|||-NONE-|||0
+A 19 21|||Split|||سعينا سبع مرات|||REQUIRED|||-NONE-|||0
+A 22 23|||Split|||، وبعد الانتهاء|||REQUIRED|||-NONE-|||0
 A 32 32|||Add|||،|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||الحرام|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||لنشتري|||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||اشتريت|||REQUIRED|||-NONE-|||0
-A 51 52|||Edit|||ثوبا|||REQUIRED|||-NONE-|||0
-A 52 53|||Delete||||||REQUIRED|||-NONE-|||0
+A 51 53|||Merge|||ثوبا|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||لأبي|||REQUIRED|||-NONE-|||0
 A 54 54|||Add|||،|||REQUIRED|||-NONE-|||0
 A 54 55|||Edit|||وخاتما|||REQUIRED|||-NONE-|||0
@@ -3041,8 +2875,7 @@ A 60 61|||Edit|||وبعدما|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||اشترينا|||REQUIRED|||-NONE-|||0
 A 62 64|||Merge|||أكلنا|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||الغداء|||REQUIRED|||-NONE-|||0
-A 65 66|||Edit|||وبعد|||REQUIRED|||-NONE-|||0
-A 66 66|||Add|||ذلك|||REQUIRED|||-NONE-|||0
+A 65 66|||Split|||وبعد ذلك|||REQUIRED|||-NONE-|||0
 A 76 76|||Add|||وفي|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||شاهدنا|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||جبالا|||REQUIRED|||-NONE-|||0
@@ -3089,8 +2922,7 @@ A 133 133|||Add|||،|||REQUIRED|||-NONE-|||0
 A 135 136|||Edit|||الآثار|||REQUIRED|||-NONE-|||0
 A 137 137|||Add|||،|||REQUIRED|||-NONE-|||0
 A 139 139|||Add|||،|||REQUIRED|||-NONE-|||0
-A 140 141|||Edit|||غريبة|||REQUIRED|||-NONE-|||0
-A 141 142|||Delete||||||REQUIRED|||-NONE-|||0
+A 140 142|||Merge|||غريبة|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 149 150|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 151 152|||Edit|||متأخرا|||REQUIRED|||-NONE-|||0
@@ -3140,10 +2972,7 @@ A 68 69|||Edit|||المكان|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||انكسر|||REQUIRED|||-NONE-|||0
 A 71 71|||Add|||فيه|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||بعيدا|||REQUIRED|||-NONE-|||0
-A 77 77|||Add|||ولا|||REQUIRED|||-NONE-|||0
-A 77 78|||Edit|||يوجد|||REQUIRED|||-NONE-|||0
-A 78 78|||Add|||هنا|||REQUIRED|||-NONE-|||0
-A 78 79|||Edit|||طبيب|||REQUIRED|||-NONE-|||0
+A 77 79|||Split|||ولا يوجد هنا طبيب|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||واجهوه|||REQUIRED|||-NONE-|||0
@@ -3168,11 +2997,7 @@ A 38 38|||Add|||،|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||حقائبنا|||REQUIRED|||-NONE-|||0
 A 39 41|||Move|||وجد فيها|||REQUIRED|||-NONE-|||0
 A 43 43|||Add|||،|||REQUIRED|||-NONE-|||0
-A 44 44|||Add|||،|||REQUIRED|||-NONE-|||0
-A 44 44|||Add|||وملابس|||REQUIRED|||-NONE-|||0
-A 44 45|||Edit|||الإحرام|||REQUIRED|||-NONE-|||0
-A 45 45|||Add|||،|||REQUIRED|||-NONE-|||0
-A 45 46|||Edit|||وأشياء|||REQUIRED|||-NONE-|||0
+A 44 46|||Split|||، وملابس الإحرام ، وأشياء|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||أخرى|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -3207,8 +3032,7 @@ A 153 154|||Edit|||الحجر|||REQUIRED|||-NONE-|||0
 A 157 158|||Edit|||عندها|||REQUIRED|||-NONE-|||0
 A 158 159|||Edit|||طفنا|||REQUIRED|||-NONE-|||0
 A 160 161|||Edit|||القرآن|||REQUIRED|||-NONE-|||0
-A 164 165|||Edit|||انتهائنا|||REQUIRED|||-NONE-|||0
-A 165 165|||Add|||من|||REQUIRED|||-NONE-|||0
+A 164 165|||Split|||انتهائنا من|||REQUIRED|||-NONE-|||0
 A 165 166|||Edit|||الطواف|||REQUIRED|||-NONE-|||0
 A 166 167|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 167 168|||Edit|||صلينا|||REQUIRED|||-NONE-|||0
@@ -3243,8 +3067,7 @@ A 223 224|||Edit|||النار|||REQUIRED|||-NONE-|||0
 A 226 227|||Edit|||آمين|||REQUIRED|||-NONE-|||0
 
 S تعلم الدين جأت في المملك لتعلم و اطلاع الدين الإسلامية ، ولذا كان قصدي أي من كليات إسلامية . بعد أن عرفت أصناف الكليات اللإسلامية و ما هو تخصيصها ، عزمت على كلية الشريعة ، لأن فيها لا يوجد خروج من المادات الدينية إلا قليلا كما سمعت . لا ينفع دراسة الشريعة في بلدي وخاصة من السعودية . لكن ما أريد بها إلا رضاء الله ووجهه الكريم . و العمل المعلق بهذه الدراسة غير مهمة . أرجو أن أشترك في الدعوة الإسلامية وتعليم شابنا بعد العودة إلا بلدي .
-A 2 2|||Add|||.|||REQUIRED|||-NONE-|||0
-A 2 3|||Edit|||جئت|||REQUIRED|||-NONE-|||0
+A 2 3|||Split|||. جئت|||REQUIRED|||-NONE-|||0
 A 3 4|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||المملكة|||REQUIRED|||-NONE-|||0
 A 6 7|||Delete||||||REQUIRED|||-NONE-|||0
@@ -3341,8 +3164,7 @@ A 67 68|||Edit|||أو|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||أنا|||REQUIRED|||-NONE-|||0
 A 77 77|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 84 86|||Merge|||وفي|||REQUIRED|||-NONE-|||0
-A 89 90|||Delete||||||REQUIRED|||-NONE-|||0
-A 90 91|||Edit|||للعلم|||REQUIRED|||-NONE-|||0
+A 89 91|||Merge|||للعلم|||REQUIRED|||-NONE-|||0
 A 92 94|||Merge|||وإصلاح|||REQUIRED|||-NONE-|||0
 A 95 96|||Delete||||||REQUIRED|||-NONE-|||0
 A 96 97|||Edit|||ومنهجهم|||REQUIRED|||-NONE-|||0
@@ -3414,20 +3236,17 @@ A 2 3|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 7 9|||Move|||. أولا|||REQUIRED|||-NONE-|||0
 A 10 11|||Delete||||||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 16 17|||Edit|||الانتهاء|||REQUIRED|||-NONE-|||0
-A 17 17|||Add|||من|||REQUIRED|||-NONE-|||0
+A 16 17|||Split|||الانتهاء من|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||المعهد|||REQUIRED|||-NONE-|||0
 A 25 25|||Add|||شاء|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||الله|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||وبعد|||REQUIRED|||-NONE-|||0
-A 28 29|||Edit|||الانتهاء|||REQUIRED|||-NONE-|||0
-A 29 29|||Add|||من|||REQUIRED|||-NONE-|||0
+A 28 29|||Split|||الانتهاء من|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||أرجو|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||وأكون|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||خطيبا|||REQUIRED|||-NONE-|||0
-A 40 41|||Edit|||لكن|||REQUIRED|||-NONE-|||0
-A 41 41|||Add|||يجب|||REQUIRED|||-NONE-|||0
+A 40 41|||Split|||لكن يجب|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||وسنة|||REQUIRED|||-NONE-|||0
 A 48 48|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -3438,13 +3257,11 @@ A 55 56|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 56 57|||Delete||||||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||والعقيدة|||REQUIRED|||-NONE-|||0
 A 58 59|||Edit|||الصحيحة|||REQUIRED|||-NONE-|||0
-A 60 61|||Delete||||||REQUIRED|||-NONE-|||0
-A 61 62|||Edit|||وثانيا|||REQUIRED|||-NONE-|||0
+A 60 62|||Merge|||وثانيا|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||أتمنى|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||بلادي|||REQUIRED|||-NONE-|||0
 A 68 69|||Edit|||وجامعات|||REQUIRED|||-NONE-|||0
-A 69 70|||Delete||||||REQUIRED|||-NONE-|||0
-A 70 71|||Edit|||؛|||REQUIRED|||-NONE-|||0
+A 69 71|||Merge|||؛|||REQUIRED|||-NONE-|||0
 A 72 73|||Edit|||تنتشر|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||اللغة|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -3467,10 +3284,7 @@ A 11 12|||Edit|||أشعر|||REQUIRED|||-NONE-|||0
 A 14 14|||Add|||.|||REQUIRED|||-NONE-|||0
 A 14 15|||Split|||عندما وصلت|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 16 17|||Edit|||البحر|||REQUIRED|||-NONE-|||0
-A 17 17|||Add|||نظرت|||REQUIRED|||-NONE-|||0
-A 17 18|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 18 18|||Add|||آيات|||REQUIRED|||-NONE-|||0
+A 16 18|||Split|||البحر نظرت إلى آيات|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||منها|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||لأنها|||REQUIRED|||-NONE-|||0
 A 25 25|||Add|||في|||REQUIRED|||-NONE-|||0
@@ -3481,8 +3295,7 @@ A 31 32|||Edit|||السنة|||REQUIRED|||-NONE-|||0
 A 35 35|||Add|||،|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||إذا|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||أسبح|||REQUIRED|||-NONE-|||0
-A 40 41|||Edit|||إليه|||REQUIRED|||-NONE-|||0
-A 41 41|||Add|||؟|||REQUIRED|||-NONE-|||0
+A 40 41|||Split|||إليه ؟|||REQUIRED|||-NONE-|||0
 A 43 44|||Split|||ما وصلت|||REQUIRED|||-NONE-|||0
 A 44 44|||Add|||،|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||إلى|||REQUIRED|||-NONE-|||0
@@ -3495,10 +3308,7 @@ A 60 61|||Edit|||لأشاهد|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||الحيوانات|||REQUIRED|||-NONE-|||0
 A 62 63|||Delete||||||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||والأشجار|||REQUIRED|||-NONE-|||0
-A 65 65|||Add|||فشعرت|||REQUIRED|||-NONE-|||0
-A 65 65|||Add|||بالسرور|||REQUIRED|||-NONE-|||0
-A 65 66|||Edit|||والسعادة|||REQUIRED|||-NONE-|||0
-A 66 66|||Add|||،|||REQUIRED|||-NONE-|||0
+A 65 66|||Split|||فشعرت بالسرور والسعادة ،|||REQUIRED|||-NONE-|||0
 A 68 69|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 72 72|||Add|||،|||REQUIRED|||-NONE-|||0
 A 74 75|||Edit|||إليه|||REQUIRED|||-NONE-|||0
@@ -3516,12 +3326,9 @@ A 93 94|||Edit|||أعمالهما|||REQUIRED|||-NONE-|||0
 A 94 95|||Edit|||وإذا|||REQUIRED|||-NONE-|||0
 A 96 97|||Edit|||إليه|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||أنام|||REQUIRED|||-NONE-|||0
-A 100 101|||Edit|||أدخل|||REQUIRED|||-NONE-|||0
-A 101 102|||Delete||||||REQUIRED|||-NONE-|||0
+A 100 102|||Merge|||أدخل|||REQUIRED|||-NONE-|||0
 A 103 104|||Edit|||لأساعد|||REQUIRED|||-NONE-|||0
-A 104 105|||Edit|||أمي|||REQUIRED|||-NONE-|||0
-A 105 105|||Add|||أو|||REQUIRED|||-NONE-|||0
-A 105 106|||Edit|||أشاهد|||REQUIRED|||-NONE-|||0
+A 104 106|||Split|||أمي أو أشاهد|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||لأستفيد|||REQUIRED|||-NONE-|||0
 A 108 109|||Edit|||وعندما|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||أعود|||REQUIRED|||-NONE-|||0
@@ -3536,13 +3343,11 @@ A 121 122|||Edit|||القديمة|||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||لأدرس|||REQUIRED|||-NONE-|||0
 A 127 128|||Edit|||أستاذي|||REQUIRED|||-NONE-|||0
 A 129 130|||Edit|||المواضيع|||REQUIRED|||-NONE-|||0
-A 132 133|||Edit|||أفهمها|||REQUIRED|||-NONE-|||0
-A 133 133|||Add|||،|||REQUIRED|||-NONE-|||0
+A 132 133|||Split|||أفهمها ،|||REQUIRED|||-NONE-|||0
 A 135 136|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 136 137|||Edit|||الجامعة|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||الإسلامية|||REQUIRED|||-NONE-|||0
-A 139 140|||Edit|||لأمارس|||REQUIRED|||-NONE-|||0
-A 140 141|||Delete||||||REQUIRED|||-NONE-|||0
+A 139 141|||Merge|||لأمارس|||REQUIRED|||-NONE-|||0
 A 144 145|||Edit|||زملائي|||REQUIRED|||-NONE-|||0
 A 145 146|||Edit|||وأقوم|||REQUIRED|||-NONE-|||0
 A 148 149|||Edit|||الصباح|||REQUIRED|||-NONE-|||0
@@ -3555,15 +3360,12 @@ A 5 6|||Edit|||والصلاة|||REQUIRED|||-NONE-|||0
 A 10 10|||Add|||،|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||الإجازة|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||بالسياحة|||REQUIRED|||-NONE-|||0
-A 43 43|||Add|||تدخل|||REQUIRED|||-NONE-|||0
-A 43 44|||Edit|||على|||REQUIRED|||-NONE-|||0
+A 43 44|||Split|||تدخل على|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||الأصدقاء|||REQUIRED|||-NONE-|||0
 A 58 59|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||خططنا|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||لهذه|||REQUIRED|||-NONE-|||0
-A 64 65|||Edit|||تأتي|||REQUIRED|||-NONE-|||0
-A 65 65|||Add|||الإجازة|||REQUIRED|||-NONE-|||0
-A 65 66|||Edit|||ـ|||REQUIRED|||-NONE-|||0
+A 64 66|||Split|||تأتي الإجازة ـ|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||ـ|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||تزيد|||REQUIRED|||-NONE-|||0
 A 78 79|||Split|||تقل عن|||REQUIRED|||-NONE-|||0
@@ -3576,12 +3378,9 @@ A 86 87|||Edit|||هذه|||REQUIRED|||-NONE-|||0
 A 91 91|||Add|||تزيدنا|||REQUIRED|||-NONE-|||0
 A 94 95|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||التفتت|||REQUIRED|||-NONE-|||0
-A 102 103|||Edit|||الأنظار|||REQUIRED|||-NONE-|||0
-A 103 104|||Delete||||||REQUIRED|||-NONE-|||0
-A 104 105|||Delete||||||REQUIRED|||-NONE-|||0
+A 102 105|||Merge|||الأنظار|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||الجبال|||REQUIRED|||-NONE-|||0
-A 108 108|||Add|||مخضرة|||REQUIRED|||-NONE-|||0
-A 108 109|||Edit|||تفاقم|||REQUIRED|||-NONE-|||0
+A 108 109|||Split|||مخضرة تفاقم|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 123 124|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 127 128|||Edit|||أضحكتنا|||REQUIRED|||-NONE-|||0
@@ -3642,14 +3441,12 @@ A 32 32|||Add|||.|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||كثيرون|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||الطلاب|||REQUIRED|||-NONE-|||0
 A 34 34|||Add|||من|||REQUIRED|||-NONE-|||0
-A 38 38|||Add|||.|||REQUIRED|||-NONE-|||0
-A 38 39|||Edit|||أنا|||REQUIRED|||-NONE-|||0
+A 38 39|||Split|||. أنا|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||رغبتي|||REQUIRED|||-NONE-|||0
 A 45 47|||Split|||أجل أن أدرس|||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||أنتقل|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 53 53|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 53 54|||Edit|||لأدرس|||REQUIRED|||-NONE-|||0
+A 53 54|||Split|||؛ لأدرس|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||الأزهر|||REQUIRED|||-NONE-|||0
 A 57 57|||Add|||،|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -3668,8 +3465,7 @@ A 7 8|||Edit|||مكة|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||الزملاء|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||حملنا|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||كثيرة|||REQUIRED|||-NONE-|||0
-A 21 22|||Edit|||ما|||REQUIRED|||-NONE-|||0
-A 22 22|||Add|||كانت|||REQUIRED|||-NONE-|||0
+A 21 22|||Split|||ما كانت|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||عندنا|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||صعوبات|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -3693,8 +3489,7 @@ A 54 55|||Edit|||للطعام|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||وزيادة|||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||البترول|||REQUIRED|||-NONE-|||0
-A 58 58|||Add|||،|||REQUIRED|||-NONE-|||0
-A 58 59|||Edit|||والنوم|||REQUIRED|||-NONE-|||0
+A 58 59|||Split|||، والنوم|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||شيء|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||وصلنا|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||إلى|||REQUIRED|||-NONE-|||0
@@ -3719,9 +3514,7 @@ A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
 A 5 6|||Split|||جدا بجد|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||دراسة|||REQUIRED|||-NONE-|||0
-A 9 10|||Edit|||والتخصص|||REQUIRED|||-NONE-|||0
-A 10 10|||Add|||فيها|||REQUIRED|||-NONE-|||0
-A 10 10|||Add|||؛|||REQUIRED|||-NONE-|||0
+A 9 10|||Split|||والتخصص فيها ؛|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||.|||REQUIRED|||-NONE-|||0
 
 S المفتاح المضاع " في الإجازة الصيفية كنت في أمريكا . كنت مع أسرتي إحدى الليلي كنا نسافرإلى المدينة التي تتزوج أختي فيها , وقفنا خلال الطريق للراحة والعشاء . كنا قافلة متكونة من ثلاثة سيارات , و تعطلت إطار سيارة أمي , اتصلنا بالميكانيك و انتظرنا حتى وصل إلينا , ثم طلب منا أن تشغل السيارة , فعلته أختي . فمشت تصلي الصلاة في الحشيش . حينما خلص الميكانيك من عمله لم نجد مفتاح السيارة كلنا بدأنا البحث لها و لم نجد شيأ فيها , مضى نصف ساعة بدون نتيجة و ظننا أن المفتاح اضمحل . ثم فحصنا أنا و أبي في الحشيش الذي صلت فيه أختي و اكتشف أبي على المطلوب . "
@@ -3729,8 +3522,7 @@ A 1 2|||Edit|||الضائع|||REQUIRED|||-NONE-|||0
 A 2 3|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 13 13|||Add|||، في|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||الليالي|||REQUIRED|||-NONE-|||0
-A 16 16|||Add|||مسافرين|||REQUIRED|||-NONE-|||0
-A 16 17|||Edit|||إلى|||REQUIRED|||-NONE-|||0
+A 16 17|||Split|||مسافرين إلى|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||ستتزوج|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -3769,8 +3561,7 @@ A 65 65|||Add|||،|||REQUIRED|||-NONE-|||0
 A 70 70|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||كانت|||REQUIRED|||-NONE-|||0
-A 103 104|||Edit|||الأزمة|||REQUIRED|||-NONE-|||0
-A 104 104|||Add|||،|||REQUIRED|||-NONE-|||0
+A 103 104|||Split|||الأزمة ،|||REQUIRED|||-NONE-|||0
 A 120 121|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 138 139|||Delete||||||REQUIRED|||-NONE-|||0
 A 139 140|||Edit|||بالقرآن|||REQUIRED|||-NONE-|||0
@@ -3782,30 +3573,20 @@ A 151 152|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 159 160|||Split|||شاء الله|||REQUIRED|||-NONE-|||0
 A 165 166|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 176 177|||Edit|||إفريقيا|||REQUIRED|||-NONE-|||0
-A 180 181|||Edit|||مركزا|||REQUIRED|||-NONE-|||0
-A 181 181|||Add|||داخليا|||REQUIRED|||-NONE-|||0
+A 180 181|||Split|||مركزا داخليا|||REQUIRED|||-NONE-|||0
 A 184 185|||Edit|||وتعلم|||REQUIRED|||-NONE-|||0
 A 186 187|||Edit|||القراءات|||REQUIRED|||-NONE-|||0
 A 188 189|||Edit|||؛|||REQUIRED|||-NONE-|||0
-A 197 198|||Delete||||||REQUIRED|||-NONE-|||0
-A 198 199|||Delete||||||REQUIRED|||-NONE-|||0
-A 199 200|||Edit|||"|||REQUIRED|||-NONE-|||0
+A 197 200|||Merge|||"|||REQUIRED|||-NONE-|||0
 A 203 204|||Edit|||القرآن|||REQUIRED|||-NONE-|||0
-A 205 206|||Delete||||||REQUIRED|||-NONE-|||0
-A 206 207|||Delete||||||REQUIRED|||-NONE-|||0
-A 207 208|||Edit|||"|||REQUIRED|||-NONE-|||0
+A 205 208|||Merge|||"|||REQUIRED|||-NONE-|||0
 A 220 221|||Edit|||تكفل|||REQUIRED|||-NONE-|||0
-A 224 225|||Edit|||:|||REQUIRED|||-NONE-|||0
-A 225 226|||Delete||||||REQUIRED|||-NONE-|||0
-A 226 227|||Edit|||"|||REQUIRED|||-NONE-|||0
+A 224 227|||Merge|||: "|||REQUIRED|||-NONE-|||0
 A 229 230|||Edit|||نزلنا|||REQUIRED|||-NONE-|||0
 A 231 232|||Split|||وإنا له|||REQUIRED|||-NONE-|||0
-A 233 234|||Edit|||"|||REQUIRED|||-NONE-|||0
-A 234 235|||Delete||||||REQUIRED|||-NONE-|||0
-A 235 236|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 233 236|||Merge|||" ،|||REQUIRED|||-NONE-|||0
 A 239 240|||Edit|||بحفظه|||REQUIRED|||-NONE-|||0
-A 241 242|||Edit|||الصدور|||REQUIRED|||-NONE-|||0
-A 242 242|||Add|||والسطور|||REQUIRED|||-NONE-|||0
+A 241 242|||Split|||الصدور والسطور|||REQUIRED|||-NONE-|||0
 A 250 251|||Edit|||التوراة|||REQUIRED|||-NONE-|||0
 A 251 251|||Add|||،|||REQUIRED|||-NONE-|||0
 A 252 252|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -3816,13 +3597,9 @@ A 264 265|||Edit|||عهد|||REQUIRED|||-NONE-|||0
 A 266 266|||Add|||ـ|||REQUIRED|||-NONE-|||0
 A 270 270|||Add|||ـ|||REQUIRED|||-NONE-|||0
 A 272 273|||Edit|||أمة|||REQUIRED|||-NONE-|||0
-A 279 280|||Delete||||||REQUIRED|||-NONE-|||0
-A 280 281|||Delete||||||REQUIRED|||-NONE-|||0
-A 281 282|||Edit|||"|||REQUIRED|||-NONE-|||0
+A 279 282|||Merge|||"|||REQUIRED|||-NONE-|||0
 A 291 292|||Split|||المنكر وتؤمنون|||REQUIRED|||-NONE-|||0
-A 293 294|||Delete||||||REQUIRED|||-NONE-|||0
-A 294 295|||Delete||||||REQUIRED|||-NONE-|||0
-A 295 296|||Edit|||"|||REQUIRED|||-NONE-|||0
+A 293 296|||Merge|||"|||REQUIRED|||-NONE-|||0
 A 296 297|||Edit|||الأية|||REQUIRED|||-NONE-|||0
 A 305 306|||Split|||ييسر لي|||REQUIRED|||-NONE-|||0
 
@@ -3838,8 +3615,7 @@ A 62 63|||Edit|||متروكة|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||،|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||فترة|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||هذا|||REQUIRED|||-NONE-|||0
-A 83 84|||Edit|||أندم|||REQUIRED|||-NONE-|||0
-A 84 85|||Delete||||||REQUIRED|||-NONE-|||0
+A 83 85|||Merge|||أندم|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||الذي|||REQUIRED|||-NONE-|||0
 A 103 103|||Add|||به|||REQUIRED|||-NONE-|||0
 A 122 123|||Edit|||يشغلني|||REQUIRED|||-NONE-|||0
@@ -3868,13 +3644,10 @@ A 25 25|||Add|||،|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||أخذنا|||REQUIRED|||-NONE-|||0
 A 30 31|||Split|||الحافلة أيضا|||REQUIRED|||-NONE-|||0
 A 31 31|||Add|||،|||REQUIRED|||-NONE-|||0
-A 36 37|||Edit|||قائلين|||REQUIRED|||-NONE-|||0
-A 37 37|||Add|||:|||REQUIRED|||-NONE-|||0
-A 37 37|||Add|||"|||REQUIRED|||-NONE-|||0
+A 36 37|||Split|||قائلين : "|||REQUIRED|||-NONE-|||0
 A 40 40|||Add|||"|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 46 47|||Edit|||الكعبة|||REQUIRED|||-NONE-|||0
-A 47 47|||Add|||سبعة|||REQUIRED|||-NONE-|||0
+A 46 47|||Split|||الكعبة سبعة|||REQUIRED|||-NONE-|||0
 A 47 48|||Edit|||أشواط|||REQUIRED|||-NONE-|||0
 A 48 48|||Add|||،|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||صلينا|||REQUIRED|||-NONE-|||0
@@ -3889,8 +3662,7 @@ A 65 65|||Add|||.|||REQUIRED|||-NONE-|||0
 S رخلتي في تونس سافرت إلى مدينة في تونس اسمها سوسة ثم إلى مونبليسير ذلك اليوم تجا ولنا كثيرا وذهبنا إلى شاطئ البحر ثم زرنا قبر الرئيس بورقيبا وتغدينا في مطعم الجامعي الرياض بسوسة وهذا ما تذكرت خلال رحلتي فى تونس .
 A 0 1|||Edit|||رحلتي|||REQUIRED|||-NONE-|||0
 A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
-A 12 13|||Edit|||المنستير|||REQUIRED|||-NONE-|||0
-A 13 13|||Add|||،|||REQUIRED|||-NONE-|||0
+A 12 13|||Split|||المنستير ،|||REQUIRED|||-NONE-|||0
 A 15 16|||Delete||||||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||تجولنا|||REQUIRED|||-NONE-|||0
 A 18 18|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -3917,8 +3689,7 @@ A 51 52|||Edit|||بالصحيح|||REQUIRED|||-NONE-|||0
 A 54 55|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 58 59|||Edit|||انتشرت|||REQUIRED|||-NONE-|||0
 A 68 69|||Edit|||فهم|||REQUIRED|||-NONE-|||0
-A 79 80|||Edit|||التخصص|||REQUIRED|||-NONE-|||0
-A 80 80|||Add|||ينفع|||REQUIRED|||-NONE-|||0
+A 79 80|||Split|||التخصص ينفع|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||نفسي|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||أسير|||REQUIRED|||-NONE-|||0
 A 88 88|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -3975,13 +3746,10 @@ A 177 178|||Edit|||أية|||REQUIRED|||-NONE-|||0
 S رحلة إلي مكة المكرمة " بسم الله الرحمن الرحيم آنا جئت إلى الرياض مع صديقي وصلنا في المطارآمسا , و ذهبنا إلي ساكن الجامعية , و إسترحنا قليلآ . ثم ذهبنا إلي مكة المكرمة الآداء العمر . وصلنا إلي مكة المكرمة و آدينا العمر ثم رجعنا إلي الرياض "
 A 1 2|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 9 9|||Add|||.|||REQUIRED|||-NONE-|||0
-A 9 10|||Edit|||أنا|||REQUIRED|||-NONE-|||0
+A 9 10|||Split|||. أنا|||REQUIRED|||-NONE-|||0
 A 15 15|||Add|||،|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 17 18|||Edit|||المطار|||REQUIRED|||-NONE-|||0
-A 18 18|||Add|||مساء|||REQUIRED|||-NONE-|||0
-A 18 19|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 17 19|||Split|||المطار مساء ،|||REQUIRED|||-NONE-|||0
 A 19 21|||Merge|||وذهبنا|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||السكن|||REQUIRED|||-NONE-|||0
@@ -3995,8 +3763,7 @@ A 31 32|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||لأداء|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||العمرة|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 41 42|||Delete||||||REQUIRED|||-NONE-|||0
-A 42 43|||Edit|||وأدينا|||REQUIRED|||-NONE-|||0
+A 41 43|||Merge|||وأدينا|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||العمرة|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||.|||REQUIRED|||-NONE-|||0
@@ -4083,8 +3850,7 @@ A 5 5|||Add|||أن|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||أول|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||وأنا|||REQUIRED|||-NONE-|||0
-A 13 13|||Add|||ذهبت|||REQUIRED|||-NONE-|||0
-A 13 14|||Edit|||يوما|||REQUIRED|||-NONE-|||0
+A 13 14|||Split|||ذهبت يوما|||REQUIRED|||-NONE-|||0
 A 16 17|||Delete||||||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -4105,9 +3871,7 @@ A 12 13|||Edit|||أقاربي|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||ولأزور|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||أقاربي|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 20 20|||Add|||،|||REQUIRED|||-NONE-|||0
-A 20 20|||Add|||تلك|||REQUIRED|||-NONE-|||0
-A 20 21|||Edit|||هي|||REQUIRED|||-NONE-|||0
+A 20 21|||Split|||، تلك هي|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||المواقف|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||الصعوبات|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||واجهتنا|||REQUIRED|||-NONE-|||0
@@ -4117,8 +3881,7 @@ A 0 4|||Merge|||الشريعة الإسلامية|||REQUIRED|||-NONE-|||0
 A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||الذهبي|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||على|||REQUIRED|||-NONE-|||0
-A 10 11|||Edit|||أساس|||REQUIRED|||-NONE-|||0
-A 11 12|||Delete||||||REQUIRED|||-NONE-|||0
+A 10 12|||Merge|||أساس|||REQUIRED|||-NONE-|||0
 A 16 19|||Merge|||وأساسه|||REQUIRED|||-NONE-|||0
 A 21 26|||Merge|||ينال الإنسان|||REQUIRED|||-NONE-|||0
 A 27 29|||Merge|||وافرا|||REQUIRED|||-NONE-|||0
@@ -4131,8 +3894,7 @@ A 41 42|||Split|||دينارا إلا|||REQUIRED|||-NONE-|||0
 A 43 45|||Merge|||الشرعي|||REQUIRED|||-NONE-|||0
 A 46 48|||Merge|||عماد|||REQUIRED|||-NONE-|||0
 A 49 51|||Merge|||وأساسه|||REQUIRED|||-NONE-|||0
-A 52 52|||Add|||ألا|||REQUIRED|||-NONE-|||0
-A 52 53|||Edit|||هو|||REQUIRED|||-NONE-|||0
+A 52 53|||Split|||ألا هو|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||وهذا|||REQUIRED|||-NONE-|||0
 A 58 60|||Merge|||الشرعي|||REQUIRED|||-NONE-|||0
 A 62 64|||Merge|||الرجال|||REQUIRED|||-NONE-|||0
@@ -4143,17 +3905,11 @@ A 77 78|||Edit|||صعوبة|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 80 83|||Merge|||مواضعه|||REQUIRED|||-NONE-|||0
 A 83 83|||Add|||،|||REQUIRED|||-NONE-|||0
-A 85 85|||Add|||،|||REQUIRED|||-NONE-|||0
-A 85 86|||Edit|||وتراكم|||REQUIRED|||-NONE-|||0
-A 86 87|||Delete||||||REQUIRED|||-NONE-|||0
-A 87 88|||Edit|||ساعاته|||REQUIRED|||-NONE-|||0
+A 85 88|||Edit|||، وتراكم ساعاته|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 91 94|||Merge|||الموجودة|||REQUIRED|||-NONE-|||0
 A 95 95|||Add|||،|||REQUIRED|||-NONE-|||0
-A 96 97|||Edit|||التعب|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||،|||REQUIRED|||-NONE-|||0
-A 97 98|||Edit|||والضغوط|||REQUIRED|||-NONE-|||0
-A 98 98|||Add|||،|||REQUIRED|||-NONE-|||0
+A 96 98|||Split|||التعب ، والضغوط ،|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||والمشقة|||REQUIRED|||-NONE-|||0
 A 99 99|||Add|||،|||REQUIRED|||-NONE-|||0
 A 99 100|||Edit|||والنصب|||REQUIRED|||-NONE-|||0
@@ -4164,16 +3920,13 @@ A 118 120|||Merge|||بالا|||REQUIRED|||-NONE-|||0
 A 121 123|||Merge|||إن|||REQUIRED|||-NONE-|||0
 A 123 124|||Edit|||لي|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||هدف|||REQUIRED|||-NONE-|||0
-A 125 125|||Add|||،|||REQUIRED|||-NONE-|||0
-A 125 126|||Edit|||وغرض|||REQUIRED|||-NONE-|||0
+A 125 126|||Split|||، وغرض|||REQUIRED|||-NONE-|||0
 A 126 127|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 127 128|||Edit|||ومراد|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||مصمم|||REQUIRED|||-NONE-|||0
 A 129 130|||Edit|||ومستهدف|||REQUIRED|||-NONE-|||0
 A 132 134|||Merge|||القضايا|||REQUIRED|||-NONE-|||0
-A 136 136|||Add|||سهلة|||REQUIRED|||-NONE-|||0
-A 136 137|||Edit|||ويسيرة|||REQUIRED|||-NONE-|||0
-A 137 137|||Add|||ولكل|||REQUIRED|||-NONE-|||0
+A 136 137|||Split|||سهلة ويسيرة ولكل|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||العوائق|||REQUIRED|||-NONE-|||0
 A 138 140|||Merge|||منفذا|||REQUIRED|||-NONE-|||0
 A 144 144|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -4184,8 +3937,7 @@ A 157 158|||Edit|||السمح|||REQUIRED|||-NONE-|||0
 A 160 162|||Merge|||هناك|||REQUIRED|||-NONE-|||0
 A 163 165|||Edit|||أو حضارة|||REQUIRED|||-NONE-|||0
 A 167 168|||Edit|||هذه|||REQUIRED|||-NONE-|||0
-A 169 170|||Delete||||||REQUIRED|||-NONE-|||0
-A 170 171|||Edit|||يعادلون|||REQUIRED|||-NONE-|||0
+A 169 171|||Merge|||يعادلون|||REQUIRED|||-NONE-|||0
 A 173 174|||Edit|||شيئا|||REQUIRED|||-NONE-|||0
 A 175 177|||Delete||||||REQUIRED|||-NONE-|||0
 A 177 178|||Edit|||علوم|||REQUIRED|||-NONE-|||0
@@ -4196,19 +3948,16 @@ A 187 188|||Edit|||التخصص|||REQUIRED|||-NONE-|||0
 A 189 190|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 191 192|||Edit|||لأنني|||REQUIRED|||-NONE-|||0
 A 197 199|||Merge|||ديار|||REQUIRED|||-NONE-|||0
-A 199 200|||Edit|||الأحبة|||REQUIRED|||-NONE-|||0
-A 200 201|||Delete||||||REQUIRED|||-NONE-|||0
+A 199 201|||Merge|||الأحبة|||REQUIRED|||-NONE-|||0
 A 201 203|||Merge|||ومرشدا|||REQUIRED|||-NONE-|||0
-A 204 205|||Edit|||وهاديا|||REQUIRED|||-NONE-|||0
-A 205 206|||Delete||||||REQUIRED|||-NONE-|||0
+A 204 206|||Merge|||وهاديا|||REQUIRED|||-NONE-|||0
 A 206 210|||Merge|||إلى صراط|||REQUIRED|||-NONE-|||0
 A 212 212|||Add|||،|||REQUIRED|||-NONE-|||0
 A 214 215|||Edit|||الشاعر|||REQUIRED|||-NONE-|||0
 A 215 216|||Edit|||:|||REQUIRED|||-NONE-|||0
 A 216 217|||Edit|||لا|||REQUIRED|||-NONE-|||0
 A 217 218|||Edit|||تستسهلن|||REQUIRED|||-NONE-|||0
-A 225 225|||Add|||:|||REQUIRED|||-NONE-|||0
-A 225 226|||Edit|||نفسي|||REQUIRED|||-NONE-|||0
+A 225 226|||Split|||: نفسي|||REQUIRED|||-NONE-|||0
 A 231 231|||Add|||،|||REQUIRED|||-NONE-|||0
 A 237 239|||Merge|||العالمين|||REQUIRED|||-NONE-|||0
 
@@ -4231,8 +3980,7 @@ A 97 97|||Add|||القدرة على|||REQUIRED|||-NONE-|||0
 A 103 104|||Edit|||تغطية|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||اتصالية|||REQUIRED|||-NONE-|||0
 A 105 106|||Edit|||كالوادي|||REQUIRED|||-NONE-|||0
-A 118 119|||Edit|||فأمضيت|||REQUIRED|||-NONE-|||0
-A 119 120|||Delete||||||REQUIRED|||-NONE-|||0
+A 118 120|||Merge|||فأمضيت|||REQUIRED|||-NONE-|||0
 A 120 121|||Edit|||رحلة|||REQUIRED|||-NONE-|||0
 A 122 123|||Delete||||||REQUIRED|||-NONE-|||0
 A 123 124|||Edit|||وعلمت|||REQUIRED|||-NONE-|||0
@@ -4270,8 +4018,7 @@ A 1 2|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 2 3|||Edit|||الإجازة|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||أقمنا|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||دعوية|||REQUIRED|||-NONE-|||0
-A 7 7|||Add|||في|||REQUIRED|||-NONE-|||0
-A 7 8|||Edit|||قرية|||REQUIRED|||-NONE-|||0
+A 7 8|||Split|||في قرية|||REQUIRED|||-NONE-|||0
 A 10 10|||Add|||.|||REQUIRED|||-NONE-|||0
 
 S قبل ذلك أريد أن أقول آسفة بسبب أبحث أن السفر أو الرحلة أعجبت أن سفرت هنا في المملكة العربية السعودية . أعجبت أن ذهبت هنا . ما شاء الله . بسبب بعض مسلمون في بلادنا يريدون أن يذهبوا هنا . ليدرس ، أو العمرة ، أو الحج . الآن أتحدث أن سفرت هنا في المملكة العربية السعودية في السنة سبتمبر 16 ، 2012م مع صديقاتي وبعض الطالبات في جامعة الأميرة نورة بنت عبد الرحمن . ذهبنا هنا لأننا نريد أن نتعلم باللغة العربية ، لأفهم القرآن الكريم ، والحديث الشريف ، وبعض كتب الإسلامية . رأيت في الناس مختلفة في دول مختلفة مثل من غينية ، ساحل العاج ، باكستان ، ليبيا ، الصين ، تايلاند ، والخ الأشياء شعرت الصعب هو عندما أشتاق والديني ، وأخواتي ، وإخواني شعرت حزنا عندما تذكرت لهم .
@@ -4303,14 +4050,11 @@ A 103 104|||Delete||||||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||غينيا|||REQUIRED|||-NONE-|||0
 A 118 118|||Add|||.|||REQUIRED|||-NONE-|||0
 A 119 119|||Add|||التي|||REQUIRED|||-NONE-|||0
-A 120 120|||Add|||بها|||REQUIRED|||-NONE-|||0
-A 120 121|||Edit|||صعبة|||REQUIRED|||-NONE-|||0
+A 120 121|||Split|||بها صعبة|||REQUIRED|||-NONE-|||0
 A 121 122|||Edit|||هي|||REQUIRED|||-NONE-|||0
-A 124 124|||Add|||إلى|||REQUIRED|||-NONE-|||0
-A 124 125|||Edit|||والدايا|||REQUIRED|||-NONE-|||0
+A 124 125|||Split|||إلى والدايا|||REQUIRED|||-NONE-|||0
 A 130 131|||Edit|||بحزن|||REQUIRED|||-NONE-|||0
-A 132 133|||Delete||||||REQUIRED|||-NONE-|||0
-A 133 134|||Edit|||تذكرتهم|||REQUIRED|||-NONE-|||0
+A 132 134|||Merge|||تذكرتهم|||REQUIRED|||-NONE-|||0
 
 S رحلة دراسة " الحمد تته , زهبنى الله فرصة الرحلة فى الاجازة الماض , جئت من الصين الجنوبية إلى الصين اللشمالية , قد زرت المسلمين الأهليين , قدمتهم هدية من كتب الإسلامية التى اخذتما من السعود , قدمنى اطعمة لذيذة وفواكه طازجة ندرس بعضنا بعض , يساعد بعضنا بعض . تعلمت ان يستطيع الرحلة تقوية الصتة بين المسلمين في هذه الرحتة يعلمنا هذه الرحلة ما يزور بعضنا بعض لتقوية الصلة بين المسلمين داءما . "
 A 2 3|||Edit|||.|||REQUIRED|||-NONE-|||0
@@ -4324,8 +4068,7 @@ A 13 14|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||الشمالية|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 24 24|||Add|||أهلي|||REQUIRED|||-NONE-|||0
-A 25 26|||Delete||||||REQUIRED|||-NONE-|||0
-A 26 27|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 25 27|||Merge|||،|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||قدمت|||REQUIRED|||-NONE-|||0
 A 28 29|||Split|||لهم هدايا|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||إسلامية|||REQUIRED|||-NONE-|||0
@@ -4333,18 +4076,14 @@ A 32 33|||Edit|||التي|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||أخذتها|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||السعودية|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 37 38|||Edit|||قدموا|||REQUIRED|||-NONE-|||0
-A 38 38|||Add|||لي|||REQUIRED|||-NONE-|||0
+A 37 38|||Split|||قدموا لي|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||أطعمة|||REQUIRED|||-NONE-|||0
-A 42 43|||Edit|||ودرسنا|||REQUIRED|||-NONE-|||0
-A 43 43|||Add|||مع|||REQUIRED|||-NONE-|||0
+A 42 43|||Split|||ودرسنا مع|||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||البعض|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||وساعدنا|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||البعض|||REQUIRED|||-NONE-|||0
-A 51 51|||Add|||في|||REQUIRED|||-NONE-|||0
-A 51 51|||Add|||الرحلة|||REQUIRED|||-NONE-|||0
-A 51 52|||Edit|||أننا|||REQUIRED|||-NONE-|||0
+A 51 52|||Split|||في الرحلة أننا|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||نستطيع|||REQUIRED|||-NONE-|||0
 A 53 54|||Delete||||||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||الصلة|||REQUIRED|||-NONE-|||0
@@ -4376,9 +4115,7 @@ A 45 47|||Merge|||ولكن|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||منها|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||أحدا|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||أستفيد|||REQUIRED|||-NONE-|||0
-A 64 65|||Edit|||منه|||REQUIRED|||-NONE-|||0
-A 65 65|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 65 65|||Add|||لأني|||REQUIRED|||-NONE-|||0
+A 64 65|||Split|||منه ؛ لأني|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||يدرس|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||هناك|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||من|||REQUIRED|||-NONE-|||0
@@ -4453,18 +4190,15 @@ A 6 7|||Edit|||على|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||العطلة|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||والإجازات|||REQUIRED|||-NONE-|||0
 A 12 13|||Split|||إذا كنت|||REQUIRED|||-NONE-|||0
-A 15 16|||Delete||||||REQUIRED|||-NONE-|||0
-A 16 17|||Edit|||لكي|||REQUIRED|||-NONE-|||0
+A 15 17|||Merge|||لكي|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||أزور|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||أقربائي|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||وإمام|||REQUIRED|||-NONE-|||0
 A 22 22|||Add|||،|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||وأصدقائي|||REQUIRED|||-NONE-|||0
-A 23 23|||Add|||،|||REQUIRED|||-NONE-|||0
-A 23 24|||Edit|||وبعض|||REQUIRED|||-NONE-|||0
-A 27 27|||Add|||.|||REQUIRED|||-NONE-|||0
-A 27 28|||Edit|||وكنت|||REQUIRED|||-NONE-|||0
+A 23 24|||Split|||، وبعض|||REQUIRED|||-NONE-|||0
+A 27 28|||Split|||. وكنت|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||بعض|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||الأحاديث|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||في|||REQUIRED|||-NONE-|||0
@@ -4475,8 +4209,7 @@ A 42 43|||Edit|||نصلي|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||الظهر|||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||وأنصح|||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||المغرب|||REQUIRED|||-NONE-|||0
-A 52 53|||Edit|||كلهم|||REQUIRED|||-NONE-|||0
-A 53 54|||Delete||||||REQUIRED|||-NONE-|||0
+A 52 54|||Merge|||كلهم|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 60 60|||Add|||ـ|||REQUIRED|||-NONE-|||0
 A 64 64|||Add|||ـ|||REQUIRED|||-NONE-|||0
@@ -4492,9 +4225,7 @@ A 1 1|||Add|||.|||REQUIRED|||-NONE-|||0
 A 3 3|||Add|||رب|||REQUIRED|||-NONE-|||0
 A 3 4|||Edit|||العالمين|||REQUIRED|||-NONE-|||0
 A 4 6|||Merge|||والصلاة|||REQUIRED|||-NONE-|||0
-A 8 8|||Add|||من|||REQUIRED|||-NONE-|||0
-A 8 8|||Add|||لا|||REQUIRED|||-NONE-|||0
-A 8 9|||Edit|||نبي|||REQUIRED|||-NONE-|||0
+A 8 9|||Split|||من لا نبي|||REQUIRED|||-NONE-|||0
 A 11 11|||Add|||،|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||بدأت|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||بتلاوة|||REQUIRED|||-NONE-|||0
@@ -4502,9 +4233,7 @@ A 15 16|||Edit|||القرآن|||REQUIRED|||-NONE-|||0
 A 17 18|||Delete||||||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||انتقلت|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 22 23|||Edit|||ووالدايا|||REQUIRED|||-NONE-|||0
-A 23 23|||Add|||لم|||REQUIRED|||-NONE-|||0
-A 23 23|||Add|||يريدان|||REQUIRED|||-NONE-|||0
+A 22 23|||Split|||ووالدايا لم يريدان|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||أتعلم|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||وهما|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||يظنان|||REQUIRED|||-NONE-|||0
@@ -4530,9 +4259,7 @@ A 83 84|||Edit|||والصعوبات|||REQUIRED|||-NONE-|||0
 A 93 94|||Delete||||||REQUIRED|||-NONE-|||0
 A 94 95|||Edit|||السفر|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||والازدحام|||REQUIRED|||-NONE-|||0
-A 98 98|||Add|||،|||REQUIRED|||-NONE-|||0
-A 98 99|||Edit|||والحمد|||REQUIRED|||-NONE-|||0
-A 99 99|||Add|||لله|||REQUIRED|||-NONE-|||0
+A 98 99|||Split|||، والحمد لله|||REQUIRED|||-NONE-|||0
 A 101 101|||Add|||كانت|||REQUIRED|||-NONE-|||0
 A 102 102|||Add|||.|||REQUIRED|||-NONE-|||0
 
@@ -4566,23 +4293,15 @@ A 64 65|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||قليلون|||REQUIRED|||-NONE-|||0
 A 71 71|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 91 92|||Edit|||الكفار|||REQUIRED|||-NONE-|||0
-A 92 92|||Add|||في|||REQUIRED|||-NONE-|||0
+A 91 92|||Split|||الكفار في|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 110 112|||Delete||||||REQUIRED|||-NONE-|||0
 A 112 114|||Merge|||"|||REQUIRED|||-NONE-|||0
-A 114 115|||Delete||||||REQUIRED|||-NONE-|||0
-A 115 116|||Edit|||وما|||REQUIRED|||-NONE-|||0
-A 116 117|||Edit|||أرسلنا|||REQUIRED|||-NONE-|||0
-A 117 117|||Add|||من|||REQUIRED|||-NONE-|||0
+A 114 116|||Merge|||وما|||REQUIRED|||-NONE-|||0
+A 116 117|||Split|||أرسلنا من|||REQUIRED|||-NONE-|||0
 A 118 119|||Split|||إلا بلسان|||REQUIRED|||-NONE-|||0
-A 127 128|||Delete||||||REQUIRED|||-NONE-|||0
-A 128 129|||Delete||||||REQUIRED|||-NONE-|||0
-A 129 130|||Delete||||||REQUIRED|||-NONE-|||0
-A 130 131|||Delete||||||REQUIRED|||-NONE-|||0
-A 131 132|||Delete||||||REQUIRED|||-NONE-|||0
-A 132 133|||Edit|||"|||REQUIRED|||-NONE-|||0
+A 127 133|||Merge|||"|||REQUIRED|||-NONE-|||0
 A 133 134|||Edit|||الأية|||REQUIRED|||-NONE-|||0
 A 134 134|||Add|||.|||REQUIRED|||-NONE-|||0
 A 134 135|||Split|||وما من|||REQUIRED|||-NONE-|||0
@@ -4592,8 +4311,7 @@ A 180 181|||Split|||والحمد لله|||REQUIRED|||-NONE-|||0
 A 183 184|||Edit|||.|||REQUIRED|||-NONE-|||0
 
 S كانت هذه الرحلة ، أولا ، أنا مسرورة بسبب أن أفهم اللغة العربية . أنا في جامعة اميرة نورة . ذهبت إلى مملكة السعودية مع أصدقائى . وصلت هنا لأن أنا من الأسماء المقبولات . أهم مواقف التى حدثت حينا نبدأ الدروس .
-A 2 2|||Add|||هي|||REQUIRED|||-NONE-|||0
-A 2 3|||Edit|||رحلتي|||REQUIRED|||-NONE-|||0
+A 2 3|||Split|||هي رحلتي|||REQUIRED|||-NONE-|||0
 A 3 4|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||أنني|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||الأميرة|||REQUIRED|||-NONE-|||0
@@ -4619,8 +4337,7 @@ A 33 34|||Edit|||نستفيد|||REQUIRED|||-NONE-|||0
 A 37 37|||Add|||،|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||الشريفة|||REQUIRED|||-NONE-|||0
 A 39 39|||Add|||،|||REQUIRED|||-NONE-|||0
-A 42 43|||Edit|||ستنفعنا|||REQUIRED|||-NONE-|||0
-A 43 44|||Delete||||||REQUIRED|||-NONE-|||0
+A 42 44|||Merge|||ستنفعنا|||REQUIRED|||-NONE-|||0
 A 46 46|||Add|||.|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||طفولتي|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||أتمنى|||REQUIRED|||-NONE-|||0
@@ -4629,8 +4346,8 @@ A 57 57|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 62 62|||Add|||،|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||فيها ما|||REQUIRED|||-NONE-|||0
 A 69 69|||Add|||،|||REQUIRED|||-NONE-|||0
-A 72 72|||Add|||، ولا|||REQUIRED|||-NONE-|||0
-A 72 73|||Edit|||خطر|||REQUIRED|||-NONE-|||0
+A 72 72|||Add|||،|||REQUIRED|||-NONE-|||0
+A 72 73|||Split|||ولا خطر|||REQUIRED|||-NONE-|||0
 A 76 76|||Add|||.|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||الاجتهاد|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||النبوية|||REQUIRED|||-NONE-|||0
@@ -4667,24 +4384,18 @@ A 172 172|||Add|||،|||REQUIRED|||-NONE-|||0
 A 178 178|||Add|||.|||REQUIRED|||-NONE-|||0
 A 182 183|||Edit|||يدرس|||REQUIRED|||-NONE-|||0
 A 183 184|||Edit|||الشريعة|||REQUIRED|||-NONE-|||0
-A 185 185|||Add|||،|||REQUIRED|||-NONE-|||0
-A 185 185|||Add|||من|||REQUIRED|||-NONE-|||0
-A 185 186|||Edit|||أجل|||REQUIRED|||-NONE-|||0
+A 185 186|||Split|||، من أجل|||REQUIRED|||-NONE-|||0
 A 195 195|||Add|||،|||REQUIRED|||-NONE-|||0
 A 206 206|||Add|||،|||REQUIRED|||-NONE-|||0
 A 206 207|||Edit|||فقبلت|||REQUIRED|||-NONE-|||0
 A 208 209|||Edit|||وجئت|||REQUIRED|||-NONE-|||0
 A 210 210|||Add|||،|||REQUIRED|||-NONE-|||0
-A 211 212|||Edit|||أدرس|||REQUIRED|||-NONE-|||0
-A 212 213|||Delete||||||REQUIRED|||-NONE-|||0
-A 213 214|||Delete||||||REQUIRED|||-NONE-|||0
+A 211 214|||Merge|||أدرس|||REQUIRED|||-NONE-|||0
 A 217 218|||Edit|||أفهم|||REQUIRED|||-NONE-|||0
 A 218 219|||Edit|||القرآن|||REQUIRED|||-NONE-|||0
 A 220 221|||Edit|||الشريفة|||REQUIRED|||-NONE-|||0
 A 221 221|||Add|||.|||REQUIRED|||-NONE-|||0
-A 223 223|||Add|||-|||REQUIRED|||-NONE-|||0
-A 223 223|||Add|||إن|||REQUIRED|||-NONE-|||0
-A 223 224|||Edit|||شاء|||REQUIRED|||-NONE-|||0
+A 223 224|||Split|||- إن شاء|||REQUIRED|||-NONE-|||0
 A 225 225|||Add|||-|||REQUIRED|||-NONE-|||0
 A 226 227|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 227 228|||Edit|||ألتحق|||REQUIRED|||-NONE-|||0
@@ -4708,10 +4419,8 @@ A 7 7|||Add|||،|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||المستقبل|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||داعية|||REQUIRED|||-NONE-|||0
-A 12 13|||Edit|||سنة|||REQUIRED|||-NONE-|||0
-A 13 13|||Add|||محمد|||REQUIRED|||-NONE-|||0
-A 17 17|||Add|||.|||REQUIRED|||-NONE-|||0
-A 17 18|||Edit|||أنني|||REQUIRED|||-NONE-|||0
+A 12 13|||Split|||سنة محمد|||REQUIRED|||-NONE-|||0
+A 17 18|||Split|||. أنني|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||أفكر|||REQUIRED|||-NONE-|||0
 A 21 22|||Delete||||||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||الدراسة|||REQUIRED|||-NONE-|||0
@@ -4739,8 +4448,7 @@ A 84 85|||Edit|||جهالا|||REQUIRED|||-NONE-|||0
 A 85 85|||Add|||،|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||فسألوا|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||فأفتوا|||REQUIRED|||-NONE-|||0
-A 90 90|||Add|||،|||REQUIRED|||-NONE-|||0
-A 90 91|||Edit|||فضلوا|||REQUIRED|||-NONE-|||0
+A 90 91|||Split|||، فضلوا|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||وأضلوا|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||حال|||REQUIRED|||-NONE-|||0
 A 99 99|||Add|||ليس|||REQUIRED|||-NONE-|||0
@@ -4798,15 +4506,13 @@ A 65 66|||Edit|||يوجد|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||ناطقون|||REQUIRED|||-NONE-|||0
 A 68 68|||Add|||،|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||الشرائع|||REQUIRED|||-NONE-|||0
-A 80 81|||Delete||||||REQUIRED|||-NONE-|||0
-A 81 82|||Edit|||إلا|||REQUIRED|||-NONE-|||0
+A 80 82|||Merge|||إلا|||REQUIRED|||-NONE-|||0
 A 85 85|||Add|||واللغة|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||الأم|||REQUIRED|||-NONE-|||0
 A 86 86|||Add|||في|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||بلاد|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||أفريقيا|||REQUIRED|||-NONE-|||0
-A 89 89|||Add|||هما|||REQUIRED|||-NONE-|||0
-A 89 90|||Edit|||اللغتان|||REQUIRED|||-NONE-|||0
+A 89 90|||Split|||هما اللغتان|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||الإنجليزية|||REQUIRED|||-NONE-|||0
 A 92 93|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -4838,9 +4544,7 @@ A 48 48|||Add|||،|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||أبها|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||تعبنا|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||من|||REQUIRED|||-NONE-|||0
-A 68 69|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 69 69|||Add|||فاخترنا|||REQUIRED|||-NONE-|||0
-A 69 69|||Add|||أن|||REQUIRED|||-NONE-|||0
+A 68 69|||Split|||، فاخترنا أن|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||أبها|||REQUIRED|||-NONE-|||0
 A 72 73|||Edit|||يوما|||REQUIRED|||-NONE-|||0
 A 75 75|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -4849,8 +4553,7 @@ A 78 79|||Edit|||أبها|||REQUIRED|||-NONE-|||0
 A 81 81|||Add|||،|||REQUIRED|||-NONE-|||0
 A 82 82|||Add|||،|||REQUIRED|||-NONE-|||0
 A 83 83|||Add|||،|||REQUIRED|||-NONE-|||0
-A 87 87|||Add|||عن|||REQUIRED|||-NONE-|||0
-A 87 88|||Edit|||طريق|||REQUIRED|||-NONE-|||0
+A 87 88|||Split|||عن طريق|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||الأسواق|||REQUIRED|||-NONE-|||0
 A 96 97|||Edit|||والمكتبات|||REQUIRED|||-NONE-|||0
 A 101 101|||Add|||ثم|||REQUIRED|||-NONE-|||0
@@ -4914,8 +4617,7 @@ A 104 104|||Add|||،|||REQUIRED|||-NONE-|||0
 A 106 106|||Add|||،|||REQUIRED|||-NONE-|||0
 A 123 124|||Delete||||||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||جدا|||REQUIRED|||-NONE-|||0
-A 127 128|||Delete||||||REQUIRED|||-NONE-|||0
-A 128 129|||Edit|||فلابد|||REQUIRED|||-NONE-|||0
+A 127 129|||Merge|||فلابد|||REQUIRED|||-NONE-|||0
 A 133 133|||Add|||في|||REQUIRED|||-NONE-|||0
 A 133 134|||Edit|||الالتحاق|||REQUIRED|||-NONE-|||0
 A 136 137|||Edit|||الكلية|||REQUIRED|||-NONE-|||0
@@ -4952,23 +4654,19 @@ S أريد أن أتعلم اللغة العربية وأطبق فى المست�
 A 5 6|||Edit|||وأطبقها|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 8 8|||Add|||،|||REQUIRED|||-NONE-|||0
-A 11 11|||Add|||الناس|||REQUIRED|||-NONE-|||0
-A 11 12|||Edit|||في|||REQUIRED|||-NONE-|||0
+A 11 12|||Split|||الناس في|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||حولي|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||لأستفيد|||REQUIRED|||-NONE-|||0
 A 25 25|||Add|||،|||REQUIRED|||-NONE-|||0
-A 27 28|||Edit|||لي|||REQUIRED|||-NONE-|||0
-A 28 29|||Delete||||||REQUIRED|||-NONE-|||0
+A 27 29|||Merge|||لي|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||أسرتي|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||ومعلمتي|||REQUIRED|||-NONE-|||0
 A 34 35|||Delete||||||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||وزميلتي|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 37 38|||Edit|||وغيرهم|||REQUIRED|||-NONE-|||0
-A 38 39|||Delete||||||REQUIRED|||-NONE-|||0
-A 39 40|||Delete||||||REQUIRED|||-NONE-|||0
+A 37 40|||Merge|||وغيرهم|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||اختيار|||REQUIRED|||-NONE-|||0
 
 S الرحلة من بلد إل المملكة العربية السعودية بسم الله الرحمن الرحيم الحمد لله رب العالمين والصلاة والسلام على نبينا محمد وعلى آله وصحبه وبعد : عندما وجدت المنح بدأت إجراءات من بلد إلى غينيا كوناكري ، لكي أحصل إلا التأشيرة ، من السفر السعودية . مكثت في كوناكر ثلاثة اسابع قبل خرج التأشيرة ، بعد ذلك رجعنا إلى فريتاون ، أسبوع قبل سفر ، تركت بلدي في شهر سبتمبر سنة 2011 . وذهبنا مع أسرتي حتى مطار المساء بعد صلاة العشاء دخلنا في المطار سأل الأمن لمذا تريد دروس في السعودية وترك دروس إنكلزية ، غنكلزية مفيد بالكثير دون عربية ، اقل له لأني مسلم ، لابد أدروس العربية كي أفهم الدين ، وأفهم القرآن الكريم وسنة الرسول الله صلى الله عليه وسلم ، قال لي إذا لا تستطيع هنا أن تدروس هنا وتفهم ، لا أستطع هنا إلا اسفر إلى البلد العربية هم قوم اللغة ، قالي لي مرات ثالث أنا أنصحك أقل له شكرا لنصحتك لابد أدروس اليني وافهمها . ثم أخذ جواز سفر ثم خاتم فيه خرج ، جلست في انتجر الطير ، في ساعة 12 من الليل بدانا سفر حتى وصلنا في المغرب مكثنا هناك ساعة ونصف ، ثم إلى مصر ما خرجنا من الطير خرج معظمهم ودخل بعضهم ثم وصلنا في المطار السعودية ، وقرأت الدعاء دخل في بلد اتجهنا إلى الأمن قالوا طلاب هنا ، وصورنا قبل دخل بعد ذلك أخذنا سيارة أجرة ، حتى وصلن في السكن الطلاب ، ذهبنا في الإشراف العام مبنى خمسين أتنا مفتاح غرفة الضيوف بعد ذلك بدأنا إجراءات السكن وطب وقبول وتسجيل كي نحصل منح الدخلية الحمد الله انتهنا كل شي بخير وبدأنا الدرسة والسلام عليكم ورحمة الله وبركته .
@@ -4983,8 +4681,7 @@ A 29 30|||Edit|||الإجراءات|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||على|||REQUIRED|||-NONE-|||0
-A 40 41|||Delete||||||REQUIRED|||-NONE-|||0
-A 41 42|||Edit|||لأسافر|||REQUIRED|||-NONE-|||0
+A 40 42|||Merge|||لأسافر|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 47 48|||Edit|||كوناكري|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||أسابيع|||REQUIRED|||-NONE-|||0
@@ -5028,10 +4725,8 @@ A 143 143|||Add|||،|||REQUIRED|||-NONE-|||0
 A 143 144|||Edit|||فهم|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 147 148|||Edit|||قال|||REQUIRED|||-NONE-|||0
-A 150 151|||Edit|||ثلاث|||REQUIRED|||-NONE-|||0
-A 151 151|||Add|||:|||REQUIRED|||-NONE-|||0
-A 153 153|||Add|||.|||REQUIRED|||-NONE-|||0
-A 153 154|||Edit|||وأقول|||REQUIRED|||-NONE-|||0
+A 150 151|||Split|||ثلاث :|||REQUIRED|||-NONE-|||0
+A 153 154|||Split|||. وأقول|||REQUIRED|||-NONE-|||0
 A 155 155|||Add|||:|||REQUIRED|||-NONE-|||0
 A 156 157|||Edit|||لنصيحتك|||REQUIRED|||-NONE-|||0
 A 157 157|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -5045,44 +4740,35 @@ A 166 167|||Edit|||بعدما|||REQUIRED|||-NONE-|||0
 A 167 168|||Edit|||ختم|||REQUIRED|||-NONE-|||0
 A 169 170|||Edit|||وخرجت|||REQUIRED|||-NONE-|||0
 A 170 171|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 172 173|||Delete||||||REQUIRED|||-NONE-|||0
-A 173 174|||Edit|||أنتظر|||REQUIRED|||-NONE-|||0
+A 172 174|||Merge|||أنتظر|||REQUIRED|||-NONE-|||0
 A 174 175|||Edit|||الطائرة|||REQUIRED|||-NONE-|||0
 A 177 178|||Edit|||الساعة|||REQUIRED|||-NONE-|||0
 A 181 182|||Edit|||بدأنا|||REQUIRED|||-NONE-|||0
-A 182 183|||Edit|||السفر|||REQUIRED|||-NONE-|||0
-A 183 183|||Add|||،|||REQUIRED|||-NONE-|||0
+A 182 183|||Split|||السفر ،|||REQUIRED|||-NONE-|||0
 A 185 186|||Delete||||||REQUIRED|||-NONE-|||0
 A 187 187|||Add|||،|||REQUIRED|||-NONE-|||0
 A 195 195|||Add|||،|||REQUIRED|||-NONE-|||0
 A 195 196|||Edit|||وما|||REQUIRED|||-NONE-|||0
-A 198 199|||Edit|||الطائرة|||REQUIRED|||-NONE-|||0
-A 199 199|||Add|||،|||REQUIRED|||-NONE-|||0
+A 198 199|||Split|||الطائرة ،|||REQUIRED|||-NONE-|||0
 A 203 203|||Add|||،|||REQUIRED|||-NONE-|||0
 A 205 206|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 206 207|||Edit|||مطار|||REQUIRED|||-NONE-|||0
 A 210 211|||Edit|||دعاء|||REQUIRED|||-NONE-|||0
 A 211 212|||Edit|||دخول|||REQUIRED|||-NONE-|||0
-A 212 213|||Delete||||||REQUIRED|||-NONE-|||0
-A 213 214|||Edit|||البلد|||REQUIRED|||-NONE-|||0
-A 214 214|||Add|||،|||REQUIRED|||-NONE-|||0
+A 212 214|||Edit|||البلد ،|||REQUIRED|||-NONE-|||0
 A 217 217|||Add|||،|||REQUIRED|||-NONE-|||0
 A 218 218|||Add|||:|||REQUIRED|||-NONE-|||0
 A 218 219|||Edit|||الطلاب|||REQUIRED|||-NONE-|||0
 A 221 222|||Edit|||وصورونا|||REQUIRED|||-NONE-|||0
-A 223 224|||Edit|||الدخول|||REQUIRED|||-NONE-|||0
-A 224 224|||Add|||.|||REQUIRED|||-NONE-|||0
+A 223 224|||Split|||الدخول .|||REQUIRED|||-NONE-|||0
 A 229 230|||Delete||||||REQUIRED|||-NONE-|||0
 A 231 232|||Edit|||وصلنا|||REQUIRED|||-NONE-|||0
 A 232 233|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 233 234|||Edit|||سكن|||REQUIRED|||-NONE-|||0
 A 237 238|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 242 242|||Add|||،|||REQUIRED|||-NONE-|||0
-A 242 243|||Edit|||أعطونا|||REQUIRED|||-NONE-|||0
+A 242 243|||Split|||، أعطونا|||REQUIRED|||-NONE-|||0
 A 246 246|||Add|||.|||REQUIRED|||-NONE-|||0
-A 251 251|||Add|||،|||REQUIRED|||-NONE-|||0
-A 251 252|||Edit|||والطلب|||REQUIRED|||-NONE-|||0
-A 252 252|||Add|||،|||REQUIRED|||-NONE-|||0
+A 251 252|||Split|||، والطلب ،|||REQUIRED|||-NONE-|||0
 A 252 253|||Edit|||والقبول|||REQUIRED|||-NONE-|||0
 A 253 253|||Add|||،|||REQUIRED|||-NONE-|||0
 A 253 254|||Edit|||والتسجيل|||REQUIRED|||-NONE-|||0
@@ -5112,9 +4798,7 @@ A 37 38|||Edit|||فسألت|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||تغيير|||REQUIRED|||-NONE-|||0
 A 44 44|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||مسافر|||REQUIRED|||-NONE-|||0
-A 60 61|||Edit|||الحمد|||REQUIRED|||-NONE-|||0
-A 61 61|||Add|||لله|||REQUIRED|||-NONE-|||0
-A 61 61|||Add|||،|||REQUIRED|||-NONE-|||0
+A 60 61|||Split|||الحمد لله ،|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||حصلنا|||REQUIRED|||-NONE-|||0
 A 74 75|||Edit|||سوق|||REQUIRED|||-NONE-|||0
 A 76 76|||Add|||؛|||REQUIRED|||-NONE-|||0
@@ -5122,28 +4806,22 @@ A 77 78|||Edit|||تمورا|||REQUIRED|||-NONE-|||0
 A 79 80|||Delete||||||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||لأهلنا|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 89 89|||Add|||،|||REQUIRED|||-NONE-|||0
-A 89 89|||Add|||واشترينا|||REQUIRED|||-NONE-|||0
-A 89 89|||Add|||من|||REQUIRED|||-NONE-|||0
-A 89 90|||Edit|||ماء|||REQUIRED|||-NONE-|||0
+A 89 90|||Split|||، واشترينا من ماء|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||زمزم|||REQUIRED|||-NONE-|||0
 A 91 91|||Add|||،|||REQUIRED|||-NONE-|||0
 A 96 97|||Delete||||||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||واشترينا|||REQUIRED|||-NONE-|||0
-A 99 100|||Edit|||العجوة|||REQUIRED|||-NONE-|||0
-A 100 100|||Add|||،|||REQUIRED|||-NONE-|||0
+A 99 100|||Split|||العجوة ،|||REQUIRED|||-NONE-|||0
 A 103 103|||Add|||-|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||-|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||الهدايا|||REQUIRED|||-NONE-|||0
 A 116 116|||Add|||،|||REQUIRED|||-NONE-|||0
 A 118 119|||Edit|||المطار|||REQUIRED|||-NONE-|||0
-A 119 119|||Add|||،|||REQUIRED|||-NONE-|||0
-A 119 120|||Edit|||وركبنا|||REQUIRED|||-NONE-|||0
+A 119 120|||Split|||، وركبنا|||REQUIRED|||-NONE-|||0
 
 S الإختصاص في المستقبل اريد أن أتخصص في اللغة الغربية في المستقبل أنا أخزت هنا المجال ويتحصص الأحد من الأصدقاء في التركيا . لأن اللغة العربية أهام من اللغات العالمية نسبة لذا . وهي اللغة لغة الجنة ولغة القرآن . لابد ان نعلم جيدا هذه اللغة من أجل هذا . بإذن الله تعلى في المستقبل سأعلم ، سأتحصص منها .
 A 0 1|||Edit|||الاختصاص|||REQUIRED|||-NONE-|||0
-A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
-A 3 4|||Edit|||أريد|||REQUIRED|||-NONE-|||0
+A 3 4|||Split|||. أريد|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||العربية|||REQUIRED|||-NONE-|||0
 A 11 11|||Add|||،|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||اخترت|||REQUIRED|||-NONE-|||0
@@ -5157,8 +4835,7 @@ A 20 21|||Edit|||تركيا|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||أهم|||REQUIRED|||-NONE-|||0
 A 29 30|||Edit|||بسبب|||REQUIRED|||-NONE-|||0
-A 30 31|||Edit|||أنها|||REQUIRED|||-NONE-|||0
-A 31 32|||Delete||||||REQUIRED|||-NONE-|||0
+A 30 32|||Merge|||أنها|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||هي|||REQUIRED|||-NONE-|||0
 A 33 34|||Delete||||||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||أن|||REQUIRED|||-NONE-|||0
@@ -5196,8 +4873,7 @@ A 130 130|||Add|||،|||REQUIRED|||-NONE-|||0
 A 130 131|||Edit|||وشربت|||REQUIRED|||-NONE-|||0
 A 133 134|||Edit|||لأول|||REQUIRED|||-NONE-|||0
 A 136 136|||Add|||،|||REQUIRED|||-NONE-|||0
-A 145 146|||Edit|||إلا|||REQUIRED|||-NONE-|||0
-A 146 146|||Add|||أنها|||REQUIRED|||-NONE-|||0
+A 145 146|||Split|||إلا أنها|||REQUIRED|||-NONE-|||0
 A 148 148|||Add|||،|||REQUIRED|||-NONE-|||0
 A 150 151|||Edit|||القهوة|||REQUIRED|||-NONE-|||0
 A 151 152|||Edit|||العربية|||REQUIRED|||-NONE-|||0
@@ -5228,8 +4904,7 @@ A 3 3|||Add|||،|||REQUIRED|||-NONE-|||0
 A 5 6|||Edit|||داعيا|||REQUIRED|||-NONE-|||0
 A 13 13|||Add|||،|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||أفضل|||REQUIRED|||-NONE-|||0
-A 20 20|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 20 21|||Edit|||لأن|||REQUIRED|||-NONE-|||0
+A 20 21|||Split|||؛ لأن|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||تخصصوا|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||الدعوة|||REQUIRED|||-NONE-|||0
 A 37 37|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -5246,8 +4921,7 @@ A 59 60|||Edit|||ويحترمونه|||REQUIRED|||-NONE-|||0
 A 60 60|||Add|||،|||REQUIRED|||-NONE-|||0
 A 78 78|||Add|||،|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||هذا|||REQUIRED|||-NONE-|||0
-A 81 82|||Edit|||الحظ|||REQUIRED|||-NONE-|||0
-A 82 82|||Add|||،|||REQUIRED|||-NONE-|||0
+A 81 82|||Split|||الحظ ،|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||حظا|||REQUIRED|||-NONE-|||0
 A 86 86|||Add|||.|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||دعاة|||REQUIRED|||-NONE-|||0
@@ -5255,10 +4929,8 @@ A 97 98|||Edit|||،|||REQUIRED|||-NONE-|||0
 
 S أريد أن أدخل على كلية الشريعة الأ سأدخل كلية الشريعة واسمع حديث كثير من كلية الشريعة . مثل : هو اعب جدا . وبعضهم قالوا : كيف هذا ؟ وكيف أصعب ؟ ولكن قليلهم قالوا : هي سهل جدا . ليس الصعب حقيقا . لا أبالي هذ الأمر . وأجتهد جدا جداجدا . . . . في الزمن الآنيزقر البدع والشرك الكثير أكبر كان أو أصغر والخرفات انحاء العالم . . . . والإسلام ينقص وينزل شيء فشيء من الزمان بعد اكتمال الإسلام . أريد أن أدرس دين الإسلام حنيفا ملة إبراهيم مله الله بسبب دخول إلى كلية الشريعة إن شاء الله وأرجو أن توفقنا الله جميعا في الدين الحنيف وينصر الله دين الإسلام . آمن .
 A 3 4|||Delete||||||REQUIRED|||-NONE-|||0
-A 6 6|||Add|||.|||REQUIRED|||-NONE-|||0
-A 6 7|||Edit|||أنا|||REQUIRED|||-NONE-|||0
-A 10 10|||Add|||،|||REQUIRED|||-NONE-|||0
-A 10 11|||Edit|||أسمع|||REQUIRED|||-NONE-|||0
+A 6 7|||Split|||. أنا|||REQUIRED|||-NONE-|||0
+A 10 11|||Split|||، أسمع|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||كلاما|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||كثيرا|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||عن|||REQUIRED|||-NONE-|||0
@@ -5274,21 +4946,16 @@ A 46 47|||Edit|||بهذا|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 50 50|||Add|||جدا|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||جدا|||REQUIRED|||-NONE-|||0
-A 58 59|||Edit|||الآن|||REQUIRED|||-NONE-|||0
-A 59 59|||Add|||ينتشر|||REQUIRED|||-NONE-|||0
-A 59 59|||Add|||من|||REQUIRED|||-NONE-|||0
-A 62 62|||Add|||،|||REQUIRED|||-NONE-|||0
-A 62 63|||Edit|||كبيرة|||REQUIRED|||-NONE-|||0
+A 58 59|||Split|||الآن ينتشر من|||REQUIRED|||-NONE-|||0
+A 62 63|||Split|||، كبيرة|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||كانت|||REQUIRED|||-NONE-|||0
-A 65 66|||Edit|||صغيرة|||REQUIRED|||-NONE-|||0
-A 66 66|||Add|||،|||REQUIRED|||-NONE-|||0
+A 65 66|||Split|||صغيرة ،|||REQUIRED|||-NONE-|||0
 A 67 67|||Add|||في|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||أنحاء|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||شيئا|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||فشيئا|||REQUIRED|||-NONE-|||0
 A 90 90|||Add|||،|||REQUIRED|||-NONE-|||0
-A 92 92|||Add|||،|||REQUIRED|||-NONE-|||0
-A 92 93|||Edit|||ملة|||REQUIRED|||-NONE-|||0
+A 92 93|||Split|||، ملة|||REQUIRED|||-NONE-|||0
 A 94 96|||Merge|||بدخولي|||REQUIRED|||-NONE-|||0
 A 102 102|||Add|||،|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||يوفقنا|||REQUIRED|||-NONE-|||0
@@ -5309,10 +4976,8 @@ A 17 18|||Edit|||دين|||REQUIRED|||-NONE-|||0
 A 19 19|||Add|||،|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 24 24|||Add|||-|||REQUIRED|||-NONE-|||0
-A 26 26|||Add|||-|||REQUIRED|||-NONE-|||0
-A 26 27|||Edit|||لأنني|||REQUIRED|||-NONE-|||0
-A 29 30|||Delete||||||REQUIRED|||-NONE-|||0
-A 30 31|||Edit|||أكون|||REQUIRED|||-NONE-|||0
+A 26 27|||Split|||- لأنني|||REQUIRED|||-NONE-|||0
+A 29 31|||Merge|||أكون|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||الدعاة|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 38 38|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -5324,27 +4989,23 @@ A 44 45|||Delete||||||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||ساعد|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||أسرتي|||REQUIRED|||-NONE-|||0
-A 61 62|||Edit|||يفهموا|||REQUIRED|||-NONE-|||0
-A 62 62|||Add|||،|||REQUIRED|||-NONE-|||0
+A 61 62|||Split|||يفهموا ،|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||يعرفوا|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||دين|||REQUIRED|||-NONE-|||0
 
 S لماذا تتعلم اللغة العربية أتعلم اللغة العربية لأفهم القرآن الكريم والأحاديث صحيح والأقوال السلف الصالح واللغة العربية هي اللغة الرسول نا محمد صلى الله عليه وسلم وصحابة ، ولا تكون الإنسان متفقها ولا محدثا ولا مورخا ولا مفسرا ولا مترجما ، غلا بها وهي أيضا اللغة أهل الجنة كما صح أقوال أهل العلم : وبها نفهم السنة والمستحب والمباح والمكروه : وبها نفرق البدع من السنة والحديث الصحيح والضعيف والموضوع والمقتوع : وأريد بعد تخرجي من المعهد تعليم اللغة العربية أن ألتحق على كلية الشريعة وبغردي لدراسة كلية الشريعة لأن كثير من الناس في بلداننا لا يعرفون الشريعة الإسلامية ويجمعون السنة والبدع .
 A 4 4|||Add|||؟|||REQUIRED|||-NONE-|||0
 A 10 10|||Add|||،|||REQUIRED|||-NONE-|||0
-A 11 12|||Edit|||الصحيحة|||REQUIRED|||-NONE-|||0
-A 12 12|||Add|||،|||REQUIRED|||-NONE-|||0
+A 11 12|||Split|||الصحيحة ،|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||وأقوال|||REQUIRED|||-NONE-|||0
 A 15 15|||Add|||،|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||لغة|||REQUIRED|||-NONE-|||0
-A 19 20|||Edit|||رسولنا|||REQUIRED|||-NONE-|||0
-A 20 21|||Delete||||||REQUIRED|||-NONE-|||0
+A 19 21|||Merge|||رسولنا|||REQUIRED|||-NONE-|||0
 A 22 22|||Add|||-|||REQUIRED|||-NONE-|||0
 A 26 26|||Add|||-|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||والصحابة|||REQUIRED|||-NONE-|||0
 A 29 30|||Edit|||يكون|||REQUIRED|||-NONE-|||0
-A 31 32|||Edit|||فقيها|||REQUIRED|||-NONE-|||0
-A 32 32|||Add|||،|||REQUIRED|||-NONE-|||0
+A 31 32|||Split|||فقيها ،|||REQUIRED|||-NONE-|||0
 A 34 34|||Add|||،|||REQUIRED|||-NONE-|||0
 A 36 36|||Add|||،|||REQUIRED|||-NONE-|||0
 A 38 41|||Move|||، ولا مترجما|||REQUIRED|||-NONE-|||0
@@ -5387,8 +5048,7 @@ A 14 14|||Add|||،|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||حاولت|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||بالمدينة|||REQUIRED|||-NONE-|||0
 A 27 27|||Add|||،|||REQUIRED|||-NONE-|||0
-A 29 29|||Add|||وما|||REQUIRED|||-NONE-|||0
-A 29 30|||Edit|||شاء|||REQUIRED|||-NONE-|||0
+A 29 30|||Split|||وما شاء|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||فعل|||REQUIRED|||-NONE-|||0
 A 31 31|||Add|||،|||REQUIRED|||-NONE-|||0
 A 33 33|||Add|||في|||REQUIRED|||-NONE-|||0
@@ -5417,8 +5077,7 @@ A 119 119|||Add|||،|||REQUIRED|||-NONE-|||0
 A 120 121|||Edit|||ودعتهم|||REQUIRED|||-NONE-|||0
 A 122 123|||Edit|||سافرت|||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 127 127|||Add|||،|||REQUIRED|||-NONE-|||0
-A 127 128|||Edit|||لإجراءات|||REQUIRED|||-NONE-|||0
+A 127 128|||Split|||، لإجراءات|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||تاشيرة|||REQUIRED|||-NONE-|||0
 A 129 130|||Edit|||دخول|||REQUIRED|||-NONE-|||0
 A 132 133|||Edit|||السفارة|||REQUIRED|||-NONE-|||0
@@ -5437,8 +5096,7 @@ A 155 156|||Edit|||الشعب|||REQUIRED|||-NONE-|||0
 A 156 157|||Edit|||العربي|||REQUIRED|||-NONE-|||0
 A 159 161|||Merge|||والطيبين|||REQUIRED|||-NONE-|||0
 A 161 161|||Add|||،|||REQUIRED|||-NONE-|||0
-A 163 163|||Add|||ذلك|||REQUIRED|||-NONE-|||0
-A 163 164|||Edit|||قبل|||REQUIRED|||-NONE-|||0
+A 163 164|||Split|||ذلك قبل|||REQUIRED|||-NONE-|||0
 A 164 165|||Edit|||موعد|||REQUIRED|||-NONE-|||0
 A 169 170|||Edit|||أكملت|||REQUIRED|||-NONE-|||0
 A 170 171|||Edit|||إجراءات|||REQUIRED|||-NONE-|||0
@@ -5461,11 +5119,9 @@ A 213 214|||Edit|||أقوم|||REQUIRED|||-NONE-|||0
 
 S دليل السياحة ومترجم إن تكون دليل السياحة لابد أن تدرس إدارة السياحة في الجامعة . يجب على الدليل أن يعرف معلومات كثيرة . أنا أغرب في إدارة السياحة . كنت أدرس في جامعة الصين وأتخصص بإدارة السياحة . ودرست علوم التاريخ الصين والتاريخ العلمي ؛ وعلوم جغرافيا الصين وجغرافيا العالمي ؛ وعلوم انسانية وعلوم النفس ؛ درست اللغة اليابانية قليلا . عملت وكالة السفر لما تخرجت في الجامعة ، وزرت مكان السياحي كثيرة في الصين . بلدي المدينة جميلة فيها أنهار وأشجار والجبال عليها ثلج كثير من الناس يزرونها . وفيها مسلمون كثيرون وعددها خمسين مليون يجب علي أن أتعلم علوم الإسلامي واللغة العربية لدليل على غير المسلمين في بلدي ليعرفوا كيف خلق الله الإنسان والكون . وأشرحهم ماذا ورد في القرآن والحديث . حتى مسلمون الذين لا يعرفون علوم الإسلامي . لذلك أدرس اللغة العربية أظن أن دليلا لازم أن يجد اللغة كثيرة لأنني مسلما . لأدعو الناس إلى الله بإذن الله . سأقوم بالشركة السياحة الإسلامية عندما أتخرج في جامعة الإمام . إذا نزور مكان سياحي . سأشرحهم الدين الإسلامي وعلوم الإسلامي . ثم التاريخ والجغرافي وعلاقة بين الدين والمناظر الجميلة . وأدل الزائرين على التاريخ بلدي والجغرافي بلدي باللغة العربية والإنجليزية . لذلك لابد أن أجتهد في دراستي عن اللغوي والديني . وأصدقاء كانوا يدرسون في الجامعة الإمام وجامعة الصين . سنصنع منشورات التي يتشتمل على المجلات وفيديو الكتب عن الدين والمناظر بإذن الله .
 A 1 2|||Edit|||سياحي|||REQUIRED|||-NONE-|||0
-A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
-A 3 4|||Edit|||أن|||REQUIRED|||-NONE-|||0
+A 3 4|||Split|||. أن|||REQUIRED|||-NONE-|||0
 A 5 6|||Edit|||دليلا|||REQUIRED|||-NONE-|||0
-A 6 7|||Edit|||سياحيا|||REQUIRED|||-NONE-|||0
-A 7 7|||Add|||،|||REQUIRED|||-NONE-|||0
+A 6 7|||Split|||سياحيا ،|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||أعرف|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -5485,8 +5141,7 @@ A 55 56|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 62 62|||Add|||في|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||أماكن|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||سياحية|||REQUIRED|||-NONE-|||0
-A 76 77|||Delete||||||REQUIRED|||-NONE-|||0
-A 77 78|||Edit|||مدينتي|||REQUIRED|||-NONE-|||0
+A 76 78|||Merge|||مدينتي|||REQUIRED|||-NONE-|||0
 A 79 79|||Add|||،|||REQUIRED|||-NONE-|||0
 A 81 81|||Add|||،|||REQUIRED|||-NONE-|||0
 A 82 82|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -5496,9 +5151,7 @@ A 93 93|||Add|||،|||REQUIRED|||-NONE-|||0
 A 93 96|||Split|||وعدد سكانها خمسون مليونا|||REQUIRED|||-NONE-|||0
 A 96 96|||Add|||،|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
-A 104 104|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 104 105|||Edit|||لأدل|||REQUIRED|||-NONE-|||0
-A 105 106|||Delete||||||REQUIRED|||-NONE-|||0
+A 104 106|||Edit|||؛ لأدل|||REQUIRED|||-NONE-|||0
 A 117 118|||Edit|||وأشرح|||REQUIRED|||-NONE-|||0
 A 118 118|||Add|||لهم|||REQUIRED|||-NONE-|||0
 A 123 124|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -5509,9 +5162,7 @@ A 136 136|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 138 139|||Edit|||الدليل|||REQUIRED|||-NONE-|||0
 A 140 140|||Add|||له|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||يجيد|||REQUIRED|||-NONE-|||0
-A 143 144|||Edit|||ببراعة|||REQUIRED|||-NONE-|||0
-A 144 144|||Add|||،|||REQUIRED|||-NONE-|||0
-A 144 144|||Add|||وخصوصا|||REQUIRED|||-NONE-|||0
+A 143 144|||Split|||ببراعة ، وخصوصا|||REQUIRED|||-NONE-|||0
 A 145 146|||Edit|||مسلم|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 154 155|||Edit|||سأنشئ|||REQUIRED|||-NONE-|||0
@@ -5537,15 +5188,13 @@ A 194 195|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 201 202|||Delete||||||REQUIRED|||-NONE-|||0
 A 202 203|||Edit|||اللغوية|||REQUIRED|||-NONE-|||0
 A 203 204|||Edit|||والدينية|||REQUIRED|||-NONE-|||0
-A 204 205|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 205 205|||Add|||أنا|||REQUIRED|||-NONE-|||0
+A 204 205|||Split|||، أنا|||REQUIRED|||-NONE-|||0
 A 209 210|||Edit|||جامعة|||REQUIRED|||-NONE-|||0
 A 216 217|||Delete||||||REQUIRED|||-NONE-|||0
 A 217 218|||Edit|||تشتمل|||REQUIRED|||-NONE-|||0
 A 219 220|||Edit|||مجلات|||REQUIRED|||-NONE-|||0
 A 220 220|||Add|||،|||REQUIRED|||-NONE-|||0
-A 221 221|||Add|||،|||REQUIRED|||-NONE-|||0
-A 221 222|||Edit|||وكتب|||REQUIRED|||-NONE-|||0
+A 221 222|||Split|||، وكتب|||REQUIRED|||-NONE-|||0
 
 S رحلة إلى كابول الحمد الله رب العالمين ، والصلاة والسلام على أشرق الانبياء والمرسلين نبينا محمد وعلى آله وصحبه اجمعين . اما بعد : كما تعرفون من العنوان رحلة إلى كابول أن كابول هي عاصمة أفغانستان الذي وقع في قارة أسيا وهي مكان جميل زينة الأشجار والأزهار والجبال والبحار وفي يوم من الأيام وجدت فرصة مع زملائي في هذه العطلة وذهبت مع زملائي إلى عاصمة أفغانستان وهي كابول عندما وصلت إلى كابول ونزلت من السيارة وذهبت إلى الفندق وأخذت الغرفة في الفندق ليومين بألفين افغاني ، يساوى مع اربع مائة ريال ودخلت إلى الغرفة وجلست فيه فأمرت بالطعام وبعد أكل الطعام خرجت من افندق وذهبت إلى الحديقة اسمه " باغ ومش " وتجولت فيه وستفدت فيه من المناظر العجيبة والحيوانات المفترسة وغير مفترسة وشاهدة فيه الطيور مختلف الألوان والاشكال والأصوات وعندما خرجت من الحديقة ذهبت إلى الملعب وشتريت تيكت ودخلت إليها وتجولت فيه كثيرا حتى إلى صلاة الظهر وبعد صلاة الظهر لعبة مع زملائه كرة القدم لساعتين متتابعتين وبعد ذلك رجعت إلى الفندق ودخلت إلى الغرفة التي كنا فيها من قبل وصلينا صلاة العصر وبعدها صلاة المغرب وبعد صلاة المغرب خرجنا من النفدق للأكل إلى مطعم آخر وهو شعور جدا اسمه " انتركانتنتر " فأكلنا فيها طعام العشاء وبعد الطعام صلينا صلاة العشاء ورجعنا إلى الفندق التي اجرنا فيه الغرفة لنوم وسبات وعندما صلت اليها ونمت فيها إلى الصباح وعندما استقتظت من النوم ذهبت إلى المسجد لصلاة الفجر وبعد صلاة الفجر ذهبت الفطور وبعد ذلك ذهبت إلى مكان آخر وهو عجيب جدا وعندما صلت إليه فدخلت إلى بستان العنب ومعه بستان الرومان وتحولت فيه كثيرا وجئه إلى صاحب البستان وشتريت منه العنب الطازج وجلست في البستان وأكلت العنب بقلب مريح ومطمئن وزملائنا يلعبون بين أكل العنب يسخرون ويمزحون بعضهم بعض وبعد ذلك ذهبت إلى النهر لسباحة وعندما قربت إلى النهر فوجدت مملوء بالماء وهو يموج كموج الجبال والقيت نفسه من مكان مرتفع .
 A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -5573,9 +5222,7 @@ A 78 78|||Add|||،|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||بألفي|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||أفغاني|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||يساوي|||REQUIRED|||-NONE-|||0
-A 87 88|||Delete||||||REQUIRED|||-NONE-|||0
-A 88 89|||Delete||||||REQUIRED|||-NONE-|||0
-A 89 90|||Edit|||أربعمائة|||REQUIRED|||-NONE-|||0
+A 87 90|||Merge|||أربعمائة|||REQUIRED|||-NONE-|||0
 A 91 91|||Add|||،|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||فيها|||REQUIRED|||-NONE-|||0
 A 96 96|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -5634,10 +5281,8 @@ A 242 242|||Add|||،|||REQUIRED|||-NONE-|||0
 A 243 244|||Edit|||وصلت|||REQUIRED|||-NONE-|||0
 A 245 246|||Edit|||دخلت|||REQUIRED|||-NONE-|||0
 A 251 252|||Edit|||الرمان|||REQUIRED|||-NONE-|||0
-A 252 252|||Add|||،|||REQUIRED|||-NONE-|||0
-A 252 253|||Edit|||وتنقلت|||REQUIRED|||-NONE-|||0
-A 255 255|||Add|||،|||REQUIRED|||-NONE-|||0
-A 255 256|||Edit|||وجئت|||REQUIRED|||-NONE-|||0
+A 252 253|||Split|||، وتنقلت|||REQUIRED|||-NONE-|||0
+A 255 256|||Split|||، وجئت|||REQUIRED|||-NONE-|||0
 A 259 260|||Edit|||واشتريت|||REQUIRED|||-NONE-|||0
 A 263 263|||Add|||،|||REQUIRED|||-NONE-|||0
 A 269 270|||Edit|||مستريح|||REQUIRED|||-NONE-|||0
@@ -5658,8 +5303,7 @@ A 291 292|||Edit|||مملوءا|||REQUIRED|||-NONE-|||0
 A 293 293|||Add|||،|||REQUIRED|||-NONE-|||0
 A 297 297|||Add|||،|||REQUIRED|||-NONE-|||0
 A 297 298|||Edit|||وألقيت|||REQUIRED|||-NONE-|||0
-A 298 299|||Edit|||بنفسي|||REQUIRED|||-NONE-|||0
-A 299 299|||Add|||فيه|||REQUIRED|||-NONE-|||0
+A 298 299|||Split|||بنفسي فيه|||REQUIRED|||-NONE-|||0
 
 S رحلة إلى شطئى البحر في اسبوع الماضي ذهبت مع اصدقاء على شطئ البحر التي يقع في الدمام احد من المناطق في البلاد سعودية انطلاقنا من الرياض في الساعة سابعة صباحا ، ثم ركبنا بسيارة الأجرة . نستغريق في الطارق ساعتان ثم ووقفنا الى المحطة ونسترح ساعة كاملة ، كان الجو حار جيدا . هذا اهم الصعوبات التي نتوجه لا سيما فساد مكيف في السيارة التي ركبنا ، ووصلنا الدمام في الساعة رابعة مساء . حينما نبحث شطئ البحر لوجدنا منظر جميلا في حول الدمام في شطئ البحر قمنا الخيمة وكنا على شطئ البحر ثلاثة ايام وليالها .
 A 2 3|||Edit|||شاطئ|||REQUIRED|||-NONE-|||0
@@ -5670,9 +5314,7 @@ A 9 10|||Edit|||أصدقائي|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||شاطئ|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||الذي|||REQUIRED|||-NONE-|||0
-A 17 17|||Add|||،|||REQUIRED|||-NONE-|||0
-A 17 18|||Edit|||أحد|||REQUIRED|||-NONE-|||0
-A 18 19|||Delete||||||REQUIRED|||-NONE-|||0
+A 17 19|||Edit|||، أحد|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||بلاد|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||السعودية|||REQUIRED|||-NONE-|||0
 A 23 23|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -5734,8 +5376,7 @@ A 102 103|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||يأتي|||REQUIRED|||-NONE-|||0
 A 109 109|||Add|||،|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||فالذي|||REQUIRED|||-NONE-|||0
-A 128 128|||Add|||،|||REQUIRED|||-NONE-|||0
-A 128 129|||Edit|||وأنا|||REQUIRED|||-NONE-|||0
+A 128 129|||Split|||، وأنا|||REQUIRED|||-NONE-|||0
 A 135 135|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 148 149|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 157 157|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -5813,14 +5454,10 @@ A 199 200|||Edit|||وصلنا|||REQUIRED|||-NONE-|||0
 A 201 202|||Edit|||الميقات|||REQUIRED|||-NONE-|||0
 A 202 202|||Add|||، قرن|||REQUIRED|||-NONE-|||0
 A 203 203|||Add|||،|||REQUIRED|||-NONE-|||0
-A 207 207|||Add|||،|||REQUIRED|||-NONE-|||0
-A 207 208|||Edit|||اشترينا|||REQUIRED|||-NONE-|||0
-A 210 210|||Add|||،|||REQUIRED|||-NONE-|||0
-A 210 211|||Edit|||واغتسلنا|||REQUIRED|||-NONE-|||0
-A 211 211|||Add|||،|||REQUIRED|||-NONE-|||0
+A 207 208|||Split|||، اشترينا|||REQUIRED|||-NONE-|||0
+A 210 211|||Split|||، واغتسلنا ،|||REQUIRED|||-NONE-|||0
 A 211 212|||Edit|||وتطيبنا|||REQUIRED|||-NONE-|||0
-A 214 214|||Add|||،|||REQUIRED|||-NONE-|||0
-A 214 215|||Edit|||ونوينا|||REQUIRED|||-NONE-|||0
+A 214 215|||Split|||، ونوينا|||REQUIRED|||-NONE-|||0
 A 218 218|||Add|||،|||REQUIRED|||-NONE-|||0
 A 218 219|||Edit|||وتعلمنا|||REQUIRED|||-NONE-|||0
 A 220 220|||Add|||لبس|||REQUIRED|||-NONE-|||0
@@ -5844,24 +5481,20 @@ A 5 5|||Add|||في|||REQUIRED|||-NONE-|||0
 A 5 6|||Edit|||مستقبلي|||REQUIRED|||-NONE-|||0
 A 9 9|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||لأنه|||REQUIRED|||-NONE-|||0
-A 10 11|||Edit|||عندي|||REQUIRED|||-NONE-|||0
-A 11 12|||Delete||||||REQUIRED|||-NONE-|||0
+A 10 12|||Merge|||عندي|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||رغبة|||REQUIRED|||-NONE-|||0
 A 14 14|||Add|||،|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||وأريد|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||أكون|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 19 20|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
-A 20 20|||Add|||،|||REQUIRED|||-NONE-|||0
-A 20 21|||Edit|||أدعو|||REQUIRED|||-NONE-|||0
+A 19 21|||Split|||بلدي ، أدعو|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
 A 24 24|||Add|||،|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||وأبين|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
-A 28 28|||Add|||،|||REQUIRED|||-NONE-|||0
-A 28 29|||Edit|||وفي|||REQUIRED|||-NONE-|||0
+A 28 29|||Split|||، وفي|||REQUIRED|||-NONE-|||0
 A 29 30|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||قلة|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||لعدد|||REQUIRED|||-NONE-|||0
@@ -5871,20 +5504,13 @@ A 34 35|||Edit|||فلا|||REQUIRED|||-NONE-|||0
 A 35 37|||Merge|||تكاد|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||المجال|||REQUIRED|||-NONE-|||0
-A 44 44|||Add|||،|||REQUIRED|||-NONE-|||0
-A 44 45|||Edit|||فأريد|||REQUIRED|||-NONE-|||0
-A 45 45|||Add|||ملأ|||REQUIRED|||-NONE-|||0
-A 45 46|||Edit|||هذا|||REQUIRED|||-NONE-|||0
+A 44 46|||Split|||، فأريد ملأ هذا|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||الفراغ|||REQUIRED|||-NONE-|||0
 A 47 47|||Add|||.|||REQUIRED|||-NONE-|||0
 A 48 48|||Add|||،|||REQUIRED|||-NONE-|||0
 A 48 50|||Merge|||هناك|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||لي|||REQUIRED|||-NONE-|||0
-A 55 56|||Edit|||أسرتي|||REQUIRED|||-NONE-|||0
-A 56 56|||Add|||،|||REQUIRED|||-NONE-|||0
-A 56 57|||Edit|||وأساتذتي|||REQUIRED|||-NONE-|||0
-A 57 57|||Add|||،|||REQUIRED|||-NONE-|||0
-A 57 58|||Edit|||وزملائي|||REQUIRED|||-NONE-|||0
+A 55 58|||Split|||أسرتي ، وأساتذتي ، وزملائي|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||اختيار|||REQUIRED|||-NONE-|||0
 A 62 62|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||لأنهم|||REQUIRED|||-NONE-|||0
@@ -5914,8 +5540,7 @@ A 65 66|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 69 69|||Add|||،|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||بكلية|||REQUIRED|||-NONE-|||0
 A 82 83|||Delete||||||REQUIRED|||-NONE-|||0
-A 84 85|||Edit|||أو|||REQUIRED|||-NONE-|||0
-A 85 85|||Add|||أن|||REQUIRED|||-NONE-|||0
+A 84 85|||Split|||أو أن|||REQUIRED|||-NONE-|||0
 A 95 95|||Add|||،|||REQUIRED|||-NONE-|||0
 A 97 97|||Add|||، أنا|||REQUIRED|||-NONE-|||0
 A 110 110|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -5948,9 +5573,7 @@ A 14 15|||Edit|||ألا|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||وهو|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||لأني|||REQUIRED|||-NONE-|||0
-A 28 29|||Edit|||ألتحق|||REQUIRED|||-NONE-|||0
-A 29 30|||Delete||||||REQUIRED|||-NONE-|||0
-A 30 31|||Delete||||||REQUIRED|||-NONE-|||0
+A 28 31|||Merge|||ألتحق|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||بجامعة|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||ألتحق|||REQUIRED|||-NONE-|||0
 A 45 46|||Delete||||||REQUIRED|||-NONE-|||0
@@ -5999,13 +5622,10 @@ A 18 18|||Add|||فيه|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||هو|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||المصرفية|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||الإسلامية|||REQUIRED|||-NONE-|||0
-A 24 25|||Edit|||وسبب|||REQUIRED|||-NONE-|||0
-A 25 26|||Delete||||||REQUIRED|||-NONE-|||0
-A 26 27|||Edit|||اختياري|||REQUIRED|||-NONE-|||0
+A 24 27|||Merge|||وسبب اختياري|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||لهذه|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||الأشياء|||REQUIRED|||-NONE-|||0
-A 29 30|||Edit|||هو|||REQUIRED|||-NONE-|||0
-A 30 30|||Add|||أنها|||REQUIRED|||-NONE-|||0
+A 29 30|||Split|||هو أنها|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||مطلوبة|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||يحتاج|||REQUIRED|||-NONE-|||0
@@ -6029,18 +5649,14 @@ A 65 66|||Edit|||وسهلة|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||لدي|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||صديقان|||REQUIRED|||-NONE-|||0
 A 70 71|||Delete||||||REQUIRED|||-NONE-|||0
-A 74 75|||Edit|||المهنة|||REQUIRED|||-NONE-|||0
-A 75 75|||Add|||.|||REQUIRED|||-NONE-|||0
+A 74 75|||Split|||المهنة .|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||يعطل|||REQUIRED|||-NONE-|||0
-A 81 81|||Add|||الناس|||REQUIRED|||-NONE-|||0
-A 81 82|||Edit|||بسببها|||REQUIRED|||-NONE-|||0
-A 82 82|||Add|||،|||REQUIRED|||-NONE-|||0
+A 81 82|||Split|||الناس بسببها ،|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||وذلك|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||الفرص|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||للأشخاص|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||حلالا|||REQUIRED|||-NONE-|||0
-A 105 105|||Add|||على|||REQUIRED|||-NONE-|||0
-A 105 106|||Edit|||المطاردة|||REQUIRED|||-NONE-|||0
+A 105 106|||Split|||على المطاردة|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||بسبب|||REQUIRED|||-NONE-|||0
 
 S كليية الشريعة الحمد لله رب العالمين والسلاة والسلام على رسول الله أما بعد أنا أرغب أن ألتحق في كلية الشريعة لأن هذه الكلية أفضل الكليات توجد فيها صورة الإسلام وأيضا الناس إذاعرفوا أنك درست في المملكة العربية السعودية أنت تعرف كل ممايتعلق بالإسلام هم لأ يسألونك عن التخصصك مباشرة يسألونك عن مسألة والأحكام في الإسلام كقضية الصلاة والزواج
@@ -6080,8 +5696,7 @@ A 10 11|||Edit|||عربية|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||الإلتحاق|||REQUIRED|||-NONE-|||0
 A 26 27|||Delete||||||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||بكلية|||REQUIRED|||-NONE-|||0
-A 36 36|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 36 37|||Edit|||لأنني|||REQUIRED|||-NONE-|||0
+A 36 37|||Split|||؛ لأنني|||REQUIRED|||-NONE-|||0
 A 39 39|||Add|||،|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||أنني|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||أشتاق|||REQUIRED|||-NONE-|||0
@@ -6141,17 +5756,14 @@ A 12 13|||Edit|||النبي|||REQUIRED|||-NONE-|||0
 A 14 14|||Add|||،|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||أنه|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||لثلاث|||REQUIRED|||-NONE-|||0
-A 36 37|||Edit|||مواضيع|||REQUIRED|||-NONE-|||0
-A 37 37|||Add|||هي|||REQUIRED|||-NONE-|||0
+A 36 37|||Split|||مواضيع هي|||REQUIRED|||-NONE-|||0
 A 43 43|||Add|||،|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||وبلد|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 59 59|||Add|||،|||REQUIRED|||-NONE-|||0
 A 64 64|||Add|||-|||REQUIRED|||-NONE-|||0
-A 68 68|||Add|||-|||REQUIRED|||-NONE-|||0
-A 68 69|||Edit|||فقمنا|||REQUIRED|||-NONE-|||0
-A 69 69|||Add|||برحلة|||REQUIRED|||-NONE-|||0
+A 68 69|||Split|||- فقمنا برحلة|||REQUIRED|||-NONE-|||0
 A 70 71|||Delete||||||REQUIRED|||-NONE-|||0
 A 72 72|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||البلد|||REQUIRED|||-NONE-|||0
@@ -6256,8 +5868,7 @@ A 117 117|||Add|||-|||REQUIRED|||-NONE-|||0
 A 119 119|||Add|||-|||REQUIRED|||-NONE-|||0
 A 131 131|||Add|||-|||REQUIRED|||-NONE-|||0
 A 133 133|||Add|||- .|||REQUIRED|||-NONE-|||0
-A 135 135|||Add|||،|||REQUIRED|||-NONE-|||0
-A 135 136|||Edit|||قررت|||REQUIRED|||-NONE-|||0
+A 135 136|||Split|||، قررت|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||ألتحق|||REQUIRED|||-NONE-|||0
 A 142 143|||Edit|||بعض|||REQUIRED|||-NONE-|||0
 A 143 144|||Edit|||أصدقائي|||REQUIRED|||-NONE-|||0
@@ -6265,8 +5876,7 @@ A 147 147|||Add|||،|||REQUIRED|||-NONE-|||0
 A 149 149|||Add|||،|||REQUIRED|||-NONE-|||0
 A 157 158|||Edit|||أتعلم|||REQUIRED|||-NONE-|||0
 A 162 163|||Edit|||وما|||REQUIRED|||-NONE-|||0
-A 165 165|||Add|||إلا|||REQUIRED|||-NONE-|||0
-A 165 166|||Edit|||من|||REQUIRED|||-NONE-|||0
+A 165 166|||Split|||إلا من|||REQUIRED|||-NONE-|||0
 A 166 167|||Edit|||العلوم|||REQUIRED|||-NONE-|||0
 A 168 168|||Add|||،|||REQUIRED|||-NONE-|||0
 A 175 176|||Edit|||دعاة|||REQUIRED|||-NONE-|||0
@@ -6282,15 +5892,12 @@ A 207 208|||Edit|||سألتحق|||REQUIRED|||-NONE-|||0
 A 209 210|||Edit|||أصول|||REQUIRED|||-NONE-|||0
 A 213 214|||Edit|||الذي|||REQUIRED|||-NONE-|||0
 A 214 215|||Edit|||أرغب|||REQUIRED|||-NONE-|||0
-A 215 216|||Edit|||فيه|||REQUIRED|||-NONE-|||0
-A 216 216|||Add|||،|||REQUIRED|||-NONE-|||0
+A 215 216|||Split|||فيه ،|||REQUIRED|||-NONE-|||0
 A 216 217|||Edit|||وأشتاق|||REQUIRED|||-NONE-|||0
 A 225 225|||Add|||.|||REQUIRED|||-NONE-|||0
 A 227 227|||Add|||-|||REQUIRED|||-NONE-|||0
-A 229 229|||Add|||-|||REQUIRED|||-NONE-|||0
-A 229 230|||Edit|||أن|||REQUIRED|||-NONE-|||0
-A 233 234|||Edit|||ويرضاه|||REQUIRED|||-NONE-|||0
-A 234 234|||Add|||.|||REQUIRED|||-NONE-|||0
+A 229 230|||Split|||- أن|||REQUIRED|||-NONE-|||0
+A 233 234|||Split|||ويرضاه .|||REQUIRED|||-NONE-|||0
 
 S خطة في شرق الأوسط قبل مجيئي إلى شرق الأوسط ، خطط أبي لدراستي في الدول العربية . لذا بدلا من أمريكا أو أوروبا ، ذهبت إلى سوريا كي أتعلم لغتين : اللغة الإنجليزية ، واللغة العربية في نفس الوقت . وفي البداية واجهت صعوبات كثيرة ، ( في الواقع ، أواجه أكثر صعاب الآن ) ولكنني تعودت إليها . عندما كنت في سوريا ، كنت أخطط لالتحاق بكلية الحقوق في جامعة دمشق لأن لا أحد في كوريا قد نخصص أو درس قانون في الدول العربية ( وحتى الآن ) . ولكن فجأة ، كانت مظاهرات من شعب سوري وضغطت الحكومة الكورية على أسرتي وجميع المقيمين لدى سوريا ضغوطا شديدا مثل غرامات وحتى سجن . لذلك خرجنا من سوريا وتركنا كل أغراضنا هناك . وانتظرنا حتى تتحسن الأوضاع في سوريا ، ولكنها بالعكس ، أصبحت أسوأ . لذلك حاولت أن أدرس في دول أخرى ، و نجحت أن ألتحق بجامعة الملك سعود . في ذلك الحين لم أعرف عن المناهج الدراسية هنا في هذا المعهد ، وبعد أن أبدأ الدرس ، كانت دروس إسلامية كثيرة ( هي أكثر الآن . . ) ولم أدرس أي شيء عنها من قبل لأنها ليست ضرورية في سوريا وحتى بعض المعلمين قالوا إنني لا أحتاج إلى دراستها و إنها للعرب فقط . لذلك أريد أن أكون محاميا أو أستاذ في جامعة ، ولكنني لست متأكدا جدا عن نفسي حتى الآن بسبب مستوى الدراسة هنا في معهد اللغويات العربية .
 A 2 3|||Edit|||الشرق|||REQUIRED|||-NONE-|||0
@@ -6299,8 +5906,7 @@ A 7 8|||Edit|||الشرق|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 33 34|||Delete||||||REQUIRED|||-NONE-|||0
 A 42 42|||Add|||،|||REQUIRED|||-NONE-|||0
-A 51 52|||Edit|||الكثير|||REQUIRED|||-NONE-|||0
-A 52 52|||Add|||من|||REQUIRED|||-NONE-|||0
+A 51 52|||Split|||الكثير من|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||الصعاب|||REQUIRED|||-NONE-|||0
 A 54 55|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||عليها|||REQUIRED|||-NONE-|||0
@@ -6310,8 +5916,7 @@ A 72 72|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||تخصص|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||القانون|||REQUIRED|||-NONE-|||0
 A 85 85|||Add|||،|||REQUIRED|||-NONE-|||0
-A 86 87|||Edit|||وإلى|||REQUIRED|||-NONE-|||0
-A 87 87|||Add|||حد|||REQUIRED|||-NONE-|||0
+A 86 87|||Split|||وإلى حد|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||حدثت|||REQUIRED|||-NONE-|||0
 A 96 97|||Edit|||الشعب|||REQUIRED|||-NONE-|||0
@@ -6359,10 +5964,7 @@ A 27 28|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
 A 30 30|||Add|||،|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||وكانت|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 44 44|||Add|||،|||REQUIRED|||-NONE-|||0
-A 44 44|||Add|||كانت|||REQUIRED|||-NONE-|||0
-A 44 45|||Edit|||هذه|||REQUIRED|||-NONE-|||0
-A 45 46|||Delete||||||REQUIRED|||-NONE-|||0
+A 44 46|||Split|||، كانت هذه|||REQUIRED|||-NONE-|||0
 A 47 49|||Split|||مرة أقوم برحلة|||REQUIRED|||-NONE-|||0
 A 51 51|||Add|||،|||REQUIRED|||-NONE-|||0
 A 55 55|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -6373,20 +5975,16 @@ A 68 68|||Add|||،|||REQUIRED|||-NONE-|||0
 A 71 71|||Add|||،|||REQUIRED|||-NONE-|||0
 A 74 74|||Add|||،|||REQUIRED|||-NONE-|||0
 A 77 77|||Add|||،|||REQUIRED|||-NONE-|||0
-A 79 80|||Edit|||منى|||REQUIRED|||-NONE-|||0
-A 80 80|||Add|||،|||REQUIRED|||-NONE-|||0
+A 79 80|||Split|||منى ،|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||وإلى|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||مزدلفة|||REQUIRED|||-NONE-|||0
 A 82 82|||Add|||،|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||عرفة|||REQUIRED|||-NONE-|||0
-A 86 87|||Edit|||الجمرات|||REQUIRED|||-NONE-|||0
-A 87 87|||Add|||،|||REQUIRED|||-NONE-|||0
-A 87 88|||Edit|||والجبل|||REQUIRED|||-NONE-|||0
+A 86 88|||Split|||الجمرات ، والجبل|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||زحمة|||REQUIRED|||-NONE-|||0
 A 92 92|||Add|||،|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||الحمد|||REQUIRED|||-NONE-|||0
-A 96 97|||Edit|||كانت|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||هناك|||REQUIRED|||-NONE-|||0
+A 96 97|||Split|||كانت هناك|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||مشاكل|||REQUIRED|||-NONE-|||0
 A 98 98|||Add|||.|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||وأيضا|||REQUIRED|||-NONE-|||0
@@ -6394,14 +5992,11 @@ A 101 101|||Add|||هذه|||REQUIRED|||-NONE-|||0
 A 103 103|||Add|||،|||REQUIRED|||-NONE-|||0
 A 106 106|||Add|||،|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||الانتهاء|||REQUIRED|||-NONE-|||0
-A 108 108|||Add|||من|||REQUIRED|||-NONE-|||0
-A 108 109|||Edit|||أداء|||REQUIRED|||-NONE-|||0
+A 108 109|||Split|||من أداء|||REQUIRED|||-NONE-|||0
 A 110 110|||Add|||،|||REQUIRED|||-NONE-|||0
 A 113 113|||Add|||،|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||وبعد|||REQUIRED|||-NONE-|||0
-A 114 115|||Edit|||الانتهاء|||REQUIRED|||-NONE-|||0
-A 115 115|||Add|||من|||REQUIRED|||-NONE-|||0
-A 115 116|||Edit|||أداء|||REQUIRED|||-NONE-|||0
+A 114 116|||Split|||الانتهاء من أداء|||REQUIRED|||-NONE-|||0
 A 117 117|||Add|||،|||REQUIRED|||-NONE-|||0
 A 122 122|||Add|||،|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
@@ -6413,17 +6008,14 @@ A 135 135|||Add|||-|||REQUIRED|||-NONE-|||0
 A 139 139|||Add|||-|||REQUIRED|||-NONE-|||0
 A 140 140|||Add|||عليه ،|||REQUIRED|||-NONE-|||0
 A 142 143|||Edit|||قبور|||REQUIRED|||-NONE-|||0
-A 143 144|||Edit|||الباقين|||REQUIRED|||-NONE-|||0
-A 144 144|||Add|||،|||REQUIRED|||-NONE-|||0
+A 143 144|||Split|||الباقين ،|||REQUIRED|||-NONE-|||0
 A 146 146|||Add|||،|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||سعدنا|||REQUIRED|||-NONE-|||0
 A 148 148|||Add|||،|||REQUIRED|||-NONE-|||0
-A 149 149|||Add|||ذلك|||REQUIRED|||-NONE-|||0
-A 149 150|||Edit|||ذهبنا|||REQUIRED|||-NONE-|||0
+A 149 150|||Split|||ذلك ذهبنا|||REQUIRED|||-NONE-|||0
 A 151 152|||Edit|||المسجد|||REQUIRED|||-NONE-|||0
 A 152 153|||Edit|||الكبير|||REQUIRED|||-NONE-|||0
-A 153 154|||Edit|||قباء|||REQUIRED|||-NONE-|||0
-A 154 154|||Add|||،|||REQUIRED|||-NONE-|||0
+A 153 154|||Split|||قباء ،|||REQUIRED|||-NONE-|||0
 A 154 155|||Edit|||الحمد|||REQUIRED|||-NONE-|||0
 A 156 156|||Add|||،|||REQUIRED|||-NONE-|||0
 A 159 159|||Add|||هذه|||REQUIRED|||-NONE-|||0
@@ -6469,8 +6061,7 @@ A 94 95|||Edit|||حج|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||تمتع|||REQUIRED|||-NONE-|||0
 A 96 98|||Delete||||||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||وإفراد|||REQUIRED|||-NONE-|||0
-A 99 99|||Add|||،|||REQUIRED|||-NONE-|||0
-A 99 100|||Edit|||وقمنا|||REQUIRED|||-NONE-|||0
+A 99 100|||Split|||، وقمنا|||REQUIRED|||-NONE-|||0
 A 100 101|||Edit|||بالتلبية|||REQUIRED|||-NONE-|||0
 A 101 101|||Add|||حتى|||REQUIRED|||-NONE-|||0
 A 102 102|||Add|||إلى|||REQUIRED|||-NONE-|||0
@@ -6479,9 +6070,7 @@ A 107 107|||Add|||،|||REQUIRED|||-NONE-|||0
 A 111 112|||Delete||||||REQUIRED|||-NONE-|||0
 A 114 115|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 115 116|||Edit|||العمرة|||REQUIRED|||-NONE-|||0
-A 120 120|||Add|||،|||REQUIRED|||-NONE-|||0
-A 120 120|||Add|||في|||REQUIRED|||-NONE-|||0
-A 120 121|||Edit|||اليوم|||REQUIRED|||-NONE-|||0
+A 120 121|||Split|||، في اليوم|||REQUIRED|||-NONE-|||0
 A 121 122|||Edit|||التاسع|||REQUIRED|||-NONE-|||0
 A 122 122|||Add|||،|||REQUIRED|||-NONE-|||0
 A 125 125|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -6499,8 +6088,7 @@ A 164 165|||Edit|||وحلقت|||REQUIRED|||-NONE-|||0
 A 166 168|||Merge|||وتحللت|||REQUIRED|||-NONE-|||0
 A 169 171|||Merge|||وأمضينا|||REQUIRED|||-NONE-|||0
 A 177 177|||Add|||،|||REQUIRED|||-NONE-|||0
-A 181 182|||Edit|||21|||REQUIRED|||-NONE-|||0
-A 182 182|||Add|||حصاة|||REQUIRED|||-NONE-|||0
+A 181 182|||Split|||21 حصاة|||REQUIRED|||-NONE-|||0
 A 186 188|||Merge|||والوسطى|||REQUIRED|||-NONE-|||0
 A 188 188|||Add|||،|||REQUIRED|||-NONE-|||0
 A 195 195|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -6521,8 +6109,7 @@ A 232 233|||Edit|||الحافلة|||REQUIRED|||-NONE-|||0
 A 236 236|||Add|||،|||REQUIRED|||-NONE-|||0
 A 237 237|||Add|||-|||REQUIRED|||-NONE-|||0
 A 239 241|||Edit|||وتعالى -|||REQUIRED|||-NONE-|||0
-A 241 241|||Add|||على|||REQUIRED|||-NONE-|||0
-A 241 242|||Edit|||أداء|||REQUIRED|||-NONE-|||0
+A 241 242|||Split|||على أداء|||REQUIRED|||-NONE-|||0
 A 244 245|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 245 246|||Edit|||وأكبر|||REQUIRED|||-NONE-|||0
 
@@ -6569,8 +6156,7 @@ A 183 185|||Merge|||وهكذا|||REQUIRED|||-NONE-|||0
 A 194 196|||Merge|||وتعالى|||REQUIRED|||-NONE-|||0
 
 S " بين الشريعة وأصوالدين " الحمد لله , مازلت في معهد التعليم اللغة العربية قسم الإعداد اللغوي . سوف ينتهي الدراسة بنهاية الصل هذه بمشئة الله سبحانه لأنني الحين في مجال يتم الدراسة في الفصل الدبلوم الثاني ( قمة الدراسة في معهد التعليم اللغة العربية ) . أشكركم جميعا الأساتذة الذين سعدوا وتعبوا ورشدوا وتبرعوا عليا بعلمهم . أسأل الله أن يرضينا ولكم . حينما تتكلم على أي التخصص الذي ترغب فيه دائما أفكر سواء أريد كلية الشريعة أو أصول الدين . أقول لك حقا أنهما يرغباني وكلاهما مهمان جدا . أبدأ أسأل الناس والطلأب الأخرين على نفس السؤال هذا . فأعجب نفسي لأن قد وجدت الإجابة متنوعة منهم الذين أجبوا . كلهم أجبوا على شيء التي لهم يميلون فيها . بعضهم قال الشريعة أحسا وبعض قال أن أصول الدين هو أفضل . الآن يختلطون الأفكارفي جوف رأسي . ثم أبدأ أسأل عن نفسي : ماذا بي ؟ قد تعبت نفسي . صار الأمر أصعب مما كان . يا إلهي , أسألك أن يرشدني . بعد شهور مررت به , أتأكد أنني سأختار أصول الدين . هذا هو
-A 3 3|||Add|||وأصول|||REQUIRED|||-NONE-|||0
-A 3 4|||Edit|||الدين|||REQUIRED|||-NONE-|||0
+A 3 4|||Split|||وأصول الدين|||REQUIRED|||-NONE-|||0
 A 5 5|||Add|||.|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||تعليم|||REQUIRED|||-NONE-|||0
@@ -6578,20 +6164,16 @@ A 14 14|||Add|||، في|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||وسوف|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||تنتهي|||REQUIRED|||-NONE-|||0
-A 22 23|||Delete||||||REQUIRED|||-NONE-|||0
-A 23 24|||Edit|||هذا|||REQUIRED|||-NONE-|||0
-A 24 24|||Add|||الفصل|||REQUIRED|||-NONE-|||0
+A 22 24|||Edit|||هذا الفصل|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||بمشيئة|||REQUIRED|||-NONE-|||0
 A 26 26|||Add|||-|||REQUIRED|||-NONE-|||0
 A 27 27|||Add|||- ؛|||REQUIRED|||-NONE-|||0
-A 31 32|||Edit|||أتمم|||REQUIRED|||-NONE-|||0
-A 32 32|||Add|||فيه|||REQUIRED|||-NONE-|||0
+A 31 32|||Split|||أتمم فيه|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||فصل|||REQUIRED|||-NONE-|||0
 A 37 37|||Add|||،|||REQUIRED|||-NONE-|||0
 A 47 48|||Edit|||أشكر|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||جميع|||REQUIRED|||-NONE-|||0
-A 51 52|||Edit|||سهروا|||REQUIRED|||-NONE-|||0
-A 52 52|||Add|||،|||REQUIRED|||-NONE-|||0
+A 51 52|||Split|||سهروا ،|||REQUIRED|||-NONE-|||0
 A 53 53|||Add|||،|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||وأرشدوا|||REQUIRED|||-NONE-|||0
 A 54 54|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -6601,14 +6183,11 @@ A 62 63|||Edit|||وإياكم|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||أتكلم|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||عن|||REQUIRED|||-NONE-|||0
 A 68 69|||Edit|||تخصص|||REQUIRED|||-NONE-|||0
-A 69 70|||Delete||||||REQUIRED|||-NONE-|||0
-A 70 71|||Edit|||أرغب|||REQUIRED|||-NONE-|||0
+A 69 71|||Merge|||أرغب|||REQUIRED|||-NONE-|||0
 A 72 72|||Add|||،|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||أنني|||REQUIRED|||-NONE-|||0
-A 86 87|||Edit|||أرغب|||REQUIRED|||-NONE-|||0
-A 87 87|||Add|||فيهما|||REQUIRED|||-NONE-|||0
-A 87 87|||Add|||،|||REQUIRED|||-NONE-|||0
+A 86 87|||Split|||أرغب فيهما ،|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||مهمين|||REQUIRED|||-NONE-|||0
 A 94 95|||Edit|||والطلاب|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||الآخرين|||REQUIRED|||-NONE-|||0
@@ -6628,14 +6207,11 @@ A 116 117|||Edit|||الذين|||REQUIRED|||-NONE-|||0
 A 117 118|||Edit|||هم|||REQUIRED|||-NONE-|||0
 A 119 120|||Edit|||إليه|||REQUIRED|||-NONE-|||0
 A 120 121|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 124 124|||Add|||هي|||REQUIRED|||-NONE-|||0
-A 124 125|||Edit|||الأحسن|||REQUIRED|||-NONE-|||0
-A 125 125|||Add|||،|||REQUIRED|||-NONE-|||0
+A 124 125|||Split|||هي الأحسن ،|||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||والبعض|||REQUIRED|||-NONE-|||0
 A 130 131|||Edit|||هي|||REQUIRED|||-NONE-|||0
 A 131 132|||Edit|||الأفضل|||REQUIRED|||-NONE-|||0
-A 134 134|||Add|||،|||REQUIRED|||-NONE-|||0
-A 134 135|||Edit|||تختلط|||REQUIRED|||-NONE-|||0
+A 134 135|||Split|||، تختلط|||REQUIRED|||-NONE-|||0
 A 135 136|||Split|||الأفكار في|||REQUIRED|||-NONE-|||0
 A 138 139|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||وأسأل|||REQUIRED|||-NONE-|||0
@@ -6680,8 +6256,7 @@ A 149 150|||Delete||||||REQUIRED|||-NONE-|||0
 A 151 152|||Edit|||يفعل|||REQUIRED|||-NONE-|||0
 A 153 154|||Edit|||الموجودون|||REQUIRED|||-NONE-|||0
 A 154 154|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 157 157|||Add|||يوجد|||REQUIRED|||-NONE-|||0
-A 157 158|||Edit|||من|||REQUIRED|||-NONE-|||0
+A 157 158|||Split|||يوجد من|||REQUIRED|||-NONE-|||0
 A 158 159|||Edit|||تخصص|||REQUIRED|||-NONE-|||0
 A 159 159|||Add|||في|||REQUIRED|||-NONE-|||0
 A 164 165|||Delete||||||REQUIRED|||-NONE-|||0
@@ -6742,8 +6317,7 @@ A 92 93|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 103 103|||Add|||،|||REQUIRED|||-NONE-|||0
 A 106 106|||Add|||يكون|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||حارا|||REQUIRED|||-NONE-|||0
-A 111 112|||Edit|||علينا|||REQUIRED|||-NONE-|||0
-A 112 112|||Add|||،|||REQUIRED|||-NONE-|||0
+A 111 112|||Split|||علينا ،|||REQUIRED|||-NONE-|||0
 A 112 113|||Edit|||والفنادق|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||بعيدة|||REQUIRED|||-NONE-|||0
 A 114 115|||Edit|||عن|||REQUIRED|||-NONE-|||0
@@ -6798,14 +6372,10 @@ A 105 105|||Add|||؟|||REQUIRED|||-NONE-|||0
 A 107 107|||Add|||:|||REQUIRED|||-NONE-|||0
 A 112 112|||Add|||.|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||بعد|||REQUIRED|||-NONE-|||0
-A 115 116|||Edit|||قال|||REQUIRED|||-NONE-|||0
-A 116 116|||Add|||:|||REQUIRED|||-NONE-|||0
-A 116 117|||Edit|||ماذا|||REQUIRED|||-NONE-|||0
+A 115 117|||Split|||قال : ماذا|||REQUIRED|||-NONE-|||0
 A 120 120|||Add|||؟|||REQUIRED|||-NONE-|||0
 A 122 122|||Add|||:|||REQUIRED|||-NONE-|||0
-A 124 124|||Add|||.|||REQUIRED|||-NONE-|||0
-A 124 125|||Edit|||فقال|||REQUIRED|||-NONE-|||0
-A 125 125|||Add|||:|||REQUIRED|||-NONE-|||0
+A 124 125|||Split|||. فقال :|||REQUIRED|||-NONE-|||0
 A 128 128|||Add|||!|||REQUIRED|||-NONE-|||0
 A 131 132|||Edit|||فإن|||REQUIRED|||-NONE-|||0
 A 133 134|||Edit|||لا|||REQUIRED|||-NONE-|||0
@@ -6823,8 +6393,7 @@ A 174 175|||Edit|||أثناء|||REQUIRED|||-NONE-|||0
 S رحلة إلى الجزائر ولدت في فرنسا وعشت في هذا البلد كل حياتي وديني كان دين النصارى . ثم أسلمت في السن 19 إلى الاسلام وبعد سنة سافرت إلى الجزائر في مدة شهر . سافرت مع زوجي الذي كان من الجزائر في بيت آبائه . أعجبني كثير هذه الرحلة . أعجبني كثيرا استقبال العرب ، فكانوا يقدمون لي كل شيء حتى اشعر بالفرح مع أنهم كانوا فقراء . كانوا يصنعون طعامأ لذيذاو كنت آكل ثم يأكلون ما بقي دون أن أعرف ذلك . وأعطونا غرفة وكانوا ينامون هم غرفة واحدة كلهم . ( الابناء ، الآباء ) .
 A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||سن|||REQUIRED|||-NONE-|||0
-A 22 23|||Edit|||ودخلت|||REQUIRED|||-NONE-|||0
-A 23 23|||Add|||في|||REQUIRED|||-NONE-|||0
+A 22 23|||Split|||ودخلت في|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
 A 24 24|||Add|||،|||REQUIRED|||-NONE-|||0
 A 29 30|||Delete||||||REQUIRED|||-NONE-|||0
@@ -6858,13 +6427,9 @@ A 32 33|||Edit|||ويزورها|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||السياح|||REQUIRED|||-NONE-|||0
 A 36 36|||Add|||،|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||بمعابدها|||REQUIRED|||-NONE-|||0
-A 38 38|||Add|||الدينية|||REQUIRED|||-NONE-|||0
-A 38 38|||Add|||:|||REQUIRED|||-NONE-|||0
-A 38 39|||Edit|||الليسية|||REQUIRED|||-NONE-|||0
+A 38 39|||Split|||الدينية : الليسية|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 40 41|||Edit|||وعنيبة|||REQUIRED|||-NONE-|||0
-A 41 41|||Add|||،|||REQUIRED|||-NONE-|||0
-A 41 42|||Edit|||أبو|||REQUIRED|||-NONE-|||0
+A 40 42|||Split|||وعنيبة ، أبو|||REQUIRED|||-NONE-|||0
 A 44 44|||Add|||.|||REQUIRED|||-NONE-|||0
 
 S " رحلتي إلى مكة المكرمة " ذهبت مع زملائي على مكة المكرمة لأداء العمرة السنة الماضية . كنت سعيدا ومسرورا جدا لأنه أديت العمرة أول مرة . الآن اريد أن أخبركم عن رحلتي إلى مكة المكرمة كيف وصلت إلى مكة المكرمة ؟ " كانت هذه رحلة من جانب إدارة المنح " جلست على السيارة فوصلت إلى قرن المنازل ، لبست ثياب الإجحرام ثم بعد ذلك وصلت إلى مكة المكرمة قد حان وقت صلاة الفجر ، صليت صلاة الفجر ، فذهب إلى الفندق وجهزت الغرفة ثم وضعت الحقيبة ، فخرجت إلى مسجد الحرام طفت سبعة أشواط ، وصليت ركعتين خلف مقام إبراهيم ، فشربت من ماء زمزم ، ثم ذهبت إلى محل الحلاقة فحلقت شعر رأسي ، أديت العمرة هكذا . ثم ذهبت إلى غرفتي الذي جهزته وبقيت هناك ثلاثة أيام فيه أكلت الطعام وصليت خمس صلاة مع الجماعة في مسجد الحرام وزرت بعض الأماكن . فرجعت إلى الرياض جامعة الملك سعود .
@@ -6876,8 +6441,7 @@ A 36 36|||Add|||،|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||الإحرام|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||وقد|||REQUIRED|||-NONE-|||0
-A 79 79|||Add|||ثم|||REQUIRED|||-NONE-|||0
-A 79 80|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
+A 79 80|||Split|||ثم ذهبت|||REQUIRED|||-NONE-|||0
 A 84 85|||Delete||||||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||ووضعت|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||خرجت|||REQUIRED|||-NONE-|||0
@@ -6932,8 +6496,7 @@ A 20 21|||Edit|||لأن|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||ليست|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||دولة|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||إسلامية|||REQUIRED|||-NONE-|||0
-A 25 26|||Edit|||وأريد|||REQUIRED|||-NONE-|||0
-A 26 27|||Delete||||||REQUIRED|||-NONE-|||0
+A 25 27|||Merge|||وأريد|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||لبلدي|||REQUIRED|||-NONE-|||0
 A 28 29|||Split|||أن تعرف|||REQUIRED|||-NONE-|||0
 A 29 30|||Delete||||||REQUIRED|||-NONE-|||0
@@ -6947,14 +6510,10 @@ A 38 40|||Merge|||أستطيع|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||الناس|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||وإعطاءهم|||REQUIRED|||-NONE-|||0
 A 44 46|||Move|||علما عن|||REQUIRED|||-NONE-|||0
-A 46 47|||Edit|||الدين|||REQUIRED|||-NONE-|||0
-A 47 47|||Add|||،|||REQUIRED|||-NONE-|||0
-A 47 48|||Edit|||فهم|||REQUIRED|||-NONE-|||0
+A 46 48|||Split|||الدين ، فهم|||REQUIRED|||-NONE-|||0
 A 54 55|||Split|||أن أختار|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||التخصص|||REQUIRED|||-NONE-|||0
-A 57 58|||Delete||||||REQUIRED|||-NONE-|||0
-A 58 59|||Delete||||||REQUIRED|||-NONE-|||0
-A 59 60|||Edit|||لأهمية|||REQUIRED|||-NONE-|||0
+A 57 60|||Merge|||لأهمية|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||التغير|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||بهذه|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||البيئة|||REQUIRED|||-NONE-|||0
@@ -6968,8 +6527,7 @@ A 70 70|||Add|||،|||REQUIRED|||-NONE-|||0
 A 71 72|||Delete||||||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||هنا|||REQUIRED|||-NONE-|||0
 A 75 77|||Split|||وأريد أن أغير|||REQUIRED|||-NONE-|||0
-A 77 78|||Delete||||||REQUIRED|||-NONE-|||0
-A 78 79|||Edit|||الشر|||REQUIRED|||-NONE-|||0
+A 77 79|||Merge|||الشر|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 87 87|||Add|||بعض|||REQUIRED|||-NONE-|||0
 A 88 88|||Add|||في|||REQUIRED|||-NONE-|||0
@@ -6998,16 +6556,13 @@ A 127 128|||Edit|||أساعد|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||شخصا|||REQUIRED|||-NONE-|||0
 A 130 130|||Add|||الله ،|||REQUIRED|||-NONE-|||0
 A 131 131|||Add|||شخص|||REQUIRED|||-NONE-|||0
-A 134 135|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 135 135|||Add|||شخص|||REQUIRED|||-NONE-|||0
+A 134 135|||Split|||إلى شخص|||REQUIRED|||-NONE-|||0
 A 137 137|||Add|||،|||REQUIRED|||-NONE-|||0
-A 138 139|||Edit|||هدفنا|||REQUIRED|||-NONE-|||0
-A 139 140|||Delete||||||REQUIRED|||-NONE-|||0
+A 138 140|||Merge|||هدفنا|||REQUIRED|||-NONE-|||0
 A 140 141|||Edit|||للدعوة|||REQUIRED|||-NONE-|||0
 A 146 147|||Delete||||||REQUIRED|||-NONE-|||0
 A 147 148|||Edit|||لبلدي|||REQUIRED|||-NONE-|||0
-A 148 149|||Edit|||معرفة|||REQUIRED|||-NONE-|||0
-A 149 150|||Delete||||||REQUIRED|||-NONE-|||0
+A 148 150|||Merge|||معرفة|||REQUIRED|||-NONE-|||0
 A 153 154|||Edit|||معرفة|||REQUIRED|||-NONE-|||0
 A 155 156|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
 A 156 157|||Edit|||والتغيير|||REQUIRED|||-NONE-|||0
@@ -7047,8 +6602,7 @@ A 37 38|||Edit|||فندق|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||يخبرنا|||REQUIRED|||-NONE-|||0
-A 46 47|||Edit|||أننا|||REQUIRED|||-NONE-|||0
-A 47 47|||Add|||تأخرنا|||REQUIRED|||-NONE-|||0
+A 46 47|||Split|||أننا تأخرنا|||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||أغراضنا|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||بسرعة|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||كراتشي|||REQUIRED|||-NONE-|||0
@@ -7070,9 +6624,7 @@ A 112 113|||Edit|||!|||REQUIRED|||-NONE-|||0
 A 114 115|||Edit|||الدعاء|||REQUIRED|||-NONE-|||0
 A 119 119|||Add|||،|||REQUIRED|||-NONE-|||0
 A 120 120|||Add|||أن|||REQUIRED|||-NONE-|||0
-A 121 122|||Edit|||شيئا|||REQUIRED|||-NONE-|||0
-A 122 123|||Delete||||||REQUIRED|||-NONE-|||0
-A 123 124|||Edit|||وجده|||REQUIRED|||-NONE-|||0
+A 121 124|||Merge|||شيئا وجده|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 126 126|||Add|||،|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||يسيرة|||REQUIRED|||-NONE-|||0
@@ -7114,8 +6666,7 @@ A 49 50|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||الزمن|||REQUIRED|||-NONE-|||0
 A 57 57|||Add|||كان|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||للأحاديث|||REQUIRED|||-NONE-|||0
-A 60 60|||Add|||،|||REQUIRED|||-NONE-|||0
-A 60 61|||Edit|||والأقوال|||REQUIRED|||-NONE-|||0
+A 60 61|||Split|||، والأقوال|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||تنتسب|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||لأحاديث|||REQUIRED|||-NONE-|||0
 A 69 69|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -7132,8 +6683,7 @@ A 123 124|||Edit|||أم|||REQUIRED|||-NONE-|||0
 
 S أتحصص في كلية الترجمة أتحصص في كلية الترجمة . قسم اللغة العربية والغة التركية . جئت إلى المملكة العربية السعودية لأتعلم اللغة العربية . وبعد الدراسة البكالوريس أتمن أن اكون مترجما إن شاء الله . وتعلمت اللغة التركية ، مستوى متميز . لماذا أختر هذا التحصص ؟ لأن أنا أحب مترجة . وفي المستقبل أريد أن أكون كوبري ( جسر ) بين جنسيتين : أخذت توصية من المدرس .
 A 0 1|||Edit|||التخصص|||REQUIRED|||-NONE-|||0
-A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
-A 4 5|||Edit|||سأتخصص|||REQUIRED|||-NONE-|||0
+A 4 5|||Split|||. سأتخصص|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||واللغة|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -7151,13 +6701,11 @@ A 1 2|||Edit|||لدراسة|||REQUIRED|||-NONE-|||0
 A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||تايلند|||REQUIRED|||-NONE-|||0
 A 8 8|||Add|||،|||REQUIRED|||-NONE-|||0
-A 9 10|||Edit|||مجيئي|||REQUIRED|||-NONE-|||0
-A 10 10|||Add|||إلى|||REQUIRED|||-NONE-|||0
+A 9 10|||Split|||مجيئي إلى|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 20 20|||Add|||،|||REQUIRED|||-NONE-|||0
-A 26 27|||Edit|||أخرى|||REQUIRED|||-NONE-|||0
-A 27 27|||Add|||مثل|||REQUIRED|||-NONE-|||0
+A 26 27|||Split|||أخرى مثل|||REQUIRED|||-NONE-|||0
 A 29 30|||Edit|||وقطر|||REQUIRED|||-NONE-|||0
 A 33 33|||Add|||،|||REQUIRED|||-NONE-|||0
 A 36 36|||Add|||في|||REQUIRED|||-NONE-|||0
@@ -7187,8 +6735,7 @@ A 119 120|||Edit|||الإجرءات|||REQUIRED|||-NONE-|||0
 A 120 120|||Add|||للسفر|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 130 130|||Add|||إلى|||REQUIRED|||-NONE-|||0
-A 131 131|||Add|||في|||REQUIRED|||-NONE-|||0
-A 131 132|||Edit|||السنة|||REQUIRED|||-NONE-|||0
+A 131 132|||Split|||في السنة|||REQUIRED|||-NONE-|||0
 A 132 133|||Edit|||الماضية|||REQUIRED|||-NONE-|||0
 A 141 141|||Add|||،|||REQUIRED|||-NONE-|||0
 A 147 147|||Add|||في|||REQUIRED|||-NONE-|||0
@@ -7244,8 +6791,7 @@ A 149 150|||Edit|||شهر|||REQUIRED|||-NONE-|||0
 
 S رحلة للعمرة انا ذهبت الى المكة مع أسرتى فى اسبوع الماضى للعمرة نحن خرجنا من البيت قبل العشاء . كانت الرحلة سعيدة . سفرنا بالطائرة اذا وصلنا عند الكعبة شعرنا بالسرور نطوف حول الكعبة سبعة اشواط بعد ذلك صلينا ركعتين خلف مقام ابراهيم ونسعى سبعة اشواط من الصفاء الى المروة ورجعنا الى الفندق الذى كان قريب من الحرم الشريف واسترحنا اربع ساعات بعده سفرنا الى المدينة للزيارة المسجد النبوى وذهبنا الي المدينة بالحافلة ولكن وجدنا الصعوبة في هذا السفر لان في الطريق كان ازدحام كثي وايضا ما وجدنا المكان في المدينة لكى نسكن ومضينا طول اليل في المسجد النبوى بعد الصلوة الفجر زرنا المقامات المقدسة مثل بئر عثمان ، جنت البقيع ، رياض الجنة وادئ البيضاء وجبل احد ورجعنا الي البيت بالمطار الحمد لله رجعنا بسلامة وبالسرور
 A 2 3|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 4 4|||Add|||أنا|||REQUIRED|||-NONE-|||0
-A 4 5|||Edit|||إلى|||REQUIRED|||-NONE-|||0
+A 4 5|||Split|||أنا إلى|||REQUIRED|||-NONE-|||0
 A 5 6|||Edit|||مكة|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||أسرتي|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||في|||REQUIRED|||-NONE-|||0
@@ -7256,13 +6802,11 @@ A 22 23|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||سافرنا|||REQUIRED|||-NONE-|||0
 A 25 25|||Add|||،|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||فإذا|||REQUIRED|||-NONE-|||0
-A 31 31|||Add|||،|||REQUIRED|||-NONE-|||0
-A 31 32|||Edit|||طفنا|||REQUIRED|||-NONE-|||0
+A 31 32|||Split|||، طفنا|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||أشواط|||REQUIRED|||-NONE-|||0
 A 36 36|||Add|||،|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||إبراهيم|||REQUIRED|||-NONE-|||0
-A 43 43|||Add|||،|||REQUIRED|||-NONE-|||0
-A 43 44|||Edit|||وسعينا|||REQUIRED|||-NONE-|||0
+A 43 44|||Split|||، وسعينا|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||أشواط|||REQUIRED|||-NONE-|||0
 A 47 48|||Edit|||الصفا|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||إلى|||REQUIRED|||-NONE-|||0
@@ -7293,10 +6837,8 @@ A 98 99|||Edit|||النبوي|||REQUIRED|||-NONE-|||0
 A 99 99|||Add|||،|||REQUIRED|||-NONE-|||0
 A 100 101|||Edit|||صلاة|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||مقبرة|||REQUIRED|||-NONE-|||0
-A 114 114|||Add|||،|||REQUIRED|||-NONE-|||0
-A 114 115|||Edit|||وادي|||REQUIRED|||-NONE-|||0
-A 117 118|||Edit|||أحد|||REQUIRED|||-NONE-|||0
-A 118 118|||Add|||،|||REQUIRED|||-NONE-|||0
+A 114 115|||Split|||، وادي|||REQUIRED|||-NONE-|||0
+A 117 118|||Split|||أحد ،|||REQUIRED|||-NONE-|||0
 A 119 120|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 121 122|||Edit|||بالقطار|||REQUIRED|||-NONE-|||0
 A 126 127|||Edit|||وسرور|||REQUIRED|||-NONE-|||0
@@ -7346,13 +6888,11 @@ A 1 2|||Edit|||سياحية|||REQUIRED|||-NONE-|||0
 A 2 2|||Add|||.|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||أصدقائي|||REQUIRED|||-NONE-|||0
 A 6 6|||Add|||ايل دي|||REQUIRED|||-NONE-|||0
-A 9 10|||Edit|||كوناكري|||REQUIRED|||-NONE-|||0
-A 10 11|||Delete||||||REQUIRED|||-NONE-|||0
+A 9 11|||Merge|||كوناكري|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||وكانت|||REQUIRED|||-NONE-|||0
 A 25 25|||Add|||،|||REQUIRED|||-NONE-|||0
-A 33 34|||Delete||||||REQUIRED|||-NONE-|||0
-A 34 35|||Edit|||هؤلاء|||REQUIRED|||-NONE-|||0
+A 33 35|||Merge|||هؤلاء|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||الكرماء|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||أنني|||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||لأني|||REQUIRED|||-NONE-|||0
@@ -7377,8 +6917,7 @@ A 126 127|||Edit|||وصولنا|||REQUIRED|||-NONE-|||0
 A 139 140|||Edit|||المحتشدة|||REQUIRED|||-NONE-|||0
 A 140 141|||Edit|||ومكثنا|||REQUIRED|||-NONE-|||0
 A 147 148|||Edit|||موفقا|||REQUIRED|||-NONE-|||0
-A 155 156|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 156 157|||Delete||||||REQUIRED|||-NONE-|||0
+A 155 157|||Merge|||إلى|||REQUIRED|||-NONE-|||0
 A 158 158|||Add|||الممتاز|||REQUIRED|||-NONE-|||0
 A 159 159|||Add|||،|||REQUIRED|||-NONE-|||0
 A 162 162|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -7412,8 +6951,7 @@ A 33 34|||Edit|||الصحيح|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||واخترته|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||لأنني|||REQUIRED|||-NONE-|||0
 A 39 41|||Merge|||الإسلامية|||REQUIRED|||-NONE-|||0
-A 53 53|||Add|||،|||REQUIRED|||-NONE-|||0
-A 53 54|||Edit|||وأنا|||REQUIRED|||-NONE-|||0
+A 53 54|||Split|||، وأنا|||REQUIRED|||-NONE-|||0
 A 54 55|||Edit|||اخترتها|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||لي|||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||صغري|||REQUIRED|||-NONE-|||0
@@ -7478,8 +7016,7 @@ A 30 31|||Edit|||للسفر|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||صلاة|||REQUIRED|||-NONE-|||0
 A 38 38|||Add|||-|||REQUIRED|||-NONE-|||0
 A 40 40|||Add|||-|||REQUIRED|||-NONE-|||0
-A 41 42|||Edit|||مكة|||REQUIRED|||-NONE-|||0
-A 42 42|||Add|||.|||REQUIRED|||-NONE-|||0
+A 41 42|||Split|||مكة .|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||واليوم|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||التالي|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||إلى|||REQUIRED|||-NONE-|||0
@@ -7490,11 +7027,9 @@ A 56 56|||Add|||،|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||وهذه|||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||كانت|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 61 62|||Edit|||عمري|||REQUIRED|||-NONE-|||0
-A 62 62|||Add|||.|||REQUIRED|||-NONE-|||0
+A 61 62|||Split|||عمري .|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||المواقف|||REQUIRED|||-NONE-|||0
-A 65 65|||Add|||:|||REQUIRED|||-NONE-|||0
-A 65 66|||Edit|||رؤية|||REQUIRED|||-NONE-|||0
+A 65 66|||Split|||: رؤية|||REQUIRED|||-NONE-|||0
 A 68 68|||Add|||،|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||عيناي|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||الذي|||REQUIRED|||-NONE-|||0
@@ -7511,8 +7046,7 @@ A 108 109|||Edit|||المسجد|||REQUIRED|||-NONE-|||0
 A 111 111|||Add|||،|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||قباء|||REQUIRED|||-NONE-|||0
 A 114 115|||Edit|||الذي|||REQUIRED|||-NONE-|||0
-A 125 126|||Edit|||أيام|||REQUIRED|||-NONE-|||0
-A 126 126|||Add|||،|||REQUIRED|||-NONE-|||0
+A 125 126|||Split|||أيام ،|||REQUIRED|||-NONE-|||0
 A 126 127|||Edit|||استعدينا|||REQUIRED|||-NONE-|||0
 A 135 135|||Add|||،|||REQUIRED|||-NONE-|||0
 A 138 138|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -7527,8 +7061,7 @@ A 20 21|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 28 28|||Add|||،|||REQUIRED|||-NONE-|||0
 A 41 41|||Add|||-|||REQUIRED|||-NONE-|||0
 A 48 49|||Split|||- ،|||REQUIRED|||-NONE-|||0
-A 54 54|||Add|||،|||REQUIRED|||-NONE-|||0
-A 54 55|||Edit|||وتلك|||REQUIRED|||-NONE-|||0
+A 54 55|||Split|||، وتلك|||REQUIRED|||-NONE-|||0
 A 62 62|||Add|||،|||REQUIRED|||-NONE-|||0
 A 73 73|||Add|||،|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||لنا|||REQUIRED|||-NONE-|||0
@@ -7685,8 +7218,7 @@ A 38 39|||Edit|||الشريعة|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||سأتخصص|||REQUIRED|||-NONE-|||0
 A 43 43|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||اللغة|||REQUIRED|||-NONE-|||0
-A 51 52|||Edit|||الفصحى|||REQUIRED|||-NONE-|||0
-A 52 52|||Add|||،|||REQUIRED|||-NONE-|||0
+A 51 52|||Split|||الفصحى ،|||REQUIRED|||-NONE-|||0
 A 54 54|||Add|||،|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||المواضيع|||REQUIRED|||-NONE-|||0
 A 57 57|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -7709,14 +7241,8 @@ A 92 93|||Edit|||تدريس|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||يكونون|||REQUIRED|||-NONE-|||0
 A 106 107|||Split|||- إن شاء|||REQUIRED|||-NONE-|||0
 A 108 108|||Add|||-|||REQUIRED|||-NONE-|||0
-A 118 118|||Add|||-|||REQUIRED|||-NONE-|||0
-A 118 119|||Edit|||إن|||REQUIRED|||-NONE-|||0
-A 119 119|||Add|||شاء|||REQUIRED|||-NONE-|||0
-A 120 120|||Add|||-|||REQUIRED|||-NONE-|||0
-A 120 120|||Add|||،|||REQUIRED|||-NONE-|||0
-A 120 121|||Edit|||سيقل|||REQUIRED|||-NONE-|||0
-A 121 122|||Delete||||||REQUIRED|||-NONE-|||0
-A 122 123|||Edit|||الإجرام|||REQUIRED|||-NONE-|||0
+A 118 119|||Split|||- إن شاء|||REQUIRED|||-NONE-|||0
+A 120 123|||Split|||- ، سيقل الإجرام|||REQUIRED|||-NONE-|||0
 A 123 124|||Edit|||والشرك|||REQUIRED|||-NONE-|||0
 
 S سافرت إلى مكة لأداء فريضة الحج مع خالي وكانت السفر ممتعة وجيد وما وجدت أي صعوبة في السفر لأنني كنت مسرورة وعندما وصلت هنالك بدأت مباشره عن الطواف والسعي بين الصفا والمروة . وبعد ذلك ذهبت إلى السكن واسترحت هناك خلال خمس ساعات . وعندما حان وقت الصبح ذهبت إلى المسجد الحرام وصلت الصبح هنالك وذهبت مع خالي لكي أرى الأماكن التى كنت أتمنى أن أراها من قبل وفى اليوم الثامن ذهبت إلى منى وبت هنالك وفى الصباح يوم التاسع ذهبت إلى عرفة ومكست هنالك طوال اليوم وكنت أذكر الله وأقرأ القرآن الكريم وبعد المغرب أتينا إلى مزدلفة وصليت هنالك المغرب والعشاء جمع تأخير وبت هنالك وبعد ذلك أتينا إلى منى ورمينا الجمرة الكبرى ومكثنا أيام التشريق فى منى وبعد ذلك رجعنا إلى مكة وطفت طواف الإضافة وسعينا بين الصفا والمروة وبذلك تم حجنا وفي يوم عودتنا طفنا طواف الوادع ورجعنا إلى الرياض مباشرة .
@@ -7736,12 +7262,10 @@ A 52 52|||Add|||.|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||وصليت|||REQUIRED|||-NONE-|||0
 A 55 55|||Add|||،|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||التي|||REQUIRED|||-NONE-|||0
-A 68 68|||Add|||.|||REQUIRED|||-NONE-|||0
-A 68 69|||Edit|||وفي|||REQUIRED|||-NONE-|||0
+A 68 69|||Split|||. وفي|||REQUIRED|||-NONE-|||0
 A 71 71|||Add|||،|||REQUIRED|||-NONE-|||0
 A 74 74|||Add|||،|||REQUIRED|||-NONE-|||0
-A 76 76|||Add|||.|||REQUIRED|||-NONE-|||0
-A 76 77|||Edit|||وفي|||REQUIRED|||-NONE-|||0
+A 76 77|||Split|||. وفي|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||صباح|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||اليوم|||REQUIRED|||-NONE-|||0
 A 80 80|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -7759,8 +7283,7 @@ A 117 118|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 119 119|||Add|||.|||REQUIRED|||-NONE-|||0
 A 121 121|||Add|||،|||REQUIRED|||-NONE-|||0
 A 124 124|||Add|||،|||REQUIRED|||-NONE-|||0
-A 126 127|||Edit|||الإفاضة|||REQUIRED|||-NONE-|||0
-A 127 127|||Add|||،|||REQUIRED|||-NONE-|||0
+A 126 127|||Split|||الإفاضة ،|||REQUIRED|||-NONE-|||0
 A 131 131|||Add|||،|||REQUIRED|||-NONE-|||0
 A 134 134|||Add|||.|||REQUIRED|||-NONE-|||0
 A 137 137|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -7784,23 +7307,19 @@ A 40 41|||Edit|||والمرة|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||لجمع|||REQUIRED|||-NONE-|||0
 A 46 46|||Add|||،|||REQUIRED|||-NONE-|||0
 A 49 49|||Add|||.|||REQUIRED|||-NONE-|||0
-A 59 59|||Add|||من|||REQUIRED|||-NONE-|||0
-A 59 60|||Edit|||الجلوس|||REQUIRED|||-NONE-|||0
+A 59 60|||Split|||من الجلوس|||REQUIRED|||-NONE-|||0
 A 62 62|||Add|||،|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||واسترحت|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||،|||REQUIRED|||-NONE-|||0
 A 71 71|||Add|||،|||REQUIRED|||-NONE-|||0
 A 72 72|||Add|||.|||REQUIRED|||-NONE-|||0
 A 78 78|||Add|||،|||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||بدر|||REQUIRED|||-NONE-|||0
-A 83 83|||Add|||،|||REQUIRED|||-NONE-|||0
+A 82 83|||Split|||بدر ،|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||قتلى|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||المسلمين|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||غزوة|||REQUIRED|||-NONE-|||0
-A 89 90|||Edit|||بدر|||REQUIRED|||-NONE-|||0
-A 90 90|||Add|||،|||REQUIRED|||-NONE-|||0
-A 94 95|||Edit|||قباء|||REQUIRED|||-NONE-|||0
-A 95 95|||Add|||،|||REQUIRED|||-NONE-|||0
+A 89 90|||Split|||بدر ،|||REQUIRED|||-NONE-|||0
+A 94 95|||Split|||قباء ،|||REQUIRED|||-NONE-|||0
 A 98 98|||Add|||،|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 117 117|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -7815,11 +7334,9 @@ A 133 133|||Add|||،|||REQUIRED|||-NONE-|||0
 A 136 137|||Edit|||الفندق|||REQUIRED|||-NONE-|||0
 A 138 139|||Edit|||استأجره|||REQUIRED|||-NONE-|||0
 A 139 140|||Edit|||الرجل|||REQUIRED|||-NONE-|||0
-A 144 144|||Add|||،|||REQUIRED|||-NONE-|||0
-A 144 145|||Edit|||وخلعت|||REQUIRED|||-NONE-|||0
+A 144 145|||Split|||، وخلعت|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||إحرامي|||REQUIRED|||-NONE-|||0
-A 147 147|||Add|||.|||REQUIRED|||-NONE-|||0
-A 147 148|||Edit|||شعرت|||REQUIRED|||-NONE-|||0
+A 147 148|||Split|||. شعرت|||REQUIRED|||-NONE-|||0
 A 152 152|||Add|||،|||REQUIRED|||-NONE-|||0
 A 154 155|||Edit|||مكان|||REQUIRED|||-NONE-|||0
 A 156 156|||Add|||إليه ؛|||REQUIRED|||-NONE-|||0
@@ -7833,8 +7350,7 @@ A 169 170|||Edit|||وشعرت|||REQUIRED|||-NONE-|||0
 A 171 171|||Add|||؛|||REQUIRED|||-NONE-|||0
 
 S التخصص في المستقبل أرعب في التخصص الدراسة الإسلامية ، لأن أنا مسلمة . قال رسول الله صلى الله عليه وسلم : " طلب علم واحب على كل مسلم ومسلمة " . أحب أن أكون مدرسة ، عندما كنت صغيرة أحب طريقة الدرس الذي كان أستاذتي تشرح لي أشياء جديدة ، ما كنت أعلم . هذا يسرني جدا . وأمة المسلمين يحتاج إلى علماء حتى تتطور الدين الإسلامي في قارة من العالم . بنسبة أنا لا يوجد أي أحد من أهلي يساعدني أو أستفيدة منه ، لكن يوجد أستاذات ، والمعلمات ، والكتب ، والمواقع ، انشاء الله سأستفيد منهم . كان أسرتي تشجعني عن هذه التخصص ، وصديقتي كانت كل يوم تشجعني بالدعوة إلى الإسلام ، وأمر بالمعروف والنهي عن المنكر . علي أن أتعلم علم القرآن الكريم والآحاد يث النبوي ، والكتب الديني من الفقه ، وسيرة ، والتاريخ الأنبياء والمرسلين والعلماء السابقين .
-A 3 3|||Add|||.|||REQUIRED|||-NONE-|||0
-A 3 4|||Edit|||أرغب|||REQUIRED|||-NONE-|||0
+A 3 4|||Split|||. أرغب|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||بالدراسات|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 16 16|||Add|||-|||REQUIRED|||-NONE-|||0
@@ -7852,20 +7368,16 @@ A 53 54|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||تحتاج|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||تنشر|||REQUIRED|||-NONE-|||0
 A 72 73|||Edit|||بالنسبة|||REQUIRED|||-NONE-|||0
-A 73 73|||Add|||لي|||REQUIRED|||-NONE-|||0
-A 73 74|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 73 74|||Split|||لي ،|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||أستفيده|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||الأستاذات|||REQUIRED|||-NONE-|||0
-A 95 95|||Add|||إن|||REQUIRED|||-NONE-|||0
-A 95 96|||Edit|||شاء|||REQUIRED|||-NONE-|||0
+A 95 96|||Split|||إن شاء|||REQUIRED|||-NONE-|||0
 A 100 101|||Edit|||كانت|||REQUIRED|||-NONE-|||0
 A 103 104|||Edit|||على|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 116 117|||Edit|||والأمر|||REQUIRED|||-NONE-|||0
 A 118 118|||Add|||،|||REQUIRED|||-NONE-|||0
-A 128 128|||Add|||،|||REQUIRED|||-NONE-|||0
-A 128 129|||Edit|||والأحاديث|||REQUIRED|||-NONE-|||0
-A 129 130|||Delete||||||REQUIRED|||-NONE-|||0
+A 128 130|||Edit|||، والأحاديث|||REQUIRED|||-NONE-|||0
 A 130 131|||Edit|||النبوية|||REQUIRED|||-NONE-|||0
 A 133 134|||Edit|||الدينية|||REQUIRED|||-NONE-|||0
 A 135 135|||Add|||:|||REQUIRED|||-NONE-|||0
@@ -7876,8 +7388,7 @@ A 142 142|||Add|||،|||REQUIRED|||-NONE-|||0
 
 S أرغب التخصص إن شاء الله دراسة الإسلامية لأنها مفيدة لمصلحتى وأستري خاصة فى بلدنا الفلبين لأنهم محتاجون للدعاة الذين يدعون إلى سبيل الله ، قد اخترت هذا التخصص المفيد ليستفيد منه ونفسي وأهلي والناس أجمعين ، سوف أعرف أحكام الإسلام وعلوم الدينية فى هذا التخصص . هناك ممن حولك متخصصون في هذا التخصص مثل أساتذتي فى بلدنا وهم الدعاة ، وخاصة الدكتورات فى هذه جامعة الأميرة بنت عبد الرحمن ، قد لاحظت أن بعض الأشخاص الذين يأخذون التخصص الدينية أرى إليهم نور الإمكان على وجههم أسأل الله أن أكون معهم . لا يوجد من تشجع بي إلا نفسي لأنني أصلي أريد أن أدرس علوم الدينية ، وعندما تعلمت قليلا سيزيد محبة أو الرغبة في هذا التخصص ، لأنه كلما أدرس بعض المعلومات سأعرف أن الإسلام نعمة عظيمة فلابد أن أعبد الله وحده لا شريك له ، فيه أحد أستاذتي في دورة اسمها دكتورة لولوة وعندما سمعت كلامها سأتذكر يوم القيامة ألا وإن هذا من علامات صحبة الخير ؟ الله يحفظها ولمن تقرأ هنا .
 A 2 2|||Add|||-|||REQUIRED|||-NONE-|||0
-A 5 5|||Add|||-|||REQUIRED|||-NONE-|||0
-A 5 6|||Edit|||بالدراسات|||REQUIRED|||-NONE-|||0
+A 5 6|||Split|||- بالدراسات|||REQUIRED|||-NONE-|||0
 A 7 7|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||لمصلحتي|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||وأسرتي|||REQUIRED|||-NONE-|||0
@@ -7920,8 +7431,7 @@ A 127 127|||Add|||،|||REQUIRED|||-NONE-|||0
 A 135 136|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||إحدى|||REQUIRED|||-NONE-|||0
 A 138 139|||Edit|||أستاذاتي|||REQUIRED|||-NONE-|||0
-A 143 144|||Edit|||لؤلؤة|||REQUIRED|||-NONE-|||0
-A 144 144|||Add|||،|||REQUIRED|||-NONE-|||0
+A 143 144|||Split|||لؤلؤة ،|||REQUIRED|||-NONE-|||0
 A 150 150|||Add|||.|||REQUIRED|||-NONE-|||0
 A 157 158|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 160 160|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -7936,8 +7446,7 @@ A 41 42|||Edit|||وأرغب|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||كافية|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||عن|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 55 56|||Edit|||الفقه|||REQUIRED|||-NONE-|||0
-A 56 56|||Add|||،|||REQUIRED|||-NONE-|||0
+A 55 56|||Split|||الفقه ،|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||والعبادة|||REQUIRED|||-NONE-|||0
 A 57 57|||Add|||،|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -7984,8 +7493,7 @@ A 86 86|||Add|||-|||REQUIRED|||-NONE-|||0
 A 90 90|||Add|||-|||REQUIRED|||-NONE-|||0
 A 92 92|||Add|||،|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||ليلتها|||REQUIRED|||-NONE-|||0
-A 96 97|||Edit|||الاستراحة|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||،|||REQUIRED|||-NONE-|||0
+A 96 97|||Split|||الاستراحة ،|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||وقمنا|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||بالبرامج|||REQUIRED|||-NONE-|||0
 A 103 103|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -8006,9 +7514,7 @@ A 8 9|||Edit|||تعلم|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||لغة|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||القرآن|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||لأني|||REQUIRED|||-NONE-|||0
-A 30 30|||Add|||،|||REQUIRED|||-NONE-|||0
-A 30 31|||Edit|||وأشرح|||REQUIRED|||-NONE-|||0
-A 31 31|||Add|||لهم|||REQUIRED|||-NONE-|||0
+A 30 31|||Split|||، وأشرح لهم|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||أستفيد|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||أستاذاتي|||REQUIRED|||-NONE-|||0
@@ -8018,8 +7524,7 @@ S ر حلتي إلى منطقة القصيم في ا لفصل الما ضي أ �
 A 0 2|||Merge|||رحلتي|||REQUIRED|||-NONE-|||0
 A 6 10|||Merge|||الفصل الماضي|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 11 12|||Edit|||أقام|||REQUIRED|||-NONE-|||0
-A 12 13|||Delete||||||REQUIRED|||-NONE-|||0
+A 11 13|||Merge|||أقام|||REQUIRED|||-NONE-|||0
 A 13 19|||Merge|||نادي الطلاب|||REQUIRED|||-NONE-|||0
 A 19 20|||Delete||||||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||رحلة|||REQUIRED|||-NONE-|||0
@@ -8027,14 +7532,7 @@ A 21 25|||Merge|||إلى مدينة|||REQUIRED|||-NONE-|||0
 A 26 26|||Add|||،|||REQUIRED|||-NONE-|||0
 A 27 29|||Merge|||اسمي|||REQUIRED|||-NONE-|||0
 A 30 34|||Merge|||قائمة الراغبين|||REQUIRED|||-NONE-|||0
-A 34 35|||Delete||||||REQUIRED|||-NONE-|||0
-A 35 36|||Delete||||||REQUIRED|||-NONE-|||0
-A 36 37|||Edit|||للذهاب|||REQUIRED|||-NONE-|||0
-A 37 38|||Delete||||||REQUIRED|||-NONE-|||0
-A 38 39|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 39 40|||Delete||||||REQUIRED|||-NONE-|||0
-A 40 41|||Edit|||فاستعددت|||REQUIRED|||-NONE-|||0
-A 41 42|||Delete||||||REQUIRED|||-NONE-|||0
+A 34 42|||Merge|||للذهاب ، فاستعددت|||REQUIRED|||-NONE-|||0
 A 42 46|||Merge|||صباح يوم|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||الأربعاء|||REQUIRED|||-NONE-|||0
 A 47 48|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -8043,8 +7541,7 @@ A 49 50|||Delete||||||REQUIRED|||-NONE-|||0
 A 50 54|||Merge|||وبعد صلاة|||REQUIRED|||-NONE-|||0
 A 55 55|||Add|||،|||REQUIRED|||-NONE-|||0
 A 59 59|||Add|||،|||REQUIRED|||-NONE-|||0
-A 61 62|||Edit|||الباص|||REQUIRED|||-NONE-|||0
-A 62 62|||Add|||،|||REQUIRED|||-NONE-|||0
+A 61 62|||Split|||الباص ،|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||عدة|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||ساعات|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -8085,9 +7582,7 @@ A 82 82|||Add|||.|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||مبتدئا|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 96 97|||Edit|||الابتدائي|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||،|||REQUIRED|||-NONE-|||0
-A 97 98|||Edit|||واستمررت|||REQUIRED|||-NONE-|||0
-A 98 98|||Add|||فيها|||REQUIRED|||-NONE-|||0
+A 97 98|||Split|||، واستمررت فيها|||REQUIRED|||-NONE-|||0
 A 108 109|||Edit|||التعلم|||REQUIRED|||-NONE-|||0
 A 110 110|||Add|||،|||REQUIRED|||-NONE-|||0
 A 113 113|||Add|||هذا|||REQUIRED|||-NONE-|||0
@@ -8095,8 +7590,7 @@ A 116 116|||Add|||،|||REQUIRED|||-NONE-|||0
 A 122 123|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 134 135|||Edit|||أنتهي|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||وسأقوم|||REQUIRED|||-NONE-|||0
-A 147 147|||Add|||-|||REQUIRED|||-NONE-|||0
-A 147 148|||Edit|||إن|||REQUIRED|||-NONE-|||0
+A 147 148|||Split|||- إن|||REQUIRED|||-NONE-|||0
 A 151 151|||Add|||-|||REQUIRED|||-NONE-|||0
 
 S أنا أريد ان اتعلم اللغة العربية لأفهم القران الكريم والحديث الشريف والعلوم الدينية لا استطيع ان التحق الجامعة لأن سأرجع إلى بلدي . وانا اريد ان اساعد اهلي واقربائي واصدقائي ان شاء الله .
@@ -8116,13 +7610,11 @@ A 23 24|||Edit|||وأنا|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||أريد|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||أساعد|||REQUIRED|||-NONE-|||0
-A 27 28|||Edit|||أهلي|||REQUIRED|||-NONE-|||0
-A 28 28|||Add|||،|||REQUIRED|||-NONE-|||0
+A 27 28|||Split|||أهلي ،|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||وأقربائي|||REQUIRED|||-NONE-|||0
 A 29 29|||Add|||،|||REQUIRED|||-NONE-|||0
 A 29 30|||Edit|||وأصدقائي|||REQUIRED|||-NONE-|||0
-A 30 30|||Add|||-|||REQUIRED|||-NONE-|||0
-A 30 31|||Edit|||إن|||REQUIRED|||-NONE-|||0
+A 30 31|||Split|||- إن|||REQUIRED|||-NONE-|||0
 A 33 33|||Add|||-|||REQUIRED|||-NONE-|||0
 
 S ( الرحلة إلى أماكن التجول التايلندي ) إن الله خلق كل شيء الذي نرى والذي لم نر ويخلق شيئا لكي نفكر عن عظمته . ونشكر الله كثيرا الذي هدانا لهذا الدين ، نستطيع أن نستفيد منها كثيرة بعض منها نعرف كيف نعيش بهذا الدين ونعرف من خلقنا هذا ولماذ يخلق كل شيء لكي نتأمل منها . والحمد لله ، أنا تايلندي وتجولت في بلدان الآخرى كثيرة منها . اندونسيا ، ماليزيا ، وكمبوديا ، وموباي . ولكن أريد أن اقد لكم عن رحلتي في التايلندي . منذ سبع سنوات كنت مع اسرتي في رحلة إلى العاصمة والشمال التايلندي في إحدى الإجازات ونحن نسكن في جنوب التايلند ، ونحن سافرنا بالسيارة إلى العاصمة أولا وقضيت هناك أسبوع كاملا ، وتجولنا بعض الأماكن منها مكان مجمع الناس البترون اشياء وتجولنا أيضا في مدينة الحيوانات الكبرى . وتجولنا في سفرينول وآخره وفي العاصمة كانت ازدحام شديدة المكان قريبو لكن نستطيع نمشي أسرع من السيارة بسبب إزدحام . وبعد قضينا من رحلة في العاصمة ، نمشي إلى الشمال التايلند هناك كان جبال كثيرة جميلة بسبب لأشجار كثيرة . خرجنا من العاصمة ووصلنا إلى الشمال بعد خمس عشر ساعة وتجولنا بعض الجال العالية في هناك وركبنا أيضا الجليل الأعلى في التايلندي ، كان الجو هناك بردان شديدا حتى لا نحس شيء عندما نضع يدينا في النار . وهناك الجبال توجد قبيلة كثيرة ومختلفات وبعد ثلاثة أيام نرجع إلى جنوب وهو بيتنا والحمد لله استفدنا كثيرة من تلك الرحلة والحمد لله على نعمة الإسلام .
@@ -8136,8 +7628,7 @@ A 21 22|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||ونستطيع|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||منه|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||كثيرا|||REQUIRED|||-NONE-|||0
-A 37 37|||Add|||،|||REQUIRED|||-NONE-|||0
-A 37 38|||Edit|||والبعض|||REQUIRED|||-NONE-|||0
+A 37 38|||Split|||، والبعض|||REQUIRED|||-NONE-|||0
 A 39 39|||Add|||:|||REQUIRED|||-NONE-|||0
 A 44 44|||Add|||،|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||خلق|||REQUIRED|||-NONE-|||0
@@ -8162,20 +7653,15 @@ A 97 98|||Edit|||التايلاندي|||REQUIRED|||-NONE-|||0
 A 101 101|||Add|||،|||REQUIRED|||-NONE-|||0
 A 105 106|||Edit|||تايلاند|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 113 113|||Add|||،|||REQUIRED|||-NONE-|||0
-A 113 114|||Edit|||وقضينا|||REQUIRED|||-NONE-|||0
+A 113 114|||Split|||، وقضينا|||REQUIRED|||-NONE-|||0
 A 115 116|||Edit|||أسبوعا|||REQUIRED|||-NONE-|||0
 A 119 119|||Add|||في|||REQUIRED|||-NONE-|||0
 A 122 122|||Add|||:|||REQUIRED|||-NONE-|||0
-A 125 125|||Add|||الذين|||REQUIRED|||-NONE-|||0
-A 125 126|||Edit|||يشترون|||REQUIRED|||-NONE-|||0
-A 126 126|||Add|||منه|||REQUIRED|||-NONE-|||0
+A 125 126|||Split|||الذين يشترون منه|||REQUIRED|||-NONE-|||0
 A 126 127|||Edit|||الأشياء|||REQUIRED|||-NONE-|||0
 A 127 127|||Add|||،|||REQUIRED|||-NONE-|||0
 A 133 134|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 136 137|||Edit|||سفاري|||REQUIRED|||-NONE-|||0
-A 137 137|||Add|||بارك|||REQUIRED|||-NONE-|||0
-A 137 137|||Add|||وفي|||REQUIRED|||-NONE-|||0
+A 136 137|||Split|||سفاري بارك وفي|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||آخره|||REQUIRED|||-NONE-|||0
 A 138 138|||Add|||.|||REQUIRED|||-NONE-|||0
 A 140 140|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -8203,10 +7689,8 @@ A 184 184|||Add|||،|||REQUIRED|||-NONE-|||0
 A 185 185|||Add|||في|||REQUIRED|||-NONE-|||0
 A 186 187|||Edit|||الجبال|||REQUIRED|||-NONE-|||0
 A 188 189|||Delete||||||REQUIRED|||-NONE-|||0
-A 190 190|||Add|||،|||REQUIRED|||-NONE-|||0
-A 190 191|||Edit|||وصعدنا|||REQUIRED|||-NONE-|||0
-A 192 192|||Add|||إلى|||REQUIRED|||-NONE-|||0
-A 192 193|||Edit|||الجبال|||REQUIRED|||-NONE-|||0
+A 190 191|||Split|||، وصعدنا|||REQUIRED|||-NONE-|||0
+A 192 193|||Split|||إلى الجبال|||REQUIRED|||-NONE-|||0
 A 195 196|||Split|||الشمال التايلاندي|||REQUIRED|||-NONE-|||0
 A 196 197|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 200 201|||Edit|||باردا|||REQUIRED|||-NONE-|||0
@@ -8220,8 +7704,7 @@ A 215 216|||Edit|||قبائل|||REQUIRED|||-NONE-|||0
 A 217 218|||Edit|||ومختلفة|||REQUIRED|||-NONE-|||0
 A 218 218|||Add|||.|||REQUIRED|||-NONE-|||0
 A 219 220|||Edit|||ثلاث|||REQUIRED|||-NONE-|||0
-A 221 221|||Add|||،|||REQUIRED|||-NONE-|||0
-A 221 222|||Edit|||رجعنا|||REQUIRED|||-NONE-|||0
+A 221 222|||Split|||، رجعنا|||REQUIRED|||-NONE-|||0
 A 223 224|||Edit|||الجنوب|||REQUIRED|||-NONE-|||0
 A 224 225|||Edit|||وبه|||REQUIRED|||-NONE-|||0
 A 226 226|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -8239,21 +7722,16 @@ A 14 15|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||وجمعة|||REQUIRED|||-NONE-|||0
 A 19 19|||Add|||،|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||الأشياء|||REQUIRED|||-NONE-|||0
-A 22 22|||Add|||،|||REQUIRED|||-NONE-|||0
-A 22 23|||Edit|||هدايا|||REQUIRED|||-NONE-|||0
+A 22 23|||Split|||، هدايا|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||للأسرة|||REQUIRED|||-NONE-|||0
-A 24 25|||Delete||||||REQUIRED|||-NONE-|||0
-A 25 26|||Edit|||والأصدقاء|||REQUIRED|||-NONE-|||0
-A 26 26|||Add|||.|||REQUIRED|||-NONE-|||0
+A 24 26|||Edit|||والأصدقاء .|||REQUIRED|||-NONE-|||0
 
 S اهتماماتي الدراسية والتخصص الذي أحبه بعد تخرجت في المعهد اللغة العربية قبل سنة كنت افكر أني اريد أن أدرس كلية دعوة الإسلامية لأن سمعت أن هذه الكلية الدراسة ليس صعبة . وأيضا صديقي الذي أسكن معه في سكن الطلاب في العوالي كان يدرس في هذه الكلية أيضا . وواحد من الأيام فكرتي قد تغيرت بعدما سمعت من أحد الدكتور قال : حياتنا ليس يعلق مع أحد يعلق بنفسه لو يهتم بهذا العلاقة سيجد النجاح في حياتهم ولكن لو لا يعرف كيف خطتهم لا ينجح في الحياة . وبعد ذلك ، أفكر عن حياتي كيف سيكون في المستقبل ، وافكر أن أسرتي وولاتي يحتاج إلى داعي مع ذلك يعرف اقتصاد الإسلامية . لأن ابي يعمل في المصرف الإسلامي ، وأفكر عندي اختيارين إما كلية الدعوة أو كلية إقتصاد الإسلامية ، وحتى الآن لا أعرف أي واحد سأختار . وإن شاء الله سأصلي استخارة لكي أستطيع أن أختار أحسن شيء في الدراسة . وطبعا لو اخترت واحد منهما لابد أن أهتم بالدراسة حتى نفهم الدرس جيدا وأكون رجل ممتازا في الدنيا والآخرة والحمد لله الذي اخترني على ان اكون في مكة واسكن في الأرض الحرم أسأل أن يسهل لي وفي الدراسة أمين يارب .
-A 5 5|||Add|||.|||REQUIRED|||-NONE-|||0
-A 5 6|||Edit|||بعدما|||REQUIRED|||-NONE-|||0
+A 5 6|||Split|||. بعدما|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||معهد|||REQUIRED|||-NONE-|||0
 A 13 13|||Add|||،|||REQUIRED|||-NONE-|||0
-A 14 15|||Edit|||أفكر|||REQUIRED|||-NONE-|||0
-A 15 15|||Add|||في|||REQUIRED|||-NONE-|||0
+A 14 15|||Split|||أفكر في|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||أريد|||REQUIRED|||-NONE-|||0
 A 19 19|||Add|||في|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||الدعوة|||REQUIRED|||-NONE-|||0
@@ -8262,22 +7740,16 @@ A 22 23|||Edit|||لأني|||REQUIRED|||-NONE-|||0
 A 25 25|||Add|||في|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||ليست|||REQUIRED|||-NONE-|||0
 A 41 41|||Add|||،|||REQUIRED|||-NONE-|||0
-A 48 48|||Add|||وفي|||REQUIRED|||-NONE-|||0
-A 48 49|||Edit|||إحدى|||REQUIRED|||-NONE-|||0
-A 49 50|||Delete||||||REQUIRED|||-NONE-|||0
+A 48 50|||Edit|||وفي إحدى|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 54 54|||Add|||فكرتي|||REQUIRED|||-NONE-|||0
 A 56 57|||Delete||||||REQUIRED|||-NONE-|||0
 A 58 59|||Edit|||الدكاترة|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||يقول|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||ليست|||REQUIRED|||-NONE-|||0
-A 63 64|||Edit|||متعلقة|||REQUIRED|||-NONE-|||0
-A 64 65|||Delete||||||REQUIRED|||-NONE-|||0
+A 63 65|||Merge|||متعلقة|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||بأحد|||REQUIRED|||-NONE-|||0
-A 66 67|||Edit|||بل|||REQUIRED|||-NONE-|||0
-A 67 67|||Add|||متعلقة|||REQUIRED|||-NONE-|||0
-A 67 68|||Edit|||بأنفسنا|||REQUIRED|||-NONE-|||0
-A 68 68|||Add|||،|||REQUIRED|||-NONE-|||0
+A 66 68|||Split|||بل متعلقة بأنفسنا ،|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||يهتمون|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||بهذه|||REQUIRED|||-NONE-|||0
 A 72 73|||Edit|||سيجدون|||REQUIRED|||-NONE-|||0
@@ -8314,8 +7786,7 @@ A 164 164|||Add|||،|||REQUIRED|||-NONE-|||0
 A 165 166|||Edit|||رجلا|||REQUIRED|||-NONE-|||0
 A 170 170|||Add|||،|||REQUIRED|||-NONE-|||0
 A 173 174|||Edit|||إختارني|||REQUIRED|||-NONE-|||0
-A 174 175|||Delete||||||REQUIRED|||-NONE-|||0
-A 175 176|||Edit|||أن|||REQUIRED|||-NONE-|||0
+A 174 176|||Merge|||أن|||REQUIRED|||-NONE-|||0
 A 176 177|||Edit|||أكون|||REQUIRED|||-NONE-|||0
 A 179 179|||Add|||،|||REQUIRED|||-NONE-|||0
 A 179 180|||Edit|||وأسكن|||REQUIRED|||-NONE-|||0
@@ -8394,8 +7865,7 @@ A 45 46|||Edit|||أجيبهم|||REQUIRED|||-NONE-|||0
 A 46 47|||Delete||||||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 63 63|||Add|||،|||REQUIRED|||-NONE-|||0
-A 69 70|||Edit|||موحدون|||REQUIRED|||-NONE-|||0
-A 70 70|||Add|||،|||REQUIRED|||-NONE-|||0
+A 69 70|||Split|||موحدون ،|||REQUIRED|||-NONE-|||0
 A 72 73|||Edit|||الاجتماعي|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||صعوبات|||REQUIRED|||-NONE-|||0
 A 79 80|||Delete||||||REQUIRED|||-NONE-|||0
@@ -8431,26 +7901,19 @@ A 21 21|||Add|||،|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||استقبلوني|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||وأضافوني|||REQUIRED|||-NONE-|||0
 A 25 27|||Merge|||ضيافة|||REQUIRED|||-NONE-|||0
-A 28 28|||Add|||.|||REQUIRED|||-NONE-|||0
-A 28 29|||Edit|||وقبل|||REQUIRED|||-NONE-|||0
+A 28 29|||Split|||. وقبل|||REQUIRED|||-NONE-|||0
 A 30 30|||Add|||،|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||استعدادا|||REQUIRED|||-NONE-|||0
-A 32 33|||Edit|||يجنبني|||REQUIRED|||-NONE-|||0
-A 33 34|||Delete||||||REQUIRED|||-NONE-|||0
+A 32 34|||Merge|||يجنبني|||REQUIRED|||-NONE-|||0
 A 34 36|||Merge|||الصعوبات|||REQUIRED|||-NONE-|||0
-A 37 37|||Add|||،|||REQUIRED|||-NONE-|||0
-A 37 38|||Edit|||ووجدت|||REQUIRED|||-NONE-|||0
-A 38 39|||Delete||||||REQUIRED|||-NONE-|||0
+A 37 39|||Edit|||، ووجدت|||REQUIRED|||-NONE-|||0
 A 40 40|||Add|||،|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||ولو|||REQUIRED|||-NONE-|||0
 A 41 42|||Split|||ما جئت|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||بشيء|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||رغباتي|||REQUIRED|||-NONE-|||0
 A 47 47|||Add|||،|||REQUIRED|||-NONE-|||0
-A 51 51|||Add|||بي|||REQUIRED|||-NONE-|||0
-A 51 52|||Edit|||اهتماما|||REQUIRED|||-NONE-|||0
-A 52 52|||Add|||حسنا|||REQUIRED|||-NONE-|||0
-A 52 52|||Add|||،|||REQUIRED|||-NONE-|||0
+A 51 52|||Split|||بي اهتماما حسنا ،|||REQUIRED|||-NONE-|||0
 A 52 53|||Split|||فبحمد الله|||REQUIRED|||-NONE-|||0
 A 53 53|||Add|||،|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||أية|||REQUIRED|||-NONE-|||0
@@ -8460,10 +7923,7 @@ A 59 59|||Add|||مع|||REQUIRED|||-NONE-|||0
 A 64 64|||Add|||،|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||حملوني|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 68 68|||Add|||،|||REQUIRED|||-NONE-|||0
-A 68 68|||Add|||وزاروا|||REQUIRED|||-NONE-|||0
-A 68 68|||Add|||معي|||REQUIRED|||-NONE-|||0
-A 68 69|||Edit|||الأماكن|||REQUIRED|||-NONE-|||0
+A 68 69|||Split|||، وزاروا معي الأماكن|||REQUIRED|||-NONE-|||0
 A 69 70|||Split|||الجميلة والمساجد البارزة|||REQUIRED|||-NONE-|||0
 A 70 70|||Add|||في|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||البلد|||REQUIRED|||-NONE-|||0
@@ -8478,12 +7938,9 @@ A 79 79|||Add|||،|||REQUIRED|||-NONE-|||0
 A 81 81|||Add|||،|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||شاكرا|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||لهم|||REQUIRED|||-NONE-|||0
-A 86 86|||Add|||،|||REQUIRED|||-NONE-|||0
-A 86 87|||Edit|||فقد|||REQUIRED|||-NONE-|||0
-A 87 87|||Add|||كسبت|||REQUIRED|||-NONE-|||0
+A 86 87|||Split|||، فقد كسبت|||REQUIRED|||-NONE-|||0
 A 87 88|||Split|||خبرة كبيرة|||REQUIRED|||-NONE-|||0
-A 88 88|||Add|||في|||REQUIRED|||-NONE-|||0
-A 88 89|||Edit|||ذلك|||REQUIRED|||-NONE-|||0
+A 88 89|||Split|||في ذلك|||REQUIRED|||-NONE-|||0
 A 90 90|||Add|||،|||REQUIRED|||-NONE-|||0
 A 90 91|||Split|||والحمد لله|||REQUIRED|||-NONE-|||0
 A 91 91|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -8498,8 +7955,7 @@ A 6 7|||Edit|||البكالوريوس|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||عام|||REQUIRED|||-NONE-|||0
 A 9 10|||Split|||2008 م|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||تخصصت|||REQUIRED|||-NONE-|||0
-A 12 12|||Add|||في|||REQUIRED|||-NONE-|||0
-A 12 13|||Edit|||إدارة|||REQUIRED|||-NONE-|||0
+A 12 13|||Split|||في إدارة|||REQUIRED|||-NONE-|||0
 A 14 14|||Add|||،|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||عملت|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||مطار|||REQUIRED|||-NONE-|||0
@@ -8604,8 +8060,7 @@ A 9 9|||Add|||،|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||زيارة|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||المسجد|||REQUIRED|||-NONE-|||0
-A 15 15|||Add|||،|||REQUIRED|||-NONE-|||0
-A 15 16|||Edit|||ولما|||REQUIRED|||-NONE-|||0
+A 15 16|||Split|||، ولما|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||اتفقت|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||مع|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||التايلانديين|||REQUIRED|||-NONE-|||0
@@ -8651,8 +8106,7 @@ A 119 120|||Edit|||المزارع|||REQUIRED|||-NONE-|||0
 A 120 121|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 122 123|||Edit|||صلينا|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||مسجد|||REQUIRED|||-NONE-|||0
-A 126 126|||Add|||،|||REQUIRED|||-NONE-|||0
-A 126 127|||Edit|||وزرنا|||REQUIRED|||-NONE-|||0
+A 126 127|||Split|||، وزرنا|||REQUIRED|||-NONE-|||0
 A 127 128|||Edit|||أصدقاءنا|||REQUIRED|||-NONE-|||0
 A 131 132|||Edit|||الجامعة|||REQUIRED|||-NONE-|||0
 A 133 134|||Edit|||بالمدينة|||REQUIRED|||-NONE-|||0
@@ -8665,8 +8119,7 @@ S العودة من العطلة الصيفية في اليوم الرابع م�
 A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
 A 22 22|||Add|||:|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||يوم|||REQUIRED|||-NONE-|||0
-A 30 31|||Delete||||||REQUIRED|||-NONE-|||0
-A 31 32|||Edit|||كما|||REQUIRED|||-NONE-|||0
+A 30 32|||Merge|||كما|||REQUIRED|||-NONE-|||0
 A 34 36|||Merge|||؟|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||نؤجل|||REQUIRED|||-NONE-|||0
 A 41 41|||Add|||:|||REQUIRED|||-NONE-|||0
@@ -8676,15 +8129,12 @@ A 49 49|||Add|||:|||REQUIRED|||-NONE-|||0
 A 58 58|||Add|||،|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||وفي|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||وإخوتي|||REQUIRED|||-NONE-|||0
-A 74 75|||Delete||||||REQUIRED|||-NONE-|||0
-A 75 76|||Edit|||يوم|||REQUIRED|||-NONE-|||0
+A 74 76|||Merge|||يوم|||REQUIRED|||-NONE-|||0
 A 77 77|||Add|||،|||REQUIRED|||-NONE-|||0
 A 79 79|||Add|||:|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||!|||REQUIRED|||-NONE-|||0
-A 90 91|||Edit|||بها|||REQUIRED|||-NONE-|||0
-A 91 91|||Add|||،|||REQUIRED|||-NONE-|||0
-A 95 96|||Delete||||||REQUIRED|||-NONE-|||0
-A 96 97|||Edit|||يوم|||REQUIRED|||-NONE-|||0
+A 90 91|||Split|||بها ،|||REQUIRED|||-NONE-|||0
+A 95 97|||Merge|||يوم|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||سمعت|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||أغادر|||REQUIRED|||-NONE-|||0
 A 125 125|||Add|||؛|||REQUIRED|||-NONE-|||0
@@ -8700,8 +8150,7 @@ A 19 20|||Edit|||وتجولنا|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||صلاة|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||ومشينا|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||وذقنا|||REQUIRED|||-NONE-|||0
-A 70 70|||Add|||،|||REQUIRED|||-NONE-|||0
-A 70 71|||Edit|||وجدنا|||REQUIRED|||-NONE-|||0
+A 70 71|||Split|||، وجدنا|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||مالحا|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||صلاة|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||تناولنا|||REQUIRED|||-NONE-|||0
@@ -8739,9 +8188,7 @@ S كليتي وتخصصي لقد قمت بتفكير طويل حول هذا ال
 A 2 2|||Add|||.|||REQUIRED|||-NONE-|||0
 A 10 11|||Delete||||||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 16 16|||Add|||في|||REQUIRED|||-NONE-|||0
-A 16 17|||Edit|||نفسي|||REQUIRED|||-NONE-|||0
-A 17 17|||Add|||:|||REQUIRED|||-NONE-|||0
+A 16 17|||Split|||في نفسي :|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||أي|||REQUIRED|||-NONE-|||0
 A 23 23|||Add|||؟|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||العلمية|||REQUIRED|||-NONE-|||0
@@ -8753,8 +8200,7 @@ A 65 66|||Edit|||تبين|||REQUIRED|||-NONE-|||0
 A 82 82|||Add|||،|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||تدرس|||REQUIRED|||-NONE-|||0
 A 107 107|||Add|||الأئمة|||REQUIRED|||-NONE-|||0
-A 108 109|||Delete||||||REQUIRED|||-NONE-|||0
-A 109 110|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 108 110|||Merge|||،|||REQUIRED|||-NONE-|||0
 A 114 114|||Add|||،|||REQUIRED|||-NONE-|||0
 A 120 120|||Add|||،|||REQUIRED|||-NONE-|||0
 A 131 132|||Edit|||لي|||REQUIRED|||-NONE-|||0
@@ -8775,8 +8221,7 @@ S ومن الطريقة أن كتمندو موفورة بالجبال الشام
 A 1 2|||Edit|||الطريف|||REQUIRED|||-NONE-|||0
 A 3 4|||Edit|||كاتماندو|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||مليئة|||REQUIRED|||-NONE-|||0
-A 7 7|||Add|||،|||REQUIRED|||-NONE-|||0
-A 7 8|||Edit|||وهي|||REQUIRED|||-NONE-|||0
+A 7 8|||Split|||، وهي|||REQUIRED|||-NONE-|||0
 A 12 12|||Add|||،|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||مشابهون|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||للصينيين|||REQUIRED|||-NONE-|||0
@@ -8822,16 +8267,12 @@ A 48 48|||Add|||،|||REQUIRED|||-NONE-|||0
 A 54 54|||Add|||،|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||الأحسن|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||والأفضل|||REQUIRED|||-NONE-|||0
-A 80 81|||Delete||||||REQUIRED|||-NONE-|||0
-A 81 82|||Edit|||القدامى|||REQUIRED|||-NONE-|||0
+A 80 82|||Merge|||القدامى|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||والجدد|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||تخصصهم|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 91 91|||Add|||،|||REQUIRED|||-NONE-|||0
-A 93 94|||Edit|||يدي|||REQUIRED|||-NONE-|||0
-A 94 95|||Delete||||||REQUIRED|||-NONE-|||0
-A 95 96|||Edit|||اختيارين|||REQUIRED|||-NONE-|||0
-A 96 96|||Add|||:|||REQUIRED|||-NONE-|||0
+A 93 96|||Edit|||يدي اختيارين :|||REQUIRED|||-NONE-|||0
 A 99 99|||Add|||.|||REQUIRED|||-NONE-|||0
 A 118 118|||Add|||،|||REQUIRED|||-NONE-|||0
 A 127 127|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -8880,16 +8321,11 @@ A 79 80|||Edit|||نقول|||REQUIRED|||-NONE-|||0
 A 85 85|||Add|||،|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||الصباح|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||الساعة|||REQUIRED|||-NONE-|||0
-A 108 109|||Edit|||الرابعة|||REQUIRED|||-NONE-|||0
-A 109 110|||Delete||||||REQUIRED|||-NONE-|||0
+A 108 110|||Merge|||الرابعة|||REQUIRED|||-NONE-|||0
 A 112 113|||Edit|||دقيقة|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||صباحا|||REQUIRED|||-NONE-|||0
-A 116 117|||Edit|||شيء|||REQUIRED|||-NONE-|||0
-A 117 118|||Delete||||||REQUIRED|||-NONE-|||0
-A 118 119|||Edit|||فعلناه|||REQUIRED|||-NONE-|||0
-A 120 121|||Edit|||الطواف|||REQUIRED|||-NONE-|||0
-A 121 121|||Add|||،|||REQUIRED|||-NONE-|||0
-A 121 122|||Edit|||ذهبنا|||REQUIRED|||-NONE-|||0
+A 116 119|||Merge|||شيء فعلناه|||REQUIRED|||-NONE-|||0
+A 120 122|||Split|||الطواف ، ذهبنا|||REQUIRED|||-NONE-|||0
 A 122 123|||Edit|||جميعا|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||الكعبة|||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||للطواف|||REQUIRED|||-NONE-|||0
@@ -8927,12 +8363,10 @@ A 198 199|||Edit|||الإخلاص|||REQUIRED|||-NONE-|||0
 A 200 201|||Edit|||الفاتحة|||REQUIRED|||-NONE-|||0
 A 201 202|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 205 206|||Split|||لتبديل الزي|||REQUIRED|||-NONE-|||0
-A 206 206|||Add|||،|||REQUIRED|||-NONE-|||0
-A 206 207|||Edit|||بعدما|||REQUIRED|||-NONE-|||0
+A 206 207|||Split|||، بعدما|||REQUIRED|||-NONE-|||0
 A 207 208|||Edit|||انتهينا|||REQUIRED|||-NONE-|||0
 A 209 209|||Add|||تبديل|||REQUIRED|||-NONE-|||0
-A 210 211|||Delete||||||REQUIRED|||-NONE-|||0
-A 211 212|||Edit|||جلسنا|||REQUIRED|||-NONE-|||0
+A 210 212|||Merge|||جلسنا|||REQUIRED|||-NONE-|||0
 A 212 213|||Edit|||ندعو|||REQUIRED|||-NONE-|||0
 A 214 215|||Delete||||||REQUIRED|||-NONE-|||0
 A 216 217|||Edit|||يتقبل|||REQUIRED|||-NONE-|||0
@@ -8966,8 +8400,7 @@ A 79 80|||Edit|||تعليم|||REQUIRED|||-NONE-|||0
 A 87 87|||Add|||،|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||العلوم|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||أغراضنا|||REQUIRED|||-NONE-|||0
-A 112 113|||Edit|||المترو|||REQUIRED|||-NONE-|||0
-A 113 113|||Add|||باص|||REQUIRED|||-NONE-|||0
+A 112 113|||Split|||المترو باص|||REQUIRED|||-NONE-|||0
 A 120 121|||Edit|||وذهبنا|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||الذين|||REQUIRED|||-NONE-|||0
 A 126 126|||Add|||في|||REQUIRED|||-NONE-|||0
@@ -8975,9 +8408,7 @@ A 126 127|||Edit|||مدرسة|||REQUIRED|||-NONE-|||0
 A 132 133|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 135 136|||Edit|||حوالي|||REQUIRED|||-NONE-|||0
 A 136 137|||Edit|||أسبوعا|||REQUIRED|||-NONE-|||0
-A 147 147|||Add|||أن|||REQUIRED|||-NONE-|||0
-A 147 148|||Edit|||أحدهم|||REQUIRED|||-NONE-|||0
-A 148 149|||Delete||||||REQUIRED|||-NONE-|||0
+A 147 149|||Edit|||أن أحدهم|||REQUIRED|||-NONE-|||0
 A 157 158|||Edit|||بالتعاون|||REQUIRED|||-NONE-|||0
 
 S الرحلة الناجحة إلى المدينة المنورة " التمهيد " الحمد لله الذي بشر الموحدين بجلائل النعم ، وانذر المشركين والمبتدعين ، بسلاسل العذاب ، والنقم وأصلي وأسلم على من اسس التوحيد في العرب والعجم وعلى آله وصحابته الذين هم ذو المجد والكرم : ثم أما بعد . ذهبت أنا وزملائي وأصدقائي الأعزاء والكرماء ، أولا كلنا صلينا الفجر بجماعة ، ثم بعد ذلك أخذنا راحتنا ( أي نمنا ، ثم بعد ذلك استيقضنا من نومنا ، وبعد ذلك أفطرنا ( أي أكلنا الفطور ) ثم بعده ذهبنا إلى الشركة ( أي مكان مطابع المصاحف . ما شاء الله شركة كبيره وجميلة جدا ، وأخذنا حقنا مصحف أو مصحفين من يد الموظفين أو العاملين ، ثم بعد ذلك تكلمنا من الإشراف عن موضوع الذهاب للإماكن الخاص في أطراف المدينة ، قد أعطى لنا الإجازة من الإشراف والإجرة بمقدار مائة ريال وذهبت أنا وأصدقائي أولا إلى جبل الرماة ، وجبل أحد ، ثم انهيت أنا وزملائي برؤية هذا الأماكن ، المقدسة الخاصة المشرفة ، وعدنا إلى زيارة مسجد القبلتين ثم بعد ذلك قصدنا زيارة مسجد قباء ، وصلينا صلاة العشاء في جماعة ، وهكذا عدنا كلنا جميعا بحمد الله وإحسانه وفضله وتوفيقه وكرمه ومنه وأعطائه ، وكلنا مسرورين بهذه الرحلة الناجحة العظيمة ، وهذه الرحلة من جانب عمادة الشئون الطلابية وهذه الرحلات نعمة عظيمة من الله لنا إن كنا نفهم قدرها ، أولا نعمة في هذه الرحلات نعمة الفراغة . كما جاء في الحديث الصحيح . قال النبي صلى الله عليه وسلم - نعمتان مغبون فيهما كثير من الناس الصحة والفراغ ، وكما قال الله تعالي في محكم تنزيله وهو أصدق القائلين وما بكم من نعمة فمن الله ، وكلنا نسأل في مثل هذه النعمات العظيمة ، وهنكدا كلنا عدنا من هذه الرحلة ، وأدعو الله تعالى أن يوفقنا في كل خير وأن يجنبنا من كل شر وسوء والحاد . إنه جواد كريم سميع مجيب الدعاء .
@@ -9111,8 +8542,7 @@ A 55 56|||Edit|||منها|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||مسرورة|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||وجهزت|||REQUIRED|||-NONE-|||0
-A 77 78|||Delete||||||REQUIRED|||-NONE-|||0
-A 78 79|||Edit|||نفسي|||REQUIRED|||-NONE-|||0
+A 77 79|||Merge|||نفسي|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||بغسل|||REQUIRED|||-NONE-|||0
 A 81 82|||Split|||وتنظيف الغرفة|||REQUIRED|||-NONE-|||0
 A 85 85|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -9127,13 +8557,10 @@ A 116 116|||Add|||،|||REQUIRED|||-NONE-|||0
 A 118 119|||Edit|||جاءت|||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||وأبناؤه|||REQUIRED|||-NONE-|||0
 A 126 126|||Add|||،|||REQUIRED|||-NONE-|||0
-A 132 132|||Add|||صلاة|||REQUIRED|||-NONE-|||0
-A 132 132|||Add|||التراويح|||REQUIRED|||-NONE-|||0
-A 132 133|||Edit|||في|||REQUIRED|||-NONE-|||0
+A 132 133|||Split|||صلاة التراويح في|||REQUIRED|||-NONE-|||0
 A 133 135|||Merge|||جماعة|||REQUIRED|||-NONE-|||0
 A 135 136|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 142 143|||Edit|||وصليت|||REQUIRED|||-NONE-|||0
-A 143 144|||Delete||||||REQUIRED|||-NONE-|||0
+A 142 144|||Merge|||وصليت|||REQUIRED|||-NONE-|||0
 A 144 145|||Edit|||على|||REQUIRED|||-NONE-|||0
 A 150 150|||Add|||،|||REQUIRED|||-NONE-|||0
 A 152 153|||Edit|||جميلا|||REQUIRED|||-NONE-|||0
@@ -9173,11 +8600,7 @@ A 69 69|||Add|||،|||REQUIRED|||-NONE-|||0
 A 71 71|||Add|||،|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||وقيمه|||REQUIRED|||-NONE-|||0
 A 73 73|||Add|||،|||REQUIRED|||-NONE-|||0
-A 75 75|||Add|||،|||REQUIRED|||-NONE-|||0
-A 75 76|||Edit|||وسنة|||REQUIRED|||-NONE-|||0
-A 76 76|||Add|||نبينا|||REQUIRED|||-NONE-|||0
-A 76 76|||Add|||.|||REQUIRED|||-NONE-|||0
-A 76 77|||Edit|||تنقسم|||REQUIRED|||-NONE-|||0
+A 75 77|||Split|||، وسنة نبينا . تنقسم|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||أهداف|||REQUIRED|||-NONE-|||0
 A 79 81|||Move|||المادة التعليمية|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||وحدده|||REQUIRED|||-NONE-|||0
@@ -9185,8 +8608,7 @@ A 106 107|||Edit|||الدينية|||REQUIRED|||-NONE-|||0
 A 108 109|||Edit|||الإلمام|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||بالآداب|||REQUIRED|||-NONE-|||0
 A 113 113|||Add|||،|||REQUIRED|||-NONE-|||0
-A 114 114|||Add|||،|||REQUIRED|||-NONE-|||0
-A 114 115|||Edit|||والمعاني|||REQUIRED|||-NONE-|||0
+A 114 115|||Split|||، والمعاني|||REQUIRED|||-NONE-|||0
 A 121 121|||Add|||،|||REQUIRED|||-NONE-|||0
 A 121 122|||Edit|||وحفظ|||REQUIRED|||-NONE-|||0
 A 124 124|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -9210,8 +8632,7 @@ A 4 5|||Edit|||أولا|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||برحلة|||REQUIRED|||-NONE-|||0
 A 13 13|||Add|||،|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||نادي|||REQUIRED|||-NONE-|||0
-A 18 18|||Add|||.|||REQUIRED|||-NONE-|||0
-A 18 19|||Edit|||أمضينا|||REQUIRED|||-NONE-|||0
+A 18 19|||Split|||. أمضينا|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||أسبوعا|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||الجامعة|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||الجامعة|||REQUIRED|||-NONE-|||0
@@ -9237,13 +8658,11 @@ A 121 122|||Edit|||واستفدنا|||REQUIRED|||-NONE-|||0
 
 S الرحلة من السنغال إلى موريتانيا قمت برحلة من السنغال إلى موريتانيا لحفظ القرآن الكريم سنة 2005م بين السنغال وموريتانيا حدود لما وصلت إلى وصلت إلى موريتانيا ذهبت إلى البادية اسمها الميسر وبين العاصمة موريتانيا ( نوكشوط ) قرابة 20كلومترا داحلة الصحراء في ذلك الوقت ما كانت السيارة تذهب كل يوم ، كانت تذهب كل الخميس بعد صلاة الظهر تقريبا ، كثير من الناس يذهبون مع السيارة في ذلك اليوم لزيارة الشيخ وليطلب منه الدعاء ، في يوم من الأيام ذهبت معهم وصلنا قبيل المغرب صلينا المغرب وجلسنا إلى العشاء وصلينا وتعشينا بعد ذلك رأيت الناس بعضهم جالسين تحت الخيمة وبعضهم في الخارج يذكرون الله لا إله إلا الله بصوت مرتفع حتى إلى صلاة الفجر لا أحد ينام ، وبعد صلاة الفجر رأيت الصفوف جالسين والشيخ تحت الخيمة ندخل عليه واحدا فواحدا وفي يد كل واحد مبلغ من المال يعطيه للشيخ ويصافحه بخضوع ، ولما جئت سلمت عليه وما أتيته شيئا وسألني من أين أنت من السنغال وسألني ماذا تريد قلت له أريد أن أتعلم القرآن الكريم وسألني هل درست شيئا قلت له ما درست شيئا وقال لي إقر إلعقيدة ثم بعد ذلك تحفظ القرآن الكريم وما بقيت هناك وذهبت إلى مكان آخر .
 A 5 5|||Add|||.|||REQUIRED|||-NONE-|||0
-A 16 16|||Add|||على|||REQUIRED|||-NONE-|||0
-A 16 17|||Edit|||حدود|||REQUIRED|||-NONE-|||0
+A 16 17|||Split|||على حدود|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 21 23|||Delete||||||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||بادية|||REQUIRED|||-NONE-|||0
-A 31 31|||Add|||تبعد|||REQUIRED|||-NONE-|||0
-A 31 32|||Edit|||عن|||REQUIRED|||-NONE-|||0
+A 31 32|||Split|||تبعد عن|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||نواكشوط|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||20|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||كلومترا|||REQUIRED|||-NONE-|||0
@@ -9266,8 +8685,7 @@ A 166 166|||Add|||،|||REQUIRED|||-NONE-|||0
 A 167 167|||Add|||:|||REQUIRED|||-NONE-|||0
 A 170 170|||Add|||؟|||REQUIRED|||-NONE-|||0
 A 172 172|||Add|||:|||REQUIRED|||-NONE-|||0
-A 177 177|||Add|||:|||REQUIRED|||-NONE-|||0
-A 177 178|||Edit|||اقرأ|||REQUIRED|||-NONE-|||0
+A 177 178|||Split|||: اقرأ|||REQUIRED|||-NONE-|||0
 A 178 179|||Edit|||العقيدة|||REQUIRED|||-NONE-|||0
 A 185 185|||Add|||،|||REQUIRED|||-NONE-|||0
 
@@ -9306,13 +8724,11 @@ A 28 29|||Edit|||موفقا|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||أصلا|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||التي|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||روسيا|||REQUIRED|||-NONE-|||0
-A 55 56|||Edit|||وبما|||REQUIRED|||-NONE-|||0
-A 56 56|||Add|||أن|||REQUIRED|||-NONE-|||0
+A 55 56|||Split|||وبما أن|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||روسيا|||REQUIRED|||-NONE-|||0
 A 57 58|||Delete||||||REQUIRED|||-NONE-|||0
 A 60 61|||Delete||||||REQUIRED|||-NONE-|||0
-A 64 64|||Add|||إليها|||REQUIRED|||-NONE-|||0
-A 64 65|||Edit|||.|||REQUIRED|||-NONE-|||0
+A 64 65|||Split|||إليها .|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||أما|||REQUIRED|||-NONE-|||0
 A 67 69|||Merge|||،|||REQUIRED|||-NONE-|||0
 A 73 73|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -9340,10 +8756,8 @@ A 140 140|||Add|||من|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||تركيا|||REQUIRED|||-NONE-|||0
 A 147 148|||Edit|||لا|||REQUIRED|||-NONE-|||0
 A 148 149|||Edit|||بأس|||REQUIRED|||-NONE-|||0
-A 152 152|||Add|||.|||REQUIRED|||-NONE-|||0
-A 152 153|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
-A 162 163|||Delete||||||REQUIRED|||-NONE-|||0
-A 163 164|||Edit|||واستأجرنا|||REQUIRED|||-NONE-|||0
+A 152 153|||Split|||. أيضا|||REQUIRED|||-NONE-|||0
+A 162 164|||Merge|||واستأجرنا|||REQUIRED|||-NONE-|||0
 A 164 165|||Edit|||عربات|||REQUIRED|||-NONE-|||0
 A 167 168|||Edit|||الحديقة|||REQUIRED|||-NONE-|||0
 A 168 169|||Edit|||.|||REQUIRED|||-NONE-|||0
@@ -9395,13 +8809,11 @@ A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||الرحلة|||REQUIRED|||-NONE-|||0
 A 10 10|||Add|||.|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||مكة|||REQUIRED|||-NONE-|||0
-A 16 16|||Add|||،|||REQUIRED|||-NONE-|||0
-A 16 17|||Edit|||الأرض|||REQUIRED|||-NONE-|||0
+A 16 17|||Split|||، الأرض|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||المباركة|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||جدة|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 22 23|||Edit|||الدولي|||REQUIRED|||-NONE-|||0
-A 23 23|||Add|||،|||REQUIRED|||-NONE-|||0
+A 22 23|||Split|||الدولي ،|||REQUIRED|||-NONE-|||0
 A 31 31|||Add|||.|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||الصباح|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||العاصمة|||REQUIRED|||-NONE-|||0
@@ -9443,8 +8855,7 @@ A 169 169|||Add|||،|||REQUIRED|||-NONE-|||0
 A 171 171|||Add|||،|||REQUIRED|||-NONE-|||0
 A 173 174|||Edit|||جالسين|||REQUIRED|||-NONE-|||0
 A 177 178|||Edit|||تسبيح|||REQUIRED|||-NONE-|||0
-A 179 180|||Edit|||عنده|||REQUIRED|||-NONE-|||0
-A 180 180|||Add|||،|||REQUIRED|||-NONE-|||0
+A 179 180|||Split|||عنده ،|||REQUIRED|||-NONE-|||0
 A 184 185|||Edit|||مالا|||REQUIRED|||-NONE-|||0
 A 189 190|||Edit|||بالقبر|||REQUIRED|||-NONE-|||0
 
@@ -9474,10 +8885,7 @@ A 14 15|||Edit|||المدن|||REQUIRED|||-NONE-|||0
 A 17 17|||Add|||.|||REQUIRED|||-NONE-|||0
 A 21 21|||Add|||أني|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||وليمة|||REQUIRED|||-NONE-|||0
-A 25 26|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 26 27|||Delete||||||REQUIRED|||-NONE-|||0
-A 27 28|||Delete||||||REQUIRED|||-NONE-|||0
-A 28 29|||Delete||||||REQUIRED|||-NONE-|||0
+A 25 29|||Merge|||.|||REQUIRED|||-NONE-|||0
 A 33 33|||Add|||أحد من الإخوان|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||وكانت|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||بجميع|||REQUIRED|||-NONE-|||0
@@ -9513,9 +8921,7 @@ A 61 62|||Edit|||دفن|||REQUIRED|||-NONE-|||0
 A 65 66|||Split|||كنت أزور|||REQUIRED|||-NONE-|||0
 A 73 73|||Add|||،|||REQUIRED|||-NONE-|||0
 A 92 93|||Edit|||لأنهم|||REQUIRED|||-NONE-|||0
-A 93 94|||Edit|||ليسوا|||REQUIRED|||-NONE-|||0
-A 94 94|||Add|||مثل|||REQUIRED|||-NONE-|||0
-A 94 95|||Edit|||الموجودين|||REQUIRED|||-NONE-|||0
+A 93 95|||Split|||ليسوا مثل الموجودين|||REQUIRED|||-NONE-|||0
 A 99 99|||Add|||.|||REQUIRED|||-NONE-|||0
 A 105 105|||Add|||.|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||أيام|||REQUIRED|||-NONE-|||0
@@ -9559,8 +8965,7 @@ A 149 150|||Edit|||قرأته|||REQUIRED|||-NONE-|||0
 A 153 154|||Edit|||به|||REQUIRED|||-NONE-|||0
 A 155 156|||Edit|||بمعرفة|||REQUIRED|||-NONE-|||0
 A 162 162|||Add|||.|||REQUIRED|||-NONE-|||0
-A 164 165|||Delete||||||REQUIRED|||-NONE-|||0
-A 165 166|||Edit|||والسيرة|||REQUIRED|||-NONE-|||0
+A 164 166|||Merge|||والسيرة|||REQUIRED|||-NONE-|||0
 A 175 175|||Add|||ـ|||REQUIRED|||-NONE-|||0
 A 177 177|||Add|||ـ|||REQUIRED|||-NONE-|||0
 A 184 185|||Edit|||جميلة|||REQUIRED|||-NONE-|||0
@@ -9583,8 +8988,7 @@ A 31 31|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 33 33|||Add|||في|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||الكلية|||REQUIRED|||-NONE-|||0
 A 35 35|||Add|||ـ|||REQUIRED|||-NONE-|||0
-A 36 37|||Edit|||ـ|||REQUIRED|||-NONE-|||0
-A 37 37|||Add|||لتكون|||REQUIRED|||-NONE-|||0
+A 36 37|||Split|||ـ لتكون|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||العلم|||REQUIRED|||-NONE-|||0
 
 S الآن أدرس في المعهد اللغة العربية لغير الناطقين بها عندما تخرجت بالمعهد إن شاء الله أدخل في الكلية بالدعوة وأصول الدين أنا أحبها كثيرا ، لانه فيها مواد بالشريعة الإسلامية . اريد أن أدرس بالدعوة وأصول الدين كي أفهم الدين الصحيحية وأدعو الناس إلى الإسلام كي يفهم الناس الإسلام جيدا . هذا الأمر مهم جدا للعالم الآن لاياني ني بل واجب للعالم كي ينشر الإسلام ويدعو إلى الإسلام كما قال الرسول صلى الله عليه وسلم العلماء ورثة الانبياء .
@@ -9631,14 +9035,10 @@ A 46 47|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 52 52|||Add|||،|||REQUIRED|||-NONE-|||0
 A 54 54|||Add|||،|||REQUIRED|||-NONE-|||0
 A 54 55|||Edit|||ووالدتي|||REQUIRED|||-NONE-|||0
-A 55 56|||Delete||||||REQUIRED|||-NONE-|||0
-A 56 57|||Delete||||||REQUIRED|||-NONE-|||0
-A 57 58|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 55 58|||Merge|||،|||REQUIRED|||-NONE-|||0
 A 58 59|||Edit|||وإخواني|||REQUIRED|||-NONE-|||0
 A 60 63|||Merge|||وبعد|||REQUIRED|||-NONE-|||0
-A 63 64|||Delete||||||REQUIRED|||-NONE-|||0
-A 64 65|||Edit|||أن|||REQUIRED|||-NONE-|||0
-A 65 66|||Delete||||||REQUIRED|||-NONE-|||0
+A 63 66|||Merge|||أن|||REQUIRED|||-NONE-|||0
 A 74 87|||Delete||||||REQUIRED|||-NONE-|||0
 A 89 92|||Delete||||||REQUIRED|||-NONE-|||0
 A 92 94|||Merge|||وسمعت|||REQUIRED|||-NONE-|||0
@@ -9649,18 +9049,10 @@ A 120 122|||Delete||||||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||معهد|||REQUIRED|||-NONE-|||0
 A 126 127|||Edit|||اللغة|||REQUIRED|||-NONE-|||0
 A 129 130|||Edit|||وسأدرس|||REQUIRED|||-NONE-|||0
-A 130 131|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 131 132|||Delete||||||REQUIRED|||-NONE-|||0
-A 132 133|||Delete||||||REQUIRED|||-NONE-|||0
-A 133 134|||Delete||||||REQUIRED|||-NONE-|||0
-A 134 135|||Delete||||||REQUIRED|||-NONE-|||0
-A 135 136|||Delete||||||REQUIRED|||-NONE-|||0
-A 136 137|||Delete||||||REQUIRED|||-NONE-|||0
+A 130 137|||Merge|||إلى|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||المستوى|||REQUIRED|||-NONE-|||0
 A 140 142|||Merge|||وبعد|||REQUIRED|||-NONE-|||0
-A 143 144|||Delete||||||REQUIRED|||-NONE-|||0
-A 144 145|||Delete||||||REQUIRED|||-NONE-|||0
-A 145 146|||Edit|||أقدم|||REQUIRED|||-NONE-|||0
+A 143 146|||Merge|||أقدم|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 148 149|||Delete||||||REQUIRED|||-NONE-|||0
 A 149 150|||Delete||||||REQUIRED|||-NONE-|||0
@@ -9682,10 +9074,7 @@ A 192 193|||Delete||||||REQUIRED|||-NONE-|||0
 A 195 196|||Delete||||||REQUIRED|||-NONE-|||0
 A 197 198|||Delete||||||REQUIRED|||-NONE-|||0
 A 202 202|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 205 206|||Delete||||||REQUIRED|||-NONE-|||0
-A 206 207|||Delete||||||REQUIRED|||-NONE-|||0
-A 207 208|||Edit|||وتتقدم|||REQUIRED|||-NONE-|||0
-A 208 208|||Add|||بنا|||REQUIRED|||-NONE-|||0
+A 205 208|||Merge|||وتتقدم بنا|||REQUIRED|||-NONE-|||0
 A 212 215|||Merge|||وأشق|||REQUIRED|||-NONE-|||0
 A 215 215|||Add|||،|||REQUIRED|||-NONE-|||0
 
@@ -9717,8 +9106,7 @@ A 88 89|||Edit|||أماكن|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||كان|||REQUIRED|||-NONE-|||0
 A 115 116|||Edit|||كانت|||REQUIRED|||-NONE-|||0
 A 120 121|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 123 124|||Edit|||اللذيذ|||REQUIRED|||-NONE-|||0
-A 124 124|||Add|||،|||REQUIRED|||-NONE-|||0
+A 123 124|||Split|||اللذيذ ،|||REQUIRED|||-NONE-|||0
 A 127 127|||Add|||،|||REQUIRED|||-NONE-|||0
 A 128 128|||Add|||:|||REQUIRED|||-NONE-|||0
 A 144 144|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -9752,8 +9140,7 @@ A 66 67|||Edit|||الفصل|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||أعطت|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||الطلاب|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||الجدد|||REQUIRED|||-NONE-|||0
-A 83 84|||Edit|||ذهب|||REQUIRED|||-NONE-|||0
-A 84 84|||Add|||إلى|||REQUIRED|||-NONE-|||0
+A 83 84|||Split|||ذهب إلى|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||العمرة|||REQUIRED|||-NONE-|||0
 A 85 85|||Add|||،|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||الملك|||REQUIRED|||-NONE-|||0
@@ -9771,8 +9158,7 @@ A 163 164|||Edit|||أحدا|||REQUIRED|||-NONE-|||0
 A 168 169|||Edit|||فتعرفت|||REQUIRED|||-NONE-|||0
 A 173 173|||Add|||-|||REQUIRED|||-NONE-|||0
 A 175 175|||Add|||-|||REQUIRED|||-NONE-|||0
-A 182 183|||Edit|||يصلوا|||REQUIRED|||-NONE-|||0
-A 183 183|||Add|||بالكلية|||REQUIRED|||-NONE-|||0
+A 182 183|||Split|||يصلوا بالكلية|||REQUIRED|||-NONE-|||0
 A 184 186|||Delete||||||REQUIRED|||-NONE-|||0
 A 186 187|||Edit|||الماجيستر|||REQUIRED|||-NONE-|||0
 A 188 189|||Edit|||وحتى|||REQUIRED|||-NONE-|||0
@@ -9963,9 +9349,7 @@ A 163 163|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 170 171|||Edit|||الخاص|||REQUIRED|||-NONE-|||0
 A 171 172|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 172 173|||Edit|||وكنت|||REQUIRED|||-NONE-|||0
-A 176 176|||Add|||،|||REQUIRED|||-NONE-|||0
-A 176 177|||Edit|||وليس|||REQUIRED|||-NONE-|||0
-A 177 178|||Delete||||||REQUIRED|||-NONE-|||0
+A 176 178|||Edit|||، وليس|||REQUIRED|||-NONE-|||0
 A 182 183|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 183 184|||Edit|||وما|||REQUIRED|||-NONE-|||0
 A 190 190|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -10013,11 +9397,9 @@ A 137 138|||Edit|||هم|||REQUIRED|||-NONE-|||0
 A 138 139|||Edit|||يحثوني|||REQUIRED|||-NONE-|||0
 A 139 140|||Edit|||على|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 144 144|||Add|||أن|||REQUIRED|||-NONE-|||0
-A 144 145|||Edit|||هذا|||REQUIRED|||-NONE-|||0
+A 144 145|||Split|||أن هذا|||REQUIRED|||-NONE-|||0
 A 145 146|||Edit|||المجال|||REQUIRED|||-NONE-|||0
-A 147 148|||Edit|||الدقة|||REQUIRED|||-NONE-|||0
-A 148 148|||Add|||،|||REQUIRED|||-NONE-|||0
+A 147 148|||Split|||الدقة ،|||REQUIRED|||-NONE-|||0
 A 150 150|||Add|||،|||REQUIRED|||-NONE-|||0
 A 151 152|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 168 168|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -10069,8 +9451,7 @@ A 58 59|||Edit|||ذهبنا|||REQUIRED|||-NONE-|||0
 A 61 61|||Add|||،|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||النفط|||REQUIRED|||-NONE-|||0
 A 63 63|||Add|||،|||REQUIRED|||-NONE-|||0
-A 67 67|||Add|||،|||REQUIRED|||-NONE-|||0
-A 67 68|||Edit|||وأنا|||REQUIRED|||-NONE-|||0
+A 67 68|||Split|||، وأنا|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||له|||REQUIRED|||-NONE-|||0
 A 76 76|||Add|||،|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||والمزارع|||REQUIRED|||-NONE-|||0
@@ -10126,8 +9507,7 @@ A 98 99|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 100 100|||Add|||،|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||ألتحق|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||بالآن|||REQUIRED|||-NONE-|||0
-A 112 112|||Add|||من|||REQUIRED|||-NONE-|||0
-A 112 113|||Edit|||العلوم|||REQUIRED|||-NONE-|||0
+A 112 113|||Split|||من العلوم|||REQUIRED|||-NONE-|||0
 A 114 114|||Add|||.|||REQUIRED|||-NONE-|||0
 A 115 116|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 120 120|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -10168,13 +9548,11 @@ A 65 66|||Edit|||يوم|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||،|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||عند|||REQUIRED|||-NONE-|||0
 A 79 79|||Add|||،|||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
-A 83 83|||Add|||،|||REQUIRED|||-NONE-|||0
+A 82 83|||Split|||أيضا ،|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||أجمل|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||المشهورة|||REQUIRED|||-NONE-|||0
 A 89 89|||Add|||،|||REQUIRED|||-NONE-|||0
-A 93 93|||Add|||:|||REQUIRED|||-NONE-|||0
-A 93 94|||Edit|||البيتزا|||REQUIRED|||-NONE-|||0
+A 93 94|||Split|||: البيتزا|||REQUIRED|||-NONE-|||0
 A 94 95|||Edit|||والاسباجيتي|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||يوم|||REQUIRED|||-NONE-|||0
 A 98 98|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -10187,8 +9565,7 @@ A 113 114|||Edit|||بلد|||REQUIRED|||-NONE-|||0
 A 116 116|||Add|||،|||REQUIRED|||-NONE-|||0
 A 116 117|||Edit|||وكانوا|||REQUIRED|||-NONE-|||0
 A 118 119|||Edit|||يتعاملون|||REQUIRED|||-NONE-|||0
-A 119 120|||Delete||||||REQUIRED|||-NONE-|||0
-A 120 121|||Edit|||بالنظام|||REQUIRED|||-NONE-|||0
+A 119 121|||Merge|||بالنظام|||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||بلد|||REQUIRED|||-NONE-|||0
 A 126 127|||Edit|||غالية|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
@@ -10215,8 +9592,7 @@ A 45 46|||Edit|||الإنسان|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||ما|||REQUIRED|||-NONE-|||0
 A 49 49|||Add|||،|||REQUIRED|||-NONE-|||0
 A 56 56|||Add|||"|||REQUIRED|||-NONE-|||0
-A 61 61|||Add|||"|||REQUIRED|||-NONE-|||0
-A 61 62|||Edit|||إلى|||REQUIRED|||-NONE-|||0
+A 61 62|||Split|||" إلى|||REQUIRED|||-NONE-|||0
 A 67 67|||Add|||-|||REQUIRED|||-NONE-|||0
 A 71 71|||Add|||-|||REQUIRED|||-NONE-|||0
 A 72 72|||Add|||"|||REQUIRED|||-NONE-|||0
@@ -10236,8 +9612,7 @@ A 135 135|||Add|||.|||REQUIRED|||-NONE-|||0
 A 138 138|||Add|||،|||REQUIRED|||-NONE-|||0
 A 143 144|||Edit|||الشرك|||REQUIRED|||-NONE-|||0
 A 146 146|||Add|||،|||REQUIRED|||-NONE-|||0
-A 154 154|||Add|||،|||REQUIRED|||-NONE-|||0
-A 154 155|||Edit|||لما|||REQUIRED|||-NONE-|||0
+A 154 155|||Split|||، لما|||REQUIRED|||-NONE-|||0
 A 157 157|||Add|||،|||REQUIRED|||-NONE-|||0
 A 159 160|||Edit|||ببدائل|||REQUIRED|||-NONE-|||0
 A 160 160|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -10245,8 +9620,7 @@ A 163 163|||Add|||،|||REQUIRED|||-NONE-|||0
 A 166 167|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 171 171|||Add|||،|||REQUIRED|||-NONE-|||0
 A 171 172|||Edit|||سأجادلهم|||REQUIRED|||-NONE-|||0
-A 174 175|||Edit|||أحسن|||REQUIRED|||-NONE-|||0
-A 175 175|||Add|||.|||REQUIRED|||-NONE-|||0
+A 174 175|||Split|||أحسن .|||REQUIRED|||-NONE-|||0
 A 178 179|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 179 180|||Edit|||الكلية|||REQUIRED|||-NONE-|||0
 A 180 180|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -10257,8 +9631,7 @@ A 188 189|||Edit|||فيه|||REQUIRED|||-NONE-|||0
 S التخصص كلية أصو الدين ارغب في هذه الكلية لغرض كثيرة ، لأن في بلدي كثير من لناس يخطئون في عبادة الله سبحانه وتعالى ، لم يفهموا حقيقة التويد ، إذا لم يفهم التوحيد كما ينبغي فيكف تعبد ربك ، وأشاهدت بعض الناس هم يعبدون الله وهم مشركون ، جلست وفكرت ، وبعد ذلك عزمت حتى الألتحق بكلية الدين لأنها توضح لي حقيقة التوحيد . والله يقول سبحانه وتعالى في محكم تنزيله : ( ( إن الله لا يفغر أن يشرك به ويغفر ما دون ذلك لمن يشاء ومن يشرك فقد ضل ضلا بعيدا ) ) وفهمت في هذه الآية أن الله لا يغفر للمشرك . أنا أرى في بلدي الناس يتبعون أصحاب خرافات والهوى ، الذين يجعلون أنفسهم علماء ما أنهم لا يعرفون شيئا ، لذلك بعد ما أنهيت من الثانوية قدمت طلب إلى جامعة الامام محمد بن سعود الاسلامي في الرياض لكي الألتحاق بكلية الدين ، وسأرجع إلى بلدي وأناقشهم وأفهم هم وأتباعهم بإذن الله تعالى ، وكذلك إذا نظرنا إلى آخر زماننا كثيرة فيها البدع وإتباع الهوى ، وقريتي خاصة سأرجع إليهم .
 A 1 1|||Add|||:|||REQUIRED|||-NONE-|||0
 A 2 3|||Edit|||أصول|||REQUIRED|||-NONE-|||0
-A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
-A 4 5|||Edit|||أرغب|||REQUIRED|||-NONE-|||0
+A 4 5|||Split|||. أرغب|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||لأغراض|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||الناس|||REQUIRED|||-NONE-|||0
@@ -10267,8 +9640,7 @@ A 23 23|||Add|||-|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||ولم|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||التوحيد|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||.|||REQUIRED|||-NONE-|||0
-A 35 35|||Add|||،|||REQUIRED|||-NONE-|||0
-A 35 36|||Edit|||فكيف|||REQUIRED|||-NONE-|||0
+A 35 36|||Split|||، فكيف|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||؟|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||وشاهدت|||REQUIRED|||-NONE-|||0
 A 45 45|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -10316,9 +9688,7 @@ A 19 19|||Add|||،|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||على|||REQUIRED|||-NONE-|||0
 A 24 24|||Add|||أن|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||خمسين|||REQUIRED|||-NONE-|||0
-A 32 32|||Add|||كان|||REQUIRED|||-NONE-|||0
-A 32 33|||Edit|||مخدرا|||REQUIRED|||-NONE-|||0
-A 33 33|||Add|||،|||REQUIRED|||-NONE-|||0
+A 32 33|||Split|||كان مخدرا ،|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||فحصل|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||خصومة|||REQUIRED|||-NONE-|||0
 A 36 36|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -10371,16 +9741,10 @@ A 32 33|||Edit|||فيها|||REQUIRED|||-NONE-|||0
 A 33 33|||Add|||من|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||قبل|||REQUIRED|||-NONE-|||0
 A 34 36|||Delete||||||REQUIRED|||-NONE-|||0
-A 38 39|||Delete||||||REQUIRED|||-NONE-|||0
-A 39 40|||Delete||||||REQUIRED|||-NONE-|||0
-A 40 41|||Delete||||||REQUIRED|||-NONE-|||0
-A 41 42|||Delete||||||REQUIRED|||-NONE-|||0
-A 42 43|||Edit|||إلى|||REQUIRED|||-NONE-|||0
+A 38 43|||Merge|||إلى|||REQUIRED|||-NONE-|||0
 A 48 50|||Delete||||||REQUIRED|||-NONE-|||0
 A 50 53|||Merge|||بساعتين|||REQUIRED|||-NONE-|||0
-A 53 54|||Edit|||وصلنا|||REQUIRED|||-NONE-|||0
-A 54 55|||Delete||||||REQUIRED|||-NONE-|||0
-A 55 56|||Edit|||إلى|||REQUIRED|||-NONE-|||0
+A 53 56|||Merge|||وصلنا إلى|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||كل|||REQUIRED|||-NONE-|||0
 A 67 71|||Delete||||||REQUIRED|||-NONE-|||0
 A 72 73|||Edit|||نعمه|||REQUIRED|||-NONE-|||0
@@ -10388,14 +9752,10 @@ A 73 74|||Edit|||العظيمة|||REQUIRED|||-NONE-|||0
 A 74 75|||Edit|||؛|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||لأنه|||REQUIRED|||-NONE-|||0
 A 76 77|||Delete||||||REQUIRED|||-NONE-|||0
-A 80 81|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 81 82|||Delete||||||REQUIRED|||-NONE-|||0
-A 82 83|||Delete||||||REQUIRED|||-NONE-|||0
-A 83 84|||Delete||||||REQUIRED|||-NONE-|||0
+A 80 84|||Merge|||في|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||كل|||REQUIRED|||-NONE-|||0
-A 92 93|||Edit|||رجع|||REQUIRED|||-NONE-|||0
-A 93 94|||Delete||||||REQUIRED|||-NONE-|||0
+A 92 94|||Merge|||رجع|||REQUIRED|||-NONE-|||0
 A 94 95|||Edit|||سعيدا|||REQUIRED|||-NONE-|||0
 A 96 98|||Delete||||||REQUIRED|||-NONE-|||0
 A 101 103|||Delete||||||REQUIRED|||-NONE-|||0
@@ -10416,10 +9776,7 @@ A 165 169|||Delete||||||REQUIRED|||-NONE-|||0
 A 173 173|||Add|||أن|||REQUIRED|||-NONE-|||0
 A 176 176|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 180 183|||Delete||||||REQUIRED|||-NONE-|||0
-A 185 186|||Delete||||||REQUIRED|||-NONE-|||0
-A 186 187|||Delete||||||REQUIRED|||-NONE-|||0
-A 187 188|||Delete||||||REQUIRED|||-NONE-|||0
-A 188 189|||Edit|||اللغة|||REQUIRED|||-NONE-|||0
+A 185 189|||Merge|||اللغة|||REQUIRED|||-NONE-|||0
 A 190 193|||Delete||||||REQUIRED|||-NONE-|||0
 A 194 195|||Delete||||||REQUIRED|||-NONE-|||0
 A 198 199|||Edit|||.|||REQUIRED|||-NONE-|||0
@@ -10436,8 +9793,7 @@ A 21 22|||Edit|||؟|||REQUIRED|||-NONE-|||0
 A 29 30|||Edit|||؟|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 50 51|||Edit|||كذب|||REQUIRED|||-NONE-|||0
-A 51 51|||Add|||علينا|||REQUIRED|||-NONE-|||0
+A 50 51|||Split|||كذب علينا|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||تربينا|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||عصور|||REQUIRED|||-NONE-|||0
@@ -10501,8 +9857,7 @@ A 5 5|||Add|||المستقبل|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||طبيبة|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||صغري|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||أعماق|||REQUIRED|||-NONE-|||0
-A 24 24|||Add|||،|||REQUIRED|||-NONE-|||0
-A 24 25|||Edit|||وكلما|||REQUIRED|||-NONE-|||0
+A 24 25|||Split|||، وكلما|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||والتمني|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||التخصص|||REQUIRED|||-NONE-|||0
 A 40 40|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -10525,8 +9880,7 @@ A 84 85|||Edit|||الولادة|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||الشيء|||REQUIRED|||-NONE-|||0
 A 94 94|||Add|||،|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||تقوى|||REQUIRED|||-NONE-|||0
-A 96 97|||Edit|||أمنيتي|||REQUIRED|||-NONE-|||0
-A 97 98|||Delete||||||REQUIRED|||-NONE-|||0
+A 96 98|||Merge|||أمنيتي|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||الطبيبة|||REQUIRED|||-NONE-|||0
 A 116 116|||Add|||في|||REQUIRED|||-NONE-|||0
 A 116 117|||Edit|||بلدي|||REQUIRED|||-NONE-|||0
@@ -10564,12 +9918,10 @@ A 7 8|||Edit|||رجالا|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||هم|||REQUIRED|||-NONE-|||0
 A 16 16|||Add|||.|||REQUIRED|||-NONE-|||0
-A 18 18|||Add|||،|||REQUIRED|||-NONE-|||0
-A 18 19|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
+A 18 19|||Split|||، رأيت|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||بنتا|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||كتابا|||REQUIRED|||-NONE-|||0
-A 28 29|||Edit|||قصير|||REQUIRED|||-NONE-|||0
-A 29 29|||Add|||،|||REQUIRED|||-NONE-|||0
+A 28 29|||Split|||قصير ،|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
 A 31 33|||Merge|||أيضا|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||حديثا|||REQUIRED|||-NONE-|||0
@@ -10579,35 +9931,29 @@ A 38 39|||Edit|||أصحاب|||REQUIRED|||-NONE-|||0
 A 42 43|||Delete||||||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||لوقت|||REQUIRED|||-NONE-|||0
 A 45 45|||Add|||،|||REQUIRED|||-NONE-|||0
-A 47 47|||Add|||،|||REQUIRED|||-NONE-|||0
-A 47 48|||Edit|||عادوا|||REQUIRED|||-NONE-|||0
+A 47 48|||Split|||، عادوا|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||بيوتهم|||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||وأنا|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 56 56|||Add|||أن|||REQUIRED|||-NONE-|||0
-A 56 57|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
+A 56 57|||Split|||أن رأيت|||REQUIRED|||-NONE-|||0
 A 63 63|||Add|||،|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||شاهدت|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||التلفاز|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||،|||REQUIRED|||-NONE-|||0
-A 68 68|||Add|||،|||REQUIRED|||-NONE-|||0
-A 68 69|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
+A 68 69|||Split|||، رأيت|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||بناتا|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||يتكلمن|||REQUIRED|||-NONE-|||0
 A 72 73|||Edit|||أصحابهن|||REQUIRED|||-NONE-|||0
-A 76 76|||Add|||،|||REQUIRED|||-NONE-|||0
-A 76 77|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
+A 76 77|||Split|||، رأيت|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||يقوم|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||بواجبه|||REQUIRED|||-NONE-|||0
 A 80 80|||Add|||،|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||وبعد|||REQUIRED|||-NONE-|||0
-A 82 82|||Add|||،|||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||تناولت|||REQUIRED|||-NONE-|||0
-A 84 84|||Add|||،|||REQUIRED|||-NONE-|||0
-A 84 85|||Edit|||ونمت|||REQUIRED|||-NONE-|||0
+A 82 83|||Split|||، تناولت|||REQUIRED|||-NONE-|||0
+A 84 85|||Split|||، ونمت|||REQUIRED|||-NONE-|||0
 
 S يوميات يوم الأربعاء : إليوم ، ذھبت مع صاحبتي إلى نادي الرقص ، و بعد ثلاتة ساعات ، رجعنا إلى قاعة نوم في الجامع ونمت كثير ! يوم الخميس : اليوم عيد الشكر في الولايات المتحدة ، و زرت خالتي و أكلت معھم ، ثم زرت عامتي و تكلمنا معا كل المساء . يوم الجمعة : اليوم ، درست كثيرا لكل صفوفي . كتبت مقالة لصف واحدة ، و عملت كل الواجب لصف العربية . يوم السبت : اليوم ، يجب أن أحصل على وظيفة جديدة ، فبحثت عن رب العمل جانب جامعة يوتا ، و وجدت وظيفة عند ٥٠٠ شرق و ٢٣٠ جنوب . يوم الأحد : اليوم ، نمت كثيرا مرى آخرى ، و درست قليل من اللغة العربية لان اختبار في ھذه الصف على يوم الأثنين !
 A 1 1|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -10631,8 +9977,7 @@ A 61 62|||Edit|||المواد|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||لمادة|||REQUIRED|||-NONE-|||0
 A 68 70|||Merge|||وعملت|||REQUIRED|||-NONE-|||0
-A 72 73|||Edit|||لمادة|||REQUIRED|||-NONE-|||0
-A 73 73|||Add|||اللغة|||REQUIRED|||-NONE-|||0
+A 72 73|||Split|||لمادة اللغة|||REQUIRED|||-NONE-|||0
 A 95 97|||Merge|||ووجدت|||REQUIRED|||-NONE-|||0
 A 99 100|||Edit|||500|||REQUIRED|||-NONE-|||0
 A 100 101|||Edit|||شرقا|||REQUIRED|||-NONE-|||0
@@ -10643,9 +9988,7 @@ A 112 113|||Edit|||مرة|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||أخرى|||REQUIRED|||-NONE-|||0
 A 115 117|||Merge|||ودرست|||REQUIRED|||-NONE-|||0
 A 117 118|||Edit|||قليلا|||REQUIRED|||-NONE-|||0
-A 121 121|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 121 122|||Edit|||لأن|||REQUIRED|||-NONE-|||0
-A 122 122|||Add|||هناك|||REQUIRED|||-NONE-|||0
+A 121 122|||Split|||؛ لأن هناك|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||هذه|||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||المادة|||REQUIRED|||-NONE-|||0
 A 126 127|||Edit|||في|||REQUIRED|||-NONE-|||0
@@ -10673,8 +10016,7 @@ A 60 61|||Edit|||خاص|||REQUIRED|||-NONE-|||0
 A 62 62|||Add|||،|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||وحمام|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||خاص|||REQUIRED|||-NONE-|||0
-A 69 69|||Add|||،|||REQUIRED|||-NONE-|||0
-A 69 70|||Edit|||يذهب|||REQUIRED|||-NONE-|||0
+A 69 70|||Split|||، يذهب|||REQUIRED|||-NONE-|||0
 A 74 75|||Edit|||للاحتفال|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||ملابسهن|||REQUIRED|||-NONE-|||0
@@ -10704,11 +10046,9 @@ A 17 17|||Add|||،|||REQUIRED|||-NONE-|||0
 A 18 18|||Add|||،|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||وأشخاصا|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||كانت|||REQUIRED|||-NONE-|||0
-A 24 25|||Edit|||مزدحمة|||REQUIRED|||-NONE-|||0
-A 25 25|||Add|||،|||REQUIRED|||-NONE-|||0
+A 24 25|||Split|||مزدحمة ،|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||أني|||REQUIRED|||-NONE-|||0
-A 28 29|||Edit|||تمشيت|||REQUIRED|||-NONE-|||0
-A 29 29|||Add|||؛|||REQUIRED|||-NONE-|||0
+A 28 29|||Split|||تمشيت ؛|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||الازدحام|||REQUIRED|||-NONE-|||0
 A 38 38|||Add|||هناك|||REQUIRED|||-NONE-|||0
 A 40 40|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -10728,9 +10068,7 @@ A 78 79|||Edit|||شقتي|||REQUIRED|||-NONE-|||0
 A 79 79|||Add|||القريبة|||REQUIRED|||-NONE-|||0
 A 89 89|||Add|||،|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||كتابا|||REQUIRED|||-NONE-|||0
-A 92 93|||Edit|||أن|||REQUIRED|||-NONE-|||0
-A 93 93|||Add|||أنام|||REQUIRED|||-NONE-|||0
-A 93 94|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 92 94|||Split|||أن أنام ،|||REQUIRED|||-NONE-|||0
 A 96 97|||Edit|||العاشرة|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||هذه|||REQUIRED|||-NONE-|||0
 
@@ -10739,8 +10077,7 @@ A 15 16|||Edit|||الفاكهة|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||الشهية|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||تترك|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||أثرك|||REQUIRED|||-NONE-|||0
-A 32 33|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
-A 33 33|||Add|||.|||REQUIRED|||-NONE-|||0
+A 32 33|||Split|||ذهبت .|||REQUIRED|||-NONE-|||0
 A 34 34|||Add|||،|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 43 45|||Move|||Beckham .|||REQUIRED|||-NONE-|||0
@@ -10771,8 +10108,7 @@ A 41 42|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||تجرب|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||اسمه|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 51 51|||Add|||لك|||REQUIRED|||-NONE-|||0
-A 51 52|||Edit|||أنه|||REQUIRED|||-NONE-|||0
+A 51 52|||Split|||لك أنه|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||ستشرق|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||أسنانك|||REQUIRED|||-NONE-|||0
 A 54 55|||Edit|||وحتى|||REQUIRED|||-NONE-|||0
@@ -10805,8 +10141,7 @@ A 12 13|||Edit|||إلا|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||بدعم|||REQUIRED|||-NONE-|||0
 A 16 18|||Merge|||والشرق|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||الأوسط|||REQUIRED|||-NONE-|||0
-A 19 20|||Edit|||خصوصا|||REQUIRED|||-NONE-|||0
-A 20 21|||Delete||||||REQUIRED|||-NONE-|||0
+A 19 21|||Merge|||خصوصا|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||سياسية|||REQUIRED|||-NONE-|||0
 A 25 26|||Delete||||||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||واجتماعية|||REQUIRED|||-NONE-|||0
@@ -10830,8 +10165,7 @@ A 60 61|||Edit|||الضرورية|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||بأسس|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||الاستقرار|||REQUIRED|||-NONE-|||0
 A 63 63|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 65 65|||Add|||أن|||REQUIRED|||-NONE-|||0
-A 65 66|||Edit|||يساعدوا|||REQUIRED|||-NONE-|||0
+A 65 66|||Split|||أن يساعدوا|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||الأوسط|||REQUIRED|||-NONE-|||0
 A 70 70|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||لأنهم|||REQUIRED|||-NONE-|||0
@@ -10879,14 +10213,11 @@ A 17 18|||Edit|||بذلك|||REQUIRED|||-NONE-|||0
 A 18 20|||Merge|||لسببين|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||وواحد|||REQUIRED|||-NONE-|||0
-A 22 23|||Delete||||||REQUIRED|||-NONE-|||0
-A 23 24|||Edit|||منهما|||REQUIRED|||-NONE-|||0
+A 22 24|||Merge|||منهما|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||داخلي|||REQUIRED|||-NONE-|||0
 A 25 27|||Merge|||والثاني|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||خارجي|||REQUIRED|||-NONE-|||0
-A 30 30|||Add|||.|||REQUIRED|||-NONE-|||0
-A 30 31|||Edit|||أولا|||REQUIRED|||-NONE-|||0
-A 31 31|||Add|||،|||REQUIRED|||-NONE-|||0
+A 30 31|||Split|||. أولا ،|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||القريب|||REQUIRED|||-NONE-|||0
 A 34 34|||Add|||، رفضت|||REQUIRED|||-NONE-|||0
 A 36 37|||Delete||||||REQUIRED|||-NONE-|||0
@@ -10931,16 +10262,13 @@ A 108 109|||Edit|||الدول|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||المتحدة|||REQUIRED|||-NONE-|||0
 A 110 110|||Add|||.|||REQUIRED|||-NONE-|||0
 A 110 111|||Edit|||الأمم|||REQUIRED|||-NONE-|||0
-A 114 115|||Edit|||أن|||REQUIRED|||-NONE-|||0
-A 115 116|||Delete||||||REQUIRED|||-NONE-|||0
+A 114 116|||Merge|||أن|||REQUIRED|||-NONE-|||0
 A 121 123|||Merge|||وأسرع|||REQUIRED|||-NONE-|||0
 A 124 125|||Delete||||||REQUIRED|||-NONE-|||0
 A 126 126|||Add|||.|||REQUIRED|||-NONE-|||0
 A 136 137|||Delete||||||REQUIRED|||-NONE-|||0
 A 139 140|||Edit|||إذا|||REQUIRED|||-NONE-|||0
-A 140 141|||Edit|||وجد|||REQUIRED|||-NONE-|||0
-A 141 141|||Add|||هذا|||REQUIRED|||-NONE-|||0
-A 141 142|||Edit|||الشخص|||REQUIRED|||-NONE-|||0
+A 140 142|||Split|||وجد هذا الشخص|||REQUIRED|||-NONE-|||0
 A 142 143|||Edit|||سأصوت|||REQUIRED|||-NONE-|||0
 A 145 146|||Edit|||الانتخابات|||REQUIRED|||-NONE-|||0
 A 146 147|||Edit|||القادمة|||REQUIRED|||-NONE-|||0
@@ -10952,22 +10280,16 @@ A 6 8|||Merge|||ورأيت|||REQUIRED|||-NONE-|||0
 A 12 12|||Add|||ـ|||REQUIRED|||-NONE-|||0
 A 15 15|||Add|||ـ|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||مشى|||REQUIRED|||-NONE-|||0
-A 20 21|||Edit|||مقهى|||REQUIRED|||-NONE-|||0
-A 21 22|||Delete||||||REQUIRED|||-NONE-|||0
-A 22 23|||Edit|||وجلس|||REQUIRED|||-NONE-|||0
+A 20 23|||Merge|||مقهى وجلس|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||أمامها|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
-A 28 29|||Edit|||إليه|||REQUIRED|||-NONE-|||0
-A 29 30|||Delete||||||REQUIRED|||-NONE-|||0
-A 30 31|||Edit|||وتكلمنا|||REQUIRED|||-NONE-|||0
+A 28 31|||Merge|||إليه وتكلمنا|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||سياسة|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||الوصاية|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||مشينا|||REQUIRED|||-NONE-|||0
-A 44 45|||Delete||||||REQUIRED|||-NONE-|||0
-A 45 46|||Edit|||وأكلنا|||REQUIRED|||-NONE-|||0
+A 44 46|||Merge|||وأكلنا|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||خبزا|||REQUIRED|||-NONE-|||0
-A 47 48|||Delete||||||REQUIRED|||-NONE-|||0
-A 48 49|||Edit|||وغموسا|||REQUIRED|||-NONE-|||0
+A 47 49|||Merge|||وغموسا|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||وجودنا|||REQUIRED|||-NONE-|||0
 A 57 58|||Delete||||||REQUIRED|||-NONE-|||0
 A 58 59|||Edit|||وتحدثنا|||REQUIRED|||-NONE-|||0
@@ -10996,9 +10318,7 @@ S عائشة ھنا مشكلتي : وصلت على يوتا منذ شھار ثل
 A 1 2|||Edit|||هنا|||REQUIRED|||-NONE-|||0
 A 5 6|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 8 9|||Delete||||||REQUIRED|||-NONE-|||0
-A 10 11|||Edit|||أشهر|||REQUIRED|||-NONE-|||0
-A 11 12|||Delete||||||REQUIRED|||-NONE-|||0
-A 12 13|||Edit|||ومازلت|||REQUIRED|||-NONE-|||0
+A 10 13|||Merge|||أشهر ومازلت|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||أحب|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||هنا|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||؛|||REQUIRED|||-NONE-|||0
@@ -11013,8 +10333,7 @@ A 25 27|||Merge|||أريد|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||بعد|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||الانتهاء|||REQUIRED|||-NONE-|||0
-A 33 33|||Add|||من|||REQUIRED|||-NONE-|||0
-A 33 34|||Edit|||شهادتي|||REQUIRED|||-NONE-|||0
+A 33 34|||Split|||من شهادتي|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||أنتقل|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||إلى|||REQUIRED|||-NONE-|||0
@@ -11027,12 +10346,8 @@ A 50 51|||Edit|||مكان|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||مختلف|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||عن|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||أماكن|||REQUIRED|||-NONE-|||0
-A 54 55|||Edit|||أخرى|||REQUIRED|||-NONE-|||0
-A 55 56|||Delete||||||REQUIRED|||-NONE-|||0
-A 57 58|||Edit|||أريدك|||REQUIRED|||-NONE-|||0
-A 58 58|||Add|||أن|||REQUIRED|||-NONE-|||0
-A 58 59|||Edit|||تزوري|||REQUIRED|||-NONE-|||0
-A 59 60|||Delete||||||REQUIRED|||-NONE-|||0
+A 54 56|||Merge|||أخرى|||REQUIRED|||-NONE-|||0
+A 57 60|||Edit|||أريدك أن تزوري|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||أحيانا|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||وتتكلمين|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||إلى|||REQUIRED|||-NONE-|||0
@@ -11074,8 +10389,7 @@ S فاطمة مشكلتي ، لا عندي وقت من كل الواجب ولا 
 A 3 4|||Edit|||ما|||REQUIRED|||-NONE-|||0
 A 6 7|||Delete||||||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||لكل|||REQUIRED|||-NONE-|||0
-A 12 12|||Add|||،|||REQUIRED|||-NONE-|||0
-A 12 13|||Edit|||أعيش|||REQUIRED|||-NONE-|||0
+A 12 13|||Split|||، أعيش|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||وأحضر|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||الجامعة|||REQUIRED|||-NONE-|||0
@@ -11106,9 +10420,7 @@ A 3 4|||Edit|||أني|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||دائما|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||ليس|||REQUIRED|||-NONE-|||0
-A 14 15|||Edit|||يوم|||REQUIRED|||-NONE-|||0
-A 15 16|||Delete||||||REQUIRED|||-NONE-|||0
-A 16 17|||Delete||||||REQUIRED|||-NONE-|||0
+A 14 17|||Merge|||يوم|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||أذهب|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -11121,8 +10433,7 @@ A 48 49|||Edit|||تحددين|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||فستكونين|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||دائما|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||أركض|||REQUIRED|||-NONE-|||0
-A 58 59|||Edit|||الصف|||REQUIRED|||-NONE-|||0
-A 59 59|||Add|||إلى|||REQUIRED|||-NONE-|||0
+A 58 59|||Split|||الصف إلى|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||الشغل|||REQUIRED|||-NONE-|||0
 A 60 60|||Add|||وإلى|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||البيت|||REQUIRED|||-NONE-|||0
@@ -11141,45 +10452,34 @@ S درست في جامعة " سان فرانسسكو " حيث أسكن منذ خ
 A 5 6|||Edit|||فرانسيسكو|||REQUIRED|||-NONE-|||0
 A 8 8|||Add|||كنت|||REQUIRED|||-NONE-|||0
 A 15 17|||Merge|||ومازالت|||REQUIRED|||-NONE-|||0
-A 21 22|||Edit|||هوزيه|||REQUIRED|||-NONE-|||0
-A 22 22|||Add|||،|||REQUIRED|||-NONE-|||0
+A 21 22|||Split|||هوزيه ،|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||وخلال|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||أراها|||REQUIRED|||-NONE-|||0
-A 26 27|||Delete||||||REQUIRED|||-NONE-|||0
-A 27 28|||Edit|||وأزور|||REQUIRED|||-NONE-|||0
+A 26 28|||Merge|||وأزور|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||أصدقائي|||REQUIRED|||-NONE-|||0
-A 29 30|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
-A 30 31|||Delete||||||REQUIRED|||-NONE-|||0
-A 31 32|||Edit|||ونسهر|||REQUIRED|||-NONE-|||0
+A 29 32|||Merge|||أيضا ونسهر|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||ليلة|||REQUIRED|||-NONE-|||0
 
 S كنت أدرس في مقھة عندما رائت صديقتي . جلست معھا وتكلمنا عن الجامعة و القسم الشرق الاوسط و ايض ا عن مشروعات لھذا الصيف . أنا ساذھب إلى المغرب و ھي ستذھب إلى المغرب ايض ا . ساكون في مدينة رباط و ھي ستكون في دار البيضاء . خلال المناقشة لم أتذكر الذي زوجي كان في الجامعة مع السيارة و لا بد أن أذھب إلى الجامعة في 3 ونصف و كان 4 ونصف
 A 3 4|||Edit|||مقهى|||REQUIRED|||-NONE-|||0
 A 5 6|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||معها|||REQUIRED|||-NONE-|||0
-A 13 14|||Delete||||||REQUIRED|||-NONE-|||0
-A 14 15|||Edit|||وقسم|||REQUIRED|||-NONE-|||0
+A 13 15|||Merge|||وقسم|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||الأوسط|||REQUIRED|||-NONE-|||0
-A 17 18|||Delete||||||REQUIRED|||-NONE-|||0
-A 18 19|||Edit|||وأيضا|||REQUIRED|||-NONE-|||0
-A 19 20|||Delete||||||REQUIRED|||-NONE-|||0
+A 17 20|||Merge|||وأيضا|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||لهذا|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||سأذهب|||REQUIRED|||-NONE-|||0
-A 29 30|||Edit|||وهي|||REQUIRED|||-NONE-|||0
-A 30 31|||Delete||||||REQUIRED|||-NONE-|||0
+A 29 31|||Merge|||وهي|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||ستذهب|||REQUIRED|||-NONE-|||0
-A 34 35|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
-A 35 36|||Delete||||||REQUIRED|||-NONE-|||0
+A 34 36|||Merge|||أيضا|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||سأكون|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||الرباط|||REQUIRED|||-NONE-|||0
-A 41 42|||Edit|||وهي|||REQUIRED|||-NONE-|||0
-A 42 43|||Delete||||||REQUIRED|||-NONE-|||0
+A 41 43|||Merge|||وهي|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||الدار|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 59 62|||Merge|||ولابد|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||أذهب|||REQUIRED|||-NONE-|||0
-A 69 70|||Delete||||||REQUIRED|||-NONE-|||0
-A 70 71|||Edit|||وكانت|||REQUIRED|||-NONE-|||0
+A 69 71|||Merge|||وكانت|||REQUIRED|||-NONE-|||0
 A 73 73|||Add|||.|||REQUIRED|||-NONE-|||0
 
 S رايت رجل يكل في المطعم . رأيت بنت تمشى امام السوق . متى الرجل رأى البنت ھى تذكره من بنت خاله . تكلم بھا يقول " الان وسلان يا سيدة " ولكن لا استمعت له . ثم رايت شباب يقؤيدوا سيارة جديدة . بعد رايت رجل كبير يمشى طرفه . ھو كان صحبه في المعطم . دعاه الى يجاء الى معطم لعمل . رايت بليس يقرأ جريدة قديمة . في حياة طلابين يلعيان معا . " رايت امھم تتكلمون عن كل شى . ويعد آراى ھذا حادثات خرج من مدينة واعودت بيتي .
@@ -11194,14 +10494,11 @@ A 13 15|||Move|||رأى الرجل|||REQUIRED|||-NONE-|||0
 A 16 18|||Merge|||حسبها|||REQUIRED|||-NONE-|||0
 A 18 19|||Delete||||||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 23 23|||Add|||معها|||REQUIRED|||-NONE-|||0
-A 23 24|||Edit|||قائلا|||REQUIRED|||-NONE-|||0
-A 24 25|||Delete||||||REQUIRED|||-NONE-|||0
+A 23 25|||Edit|||معها قائلا|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||أهلا|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||وسهلا|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||لم|||REQUIRED|||-NONE-|||0
-A 33 34|||Edit|||تسمعه|||REQUIRED|||-NONE-|||0
-A 34 35|||Delete||||||REQUIRED|||-NONE-|||0
+A 33 35|||Merge|||تسمعه|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||شابا|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||يقود|||REQUIRED|||-NONE-|||0
@@ -11209,16 +10506,13 @@ A 43 44|||Edit|||بعدها|||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||رجلا|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||كبيرا|||REQUIRED|||-NONE-|||0
-A 47 48|||Edit|||يمشي|||REQUIRED|||-NONE-|||0
-A 48 48|||Add|||على|||REQUIRED|||-NONE-|||0
+A 47 48|||Split|||يمشي على|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||أطرافه|||REQUIRED|||-NONE-|||0
 A 49 50|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 50 51|||Edit|||هو|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||صاحبه|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 57 58|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 58 59|||Delete||||||REQUIRED|||-NONE-|||0
-A 59 60|||Delete||||||REQUIRED|||-NONE-|||0
+A 57 60|||Merge|||إلى|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||المعطم|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||للعمل|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
@@ -11229,9 +10523,7 @@ A 76 77|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||أمهم|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||تتكلم|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||شيء|||REQUIRED|||-NONE-|||0
-A 83 84|||Edit|||وبعد|||REQUIRED|||-NONE-|||0
-A 84 84|||Add|||أن|||REQUIRED|||-NONE-|||0
-A 84 85|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
+A 83 85|||Split|||وبعد أن رأيت|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||هذه|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||الحادثات|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||خرجت|||REQUIRED|||-NONE-|||0
@@ -11253,18 +10545,14 @@ A 17 17|||Add|||لأدرس|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||اللغة|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||العربية|||REQUIRED|||-NONE-|||0
 A 19 19|||Add|||،|||REQUIRED|||-NONE-|||0
-A 25 25|||Add|||،|||REQUIRED|||-NONE-|||0
-A 25 26|||Edit|||والكيمياء|||REQUIRED|||-NONE-|||0
-A 26 26|||Add|||،|||REQUIRED|||-NONE-|||0
+A 25 26|||Split|||، والكيمياء ،|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||وعلم|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||الأوسط|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||آخر|||REQUIRED|||-NONE-|||0
 A 39 40|||Edit|||للتفسير|||REQUIRED|||-NONE-|||0
-A 40 41|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 41 41|||Add|||كان|||REQUIRED|||-NONE-|||0
-A 41 42|||Edit|||هذا|||REQUIRED|||-NONE-|||0
+A 40 42|||Split|||، كان هذا|||REQUIRED|||-NONE-|||0
 A 47 47|||Add|||هذا|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||اليوم|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||وتكلمت|||REQUIRED|||-NONE-|||0
@@ -11283,8 +10571,7 @@ A 85 86|||Edit|||المسجد|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||وتكلمت|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||أصدقائي|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||وكان|||REQUIRED|||-NONE-|||0
-A 97 98|||Edit|||هذا|||REQUIRED|||-NONE-|||0
+A 97 98|||Split|||وكان هذا|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||يوما|||REQUIRED|||-NONE-|||0
 A 99 100|||Edit|||طويلا|||REQUIRED|||-NONE-|||0
 A 104 104|||Add|||هذا|||REQUIRED|||-NONE-|||0
@@ -11299,8 +10586,7 @@ A 127 128|||Edit|||أنجلاس|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||أشس|||REQUIRED|||-NONE-|||0
 A 130 131|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 132 133|||Edit|||متوسطا|||REQUIRED|||-NONE-|||0
-A 136 136|||Add|||:|||REQUIRED|||-NONE-|||0
-A 136 137|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
+A 136 137|||Split|||: ذهبت|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 139 140|||Edit|||للصفوف|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||أصدقائي|||REQUIRED|||-NONE-|||0
@@ -11340,8 +10626,7 @@ A 65 66|||Edit|||كثيرا|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||في|||REQUIRED|||-NONE-|||0
 
 S سيدتي وسيدي انا طالبة في الجامعة . ادرس الدكتوراة في الاعلام . اعيش وحيدة واسرتي تسكن بعيد عن مدينة " سالت لياك " مشللتي ھي رجل يحي في بيتي كل يوم . اتكلمه لا يجي واكن ما راات يجي . امينة يا امينة . اذا انا كنت انت فھاتف البوليس وھاتفھم الان ! ثم اشتري " جون " اكبير وكلب زعلان
-A 2 2|||Add|||،|||REQUIRED|||-NONE-|||0
-A 2 3|||Edit|||أنا|||REQUIRED|||-NONE-|||0
+A 2 3|||Split|||، أنا|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||أدرس|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||الدكتوراه|||REQUIRED|||-NONE-|||0
@@ -11356,15 +10641,10 @@ A 23 24|||Edit|||مشكلتي|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||هي|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||يعيش|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 32 33|||Edit|||أكلمه|||REQUIRED|||-NONE-|||0
-A 33 33|||Add|||من|||REQUIRED|||-NONE-|||0
-A 33 33|||Add|||أجل|||REQUIRED|||-NONE-|||0
-A 33 33|||Add|||أن|||REQUIRED|||-NONE-|||0
+A 32 33|||Split|||أكلمه من أجل أن|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||يجيء|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||ولكن|||REQUIRED|||-NONE-|||0
-A 37 38|||Edit|||أراه|||REQUIRED|||-NONE-|||0
-A 38 38|||Add|||إلا|||REQUIRED|||-NONE-|||0
-A 38 39|||Edit|||جاء|||REQUIRED|||-NONE-|||0
+A 37 39|||Split|||أراه إلا جاء|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||أمينة|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||أمينة|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -11403,8 +10683,7 @@ S عندما أتكلم في الغة الربية ليس ل أتذكر الكل
 A 2 3|||Delete||||||REQUIRED|||-NONE-|||0
 A 3 4|||Edit|||باللغة|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||العربية|||REQUIRED|||-NONE-|||0
-A 5 5|||Add|||لا|||REQUIRED|||-NONE-|||0
-A 5 6|||Edit|||يمكنني|||REQUIRED|||-NONE-|||0
+A 5 6|||Split|||لا يمكنني|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||أن|||REQUIRED|||-NONE-|||0
@@ -11437,9 +10716,7 @@ A 51 52|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||هناك|||REQUIRED|||-NONE-|||0
 A 56 57|||Edit|||رأيت|||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||ناسا|||REQUIRED|||-NONE-|||0
-A 61 62|||Edit|||أولادهم|||REQUIRED|||-NONE-|||0
-A 62 62|||Add|||،|||REQUIRED|||-NONE-|||0
-A 62 63|||Edit|||أو|||REQUIRED|||-NONE-|||0
+A 61 63|||Split|||أولادهم ، أو|||REQUIRED|||-NONE-|||0
 A 66 66|||Add|||،|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||أو|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||يذهبون|||REQUIRED|||-NONE-|||0
@@ -11460,24 +10737,20 @@ A 19 20|||Edit|||أعجب|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||بقراءة|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||قصص|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||أضحك|||REQUIRED|||-NONE-|||0
-A 26 27|||Edit|||أقرؤهم|||REQUIRED|||-NONE-|||0
-A 27 28|||Delete||||||REQUIRED|||-NONE-|||0
+A 26 28|||Merge|||أقرؤهم|||REQUIRED|||-NONE-|||0
 
 S انا طالبة في الجامعة ابلغ من العمر ثمانية وعشرون سنة . مشكليى انا لا انام في اليلة بسبب انتعيب عن زوجي . عندما اذهب الى الصف اتعباني كثير ا . انت تجب أن تتعر عن الناس قريب منك . ولكن لا توقف ان تكتب لي صديق في سياتل .
 A 0 1|||Edit|||أنا|||REQUIRED|||-NONE-|||0
-A 4 4|||Add|||،|||REQUIRED|||-NONE-|||0
-A 4 5|||Edit|||أبلغ|||REQUIRED|||-NONE-|||0
+A 4 5|||Split|||، أبلغ|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||وعشرين|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||مشكلتي|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||أنا|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||أنام|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||الليل|||REQUIRED|||-NONE-|||0
-A 18 19|||Edit|||أنني|||REQUIRED|||-NONE-|||0
-A 19 19|||Add|||بعيدة|||REQUIRED|||-NONE-|||0
+A 18 19|||Split|||أنني بعيدة|||REQUIRED|||-NONE-|||0
 A 23 24|||Edit|||أذهب|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 26 26|||Add|||،|||REQUIRED|||-NONE-|||0
-A 26 27|||Edit|||أتعب|||REQUIRED|||-NONE-|||0
+A 26 27|||Split|||، أتعب|||REQUIRED|||-NONE-|||0
 A 27 29|||Merge|||كثيرا|||REQUIRED|||-NONE-|||0
 A 30 31|||Edit|||أنت|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||يجب|||REQUIRED|||-NONE-|||0
@@ -11491,13 +10764,9 @@ A 45 45|||Add|||.|||REQUIRED|||-NONE-|||0
 
 S من اللأزم أن تعتبر الحكومة الأمريكية تزامھا في الاستقرار العراقي و في ھذا الحرب لن يساعد الانسحاب الأمريكى أن يحقق الاستقرار أو السلام للشعب العراقي . في الحقيقة ، ھذا القرار سيفعل كثير من المشاكل في المنطقة . يحتاج الشعب العراقى الدعم العسكري الأمريكي لوقف الاشتباكات في العراق . رغم أن ، ليس ضروري أن الجيش الأمريكي يكون في مركز الاقتال . من المھم أن الشعب العراقي يعرف أن عندھم المسندة الامريكية و يحصلون على النتائح الملموسة نفسھم . مثلا ، الكتلة الجديدة في العراق فرصة جيدة للوحدة العراقية و التقدم في الحكومة العراقية الجديدة . من الضروري أن تظھر الاحزاب المختلفة قدرتھم في القرارات السياسية . نظر ا للتطورات مثل ھذه الكتلة جديدة ، يبدوا أن الناس العراقية يفعلو قرارات سياسية وربما سيناقشون كل الوسائل المتاحة أنھم يستطيع أن تتحكم في الظروف الأمنية و الأزمة السياسية . ربما في الوقت القليل ، الحكومة العراقية الجديدة سترجح كفة نحو الأمن و الأئتلاق . ثم المجتمع الدولي سيرى أن الناس العراقية تستطيع أن تفعلو السلام مع الدعم الدولي و تزامھم و تزام البلاد مثل الولايات المتاحدة بضبط .
 A 1 2|||Edit|||اللازم|||REQUIRED|||-NONE-|||0
-A 6 7|||Edit|||ملتزمة|||REQUIRED|||-NONE-|||0
-A 7 8|||Delete||||||REQUIRED|||-NONE-|||0
+A 6 8|||Merge|||ملتزمة|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||بالاستقرار|||REQUIRED|||-NONE-|||0
-A 10 10|||Add|||.|||REQUIRED|||-NONE-|||0
-A 10 11|||Edit|||وبهذه|||REQUIRED|||-NONE-|||0
-A 11 12|||Delete||||||REQUIRED|||-NONE-|||0
-A 12 13|||Delete||||||REQUIRED|||-NONE-|||0
+A 10 13|||Merge|||. وبهذه|||REQUIRED|||-NONE-|||0
 A 14 14|||Add|||،|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||الأمريكي|||REQUIRED|||-NONE-|||0
 A 18 18|||Add|||في|||REQUIRED|||-NONE-|||0
@@ -11526,17 +10795,14 @@ A 107 109|||Merge|||نظرا|||REQUIRED|||-NONE-|||0
 A 110 110|||Add|||،|||REQUIRED|||-NONE-|||0
 A 111 112|||Edit|||هذه|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||الجديدة|||REQUIRED|||-NONE-|||0
-A 114 115|||Delete||||||REQUIRED|||-NONE-|||0
-A 115 116|||Edit|||تبدو|||REQUIRED|||-NONE-|||0
+A 114 116|||Merge|||تبدو|||REQUIRED|||-NONE-|||0
 A 119 120|||Edit|||تفعل|||REQUIRED|||-NONE-|||0
 A 122 122|||Add|||،|||REQUIRED|||-NONE-|||0
 A 123 124|||Edit|||ستناقش|||REQUIRED|||-NONE-|||0
-A 127 127|||Add|||،|||REQUIRED|||-NONE-|||0
-A 127 128|||Edit|||وأنها|||REQUIRED|||-NONE-|||0
+A 127 128|||Split|||، وأنها|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||تستطيع|||REQUIRED|||-NONE-|||0
 A 134 136|||Merge|||والأزمة|||REQUIRED|||-NONE-|||0
-A 150 151|||Delete||||||REQUIRED|||-NONE-|||0
-A 151 152|||Edit|||والائتلاف|||REQUIRED|||-NONE-|||0
+A 150 152|||Merge|||والائتلاف|||REQUIRED|||-NONE-|||0
 A 162 163|||Edit|||تفعل|||REQUIRED|||-NONE-|||0
 A 167 168|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 168 169|||Edit|||والتزامهم|||REQUIRED|||-NONE-|||0
@@ -11581,17 +10847,14 @@ A 75 75|||Add|||موجودين|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||هدف|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||هؤلاء|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||الإرهابيين|||REQUIRED|||-NONE-|||0
-A 81 82|||Edit|||هو|||REQUIRED|||-NONE-|||0
-A 82 82|||Add|||:|||REQUIRED|||-NONE-|||0
+A 81 82|||Split|||هو :|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||إمكانية|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||معظمهم|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||لهم|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||إيران|||REQUIRED|||-NONE-|||0
 A 94 96|||Merge|||وسوريا|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||إذا|||REQUIRED|||-NONE-|||0
-A 104 105|||Edit|||الآن|||REQUIRED|||-NONE-|||0
-A 105 105|||Add|||،|||REQUIRED|||-NONE-|||0
-A 105 106|||Edit|||ستحدث|||REQUIRED|||-NONE-|||0
+A 104 106|||Split|||الآن ، ستحدث|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||أهلية|||REQUIRED|||-NONE-|||0
 A 110 111|||Edit|||الأطراف|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -11638,12 +10901,9 @@ A 13 15|||Merge|||والدكتور|||REQUIRED|||-NONE-|||0
 A 17 19|||Merge|||الرياض|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||الدكتور|||REQUIRED|||-NONE-|||0
 A 24 26|||Merge|||مستشرق|||REQUIRED|||-NONE-|||0
-A 27 28|||Edit|||أبناء|||REQUIRED|||-NONE-|||0
-A 28 29|||Delete||||||REQUIRED|||-NONE-|||0
+A 27 29|||Merge|||أبناء|||REQUIRED|||-NONE-|||0
 A 29 31|||Merge|||سبعة|||REQUIRED|||-NONE-|||0
-A 31 32|||Edit|||لهما|||REQUIRED|||-NONE-|||0
-A 32 33|||Delete||||||REQUIRED|||-NONE-|||0
-A 33 34|||Edit|||:|||REQUIRED|||-NONE-|||0
+A 31 34|||Merge|||لهما :|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||وكريم|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -11683,13 +10943,11 @@ A 83 84|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||وسوزان|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||هؤلاء|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||الأبناء|||REQUIRED|||-NONE-|||0
-A 89 90|||Delete||||||REQUIRED|||-NONE-|||0
-A 90 91|||Edit|||والبنات|||REQUIRED|||-NONE-|||0
+A 89 91|||Merge|||والبنات|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||سبع|||REQUIRED|||-NONE-|||0
 A 92 93|||Edit|||تلاقوا|||REQUIRED|||-NONE-|||0
 A 95 95|||Add|||،|||REQUIRED|||-NONE-|||0
-A 96 96|||Add|||بعضهم|||REQUIRED|||-NONE-|||0
-A 96 97|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 96 97|||Split|||بعضهم ،|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||وتزوجوا|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||تزوجت|||REQUIRED|||-NONE-|||0
 
@@ -11711,17 +10969,14 @@ A 32 33|||Edit|||للطاقة|||REQUIRED|||-NONE-|||0
 A 33 33|||Add|||،|||REQUIRED|||-NONE-|||0
 A 34 35|||Edit|||لدرجة|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||بالإضافة|||REQUIRED|||-NONE-|||0
-A 39 40|||Edit|||هذا|||REQUIRED|||-NONE-|||0
-A 40 40|||Add|||،|||REQUIRED|||-NONE-|||0
-A 40 41|||Edit|||تسقى|||REQUIRED|||-NONE-|||0
+A 39 41|||Split|||هذا ، تسقى|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||حديقتكما|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||رمادي|||REQUIRED|||-NONE-|||0
 A 45 45|||Add|||وهذه|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||أخرى|||REQUIRED|||-NONE-|||0
 A 48 48|||Add|||(|||REQUIRED|||-NONE-|||0
 A 50 50|||Add|||)|||REQUIRED|||-NONE-|||0
-A 52 53|||Edit|||هذا|||REQUIRED|||-NONE-|||0
-A 53 53|||Add|||،|||REQUIRED|||-NONE-|||0
+A 52 53|||Split|||هذا ،|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||أسلوب|||REQUIRED|||-NONE-|||0
 A 61 62|||Edit|||ستستمتعان|||REQUIRED|||-NONE-|||0
 A 68 69|||Edit|||وتنس|||REQUIRED|||-NONE-|||0
@@ -11742,8 +10997,7 @@ A 100 101|||Edit|||جاوبتما|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||على|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||هذه|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||ب|||REQUIRED|||-NONE-|||0
-A 108 108|||Add|||؟|||REQUIRED|||-NONE-|||0
-A 108 109|||Edit|||فلا|||REQUIRED|||-NONE-|||0
+A 108 109|||Split|||؟ فلا|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||تتساءلا|||REQUIRED|||-NONE-|||0
 A 112 113|||Edit|||تدعوكما|||REQUIRED|||-NONE-|||0
 A 117 118|||Delete||||||REQUIRED|||-NONE-|||0
@@ -11775,18 +11029,13 @@ A 8 9|||Edit|||الأوسط|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||يوم|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||جمعة|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||وهو|||REQUIRED|||-NONE-|||0
-A 17 18|||Edit|||المفضل|||REQUIRED|||-NONE-|||0
-A 18 19|||Delete||||||REQUIRED|||-NONE-|||0
-A 19 20|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 17 20|||Merge|||المفضل ،|||REQUIRED|||-NONE-|||0
 A 20 22|||Merge|||وأستمتع|||REQUIRED|||-NONE-|||0
-A 22 23|||Edit|||كثيرا|||REQUIRED|||-NONE-|||0
-A 23 24|||Delete||||||REQUIRED|||-NONE-|||0
-A 24 25|||Edit|||فيه|||REQUIRED|||-NONE-|||0
+A 22 25|||Merge|||كثيرا فيه|||REQUIRED|||-NONE-|||0
 A 31 31|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 31 32|||Edit|||لأنني|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||أحضر|||REQUIRED|||-NONE-|||0
-A 34 35|||Edit|||كثيرا|||REQUIRED|||-NONE-|||0
-A 35 36|||Delete||||||REQUIRED|||-NONE-|||0
+A 34 36|||Merge|||كثيرا|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||لكنني|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||الإنسان|||REQUIRED|||-NONE-|||0
@@ -11804,25 +11053,17 @@ A 81 82|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||اللاجئين|||REQUIRED|||-NONE-|||0
 A 83 84|||Delete||||||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||دمجوا|||REQUIRED|||-NONE-|||0
-A 87 88|||Delete||||||REQUIRED|||-NONE-|||0
-A 88 89|||Edit|||السياسية|||REQUIRED|||-NONE-|||0
-A 89 90|||Delete||||||REQUIRED|||-NONE-|||0
+A 87 90|||Merge|||السياسية|||REQUIRED|||-NONE-|||0
 A 92 93|||Edit|||الاجتماعية|||REQUIRED|||-NONE-|||0
 A 93 94|||Delete||||||REQUIRED|||-NONE-|||0
-A 95 96|||Edit|||وخير|||REQUIRED|||-NONE-|||0
-A 96 97|||Delete||||||REQUIRED|||-NONE-|||0
-A 97 98|||Edit|||دليل|||REQUIRED|||-NONE-|||0
-A 98 99|||Edit|||على|||REQUIRED|||-NONE-|||0
-A 99 100|||Delete||||||REQUIRED|||-NONE-|||0
+A 95 98|||Merge|||وخير دليل|||REQUIRED|||-NONE-|||0
+A 98 100|||Merge|||على|||REQUIRED|||-NONE-|||0
 A 100 101|||Edit|||ذلك|||REQUIRED|||-NONE-|||0
 A 103 104|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||وجهة|||REQUIRED|||-NONE-|||0
 A 110 111|||Edit|||القومية|||REQUIRED|||-NONE-|||0
-A 111 112|||Delete||||||REQUIRED|||-NONE-|||0
-A 112 113|||Edit|||الصحراوية|||REQUIRED|||-NONE-|||0
-A 113 114|||Delete||||||REQUIRED|||-NONE-|||0
-A 115 116|||Delete||||||REQUIRED|||-NONE-|||0
-A 116 117|||Edit|||إن|||REQUIRED|||-NONE-|||0
+A 111 114|||Merge|||الصحراوية|||REQUIRED|||-NONE-|||0
+A 115 117|||Merge|||إن|||REQUIRED|||-NONE-|||0
 A 117 118|||Edit|||الشعر|||REQUIRED|||-NONE-|||0
 A 118 119|||Edit|||نظم|||REQUIRED|||-NONE-|||0
 A 119 120|||Edit|||بالمغرب|||REQUIRED|||-NONE-|||0
@@ -11831,14 +11072,11 @@ A 125 126|||Edit|||يعتبر|||REQUIRED|||-NONE-|||0
 A 126 127|||Edit|||وجهة|||REQUIRED|||-NONE-|||0
 A 130 131|||Delete||||||REQUIRED|||-NONE-|||0
 A 131 133|||Merge|||لابد|||REQUIRED|||-NONE-|||0
-A 135 136|||Edit|||ستجبر|||REQUIRED|||-NONE-|||0
-A 136 137|||Delete||||||REQUIRED|||-NONE-|||0
+A 135 137|||Merge|||ستجبر|||REQUIRED|||-NONE-|||0
 A 138 139|||Edit|||على|||REQUIRED|||-NONE-|||0
 A 142 143|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 143 144|||Edit|||فتألف|||REQUIRED|||-NONE-|||0
-A 144 145|||Delete||||||REQUIRED|||-NONE-|||0
-A 155 156|||Delete||||||REQUIRED|||-NONE-|||0
-A 156 157|||Edit|||كثيرا|||REQUIRED|||-NONE-|||0
+A 143 145|||Merge|||فتألف|||REQUIRED|||-NONE-|||0
+A 155 157|||Merge|||كثيرا|||REQUIRED|||-NONE-|||0
 A 160 161|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 162 163|||Edit|||القادم|||REQUIRED|||-NONE-|||0
 A 166 167|||Edit|||أحضر|||REQUIRED|||-NONE-|||0
@@ -11849,8 +11087,7 @@ A 172 173|||Edit|||أقسام|||REQUIRED|||-NONE-|||0
 A 173 174|||Edit|||أخرى|||REQUIRED|||-NONE-|||0
 A 176 177|||Edit|||الإمكان|||REQUIRED|||-NONE-|||0
 A 177 178|||Edit|||؛|||REQUIRED|||-NONE-|||0
-A 178 179|||Edit|||لأعرف|||REQUIRED|||-NONE-|||0
-A 179 180|||Delete||||||REQUIRED|||-NONE-|||0
+A 178 180|||Merge|||لأعرف|||REQUIRED|||-NONE-|||0
 A 181 182|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 184 185|||Edit|||الإنسان|||REQUIRED|||-NONE-|||0
 A 185 185|||Add|||.|||REQUIRED|||-NONE-|||0
@@ -11862,8 +11099,7 @@ A 3 4|||Edit|||تضخم|||REQUIRED|||-NONE-|||0
 A 5 5|||Add|||.|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||هذه|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||الظاهرة|||REQUIRED|||-NONE-|||0
-A 8 8|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 8 9|||Edit|||لأنها|||REQUIRED|||-NONE-|||0
+A 8 9|||Split|||؛ لأنها|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||بعضا|||REQUIRED|||-NONE-|||0
 A 14 15|||Edit|||الظواهر|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||الأخرى|||REQUIRED|||-NONE-|||0
@@ -11885,15 +11121,13 @@ A 62 63|||Edit|||تؤثر|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||بكثير|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||الظواهر|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||الأخرى|||REQUIRED|||-NONE-|||0
-A 67 68|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
-A 68 69|||Delete||||||REQUIRED|||-NONE-|||0
+A 67 69|||Merge|||أيضا|||REQUIRED|||-NONE-|||0
 A 71 71|||Add|||:|||REQUIRED|||-NONE-|||0
 A 72 72|||Add|||،|||REQUIRED|||-NONE-|||0
 A 74 74|||Add|||،|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||الأمراض|||REQUIRED|||-NONE-|||0
-A 84 85|||Edit|||رأيي|||REQUIRED|||-NONE-|||0
-A 85 85|||Add|||،|||REQUIRED|||-NONE-|||0
+A 84 85|||Split|||رأيي ،|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||أولادنا|||REQUIRED|||-NONE-|||0
 A 94 94|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -11931,9 +11165,7 @@ A 43 44|||Edit|||اهتم|||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||بهذا|||REQUIRED|||-NONE-|||0
 A 54 54|||Add|||،|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||جهة|||REQUIRED|||-NONE-|||0
-A 56 57|||Edit|||أخرى|||REQUIRED|||-NONE-|||0
-A 57 57|||Add|||،|||REQUIRED|||-NONE-|||0
-A 57 58|||Edit|||هي|||REQUIRED|||-NONE-|||0
+A 56 58|||Split|||أخرى ، هي|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||عملية|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||بينهما|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||واسع|||REQUIRED|||-NONE-|||0
@@ -11945,20 +11177,16 @@ A 76 77|||Edit|||لإصلاح|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||الوضع|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||يخافونه|||REQUIRED|||-NONE-|||0
-A 85 86|||Edit|||هي|||REQUIRED|||-NONE-|||0
-A 86 86|||Add|||:|||REQUIRED|||-NONE-|||0
+A 85 86|||Split|||هي :|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||المدارس|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||واختصار|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||وفوق|||REQUIRED|||-NONE-|||0
-A 96 97|||Edit|||هذا|||REQUIRED|||-NONE-|||0
-A 97 97|||Add|||،|||REQUIRED|||-NONE-|||0
+A 96 97|||Split|||هذا ،|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||التبسيط|||REQUIRED|||-NONE-|||0
-A 98 98|||Add|||النحوي|||REQUIRED|||-NONE-|||0
-A 98 99|||Edit|||الغير|||REQUIRED|||-NONE-|||0
+A 98 99|||Split|||النحوي الغير|||REQUIRED|||-NONE-|||0
 A 100 100|||Add|||،|||REQUIRED|||-NONE-|||0
-A 101 101|||Add|||في|||REQUIRED|||-NONE-|||0
-A 101 102|||Edit|||فهم|||REQUIRED|||-NONE-|||0
+A 101 102|||Split|||في فهم|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||التراكيب|||REQUIRED|||-NONE-|||0
 A 105 106|||Edit|||المهم|||REQUIRED|||-NONE-|||0
 A 107 107|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -11983,9 +11211,7 @@ A 23 24|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 24 26|||Merge|||ورجع|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||علي|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 29 30|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 30 31|||Delete||||||REQUIRED|||-NONE-|||0
-A 31 32|||Edit|||وبدأ|||REQUIRED|||-NONE-|||0
+A 29 32|||Merge|||، وبدأ|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||علي|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||تقابل|||REQUIRED|||-NONE-|||0
@@ -12003,8 +11229,7 @@ A 63 64|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||وسأتبعك|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 67 68|||Edit|||الأماكن|||REQUIRED|||-NONE-|||0
-A 69 70|||Edit|||ستذھبين|||REQUIRED|||-NONE-|||0
-A 70 70|||Add|||إليها|||REQUIRED|||-NONE-|||0
+A 69 70|||Split|||ستذھبين إليها|||REQUIRED|||-NONE-|||0
 A 71 71|||Add|||.|||REQUIRED|||-NONE-|||0
 A 73 73|||Add|||"|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -12012,8 +11237,7 @@ A 78 79|||Edit|||وأكل|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||الأكل|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||الأجمل|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||وتقول|||REQUIRED|||-NONE-|||0
-A 83 83|||Add|||:|||REQUIRED|||-NONE-|||0
+A 82 83|||Split|||وتقول :|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||أحبك|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||علي|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||لن|||REQUIRED|||-NONE-|||0
@@ -12062,23 +11286,19 @@ A 51 52|||Edit|||لولاه|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||أدرس|||REQUIRED|||-NONE-|||0
 A 55 56|||Edit|||هذه|||REQUIRED|||-NONE-|||0
 A 58 59|||Edit|||أما|||REQUIRED|||-NONE-|||0
-A 60 60|||Add|||،|||REQUIRED|||-NONE-|||0
-A 60 61|||Edit|||فأبي|||REQUIRED|||-NONE-|||0
+A 60 61|||Split|||، فأبي|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||أنها|||REQUIRED|||-NONE-|||0
 A 63 64|||Edit|||أهم|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||شيء|||REQUIRED|||-NONE-|||0
 A 67 67|||Add|||.|||REQUIRED|||-NONE-|||0
 
 S ستة اشھور بدآ علي يدرس في جامعة يوطا . كان يدرس درساة السرق الا سط . حصل على الشھادة في العلوم السياسية . ودرس ھناك متى رجعت سوزان إلى الامريلا مع زوجه . يفكر بھا فى غالب الاحيان لكن لا تكن تفكر به . كان قلبه بعدا من علي . كان اسمھا ويداد . درست العلوم السياسية في الجامعة يوط . بدأت تدرس مع الدكتر المشھور ، علي . كان يدر سھا وكانت يدرس بدون رسائل ، بدأا يتراسلان . يعرفھا و يحبھا . قالت : تزوجنى . قالت : ھم ا . انا مستعدة . كان مستعدا ايض ا . و زوجا . سكنوا في يوطا . لكن . . .
-A 1 2|||Edit|||أشهر|||REQUIRED|||-NONE-|||0
-A 2 2|||Add|||.|||REQUIRED|||-NONE-|||0
-A 2 3|||Edit|||بدأ|||REQUIRED|||-NONE-|||0
+A 1 3|||Split|||أشهر . بدأ|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||يوتا|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||دراسات|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||الشرق|||REQUIRED|||-NONE-|||0
-A 13 14|||Delete||||||REQUIRED|||-NONE-|||0
-A 14 15|||Edit|||الأوسط|||REQUIRED|||-NONE-|||0
+A 13 15|||Merge|||الأوسط|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||الشهادة|||REQUIRED|||-NONE-|||0
 A 22 23|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||هناك|||REQUIRED|||-NONE-|||0
@@ -12100,8 +11320,7 @@ A 59 60|||Edit|||يوتا|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||الدكتور|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||المشهور|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||يدرس|||REQUIRED|||-NONE-|||0
-A 71 72|||Edit|||لها|||REQUIRED|||-NONE-|||0
-A 72 72|||Add|||،|||REQUIRED|||-NONE-|||0
+A 71 72|||Split|||لها ،|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||تدرس|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 77 78|||Edit|||بدآ|||REQUIRED|||-NONE-|||0
@@ -12109,12 +11328,10 @@ A 80 81|||Edit|||يعرفها|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||ويحبها|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||تزوجني|||REQUIRED|||-NONE-|||0
-A 90 91|||Delete||||||REQUIRED|||-NONE-|||0
-A 91 92|||Edit|||هيا|||REQUIRED|||-NONE-|||0
+A 90 92|||Merge|||هيا|||REQUIRED|||-NONE-|||0
 A 92 93|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||أنا|||REQUIRED|||-NONE-|||0
-A 98 99|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
-A 99 100|||Delete||||||REQUIRED|||-NONE-|||0
+A 98 100|||Merge|||أيضا|||REQUIRED|||-NONE-|||0
 A 101 102|||Delete||||||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||وتزوجا|||REQUIRED|||-NONE-|||0
 A 103 104|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -12157,11 +11374,9 @@ A 66 67|||Edit|||مهم|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||يجب|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||أن|||REQUIRED|||-NONE-|||0
-A 75 75|||Add|||على|||REQUIRED|||-NONE-|||0
-A 75 76|||Edit|||هذه|||REQUIRED|||-NONE-|||0
+A 75 76|||Split|||على هذه|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||الأسئلة|||REQUIRED|||-NONE-|||0
-A 78 79|||Edit|||تفتح|||REQUIRED|||-NONE-|||0
-A 79 79|||Add|||،|||REQUIRED|||-NONE-|||0
+A 78 79|||Split|||تفتح ،|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||كذب|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||الأسئلة|||REQUIRED|||-NONE-|||0
 A 83 84|||Edit|||هي|||REQUIRED|||-NONE-|||0
@@ -12179,8 +11394,7 @@ A 106 107|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||وهي|||REQUIRED|||-NONE-|||0
 A 108 109|||Edit|||أهم|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||الأشياء|||REQUIRED|||-NONE-|||0
-A 110 111|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
-A 111 112|||Delete||||||REQUIRED|||-NONE-|||0
+A 110 112|||Merge|||أيضا|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||هي|||REQUIRED|||-NONE-|||0
 A 115 115|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 115 116|||Edit|||لأننا|||REQUIRED|||-NONE-|||0
@@ -12213,27 +11427,23 @@ A 6 7|||Edit|||اهتمامي|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 10 11|||Edit|||وأدرس|||REQUIRED|||-NONE-|||0
 A 15 16|||Edit|||فروانة|||REQUIRED|||-NONE-|||0
-A 16 16|||Add|||،|||REQUIRED|||-NONE-|||0
-A 16 17|||Edit|||وتقول|||REQUIRED|||-NONE-|||0
+A 16 17|||Split|||، وتقول|||REQUIRED|||-NONE-|||0
 A 18 19|||Edit|||:|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||لابد|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||أنني|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||أحسن|||REQUIRED|||-NONE-|||0
-A 23 24|||Edit|||دراستي|||REQUIRED|||-NONE-|||0
-A 24 24|||Add|||.|||REQUIRED|||-NONE-|||0
+A 23 24|||Split|||دراستي .|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||اللازم|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 30 32|||Merge|||كثيرا|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||هذه|||REQUIRED|||-NONE-|||0
-A 33 34|||Edit|||سنة|||REQUIRED|||-NONE-|||0
-A 34 34|||Add|||،|||REQUIRED|||-NONE-|||0
+A 33 34|||Split|||سنة ،|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||ذلك|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||لقرآءة|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||كثير|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||الروايات|||REQUIRED|||-NONE-|||0
 A 41 42|||Delete||||||REQUIRED|||-NONE-|||0
-A 43 43|||Add|||،|||REQUIRED|||-NONE-|||0
-A 43 44|||Edit|||وعلى|||REQUIRED|||-NONE-|||0
+A 43 44|||Split|||، وعلى|||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||الأقل|||REQUIRED|||-NONE-|||0
 A 47 48|||Edit|||تاريخية|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||.|||REQUIRED|||-NONE-|||0
@@ -12245,11 +11455,9 @@ A 55 56|||Edit|||الأكثر|||REQUIRED|||-NONE-|||0
 A 56 56|||Add|||.|||REQUIRED|||-NONE-|||0
 
 S منذ 4 سنوات في الماضي انا وجدي وجدتي سافرنا إلى اسبانية كما أن الحنوب من فرنسا و في اسبانية أنا اھتممت بالثقافة عربية و جدتي صاحب الفضل الاول لھذه اھتمة . من وجھة نطري الثقافة عربية ھي أھتم ثقافة في العالم ولكن كثير من الناس عندھم فكر مجتلف . بعد رجعت من سافري أنا أريدت أن ادرس الدرس الشرق الاوسط في حين أن ھذا ابي وامي اريدا أن أنا أدرس المسيقى . ولكني بعد سنة في الجامعة أنا بدات دراسة الشرق الاوسط على يد دكتورة حدسون وأريد أن أدرس المنطقة على الاقل من عشرين سنة .
-A 5 6|||Edit|||أنا|||REQUIRED|||-NONE-|||0
-A 6 6|||Add|||،|||REQUIRED|||-NONE-|||0
+A 5 6|||Split|||أنا ،|||REQUIRED|||-NONE-|||0
 A 7 7|||Add|||،|||REQUIRED|||-NONE-|||0
-A 10 11|||Edit|||إسبانيا|||REQUIRED|||-NONE-|||0
-A 11 11|||Add|||،|||REQUIRED|||-NONE-|||0
+A 10 11|||Split|||إسبانيا ،|||REQUIRED|||-NONE-|||0
 A 12 13|||Edit|||زرنا|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||الجنوب|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||.|||REQUIRED|||-NONE-|||0
@@ -12264,8 +11472,7 @@ A 27 28|||Edit|||الأول|||REQUIRED|||-NONE-|||0
 A 28 29|||Edit|||لهذا|||REQUIRED|||-NONE-|||0
 A 29 30|||Edit|||الاهتمام|||REQUIRED|||-NONE-|||0
 A 32 33|||Edit|||وجهة|||REQUIRED|||-NONE-|||0
-A 33 34|||Edit|||نظري|||REQUIRED|||-NONE-|||0
-A 34 34|||Add|||،|||REQUIRED|||-NONE-|||0
+A 33 34|||Split|||نظري ،|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||العربية|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||هي|||REQUIRED|||-NONE-|||0
 A 37 38|||Edit|||أهم|||REQUIRED|||-NONE-|||0
@@ -12276,8 +11483,7 @@ A 49 50|||Edit|||بعدما|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||سفري|||REQUIRED|||-NONE-|||0
 A 53 53|||Add|||،|||REQUIRED|||-NONE-|||0
 A 54 55|||Edit|||أردت|||REQUIRED|||-NONE-|||0
-A 56 57|||Edit|||أدرس|||REQUIRED|||-NONE-|||0
-A 57 58|||Delete||||||REQUIRED|||-NONE-|||0
+A 56 58|||Merge|||أدرس|||REQUIRED|||-NONE-|||0
 A 59 60|||Edit|||الأوسط|||REQUIRED|||-NONE-|||0
 A 60 60|||Add|||،|||REQUIRED|||-NONE-|||0
 A 63 66|||Merge|||أبي وأمي|||REQUIRED|||-NONE-|||0
@@ -12309,27 +11515,22 @@ A 33 33|||Add|||الأرجح|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||غريبا|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||عندهم|||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||إطلاق|||REQUIRED|||-NONE-|||0
-A 48 49|||Delete||||||REQUIRED|||-NONE-|||0
-A 49 50|||Edit|||ولكنها|||REQUIRED|||-NONE-|||0
-A 50 51|||Delete||||||REQUIRED|||-NONE-|||0
+A 48 51|||Merge|||ولكنها|||REQUIRED|||-NONE-|||0
 A 52 55|||Move|||حجة مناسبة .|||REQUIRED|||-NONE-|||0
 A 64 64|||Add|||أن|||REQUIRED|||-NONE-|||0
 A 64 65|||Split|||يكون عندها|||REQUIRED|||-NONE-|||0
 A 66 67|||Edit|||كأمريكا|||REQUIRED|||-NONE-|||0
 A 69 70|||Split|||الحرب موجودة|||REQUIRED|||-NONE-|||0
-A 70 71|||Delete||||||REQUIRED|||-NONE-|||0
-A 71 72|||Edit|||الآن|||REQUIRED|||-NONE-|||0
+A 70 72|||Merge|||الآن|||REQUIRED|||-NONE-|||0
 A 74 75|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 75 76|||Edit|||والوضع|||REQUIRED|||-NONE-|||0
 A 76 77|||Edit|||معقد|||REQUIRED|||-NONE-|||0
 A 77 79|||Merge|||جدا|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||ولكن|||REQUIRED|||-NONE-|||0
-A 81 82|||Edit|||إذا|||REQUIRED|||-NONE-|||0
-A 82 82|||Add|||قام|||REQUIRED|||-NONE-|||0
+A 81 82|||Split|||إذا قام|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||الجنود|||REQUIRED|||-NONE-|||0
-A 83 84|||Delete||||||REQUIRED|||-NONE-|||0
-A 84 85|||Edit|||بشيء|||REQUIRED|||-NONE-|||0
+A 83 85|||Merge|||بشيء|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||الرغم|||REQUIRED|||-NONE-|||0
 A 89 90|||Split|||وجود أمر|||REQUIRED|||-NONE-|||0
@@ -12337,10 +11538,8 @@ A 95 96|||Edit|||لو|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||آخر|||REQUIRED|||-NONE-|||0
 A 107 109|||Merge|||ونظام|||REQUIRED|||-NONE-|||0
 A 110 111|||Edit|||ذلك|||REQUIRED|||-NONE-|||0
-A 115 116|||Edit|||ولأجل|||REQUIRED|||-NONE-|||0
-A 116 117|||Delete||||||REQUIRED|||-NONE-|||0
-A 120 121|||Edit|||كبير|||REQUIRED|||-NONE-|||0
-A 121 121|||Add|||لأمريكا|||REQUIRED|||-NONE-|||0
+A 115 117|||Merge|||ولأجل|||REQUIRED|||-NONE-|||0
+A 120 121|||Split|||كبير لأمريكا|||REQUIRED|||-NONE-|||0
 A 122 123|||Delete||||||REQUIRED|||-NONE-|||0
 A 127 128|||Edit|||كثيرا|||REQUIRED|||-NONE-|||0
 A 132 134|||Merge|||وبين|||REQUIRED|||-NONE-|||0
@@ -12402,8 +11601,7 @@ A 67 68|||Edit|||أمريكا|||REQUIRED|||-NONE-|||0
 A 69 70|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||الزعيم|||REQUIRED|||-NONE-|||0
 A 75 77|||Delete||||||REQUIRED|||-NONE-|||0
-A 82 82|||Add|||كان|||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||صدام|||REQUIRED|||-NONE-|||0
+A 82 83|||Split|||كان صدام|||REQUIRED|||-NONE-|||0
 A 84 85|||Delete||||||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||الأمريكي|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||اللازم|||REQUIRED|||-NONE-|||0
@@ -12414,8 +11612,7 @@ A 95 96|||Edit|||القريبة|||REQUIRED|||-NONE-|||0
 A 97 98|||Edit|||إيران|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||ستمنع|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||أي|||REQUIRED|||-NONE-|||0
-A 103 104|||Edit|||شخص|||REQUIRED|||-NONE-|||0
-A 104 104|||Add|||لديه|||REQUIRED|||-NONE-|||0
+A 103 104|||Split|||شخص لديه|||REQUIRED|||-NONE-|||0
 A 104 106|||Move|||ارتباطات مع|||REQUIRED|||-NONE-|||0
 A 106 107|||Delete||||||REQUIRED|||-NONE-|||0
 A 108 109|||Edit|||الإيرانية|||REQUIRED|||-NONE-|||0
@@ -12511,8 +11708,7 @@ A 118 118|||Add|||،|||REQUIRED|||-NONE-|||0
 A 118 119|||Edit|||وعرفت|||REQUIRED|||-NONE-|||0
 A 120 121|||Edit|||شيء|||REQUIRED|||-NONE-|||0
 A 127 129|||Move|||يقول الكاتب|||REQUIRED|||-NONE-|||0
-A 129 129|||Add|||،|||REQUIRED|||-NONE-|||0
-A 129 130|||Edit|||إن|||REQUIRED|||-NONE-|||0
+A 129 130|||Split|||، إن|||REQUIRED|||-NONE-|||0
 A 134 135|||Edit|||الأصوليين|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||يتعامل|||REQUIRED|||-NONE-|||0
 A 142 143|||Edit|||معهم|||REQUIRED|||-NONE-|||0
@@ -12532,10 +11728,7 @@ A 167 168|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 168 169|||Edit|||أفهم|||REQUIRED|||-NONE-|||0
 A 172 173|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 177 178|||Edit|||أن|||REQUIRED|||-NONE-|||0
-A 181 182|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 182 182|||Add|||إذا|||REQUIRED|||-NONE-|||0
-A 182 183|||Edit|||لم|||REQUIRED|||-NONE-|||0
-A 183 183|||Add|||تتغير|||REQUIRED|||-NONE-|||0
+A 181 183|||Split|||، إذا لم تتغير|||REQUIRED|||-NONE-|||0
 A 183 184|||Edit|||مصادر|||REQUIRED|||-NONE-|||0
 A 185 186|||Delete||||||REQUIRED|||-NONE-|||0
 A 192 193|||Edit|||أن|||REQUIRED|||-NONE-|||0
@@ -12555,8 +11748,7 @@ A 222 223|||Edit|||طبقات|||REQUIRED|||-NONE-|||0
 A 226 227|||Edit|||الأوسط|||REQUIRED|||-NONE-|||0
 A 227 227|||Add|||،|||REQUIRED|||-NONE-|||0
 A 227 228|||Edit|||والطبقات|||REQUIRED|||-NONE-|||0
-A 228 229|||Delete||||||REQUIRED|||-NONE-|||0
-A 229 230|||Edit|||الدنيا|||REQUIRED|||-NONE-|||0
+A 228 230|||Merge|||الدنيا|||REQUIRED|||-NONE-|||0
 A 232 233|||Edit|||أقل|||REQUIRED|||-NONE-|||0
 A 233 234|||Edit|||الحرية|||REQUIRED|||-NONE-|||0
 A 234 235|||Edit|||أحيانا|||REQUIRED|||-NONE-|||0
@@ -12564,17 +11756,14 @@ A 234 235|||Edit|||أحيانا|||REQUIRED|||-NONE-|||0
 S لقب طه حسين بعميدا للأدب العربي وسمع احمد شوقي امير الشعراء . ومما لا شك قبھا ان احترام الناس طه حسين واحمد شوقي . ولد كلا سوقي و حسين في مصر . لا اعرف كثيرا عن حياة حسين وھو صغير ولكن نعرف ان ولد احمد شوقي إلى عائلة غنية ومشھورة . درس كلاھما في جامعة القاھرة و كان طه حسين طالب في الازھر ايضا وقد علم كثيرا عن القرآن . عند ولد طه حسين ، كان شوقي في العشر من عمره . درس طه حسين في جامعتين في فرنسا . في جامعة السوربون و في جامعة مونبلييه كذلك . مثل حسين ذھب شوق في بعثة الى فرنسا ، ولكن درس شوقي الفنون في فرنسا ودرس حسين الادب الكلاسيكي ، كان قسم ھام من تربيتھم الثقافة الفرنسية . كان احمد شوقي شعر بالقصر في مصر قبل ان اخرجه الانكليز من مصر . كانت كثيرة من شعراء شوقي عن الوضع الاجتماعي والوضع السياسية في مصر . على رغم من ذلك كان له انتاج غير صغيرة من الشعراء الوطنية والدينية . كتب طه حسين عن المتماع في مصر ايضا ، اھتم خاصة الطربية . كان يحب الشعب المصري لان فتح ابواب المدارس لابناء الشعب المصري كله . ولكن لم يعجب كل الناس _ _ _ _ _ حسين الادبي . ادھس " في الشعر الجاھلي " كثيرا من الادب المصريين واعجب ھذا الكتاب كثيرا من ألاخر . على رغم من ذلك كتابة حسين ھامة في تحقيق الادب العربي . بعد ان مات ھذا المفكران ، فقد العالم العربي من اھم الرجال الادبيين .
 A 3 4|||Edit|||بعميد|||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||الأدب|||REQUIRED|||-NONE-|||0
-A 6 6|||Add|||،|||REQUIRED|||-NONE-|||0
-A 6 7|||Edit|||وسمي|||REQUIRED|||-NONE-|||0
+A 6 7|||Split|||، وسمي|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||أحمد|||REQUIRED|||-NONE-|||0
 A 9 10|||Edit|||أمير|||REQUIRED|||-NONE-|||0
-A 15 16|||Delete||||||REQUIRED|||-NONE-|||0
-A 16 17|||Edit|||فيه|||REQUIRED|||-NONE-|||0
+A 15 17|||Merge|||فيه|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||احترم|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||وأحمد|||REQUIRED|||-NONE-|||0
 A 25 26|||Edit|||كل|||REQUIRED|||-NONE-|||0
-A 26 26|||Add|||من|||REQUIRED|||-NONE-|||0
-A 26 27|||Edit|||شوقي|||REQUIRED|||-NONE-|||0
+A 26 27|||Split|||من شوقي|||REQUIRED|||-NONE-|||0
 A 33 34|||Edit|||أعرف|||REQUIRED|||-NONE-|||0
 A 38 39|||Edit|||وهو|||REQUIRED|||-NONE-|||0
 A 40 40|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -12590,20 +11779,18 @@ A 56 57|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||وكان|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||طالبا|||REQUIRED|||-NONE-|||0
 A 62 63|||Edit|||الأزهر|||REQUIRED|||-NONE-|||0
-A 63 64|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
-A 64 64|||Add|||،|||REQUIRED|||-NONE-|||0
+A 63 64|||Split|||أيضا ،|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||تعلم|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||عندما|||REQUIRED|||-NONE-|||0
 A 78 79|||Edit|||العاشرة|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 93 95|||Merge|||وفي|||REQUIRED|||-NONE-|||0
-A 101 101|||Add|||،|||REQUIRED|||-NONE-|||0
-A 101 102|||Edit|||ذهب|||REQUIRED|||-NONE-|||0
+A 101 102|||Split|||، ذهب|||REQUIRED|||-NONE-|||0
 A 102 103|||Edit|||شوقي|||REQUIRED|||-NONE-|||0
 A 105 106|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 116 117|||Edit|||الأدب|||REQUIRED|||-NONE-|||0
-A 119 120|||Edit|||كانت|||REQUIRED|||-NONE-|||0
-A 120 124|||Delete||||||REQUIRED|||-NONE-|||0
+A 119 121|||Merge|||كانت|||REQUIRED|||-NONE-|||0
+A 121 124|||Delete||||||REQUIRED|||-NONE-|||0
 A 126 126|||Add|||عاملا هاما في تربيتهم|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||أحمد|||REQUIRED|||-NONE-|||0
 A 130 131|||Edit|||شاعر|||REQUIRED|||-NONE-|||0
@@ -12617,9 +11804,7 @@ A 142 143|||Edit|||الكثير|||REQUIRED|||-NONE-|||0
 A 144 145|||Edit|||شعر|||REQUIRED|||-NONE-|||0
 A 150 151|||Edit|||السياسي|||REQUIRED|||-NONE-|||0
 A 153 154|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 154 155|||Edit|||إلى|||REQUIRED|||-NONE-|||0
-A 155 156|||Delete||||||REQUIRED|||-NONE-|||0
-A 156 157|||Edit|||جانب|||REQUIRED|||-NONE-|||0
+A 154 157|||Merge|||إلى جانب|||REQUIRED|||-NONE-|||0
 A 160 161|||Edit|||إنتاج|||REQUIRED|||-NONE-|||0
 A 162 163|||Edit|||قليل|||REQUIRED|||-NONE-|||0
 A 164 165|||Edit|||القصائد|||REQUIRED|||-NONE-|||0
@@ -12630,15 +11815,9 @@ A 185 186|||Edit|||لذلك|||REQUIRED|||-NONE-|||0
 A 187 188|||Edit|||أبواب|||REQUIRED|||-NONE-|||0
 A 189 190|||Edit|||لأبناء|||REQUIRED|||-NONE-|||0
 A 196 197|||Edit|||تعجب|||REQUIRED|||-NONE-|||0
-A 199 200|||Delete||||||REQUIRED|||-NONE-|||0
-A 200 201|||Delete||||||REQUIRED|||-NONE-|||0
-A 201 202|||Delete||||||REQUIRED|||-NONE-|||0
-A 202 203|||Delete||||||REQUIRED|||-NONE-|||0
-A 203 204|||Edit|||كتابات|||REQUIRED|||-NONE-|||0
+A 199 204|||Merge|||كتابات|||REQUIRED|||-NONE-|||0
 A 205 206|||Edit|||الأدبية|||REQUIRED|||-NONE-|||0
-A 206 207|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 207 207|||Add|||أدهش|||REQUIRED|||-NONE-|||0
-A 207 208|||Edit|||كتابه|||REQUIRED|||-NONE-|||0
+A 206 208|||Split|||، أدهش كتابه|||REQUIRED|||-NONE-|||0
 A 211 212|||Edit|||الجاهلي|||REQUIRED|||-NONE-|||0
 A 215 216|||Edit|||الأدباء|||REQUIRED|||-NONE-|||0
 A 217 217|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -12677,8 +11856,7 @@ A 76 77|||Edit|||خلنا|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||الأولى|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||وجود|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||كلمة|||REQUIRED|||-NONE-|||0
-A 90 91|||Edit|||الصنف|||REQUIRED|||-NONE-|||0
-A 91 91|||Add|||من|||REQUIRED|||-NONE-|||0
+A 90 91|||Split|||الصنف من|||REQUIRED|||-NONE-|||0
 A 98 99|||Edit|||-|||REQUIRED|||-NONE-|||0
 A 102 102|||Add|||-|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||أن|||REQUIRED|||-NONE-|||0
@@ -12693,11 +11871,9 @@ A 139 139|||Add|||،|||REQUIRED|||-NONE-|||0
 A 141 141|||Add|||كان هناك|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||جانبان|||REQUIRED|||-NONE-|||0
 A 142 143|||Edit|||وحللنا|||REQUIRED|||-NONE-|||0
-A 150 150|||Add|||،|||REQUIRED|||-NONE-|||0
-A 150 151|||Edit|||فستنستنتج|||REQUIRED|||-NONE-|||0
+A 150 151|||Split|||، فستنستنتج|||REQUIRED|||-NONE-|||0
 A 158 159|||Edit|||اعتبر|||REQUIRED|||-NONE-|||0
-A 161 162|||Delete||||||REQUIRED|||-NONE-|||0
-A 162 163|||Edit|||شيئا|||REQUIRED|||-NONE-|||0
+A 161 163|||Merge|||شيئا|||REQUIRED|||-NONE-|||0
 A 163 164|||Edit|||خطيرا|||REQUIRED|||-NONE-|||0
 A 164 165|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 175 176|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -12706,13 +11882,11 @@ A 179 180|||Edit|||وجود|||REQUIRED|||-NONE-|||0
 A 182 183|||Edit|||والمورطات|||REQUIRED|||-NONE-|||0
 A 183 184|||Edit|||المالية|||REQUIRED|||-NONE-|||0
 A 184 185|||Edit|||والرسمية|||REQUIRED|||-NONE-|||0
-A 191 192|||Edit|||سيؤثر|||REQUIRED|||-NONE-|||0
-A 192 192|||Add|||على|||REQUIRED|||-NONE-|||0
+A 191 192|||Split|||سيؤثر على|||REQUIRED|||-NONE-|||0
 A 196 196|||Add|||،|||REQUIRED|||-NONE-|||0
 A 196 197|||Edit|||ولكن|||REQUIRED|||-NONE-|||0
 A 198 199|||Edit|||تحققه|||REQUIRED|||-NONE-|||0
-A 201 202|||Edit|||تحكم|||REQUIRED|||-NONE-|||0
-A 202 202|||Add|||،|||REQUIRED|||-NONE-|||0
+A 201 202|||Split|||تحكم ،|||REQUIRED|||-NONE-|||0
 A 210 211|||Edit|||احتمال|||REQUIRED|||-NONE-|||0
 A 213 214|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 
@@ -12752,9 +11926,7 @@ A 103 104|||Edit|||الإرهاب|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 105 106|||Edit|||وضد|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||التقييم|||REQUIRED|||-NONE-|||0
-A 107 108|||Edit|||العنيف|||REQUIRED|||-NONE-|||0
-A 108 108|||Add|||للجهاد|||REQUIRED|||-NONE-|||0
-A 108 109|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 107 109|||Split|||العنيف للجهاد ،|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||والتي|||REQUIRED|||-NONE-|||0
 A 111 112|||Edit|||دورا|||REQUIRED|||-NONE-|||0
 A 112 113|||Edit|||مهما|||REQUIRED|||-NONE-|||0
@@ -12793,8 +11965,7 @@ A 176 178|||Move|||العلاقة غريبة|||REQUIRED|||-NONE-|||0
 A 178 179|||Edit|||أم|||REQUIRED|||-NONE-|||0
 A 181 182|||Edit|||ازدهرت|||REQUIRED|||-NONE-|||0
 A 184 185|||Edit|||الأمريكية|||REQUIRED|||-NONE-|||0
-A 185 186|||Edit|||أولا|||REQUIRED|||-NONE-|||0
-A 186 186|||Add|||،|||REQUIRED|||-NONE-|||0
+A 185 186|||Split|||أولا ،|||REQUIRED|||-NONE-|||0
 A 190 192|||Merge|||وملل|||REQUIRED|||-NONE-|||0
 A 192 193|||Edit|||أخرى|||REQUIRED|||-NONE-|||0
 A 195 196|||Edit|||النمو|||REQUIRED|||-NONE-|||0
@@ -12811,10 +11982,7 @@ A 222 223|||Edit|||هي|||REQUIRED|||-NONE-|||0
 A 225 226|||Delete||||||REQUIRED|||-NONE-|||0
 A 226 227|||Edit|||للأهمية|||REQUIRED|||-NONE-|||0
 A 229 230|||Edit|||يلعبها|||REQUIRED|||-NONE-|||0
-A 238 238|||Add|||،|||REQUIRED|||-NONE-|||0
-A 238 239|||Edit|||تتمثل|||REQUIRED|||-NONE-|||0
-A 239 239|||Add|||في|||REQUIRED|||-NONE-|||0
-A 239 239|||Add|||أن|||REQUIRED|||-NONE-|||0
+A 238 239|||Split|||، تتمثل في أن|||REQUIRED|||-NONE-|||0
 A 239 240|||Edit|||الفرق|||REQUIRED|||-NONE-|||0
 A 242 243|||Edit|||أو|||REQUIRED|||-NONE-|||0
 A 244 246|||Merge|||والوطن|||REQUIRED|||-NONE-|||0
@@ -12838,9 +12006,7 @@ S هل هناك الشرعية الدولية فعلا ؟ هذا البرنام�
 A 2 3|||Edit|||شرعية|||REQUIRED|||-NONE-|||0
 A 3 4|||Edit|||دولية|||REQUIRED|||-NONE-|||0
 A 14 14|||Add|||،|||REQUIRED|||-NONE-|||0
-A 17 18|||Delete||||||REQUIRED|||-NONE-|||0
-A 18 19|||Edit|||قضاياه|||REQUIRED|||-NONE-|||0
-A 19 19|||Add|||،|||REQUIRED|||-NONE-|||0
+A 17 19|||Edit|||قضاياه ،|||REQUIRED|||-NONE-|||0
 A 20 21|||Delete||||||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||الأمم|||REQUIRED|||-NONE-|||0
 A 26 27|||Edit|||البرنامج|||REQUIRED|||-NONE-|||0
@@ -12909,8 +12075,7 @@ A 180 181|||Edit|||طروحاته|||REQUIRED|||-NONE-|||0
 A 184 185|||Edit|||المنظمات|||REQUIRED|||-NONE-|||0
 A 186 186|||Add|||-|||REQUIRED|||-NONE-|||0
 A 187 188|||Edit|||الأمم|||REQUIRED|||-NONE-|||0
-A 189 189|||Add|||-|||REQUIRED|||-NONE-|||0
-A 189 190|||Edit|||مفيدة|||REQUIRED|||-NONE-|||0
+A 189 190|||Split|||- مفيدة|||REQUIRED|||-NONE-|||0
 A 190 191|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 193 194|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 196 197|||Edit|||الواقع|||REQUIRED|||-NONE-|||0
@@ -12999,8 +12164,7 @@ A 170 171|||Edit|||حياتهم|||REQUIRED|||-NONE-|||0
 A 172 173|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 174 175|||Edit|||سيعرف|||REQUIRED|||-NONE-|||0
 A 175 176|||Edit|||الفلاحون|||REQUIRED|||-NONE-|||0
-A 179 179|||Add|||،|||REQUIRED|||-NONE-|||0
-A 179 180|||Edit|||بينما|||REQUIRED|||-NONE-|||0
+A 179 180|||Split|||، بينما|||REQUIRED|||-NONE-|||0
 A 181 182|||Edit|||منهم|||REQUIRED|||-NONE-|||0
 A 183 184|||Edit|||يذهبون|||REQUIRED|||-NONE-|||0
 A 186 186|||Add|||،|||REQUIRED|||-NONE-|||0
@@ -13081,8 +12245,7 @@ A 219 220|||Edit|||تستحق|||REQUIRED|||-NONE-|||0
 A 226 227|||Edit|||رأيي|||REQUIRED|||-NONE-|||0
 A 227 228|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 229 230|||Edit|||هذا|||REQUIRED|||-NONE-|||0
-A 231 231|||Add|||على|||REQUIRED|||-NONE-|||0
-A 231 232|||Edit|||وجهة|||REQUIRED|||-NONE-|||0
+A 231 232|||Split|||على وجهة|||REQUIRED|||-NONE-|||0
 A 233 234|||Edit|||خاصة|||REQUIRED|||-NONE-|||0
 A 235 236|||Edit|||مفهوم|||REQUIRED|||-NONE-|||0
 A 237 237|||Add|||؛|||REQUIRED|||-NONE-|||0
@@ -13109,9 +12272,7 @@ S محاضرة بن أدامز – ٤ سبتمبر , ٩ ألقي بن أدامز
 A 3 4|||Delete||||||REQUIRED|||-NONE-|||0
 A 4 5|||Edit|||4|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 7 8|||Edit|||9|||REQUIRED|||-NONE-|||0
-A 8 8|||Add|||.|||REQUIRED|||-NONE-|||0
-A 8 9|||Edit|||ألقى|||REQUIRED|||-NONE-|||0
+A 7 9|||Split|||9 . ألقى|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||يكفلها|||REQUIRED|||-NONE-|||0
 A 27 28|||Edit|||هذه|||REQUIRED|||-NONE-|||0
@@ -13154,8 +12315,7 @@ A 128 129|||Edit|||هواياته|||REQUIRED|||-NONE-|||0
 A 130 131|||Delete||||||REQUIRED|||-NONE-|||0
 A 135 136|||Edit|||وناقش|||REQUIRED|||-NONE-|||0
 A 136 137|||Edit|||أدامز|||REQUIRED|||-NONE-|||0
-A 137 138|||Delete||||||REQUIRED|||-NONE-|||0
-A 138 139|||Edit|||سيرته|||REQUIRED|||-NONE-|||0
+A 137 139|||Merge|||سيرته|||REQUIRED|||-NONE-|||0
 A 139 140|||Edit|||الذاتية|||REQUIRED|||-NONE-|||0
 A 140 141|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 141 142|||Edit|||بدأ|||REQUIRED|||-NONE-|||0
@@ -13234,8 +12394,7 @@ A 78 79|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 79 80|||Edit|||وأعتقد|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 81 82|||Edit|||الجمهور|||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||اشتمل|||REQUIRED|||-NONE-|||0
-A 83 83|||Add|||على|||REQUIRED|||-NONE-|||0
+A 82 83|||Split|||اشتمل على|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||خمسين|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||فردا|||REQUIRED|||-NONE-|||0
 A 87 88|||Edit|||أنا|||REQUIRED|||-NONE-|||0
@@ -13245,8 +12404,7 @@ A 93 93|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 95 97|||Merge|||كثيرا|||REQUIRED|||-NONE-|||0
 A 103 105|||Merge|||والثلاثينات|||REQUIRED|||-NONE-|||0
 A 110 110|||Add|||،|||REQUIRED|||-NONE-|||0
-A 116 117|||Delete||||||REQUIRED|||-NONE-|||0
-A 117 118|||Edit|||هو|||REQUIRED|||-NONE-|||0
+A 116 118|||Merge|||هو|||REQUIRED|||-NONE-|||0
 A 118 119|||Edit|||مهم|||REQUIRED|||-NONE-|||0
 A 134 135|||Edit|||هنا|||REQUIRED|||-NONE-|||0
 A 137 138|||Delete||||||REQUIRED|||-NONE-|||0
@@ -13256,8 +12414,7 @@ A 146 148|||Delete||||||REQUIRED|||-NONE-|||0
 A 149 150|||Delete||||||REQUIRED|||-NONE-|||0
 A 151 152|||Edit|||مستويات|||REQUIRED|||-NONE-|||0
 A 154 154|||Add|||أي|||REQUIRED|||-NONE-|||0
-A 155 156|||Delete||||||REQUIRED|||-NONE-|||0
-A 156 157|||Edit|||شهادة|||REQUIRED|||-NONE-|||0
+A 155 157|||Merge|||شهادة|||REQUIRED|||-NONE-|||0
 A 158 159|||Split|||وشهادة الماجستير|||REQUIRED|||-NONE-|||0
 A 160 160|||Add|||،|||REQUIRED|||-NONE-|||0
 A 160 162|||Merge|||وأيضا|||REQUIRED|||-NONE-|||0
@@ -13283,9 +12440,7 @@ A 219 220|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 222 223|||Edit|||المؤرخين|||REQUIRED|||-NONE-|||0
 A 225 226|||Edit|||البهلوي|||REQUIRED|||-NONE-|||0
 A 232 233|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
-A 235 236|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 236 236|||Add|||في|||REQUIRED|||-NONE-|||0
-A 236 236|||Add|||العصر|||REQUIRED|||-NONE-|||0
+A 235 236|||Split|||، في العصر|||REQUIRED|||-NONE-|||0
 A 236 237|||Edit|||البهلوي|||REQUIRED|||-NONE-|||0
 A 240 241|||Edit|||1921|||REQUIRED|||-NONE-|||0
 A 241 241|||Add|||)|||REQUIRED|||-NONE-|||0
@@ -13315,19 +12470,10 @@ A 300 301|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 301 302|||Edit|||الاكتشاف|||REQUIRED|||-NONE-|||0
 
 S ولكن ماذا نعني عندما نقول & lt ; & lt ; الانواء & gt ; & gt ; ؟ يحددھا بن ادامز بأنھا نظام تقويم ، يتركز على النجوم ، و ليس الكواكب ، او القمر او الشمس . و الانواء ، ھي الارصاد و تتبع حركة النجوم الفردية والجماعية . و يختلف نوع علم الفلك يختلف الشمس في الشرق . و قال _ d اعتمادا على المصادر - - يصف الشعر ظھور بعد النجوم في الغرب قبل شروق الشمس ، و ظھو 1 المتحدث بأن ھذا النظام ليس نظام علمي ، ولكن المتحدث مھتم بھذا النظام كظاھرة ثقافية و اداة نصية ، و تقويم رسمي . عبد العرب قبل الاسلام النجوم ، و يتضح ھذا في صلاة الاستسقاء ، او صلاة المطر . و بعد نزول القرآن و الحديث ، كانت الانواء موضوع شجب للعلماء . بالنسبة لتنقية الانواء في ھذا العصر ، قرر العلماء ما كان اسلاميا ، و ما كان غير اسلاميا . و ھاجم العلماء تقديس كثير من الشعراء و افكارھم عن الانواء تقديس في محاولة لنزع شرعيتھا . و كانت ھذه الاجراءات جزء من محاولة اكبر لاسكات التاريخ قبل الاسلام .
-A 5 6|||Delete||||||REQUIRED|||-NONE-|||0
-A 6 7|||Delete||||||REQUIRED|||-NONE-|||0
-A 7 8|||Edit|||:|||REQUIRED|||-NONE-|||0
-A 8 9|||Edit|||(|||REQUIRED|||-NONE-|||0
-A 9 10|||Delete||||||REQUIRED|||-NONE-|||0
-A 10 11|||Delete||||||REQUIRED|||-NONE-|||0
+A 5 8|||Merge|||:|||REQUIRED|||-NONE-|||0
+A 8 11|||Merge|||(|||REQUIRED|||-NONE-|||0
 A 11 12|||Edit|||الأنواء|||REQUIRED|||-NONE-|||0
-A 12 13|||Delete||||||REQUIRED|||-NONE-|||0
-A 13 14|||Delete||||||REQUIRED|||-NONE-|||0
-A 14 15|||Delete||||||REQUIRED|||-NONE-|||0
-A 15 16|||Delete||||||REQUIRED|||-NONE-|||0
-A 16 17|||Delete||||||REQUIRED|||-NONE-|||0
-A 17 18|||Edit|||)|||REQUIRED|||-NONE-|||0
+A 12 18|||Merge|||)|||REQUIRED|||-NONE-|||0
 A 19 20|||Edit|||يحددها|||REQUIRED|||-NONE-|||0
 A 20 21|||Edit|||جون|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||آدامز|||REQUIRED|||-NONE-|||0
@@ -13341,24 +12487,19 @@ A 36 36|||Add|||،|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||أو|||REQUIRED|||-NONE-|||0
 A 39 40|||Delete||||||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||والأنواء|||REQUIRED|||-NONE-|||0
-A 41 42|||Delete||||||REQUIRED|||-NONE-|||0
-A 42 43|||Edit|||هي|||REQUIRED|||-NONE-|||0
+A 41 43|||Merge|||هي|||REQUIRED|||-NONE-|||0
 A 43 44|||Edit|||الأرصاد|||REQUIRED|||-NONE-|||0
 A 44 45|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||وتتبع|||REQUIRED|||-NONE-|||0
 A 51 53|||Merge|||ويختلف|||REQUIRED|||-NONE-|||0
-A 56 56|||Add|||،|||REQUIRED|||-NONE-|||0
-A 56 57|||Edit|||وتختلف|||REQUIRED|||-NONE-|||0
+A 56 57|||Split|||، وتختلف|||REQUIRED|||-NONE-|||0
 A 61 63|||Merge|||وقال|||REQUIRED|||-NONE-|||0
-A 63 64|||Delete||||||REQUIRED|||-NONE-|||0
-A 64 65|||Edit|||آدامز|||REQUIRED|||-NONE-|||0
+A 63 65|||Merge|||آدامز|||REQUIRED|||-NONE-|||0
 A 68 70|||Delete||||||REQUIRED|||-NONE-|||0
 A 71 72|||Edit|||الشاعر|||REQUIRED|||-NONE-|||0
 A 72 73|||Edit|||ظهور|||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||بعض|||REQUIRED|||-NONE-|||0
-A 81 82|||Delete||||||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||وإقرار|||REQUIRED|||-NONE-|||0
-A 83 84|||Delete||||||REQUIRED|||-NONE-|||0
+A 81 84|||Merge|||وإقرار|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||نظاما|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||علميا|||REQUIRED|||-NONE-|||0
@@ -13382,9 +12523,7 @@ A 144 145|||Edit|||فقرر|||REQUIRED|||-NONE-|||0
 A 148 149|||Edit|||إسلاميا|||REQUIRED|||-NONE-|||0
 A 150 152|||Merge|||وما|||REQUIRED|||-NONE-|||0
 A 154 155|||Edit|||إسلامي|||REQUIRED|||-NONE-|||0
-A 155 156|||Edit|||،|||REQUIRED|||-NONE-|||0
-A 156 157|||Delete||||||REQUIRED|||-NONE-|||0
-A 157 158|||Edit|||وهاجم|||REQUIRED|||-NONE-|||0
+A 155 158|||Merge|||، وهاجم|||REQUIRED|||-NONE-|||0
 A 163 164|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 164 165|||Edit|||وأفكارهم|||REQUIRED|||-NONE-|||0
 A 166 167|||Edit|||الأنواء|||REQUIRED|||-NONE-|||0
@@ -13400,23 +12539,18 @@ A 181 182|||Edit|||لإسكات|||REQUIRED|||-NONE-|||0
 A 184 185|||Edit|||الإسلام|||REQUIRED|||-NONE-|||0
 
 S الجمعة ليس كان عندي صف العربية في ھذا الصبح الان الاسناذة كانت في موتمر و مع ذلك ذھبت إلى صف فدرسنا واجبتنا . السبت والدى و والدتي و عمي وجدتي و اخي ) Hawaii اليوم في اوائل ايام في عطلتي . انا و زوجي و ١٩ ناس من عائلتى نذھب إلى واحواتي ) وصلنا إلى مدينة " ھنولولو " في الساعة الثانية . الا حد اخوتي وانا . Hawaii زارنا مزرعة فاكھة و اكلنا كثير من الأناناس وكل عائلتي لعبنا ال تنس معا و زارنا اوائل كنيسة في اشتريتنا بنت اخي فستان جميلة . الاثنين صعدنا جبل اسمه " كھما يا مھا " و سھرنا شلا ل جميل و احب الشجار و الخيرران والطيور الغابة كانت صاخبة ليس ساكنة مثل الغابة في يوطا . الاثنين طبخت الافطار لزوجي و عشلت المطبخ و ذھبت إلى صف القانون . الثلاثاء . Okland عملت واحباتي حتى الساعة الثانيه عسرة و ذھبت إلى صف القانون و عملت في الاربعاء اليوم كان عندي صف العربية وصف الاداب . ولكن لم اذھب إلى عملي لان كان عندي تقرير مدرسي و عملت واجباتي كل المساء . الخميس عملت واجباتي حتى الساعة الثانية عشرة و بعد ذلك ذھبت إلى صف القانون وكان عندي امتحان و في الساعة الثانية ذھبت إلى عملى و عملت متاخ ر .
-A 1 1|||Add|||،|||REQUIRED|||-NONE-|||0
-A 1 2|||Edit|||لم|||REQUIRED|||-NONE-|||0
+A 1 2|||Split|||، لم|||REQUIRED|||-NONE-|||0
 A 2 3|||Edit|||يكن|||REQUIRED|||-NONE-|||0
 A 5 6|||Edit|||عربية|||REQUIRED|||-NONE-|||0
 A 6 6|||Add|||،|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||هذا|||REQUIRED|||-NONE-|||0
 A 8 9|||Edit|||الصباح|||REQUIRED|||-NONE-|||0
-A 9 9|||Add|||؛|||REQUIRED|||-NONE-|||0
-A 9 10|||Edit|||لأن|||REQUIRED|||-NONE-|||0
-A 10 11|||Edit|||الأستاذة|||REQUIRED|||-NONE-|||0
-A 11 12|||Delete||||||REQUIRED|||-NONE-|||0
+A 9 10|||Split|||؛ لأن|||REQUIRED|||-NONE-|||0
+A 10 12|||Merge|||الأستاذة|||REQUIRED|||-NONE-|||0
 A 13 14|||Edit|||مؤتمر|||REQUIRED|||-NONE-|||0
 A 14 16|||Merge|||ومع|||REQUIRED|||-NONE-|||0
 A 17 18|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
-A 19 20|||Edit|||الصف|||REQUIRED|||-NONE-|||0
-A 20 20|||Add|||،|||REQUIRED|||-NONE-|||0
-A 20 21|||Edit|||فدرست|||REQUIRED|||-NONE-|||0
+A 19 21|||Split|||الصف ، فدرست|||REQUIRED|||-NONE-|||0
 A 21 22|||Edit|||واجباتي|||REQUIRED|||-NONE-|||0
 A 24 24|||Add|||،|||REQUIRED|||-NONE-|||0
 A 24 25|||Edit|||والدي|||REQUIRED|||-NONE-|||0
@@ -13432,8 +12566,7 @@ A 34 34|||Add|||.|||REQUIRED|||-NONE-|||0
 A 35 35|||Add|||هو|||REQUIRED|||-NONE-|||0
 A 35 36|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 36 37|||Edit|||أول|||REQUIRED|||-NONE-|||0
-A 37 38|||Edit|||أيام|||REQUIRED|||-NONE-|||0
-A 38 39|||Delete||||||REQUIRED|||-NONE-|||0
+A 37 39|||Merge|||أيام|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 41 42|||Edit|||أنا|||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -13443,14 +12576,12 @@ A 44 45|||Edit|||و19|||REQUIRED|||-NONE-|||0
 A 45 46|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 46 47|||Edit|||الناس|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||عائلتي|||REQUIRED|||-NONE-|||0
-A 49 49|||Add|||،|||REQUIRED|||-NONE-|||0
-A 49 50|||Edit|||ذهبنا|||REQUIRED|||-NONE-|||0
+A 49 50|||Split|||، ذهبنا|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||أواهو|||REQUIRED|||-NONE-|||0
 A 52 53|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 53 54|||Edit|||ووصلنا|||REQUIRED|||-NONE-|||0
 A 57 58|||Edit|||هنولولو|||REQUIRED|||-NONE-|||0
-A 62 63|||Delete||||||REQUIRED|||-NONE-|||0
-A 63 64|||Edit|||باستثناء|||REQUIRED|||-NONE-|||0
+A 62 64|||Merge|||باستثناء|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||أحد|||REQUIRED|||-NONE-|||0
 A 65 66|||Edit|||إخوتي|||REQUIRED|||-NONE-|||0
 A 66 67|||Split|||وأنا ذهبنا|||REQUIRED|||-NONE-|||0
@@ -13468,8 +12599,7 @@ A 83 84|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 84 85|||Edit|||وزرنا|||REQUIRED|||-NONE-|||0
 A 85 86|||Edit|||أولا|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||الكنيسة|||REQUIRED|||-NONE-|||0
-A 87 87|||Add|||،|||REQUIRED|||-NONE-|||0
-A 87 88|||Edit|||ثم|||REQUIRED|||-NONE-|||0
+A 87 88|||Split|||، ثم|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||اشترينا|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||لابنة|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||أخي|||REQUIRED|||-NONE-|||0
@@ -13477,18 +12607,14 @@ A 91 92|||Edit|||فستانا|||REQUIRED|||-NONE-|||0
 A 92 93|||Edit|||جميلا|||REQUIRED|||-NONE-|||0
 A 95 95|||Add|||،|||REQUIRED|||-NONE-|||0
 A 96 97|||Edit|||جبلا|||REQUIRED|||-NONE-|||0
-A 99 100|||Edit|||مونا|||REQUIRED|||-NONE-|||0
-A 100 101|||Delete||||||REQUIRED|||-NONE-|||0
-A 101 102|||Edit|||كيا|||REQUIRED|||-NONE-|||0
-A 103 104|||Delete||||||REQUIRED|||-NONE-|||0
-A 104 105|||Edit|||،|||REQUIRED|||-NONE-|||0
+A 99 102|||Merge|||مونا كيا|||REQUIRED|||-NONE-|||0
+A 103 105|||Merge|||،|||REQUIRED|||-NONE-|||0
 A 105 106|||Edit|||وشاهدنا|||REQUIRED|||-NONE-|||0
 A 106 107|||Edit|||شلالا|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||جميلا|||REQUIRED|||-NONE-|||0
 A 108 109|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 109 110|||Edit|||وأحببنا|||REQUIRED|||-NONE-|||0
-A 110 111|||Edit|||أشجار|||REQUIRED|||-NONE-|||0
-A 111 112|||Delete||||||REQUIRED|||-NONE-|||0
+A 110 112|||Merge|||أشجار|||REQUIRED|||-NONE-|||0
 A 112 113|||Edit|||الخيزران|||REQUIRED|||-NONE-|||0
 A 113 113|||Add|||،|||REQUIRED|||-NONE-|||0
 A 113 114|||Edit|||وطيور|||REQUIRED|||-NONE-|||0
@@ -13497,8 +12623,7 @@ A 120 120|||Add|||طيور|||REQUIRED|||-NONE-|||0
 A 122 123|||Edit|||يوتا|||REQUIRED|||-NONE-|||0
 A 125 125|||Add|||،|||REQUIRED|||-NONE-|||0
 A 126 127|||Edit|||الفطور|||REQUIRED|||-NONE-|||0
-A 128 129|||Edit|||ونظفت|||REQUIRED|||-NONE-|||0
-A 129 130|||Delete||||||REQUIRED|||-NONE-|||0
+A 128 130|||Merge|||ونظفت|||REQUIRED|||-NONE-|||0
 A 131 132|||Edit|||،|||REQUIRED|||-NONE-|||0
 A 132 133|||Edit|||وذهبت|||REQUIRED|||-NONE-|||0
 A 138 139|||Edit|||،|||REQUIRED|||-NONE-|||0
@@ -13530,13 +12655,10 @@ A 193 193|||Add|||،|||REQUIRED|||-NONE-|||0
 A 195 196|||Edit|||امتحانا|||REQUIRED|||-NONE-|||0
 A 196 197|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 197 198|||Edit|||وفي|||REQUIRED|||-NONE-|||0
-A 200 200|||Add|||،|||REQUIRED|||-NONE-|||0
-A 200 201|||Edit|||ذهبت|||REQUIRED|||-NONE-|||0
+A 200 201|||Split|||، ذهبت|||REQUIRED|||-NONE-|||0
 A 202 203|||Edit|||عملي|||REQUIRED|||-NONE-|||0
 A 203 205|||Merge|||وعملت|||REQUIRED|||-NONE-|||0
-A 205 205|||Add|||لوقت|||REQUIRED|||-NONE-|||0
-A 205 206|||Edit|||متأخر|||REQUIRED|||-NONE-|||0
-A 206 207|||Delete||||||REQUIRED|||-NONE-|||0
+A 205 207|||Edit|||لوقت متأخر|||REQUIRED|||-NONE-|||0
 
 S تحاول الدول العربية منذ ايام جمال عبد الناصر ان تتوحد بشكل سياسي وما زالت تفشل . اذا انتجت مصر لغة جديدة ، مثلا ، ھل ستقبلھا سوريا او البنان او المغرب ؟ في الحقيقة ينقسم العالم العربي منذ الحرب العالمية الاولى ، ففي كل دولة ھناك ثقافات وحاجات مختلفة . بالاضافة الى ذلك ، اللھجات المختلفة تمثل ثقافات الشعوب التي تتكلمھا ، مثل في مصر ، حيث العامية المصرية جزء كبير من الھوية الوطنية . فليس من الممكن ان يجمع العرب بين العامية و الفصحى بشكل كامل . في رآيي ، اذا آراد العرب لغة عامة ، فسيكون من اللازم ان يزداد تعليم الفصحى في الدول العربية ، و اذا نجح العرب في ذلك فسيكون ھناك ناس اكثر يتكلمون و يفھمون الفصحى ، مثلا في المغرب حيث عاميتھم مختلفة جدا ، و كثير من الشباب يتعلمون الفصحى . من الممكن آلا يكون ھناك لغة عامة جديدة ، و لكن مع تعليم اكثر يمكن العرب ان يتعلموا كيف يتواصلون مع بعضھم البعض
 A 4 5|||Edit|||أيام|||REQUIRED|||-NONE-|||0
@@ -13616,8 +12738,7 @@ A 98 99|||Edit|||تحد|||REQUIRED|||-NONE-|||0
 A 100 101|||Edit|||السوفييتي|||REQUIRED|||-NONE-|||0
 A 101 102|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 104 105|||Edit|||تركيا|||REQUIRED|||-NONE-|||0
-A 118 119|||Edit|||أيضا|||REQUIRED|||-NONE-|||0
-A 119 119|||Add|||،|||REQUIRED|||-NONE-|||0
+A 118 119|||Split|||أيضا ،|||REQUIRED|||-NONE-|||0
 A 122 122|||Add|||كان|||REQUIRED|||-NONE-|||0
 A 124 125|||Edit|||أن|||REQUIRED|||-NONE-|||0
 A 125 126|||Edit|||تبني|||REQUIRED|||-NONE-|||0
@@ -13707,8 +12828,7 @@ A 203 204|||Edit|||عمليا|||REQUIRED|||-NONE-|||0
 A 208 208|||Add|||على|||REQUIRED|||-NONE-|||0
 A 208 209|||Edit|||النتائج|||REQUIRED|||-NONE-|||0
 A 210 211|||Edit|||أن|||REQUIRED|||-NONE-|||0
-A 215 216|||Delete||||||REQUIRED|||-NONE-|||0
-A 216 217|||Edit|||ليسوا|||REQUIRED|||-NONE-|||0
+A 215 217|||Merge|||ليسوا|||REQUIRED|||-NONE-|||0
 A 219 220|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 222 223|||Edit|||أننا|||REQUIRED|||-NONE-|||0
 A 226 227|||Edit|||عالمي|||REQUIRED|||-NONE-|||0
@@ -13719,8 +12839,7 @@ A 236 237|||Edit|||أوافق|||REQUIRED|||-NONE-|||0
 A 237 238|||Edit|||كلا|||REQUIRED|||-NONE-|||0
 A 239 240|||Edit|||الكاتبين|||REQUIRED|||-NONE-|||0
 A 248 249|||Edit|||المعاصرة|||REQUIRED|||-NONE-|||0
-A 250 250|||Add|||عن|||REQUIRED|||-NONE-|||0
-A 250 251|||Edit|||أشياء|||REQUIRED|||-NONE-|||0
+A 250 251|||Split|||عن أشياء|||REQUIRED|||-NONE-|||0
 A 255 257|||Merge|||ونعم|||REQUIRED|||-NONE-|||0
 A 258 259|||Edit|||أفهم|||REQUIRED|||-NONE-|||0
 A 259 260|||Edit|||أن|||REQUIRED|||-NONE-|||0
@@ -13796,8 +12915,7 @@ A 79 80|||Edit|||هي|||REQUIRED|||-NONE-|||0
 A 80 81|||Edit|||الطريقة|||REQUIRED|||-NONE-|||0
 A 82 83|||Edit|||والأسهل|||REQUIRED|||-NONE-|||0
 A 86 87|||Edit|||هنا|||REQUIRED|||-NONE-|||0
-A 87 88|||Edit|||هو|||REQUIRED|||-NONE-|||0
-A 88 88|||Add|||:|||REQUIRED|||-NONE-|||0
+A 87 88|||Split|||هو :|||REQUIRED|||-NONE-|||0
 A 89 90|||Edit|||هو|||REQUIRED|||-NONE-|||0
 A 99 100|||Edit|||الأمريكية|||REQUIRED|||-NONE-|||0
 A 107 108|||Edit|||الأصلية|||REQUIRED|||-NONE-|||0
@@ -13817,11 +12935,7 @@ A 163 165|||Merge|||أيضا|||REQUIRED|||-NONE-|||0
 
 S الأقل ة الفلسط ن ة ف إسرائ ل حضرت محاضرة للأستاذة مها نصار من قسم الشرق الادنى ف جامعة ار زونا . تخرجت مها نصار من جامعة ش كاغو ف السنة ٨٤٢١ . قدمت - ٦٠٠٢ و رسالتها كانت عن الهو ة والقوم ة الفلسط ن ة ف الاداب ب د الموطن ن الفلسط ن ن ف الإسرا ل من ٨٤٩١ الأستاذة بحثها عن الأقل ة الفلسط ن ة ف إسرائ ل ، وعلاقها مع العرب الاخر ن . قالت إن دور الفلسط ن ن الإسرائ ل ن مهما جدا لانهم ف منتصف الشد والتوتر ف الحرب . تار خ ا ، صور هوؤلاء العرب تغرت عدد مرات كما تغ ر الحالة الس اسة ف الشرق الاوسط . حال ا ، معظم الأقل ة الفلسط ن ة هم احفاد اللاج ئ ن الأصل ن الذ ن هربو وم النكبة ف السنة ٨٤٩١ خلال حرب الإستقلال الإسرائ ل و ظلوا بداخل حدود إسرائ ل . هرب الجم ع من ب وتهم ومناطقهم عندما غزاهم الج ش ال هودي ولكن بعض من الاوادم بقوا ف محلهم وصاروا الأقل ة ف الاغلب ة ال هود ة . بعد حرب النكبة ، معظم العالم العرب نظروا الى هؤلاء الاشخاص الذ ن ظلو كخونة للقض ة الفلسط ن ة . وصفت الأستاذة التم ز الواضح الذي انتشر ف كل اركان البلد . اعتبروا الناس الذ ن ل سو من اصول عرب ة اقل من عرب اص ل حق ق . حكت لنا الأستاذة ك ف لمدة وقطا هؤلاء العرب لم كونوا فلسط ن ن او إسرائ ل ، بدلا كانو مجموعة ف النس ان .
 A 0 1|||Edit|||الأقلية|||REQUIRED|||-NONE-|||0
-A 1 2|||Delete||||||REQUIRED|||-NONE-|||0
-A 2 3|||Edit|||الفلسطينية|||REQUIRED|||-NONE-|||0
-A 3 4|||Delete||||||REQUIRED|||-NONE-|||0
-A 4 5|||Delete||||||REQUIRED|||-NONE-|||0
-A 5 6|||Edit|||في|||REQUIRED|||-NONE-|||0
+A 1 6|||Merge|||الفلسطينية في|||REQUIRED|||-NONE-|||0
 A 6 7|||Edit|||إسرائيل|||REQUIRED|||-NONE-|||0
 A 7 8|||Edit|||.|||REQUIRED|||-NONE-|||0
 A 16 17|||Edit|||الأدنى|||REQUIRED|||-NONE-|||0
@@ -13839,72 +12953,43 @@ A 36 38|||Merge|||ورسالتها|||REQUIRED|||-NONE-|||0
 A 40 41|||Edit|||الهوية|||REQUIRED|||-NONE-|||0
 A 41 42|||Delete||||||REQUIRED|||-NONE-|||0
 A 42 43|||Edit|||والقومية|||REQUIRED|||-NONE-|||0
-A 43 44|||Delete||||||REQUIRED|||-NONE-|||0
-A 44 45|||Edit|||الفلسطينية|||REQUIRED|||-NONE-|||0
-A 45 46|||Delete||||||REQUIRED|||-NONE-|||0
-A 46 47|||Delete||||||REQUIRED|||-NONE-|||0
-A 47 48|||Edit|||في|||REQUIRED|||-NONE-|||0
+A 43 48|||Merge|||الفلسطينية في|||REQUIRED|||-NONE-|||0
 A 48 49|||Edit|||الآداب|||REQUIRED|||-NONE-|||0
 A 51 52|||Edit|||المواطنين|||REQUIRED|||-NONE-|||0
-A 52 53|||Delete||||||REQUIRED|||-NONE-|||0
-A 53 54|||Edit|||الفلسطينيين|||REQUIRED|||-NONE-|||0
-A 54 55|||Delete||||||REQUIRED|||-NONE-|||0
-A 55 56|||Delete||||||REQUIRED|||-NONE-|||0
-A 56 57|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 57 58|||Edit|||إسرائيل|||REQUIRED|||-NONE-|||0
-A 58 59|||Delete||||||REQUIRED|||-NONE-|||0
+A 52 57|||Merge|||الفلسطينيين في|||REQUIRED|||-NONE-|||0
+A 57 59|||Merge|||إسرائيل|||REQUIRED|||-NONE-|||0
 A 60 61|||Edit|||1948|||REQUIRED|||-NONE-|||0
 A 61 61|||Add|||.|||REQUIRED|||-NONE-|||0
 A 62 62|||Add|||قدمت|||REQUIRED|||-NONE-|||0
 A 64 65|||Edit|||الأقلية|||REQUIRED|||-NONE-|||0
-A 65 66|||Delete||||||REQUIRED|||-NONE-|||0
-A 66 67|||Edit|||الفلسطينية|||REQUIRED|||-NONE-|||0
-A 67 68|||Delete||||||REQUIRED|||-NONE-|||0
-A 68 69|||Delete||||||REQUIRED|||-NONE-|||0
-A 69 70|||Edit|||في|||REQUIRED|||-NONE-|||0
+A 65 70|||Merge|||الفلسطينية في|||REQUIRED|||-NONE-|||0
 A 70 71|||Edit|||إسرائيل|||REQUIRED|||-NONE-|||0
 A 71 72|||Delete||||||REQUIRED|||-NONE-|||0
 A 73 74|||Edit|||وعلاقتها|||REQUIRED|||-NONE-|||0
-A 76 77|||Edit|||الآخرين|||REQUIRED|||-NONE-|||0
-A 77 78|||Delete||||||REQUIRED|||-NONE-|||0
-A 82 83|||Edit|||الفلسطينيين|||REQUIRED|||-NONE-|||0
-A 83 84|||Delete||||||REQUIRED|||-NONE-|||0
-A 84 85|||Delete||||||REQUIRED|||-NONE-|||0
-A 85 86|||Edit|||الإسرائيليين|||REQUIRED|||-NONE-|||0
-A 86 87|||Delete||||||REQUIRED|||-NONE-|||0
-A 87 88|||Delete||||||REQUIRED|||-NONE-|||0
+A 76 78|||Merge|||الآخرين|||REQUIRED|||-NONE-|||0
+A 82 88|||Merge|||الفلسطينيين الإسرائيليين|||REQUIRED|||-NONE-|||0
 A 88 89|||Edit|||مهم|||REQUIRED|||-NONE-|||0
 A 90 90|||Add|||؛|||REQUIRED|||-NONE-|||0
 A 90 91|||Edit|||لأنهم|||REQUIRED|||-NONE-|||0
 A 91 92|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 93 94|||Edit|||الشدة|||REQUIRED|||-NONE-|||0
 A 95 96|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 98 99|||Edit|||تاريخيا|||REQUIRED|||-NONE-|||0
-A 99 100|||Delete||||||REQUIRED|||-NONE-|||0
-A 100 101|||Delete||||||REQUIRED|||-NONE-|||0
+A 98 101|||Merge|||تاريخيا|||REQUIRED|||-NONE-|||0
 A 102 102|||Add|||تغيرت|||REQUIRED|||-NONE-|||0
 A 103 104|||Edit|||هؤلاء|||REQUIRED|||-NONE-|||0
 A 105 106|||Delete||||||REQUIRED|||-NONE-|||0
-A 109 110|||Edit|||تغيرت|||REQUIRED|||-NONE-|||0
-A 110 111|||Delete||||||REQUIRED|||-NONE-|||0
-A 112 113|||Delete||||||REQUIRED|||-NONE-|||0
-A 113 114|||Edit|||السياسية|||REQUIRED|||-NONE-|||0
+A 109 111|||Merge|||تغيرت|||REQUIRED|||-NONE-|||0
+A 112 114|||Merge|||السياسية|||REQUIRED|||-NONE-|||0
 A 114 115|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 116 117|||Edit|||الأوسط|||REQUIRED|||-NONE-|||0
-A 118 119|||Edit|||حاليا|||REQUIRED|||-NONE-|||0
-A 119 120|||Delete||||||REQUIRED|||-NONE-|||0
+A 118 120|||Merge|||حاليا|||REQUIRED|||-NONE-|||0
 A 122 123|||Edit|||الأقلية|||REQUIRED|||-NONE-|||0
-A 123 124|||Delete||||||REQUIRED|||-NONE-|||0
-A 124 125|||Edit|||الفلسطينية|||REQUIRED|||-NONE-|||0
-A 125 126|||Delete||||||REQUIRED|||-NONE-|||0
-A 126 127|||Delete||||||REQUIRED|||-NONE-|||0
+A 123 127|||Merge|||الفلسطينية|||REQUIRED|||-NONE-|||0
 A 128 129|||Edit|||أحفاد|||REQUIRED|||-NONE-|||0
 A 129 130|||Edit|||اللاجئين|||REQUIRED|||-NONE-|||0
 A 130 132|||Delete||||||REQUIRED|||-NONE-|||0
 A 132 133|||Edit|||الأصليين|||REQUIRED|||-NONE-|||0
-A 133 134|||Delete||||||REQUIRED|||-NONE-|||0
-A 134 135|||Edit|||الذين|||REQUIRED|||-NONE-|||0
-A 135 136|||Delete||||||REQUIRED|||-NONE-|||0
+A 133 136|||Merge|||الذين|||REQUIRED|||-NONE-|||0
 A 136 137|||Edit|||هربوا|||REQUIRED|||-NONE-|||0
 A 137 138|||Edit|||يوم|||REQUIRED|||-NONE-|||0
 A 139 140|||Edit|||في|||REQUIRED|||-NONE-|||0
@@ -13919,64 +13004,40 @@ A 155 156|||Edit|||الجميع|||REQUIRED|||-NONE-|||0
 A 156 157|||Delete||||||REQUIRED|||-NONE-|||0
 A 158 159|||Delete||||||REQUIRED|||-NONE-|||0
 A 159 160|||Edit|||بيوتهم|||REQUIRED|||-NONE-|||0
-A 163 164|||Delete||||||REQUIRED|||-NONE-|||0
-A 164 165|||Delete||||||REQUIRED|||-NONE-|||0
-A 165 166|||Edit|||الجيش|||REQUIRED|||-NONE-|||0
+A 163 166|||Merge|||الجيش|||REQUIRED|||-NONE-|||0
 A 166 167|||Edit|||اليهودي|||REQUIRED|||-NONE-|||0
 A 170 171|||Edit|||الأوادم|||REQUIRED|||-NONE-|||0
 A 172 173|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 175 176|||Edit|||الأقلية|||REQUIRED|||-NONE-|||0
 A 176 177|||Delete||||||REQUIRED|||-NONE-|||0
 A 177 178|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 178 179|||Edit|||الأغلبية|||REQUIRED|||-NONE-|||0
-A 179 180|||Delete||||||REQUIRED|||-NONE-|||0
-A 180 181|||Edit|||اليهودية|||REQUIRED|||-NONE-|||0
-A 181 182|||Delete||||||REQUIRED|||-NONE-|||0
-A 182 183|||Delete||||||REQUIRED|||-NONE-|||0
+A 178 183|||Merge|||الأغلبية اليهودية|||REQUIRED|||-NONE-|||0
 A 190 191|||Edit|||العربي|||REQUIRED|||-NONE-|||0
 A 191 192|||Edit|||نظر|||REQUIRED|||-NONE-|||0
 A 192 193|||Edit|||إلى|||REQUIRED|||-NONE-|||0
 A 194 195|||Edit|||الأشخاص|||REQUIRED|||-NONE-|||0
-A 195 196|||Edit|||الذين|||REQUIRED|||-NONE-|||0
-A 196 197|||Delete||||||REQUIRED|||-NONE-|||0
+A 195 197|||Merge|||الذين|||REQUIRED|||-NONE-|||0
 A 197 198|||Edit|||ظلوا|||REQUIRED|||-NONE-|||0
 A 199 200|||Edit|||للقضية|||REQUIRED|||-NONE-|||0
-A 200 201|||Delete||||||REQUIRED|||-NONE-|||0
-A 201 202|||Edit|||الفلسطينية|||REQUIRED|||-NONE-|||0
-A 202 203|||Delete||||||REQUIRED|||-NONE-|||0
-A 203 204|||Delete||||||REQUIRED|||-NONE-|||0
-A 207 208|||Edit|||التمييز|||REQUIRED|||-NONE-|||0
-A 208 209|||Delete||||||REQUIRED|||-NONE-|||0
+A 200 204|||Merge|||الفلسطينية|||REQUIRED|||-NONE-|||0
+A 207 209|||Merge|||التمييز|||REQUIRED|||-NONE-|||0
 A 212 213|||Edit|||في|||REQUIRED|||-NONE-|||0
 A 214 215|||Edit|||أركان|||REQUIRED|||-NONE-|||0
-A 219 220|||Edit|||الذين|||REQUIRED|||-NONE-|||0
-A 220 221|||Delete||||||REQUIRED|||-NONE-|||0
-A 221 222|||Delete||||||REQUIRED|||-NONE-|||0
-A 222 223|||Edit|||ليسوا|||REQUIRED|||-NONE-|||0
+A 219 223|||Merge|||الذين ليسوا|||REQUIRED|||-NONE-|||0
 A 224 225|||Edit|||أصول|||REQUIRED|||-NONE-|||0
-A 225 226|||Edit|||عربية|||REQUIRED|||-NONE-|||0
-A 226 227|||Delete||||||REQUIRED|||-NONE-|||0
-A 227 228|||Edit|||أقل|||REQUIRED|||-NONE-|||0
+A 225 228|||Merge|||عربية أقل|||REQUIRED|||-NONE-|||0
 A 230 231|||Edit|||من|||REQUIRED|||-NONE-|||0
 A 231 232|||Edit|||أصل|||REQUIRED|||-NONE-|||0
-A 232 233|||Edit|||حقيقي|||REQUIRED|||-NONE-|||0
-A 233 234|||Delete||||||REQUIRED|||-NONE-|||0
-A 238 239|||Delete||||||REQUIRED|||-NONE-|||0
-A 239 240|||Edit|||كيف|||REQUIRED|||-NONE-|||0
-A 241 241|||Add|||من|||REQUIRED|||-NONE-|||0
-A 241 242|||Edit|||الوقت|||REQUIRED|||-NONE-|||0
+A 232 234|||Merge|||حقيقي|||REQUIRED|||-NONE-|||0
+A 238 240|||Merge|||كيف|||REQUIRED|||-NONE-|||0
+A 241 242|||Split|||من الوقت|||REQUIRED|||-NONE-|||0
 A 245 246|||Edit|||يكونوا|||REQUIRED|||-NONE-|||0
-A 246 247|||Edit|||فلسطينيين|||REQUIRED|||-NONE-|||0
-A 247 248|||Delete||||||REQUIRED|||-NONE-|||0
-A 248 249|||Delete||||||REQUIRED|||-NONE-|||0
-A 249 250|||Edit|||أو|||REQUIRED|||-NONE-|||0
-A 250 251|||Edit|||إسرائيليين|||REQUIRED|||-NONE-|||0
-A 251 252|||Delete||||||REQUIRED|||-NONE-|||0
+A 246 250|||Merge|||فلسطينيين أو|||REQUIRED|||-NONE-|||0
+A 250 252|||Merge|||إسرائيليين|||REQUIRED|||-NONE-|||0
 A 254 254|||Add|||عن ذلك|||REQUIRED|||-NONE-|||0
 A 254 255|||Edit|||كانوا|||REQUIRED|||-NONE-|||0
 A 256 257|||Edit|||في|||REQUIRED|||-NONE-|||0
-A 257 258|||Edit|||النسيان|||REQUIRED|||-NONE-|||0
-A 258 259|||Delete||||||REQUIRED|||-NONE-|||0
+A 257 259|||Merge|||النسيان|||REQUIRED|||-NONE-|||0
 
 S محاضرة : دكتور جمال في يوم الجمعة ١٧ أكتوبر ، دكتور عادل جمال أعطى محاضرة في قسم دراسات الشرق الأدنى في بناية مارشال ، غرفة رقم ٤٩٠ . محاضرته كانت جزء من سلسلة الندوة التي رعت من قسمنا كل يوم الجمعة . كان هناك تقريبا ٤٠ شخص في المحاضرة والجمهور تكون من طلبة الماجستير وطلبة البكالوريوس وأساتذة في القسم وأعضاء المجتمع المحلي . دكتور عادل سليمان جمال هو أستاذ في قسم دراسات الشرق الأدنى وهو متخصص في اللغة العربية والشعر الإسلامي وقبل فترة الإسلام والأدب العربي الكلاسيكي واللغة العربية في وسائل الإعلام . درس الدكتور في جامعة أريزونا منذ سنة ١٩٧٥ ولكن هو أيضا درس في جامعات أخرى مثل جامعة القاهرة الأمريكية وجامعة يوتا وجامعة زايد في الإمارات . دكتور عمار بوم ، من قدم الحياة الأكديمية من دكتور جمال قبل بداية محاضرته ، قال إن جمال كتب أكثر من ١١ كتابا ، تقريبا ٢٠ مقالات في مجالات أكديمية وأيضا كان يشترك الدكتور في مراجعات الكتب و محاضرات وفصول تحريرة والمخطوطات كثيرة ومتنوعة ومتميزة خلال مهنته الطويلة . الآن ، سألخص وسأقدم محاضرته بالعنوان : الأخلاق والقيم من جزيرة العرب قبل الإسلام . في مقدمته ، دكتور جمال أشار إلى الأفكار الرئيسية في محاضرته وبالذات حول علماء الدين الإسلامي وجهودهم في التمييز بين ممارسات وسلوك العرب قبل وصول الدين الإسلامي وتعاليم الإسلام بعد انتشاره . بالنسبة لدكتور جمال ، تلف العلماء هذا الفهم وخصوصا عندما نتحدث عن القيم والأخلاق في هذه المنطقة . في وجهات نظرية هؤلاء علماء ، تغير الإسلام كل القيم الأخلاقية حتى عبادة للانتقام ( عبارة دكتور جمال ) وأيضا قيم أخرى مثل البسالة والشجاعة المعنوية والشخصية . وفقا الدكتور ، من أجل فهم عباده للانتقام التي رفض الإسلام ، يجب أن نفهم هذه الفترة أكثر وبشكل متعاطف ولذلك يمكننا أن نفهم الفترة في السياق المناسب .
 A 4 4|||Add|||.|||REQUIRED|||-NONE-|||0
