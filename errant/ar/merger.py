@@ -69,20 +69,6 @@ def process_seq_ar(seq, alignment):
             return process_seq_ar(seq[:end-1], alignment) + \
                 merge_edits(seq[end-1:end+1]) + \
                 process_seq_ar(seq[end+1:], alignment)
-        # Case changes
-        if o[-1].lower == c[-1].lower:                                              # This is not applied on Arabic
-            # Merge first token I or D: [Cat -> The big cat]
-            if start == 0 and (len(o) == 1 and c[0].text[0].isupper()) or \
-                    (len(c) == 1 and o[0].text[0].isupper()):                       # This is not applied on Arabic
-                return merge_edits(seq[start:end+1]) + \
-                    process_seq_ar(seq[end+1:], alignment)
-            # Merge with previous punctuation: [, we -> . We], [we -> . We]
-            if (len(o) > 1 and is_punct(o[-2])) or \
-                    (len(c) > 1 and is_punct(c[-2])):
-                return process_seq_ar(seq[:end-1], alignment) + \
-                    merge_edits(seq[end-1:end+1]) + \
-                    process_seq_ar(seq[end+1:], alignment)
-        # Merge whitespace/hyphens: [acat -> a cat], [sub - way -> subway]
 
         #hyphens removed (they were messing up some edits but might rewrite it later)
         s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
