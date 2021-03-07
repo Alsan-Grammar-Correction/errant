@@ -4,3 +4,6 @@ test_files/
 errant/m2_out.m2
 errant/ref.txt
 errant/source.txt
+errant/out_m2.m2
+last_reference.txt
+last_source.txt
