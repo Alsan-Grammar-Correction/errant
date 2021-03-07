@@ -66,12 +66,6 @@ def process_seq_ar(seq, alignment):
         # Get the tokens in orig and cor. They will now never be empty.
         o = alignment.orig[seq[start][1]:seq[end][2]]
         c = alignment.cor[seq[start][3]:seq[end][4]]
-        
-        # Merge possessive suffixes: [friends -> friend 's]
-        #if o[-1].tag == "POS" or c[-1].tag == "POS":                              # what is POS? + change tag_ to tag
-            #return process_seq_ar(seq[:end-1], alignment) + \
-                #merge_edits(seq[end-1:end+1]) + \
-                #process_seq_ar(seq[end+1:], alignment)
 
         #hyphens removed (they were messing up some edits but might rewrite it later)
         s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
@@ -80,13 +74,11 @@ def process_seq_ar(seq, alignment):
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
                 process_seq_ar(seq[end+1:], alignment)
-        print(is_punct(','))
 
         # Merge same POS or auxiliary/infinitive/phrasal verbs:
         # [to eat -> eating], [watch -> look at]
         pos_set = set([tok.pos for tok in o]+[tok.pos for tok in c]) 
-        #w=set([is_punct(tok) for tok in o])
-                 # This is not applied on Arabic
+        #w=set([is_punct(tok) for tok in o]) # This is not applied on Arabic
         if len(o) != len(c) and (len(pos_set) == 1 or \
             pos_set.issubset({'part','part_dem','part_det','part_focus','part_fut','part_interrog','part_neg','part_restrict','part_verb','part_voc','verb','verb_pseudo'})):               # Not sure if it is language dependent. This is not applied on Arabic
             return process_seq_ar(seq[:start], alignment) + \
@@ -103,11 +95,7 @@ def process_seq_ar(seq, alignment):
                     (ops[end] == "S" and char_cost(o[-1].text, c[-1].text) > 0.75):
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
-            # Split final determiners
-            #if end == len(seq)-1 and ((ops[-1] in {"D", "S"} and \
-            #        o[-1].pos == POS.DET) or (ops[-1] in {"I", "S"} and \
-            #        c[-1].pos == POS.DET)):                                     # This is not applied on Arabic
-            #    return process_seq_ar(seq[:-1], alignment) + [seq[-1]]
+
         # Set content word flag
         if not pos_set.isdisjoint(open_pos): content = True                     # Not sure if it is language dependent.
     # Merge sequences that contain content words
