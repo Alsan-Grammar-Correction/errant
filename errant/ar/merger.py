@@ -66,10 +66,12 @@ def process_seq_ar(seq, alignment):
         # Get the tokens in orig and cor. They will now never be empty.
         o = alignment.orig[seq[start][1]:seq[end][2]]
         c = alignment.cor[seq[start][3]:seq[end][4]]
-
+ 
         #hyphens removed (they were messing up some edits but might rewrite it later)
         s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
         t_str = sub("['-]", "", "".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
+        
+
         if s_str == t_str:
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
@@ -83,7 +85,10 @@ def process_seq_ar(seq, alignment):
             pos_set.issubset({'part','part_dem','part_det','part_focus','part_fut','part_interrog','part_neg','part_restrict','part_verb','part_voc','verb','verb_pseudo'})):               # Not sure if it is language dependent. This is not applied on Arabic
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
-                process_seq_ar(seq[end+1:], alignment)        
+                process_seq_ar(seq[end+1:], alignment)
+
+     
+                        
         # Split rules take effect when we get to smallest chunks
         if end-start <2:
             # Split adjacent substitutions
@@ -95,6 +100,13 @@ def process_seq_ar(seq, alignment):
                     (ops[end] == "S" and char_cost(o[-1].text, c[-1].text) > 0.75):
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
+                    ##If a punctation mark is encontered, remove it
+        ##I wrote this to remove splits involving punctation marks
+            arab_punct_set=set([is_punct(tok) for tok in c])
+            if True in arab_punct_set:
+                c = filter(lambda i: not arab_punct.search(i), c)
+                return process_seq_ar(seq[:start+1], alignment) + \
+                process_seq_ar(seq[start+1:], alignment)   
 
         # Set content word flag
         if not pos_set.isdisjoint(open_pos): content = True                     # Not sure if it is language dependent.
