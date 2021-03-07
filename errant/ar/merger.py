@@ -4,8 +4,10 @@ from string import punctuation
 import Levenshtein
 import spacy.symbols as POS
 from errant.edit import Edit
+import errant.parsedToken 
 import re
 from fuzzywuzzy import fuzz
+
 
 # Merger resources
 #--edited--# open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB} 
@@ -19,6 +21,7 @@ arab_punct = re.compile(arab_punct_rx)
 # Output: A list of Edit objects
 def get_rule_edits(alignment, lang):
     edits = []
+    
     # Split alignment into groups of M, T and rest. (T has a number after it)
     for op, group in groupby(alignment.align_seq, 
             lambda x: x[0][0] if x[0][0] in {"M", "T"} else False):
@@ -65,10 +68,10 @@ def process_seq_ar(seq, alignment):
         c = alignment.cor[seq[start][3]:seq[end][4]]
         
         # Merge possessive suffixes: [friends -> friend 's]
-        if o[-1].tag == "POS" or c[-1].tag == "POS":                              # what is POS? + change tag_ to tag
-            return process_seq_ar(seq[:end-1], alignment) + \
-                merge_edits(seq[end-1:end+1]) + \
-                process_seq_ar(seq[end+1:], alignment)
+        #if o[-1].tag == "POS" or c[-1].tag == "POS":                              # what is POS? + change tag_ to tag
+            #return process_seq_ar(seq[:end-1], alignment) + \
+                #merge_edits(seq[end-1:end+1]) + \
+                #process_seq_ar(seq[end+1:], alignment)
 
         #hyphens removed (they were messing up some edits but might rewrite it later)
         s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
@@ -77,15 +80,18 @@ def process_seq_ar(seq, alignment):
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
                 process_seq_ar(seq[end+1:], alignment)
+        print([is_punct(tok) for tok in o])
 
         # Merge same POS or auxiliary/infinitive/phrasal verbs:
         # [to eat -> eating], [watch -> look at]
-        pos_set = set([tok.pos for tok in o]+[tok.pos for tok in c])            # This is not applied on Arabic
+        pos_set = set([tok.pos for tok in o]+[tok.pos for tok in c]) 
+        #w=set([is_punct(tok) for tok in o])
+                 # This is not applied on Arabic
         if len(o) != len(c) and (len(pos_set) == 1 or \
-                pos_set.issubset({'part','part_dem','part_det','part_focus','part_fut','part_interrog','part_neg','part_restrict','part_verb','part_voc','verb','verb_pseudo'})):               # Not sure if it is language dependent. This is not applied on Arabic
+            pos_set.issubset({'part','part_dem','part_det','part_focus','part_fut','part_interrog','part_neg','part_restrict','part_verb','part_voc','verb','verb_pseudo'})):               # Not sure if it is language dependent. This is not applied on Arabic
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
-                process_seq_ar(seq[end+1:], alignment)
+                process_seq_ar(seq[end+1:], alignment)        
         # Split rules take effect when we get to smallest chunks
         if end-start <2:
             # Split adjacent substitutions
@@ -187,9 +193,14 @@ def process_seq_en(seq, alignment):
     else: return seq
 
 # Check whether token is punctuation
+#First, check the token's type:
+#If the token was a parsedToken, check if the POS=PUNC
+#Else if the token was a string, then check if it matches the arab punct regex
 def is_punct(token):
-    return token.pos == POS.PUNCT or token.text in punctuation or arab_punct.search(token)   # needs Arabic punctuations
-
+    if(isinstance(token,errant.parsedToken.ParsedToken)):
+        return token.pos=="punc" or token.pos == POS.PUNCT or token.text in punctuation   # needs Arabic punctuations
+    elif(isinstance(token, str)):
+       return arab_punct.search(token)
 # Calculate the cost of character alignment; i.e. char similarity
 # Input 1: string a 
 # Input 2: string b 
