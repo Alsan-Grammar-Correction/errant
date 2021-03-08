@@ -66,6 +66,11 @@ def process_seq_ar(seq, alignment):
         # Get the tokens in orig and cor. They will now never be empty.
         o = alignment.orig[seq[start][1]:seq[end][2]]
         c = alignment.cor[seq[start][3]:seq[end][4]]
+ 
+        #hyphens removed (they were messing up some edits but might rewrite it later)
+        s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
+        t_str = sub("['-]", "", "".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
+        
 
     #---------------------START TESTING SPACE---------------------#
         correct_pos=list()
@@ -73,6 +78,13 @@ def process_seq_ar(seq, alignment):
 
         correct_token=list()
         original_token=list()
+
+
+        correct_ops=list()
+        original_ops=list()
+
+
+
     
         correct_tok_dict={}
         origonal_tok_dict={}
@@ -80,6 +92,7 @@ def process_seq_ar(seq, alignment):
         for tok in c:
             correct_token.append(tok.text)
             correct_pos.append(str(tok.pos))
+            
 
         for tok in o:
             original_token.append(tok.text)
@@ -89,10 +102,13 @@ def process_seq_ar(seq, alignment):
         correct_tok_dict=dict(zip(correct_token, correct_pos))
         origonal_tok_dict=dict(zip(original_token, original_pos))
 
+        print("seq: "+str(seq) +"\n")
 
 
+        print("original: "+str(sub("['-]", " ", " ".join([tok.lower for tok in o])) )+"\n")
+        print("correction: "+str(sub("['-]", " ", " ".join([tok.lower for tok in c])))+"\n")
         print(str(correct_tok_dict)+"\n")
-        
+        print(str(set(ops))+"\n")
 
 
     
@@ -117,11 +133,6 @@ def process_seq_ar(seq, alignment):
     #---------------------END TESTING SPACE---------------------#
 
 
- 
-        #hyphens removed (they were messing up some edits but might rewrite it later)
-        s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
-        t_str = sub("['-]", "", "".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
-        
 
         if s_str == t_str:
             return process_seq_ar(seq[:start], alignment) + \
