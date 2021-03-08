@@ -66,6 +66,57 @@ def process_seq_ar(seq, alignment):
         # Get the tokens in orig and cor. They will now never be empty.
         o = alignment.orig[seq[start][1]:seq[end][2]]
         c = alignment.cor[seq[start][3]:seq[end][4]]
+
+    #---------------------START TESTING SPACE---------------------#
+        correct_pos=list()
+        original_pos=list()
+
+        correct_token=list()
+        original_token=list()
+    
+        correct_tok_dict={}
+        origonal_tok_dict={}
+    
+        for tok in c:
+            correct_token.append(tok.text)
+            correct_pos.append(str(tok.pos))
+
+        for tok in o:
+            original_token.append(tok.text)
+            original_pos.append(str(tok.pos))
+
+
+        correct_tok_dict=dict(zip(correct_token, correct_pos))
+        origonal_tok_dict=dict(zip(original_token, original_pos))
+
+
+
+        print(str(correct_tok_dict)+"\n")
+        
+
+
+    
+
+    
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #---------------------END TESTING SPACE---------------------#
+
+
  
         #hyphens removed (they were messing up some edits but might rewrite it later)
         s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
@@ -91,22 +142,25 @@ def process_seq_ar(seq, alignment):
                         
         # Split rules take effect when we get to smallest chunks
         if end-start <2:
+
             # Split adjacent substitutions
             if len(o) == len(c) == 2:
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
+
             # Split similar substitutions at sequence boundaries
             if (ops[start] == "S" and char_cost(o[0].text, c[0].text) > 0.75) or \
                     (ops[end] == "S" and char_cost(o[-1].text, c[-1].text) > 0.75):
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
-                    ##If a punctation mark is encontered, remove it
-        ##I wrote this to remove splits involving punctation marks
+
+            ##If a punctation mark is encontered, remove it
+            ##I wrote this to remove splits involving punctation marks            
             arab_punct_set=set([is_punct(tok) for tok in c])
             if True in arab_punct_set:
-                c = filter(lambda i: not arab_punct.search(i), c)
                 return process_seq_ar(seq[:start+1], alignment) + \
-                process_seq_ar(seq[start+1:], alignment)   
+                process_seq_ar(seq[start+1:], alignment) 
+  
 
         # Set content word flag
         if not pos_set.isdisjoint(open_pos): content = True                     # Not sure if it is language dependent.
