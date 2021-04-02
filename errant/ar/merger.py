@@ -7,7 +7,7 @@ from errant.edit import Edit
 import errant.parsedToken 
 import re
 from fuzzywuzzy import fuzz
-
+f = open( r'C:\Users\MSI\Desktop\run-errant\testing_file.txt' , "w", encoding ='utf-8')
 
 # Merger resources
 #--edited--# open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB} 
@@ -98,17 +98,20 @@ def process_seq_ar(seq, alignment):
             original_token.append(tok.text)
             original_pos.append(str(tok.pos))
 
-
+  
         correct_tok_dict=dict(zip(correct_token, correct_pos))
         origonal_tok_dict=dict(zip(original_token, original_pos))
 
-        print("seq: "+str(seq) +"\n")
+        f.write("seq: "+str(seq) +"\n")
 
 
-        print("original: "+str(sub("['-]", " ", " ".join([tok.lower for tok in o])) )+"\n")
-        print("correction: "+str(sub("['-]", " ", " ".join([tok.lower for tok in c])))+"\n")
-        print(str(correct_tok_dict)+"\n")
-        print(str(set(ops))+"\n")
+        f.write("original: "+str(sub("['-]", " ", " ".join([tok.lower for tok in o])) )+"\n")
+        f.write("correction: "+str(sub("['-]", " ", " ".join([tok.lower for tok in c])))+"\n")
+        f.write("original: "+str(origonal_tok_dict)+"\n")
+        f.write("correction: "+str(correct_tok_dict)+"\n")
+        f.write(str(correct_tok_dict)+"\n")
+        
+        f.write(str(set(ops))+"\n")
 
 
     
