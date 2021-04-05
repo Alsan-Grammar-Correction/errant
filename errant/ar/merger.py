@@ -8,6 +8,7 @@ import errant.parsedToken
 import re
 from fuzzywuzzy import fuzz
 f = open( r'C:\Users\MSI\Desktop\run-errant\testing_file.txt' , "w", encoding ='utf-8')
+split_f = open( r'C:\Users\MSI\Desktop\run-errant\split_function.txt' , "w", encoding ='utf-8')
 
 # Merger resources
 #--edited--# open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB} 
@@ -71,6 +72,11 @@ def process_seq_ar(seq, alignment):
         s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
         t_str = sub("['-]", "", "".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
         
+        s_str_spaces = sub("['-]", " ", " ".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
+        t_str_spaces = sub("['-]", " ", " ".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
+        
+        split_f.write("char cost: "+str(char_cost(s_str , t_str))+"\n")
+        split_f.write("char cost (with spaces): "+str(char_cost(s_str_spaces , t_str_spaces))+"\n")
 
     #---------------------START TESTING SPACE---------------------#
         correct_pos=list()
@@ -79,12 +85,8 @@ def process_seq_ar(seq, alignment):
         correct_token=list()
         original_token=list()
 
-
-        correct_ops=list()
-        original_ops=list()
-
-
-
+        #correct_ops=list()
+        #original_ops=list()
     
         correct_tok_dict={}
         origonal_tok_dict={}
@@ -103,45 +105,46 @@ def process_seq_ar(seq, alignment):
         origonal_tok_dict=dict(zip(original_token, original_pos))
 
         f.write("seq: "+str(seq) +"\n")
-
-
         f.write("original: "+str(sub("['-]", " ", " ".join([tok.lower for tok in o])) )+"\n")
         f.write("correction: "+str(sub("['-]", " ", " ".join([tok.lower for tok in c])))+"\n")
         f.write("original: "+str(origonal_tok_dict)+"\n")
         f.write("correction: "+str(correct_tok_dict)+"\n")
         f.write(str(correct_tok_dict)+"\n")
-        
         f.write(str(set(ops))+"\n")
+        f.write("     \n       \n")
 
-
-    
-
-    
+        #split_f.write("o :"+str(o)+"\n")
+        #split_f.write("c :"+str(c)+"\n")
+        split_f.write("t_str_spaces :"+t_str_spaces+"\n")
+        lev_distance = [char_cost(tok.text , t_str_spaces) for tok in o]
+        split_f.write("s_str_spaces :"+s_str_spaces+"\n")
+        #ww = [char_cost(tok , t_str_spaces[0]) for tok in o]
         
+        split_f.write("lev_distance: "+str(lev_distance)+"     \n")
+        split_f.write("s_str_spaces :"+str(s_str_spaces.count(' '))+"\n")
+        split_f.write("t_str_spaces :"+str(t_str_spaces.count(' '))+"\n")
+        split_f.write("#####################################################\n")
 
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
+#        split_f.write("alignment :"+str(alignment)+"\n")
+#        split_f.write("seq :"+str(seq)+"\n")
     #---------------------END TESTING SPACE---------------------#
 
 
-
+   
         if s_str == t_str:
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
                 process_seq_ar(seq[end+1:], alignment)
 
+
+#split_f
+#        if char_cost(s_str , t_str) > 0.8 and 'T' not in ops and 'D' not in ops:
+
+#                if fuzz.partial_ratio( str(s_str),c[1] )>=50:
+            
+#                    return process_seq_ar(seq[:start], alignment) + \
+#                    merge_edits(seq[start:end+1]) + \
+#                    process_seq_ar(seq[end+1:], alignment)
         # Merge same POS or auxiliary/infinitive/phrasal verbs:
         # [to eat -> eating], [watch -> look at]
         pos_set = set([tok.pos for tok in o]+[tok.pos for tok in c]) 
