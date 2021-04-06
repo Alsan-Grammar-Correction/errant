@@ -7,8 +7,8 @@ from errant.edit import Edit
 import errant.parsedToken 
 import re
 from fuzzywuzzy import fuzz
-f = open( r'C:\Users\MSI\Desktop\run-errant\testing_file.txt' , "w", encoding ='utf-8')
-split_f = open( r'C:\Users\MSI\Desktop\run-errant\split_function.txt' , "w", encoding ='utf-8')
+f = open( r'C:\Users\MSI\Documents\GitHub\errant-docs\run-errant\testing_file.txt' , "w", encoding ='utf-8')
+split_f = open( r'C:\Users\MSI\Documents\GitHub\errant-docs\run-errant\split_function.txt' , "w", encoding ='utf-8')
 
 # Merger resources
 #--edited--# open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB} 
@@ -99,7 +99,6 @@ def process_seq_ar(seq, alignment):
         for tok in o:
             original_token.append(tok.text)
             original_pos.append(str(tok.pos))
-
   
         correct_tok_dict=dict(zip(correct_token, correct_pos))
         origonal_tok_dict=dict(zip(original_token, original_pos))
@@ -119,17 +118,18 @@ def process_seq_ar(seq, alignment):
         lev_distance = [char_cost(tok.text , t_str_spaces) for tok in o]
         split_f.write("s_str_spaces :"+s_str_spaces+"\n")
         #ww = [char_cost(tok , t_str_spaces[0]) for tok in o]
-        
+        spaces_in_s=len(re.findall(r"[\s]+", s_str_spaces))
+        spaces_in_t=len(re.findall(r"[\s]+", t_str_spaces))
         split_f.write("lev_distance: "+str(lev_distance)+"     \n")
-        split_f.write("s_str_spaces :"+str(s_str_spaces.count(' '))+"\n")
+        #split_f.write("t_str_spaces :"+str(spaces_in_t)+"\n")
         split_f.write("t_str_spaces :"+str(t_str_spaces.count(' '))+"\n")
+        split_f.write("s_str_spaces :"+str(s_str_spaces.count(' '))+"\n")
+        
         split_f.write("#####################################################\n")
 
 #        split_f.write("alignment :"+str(alignment)+"\n")
 #        split_f.write("seq :"+str(seq)+"\n")
     #---------------------END TESTING SPACE---------------------#
-
-
    
         if s_str == t_str:
             return process_seq_ar(seq[:start], alignment) + \
