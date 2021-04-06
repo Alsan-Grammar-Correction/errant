@@ -7,9 +7,12 @@ from errant.edit import Edit
 import errant.parsedToken 
 import re
 from fuzzywuzzy import fuzz
-f = open( r'C:\Users\MSI\Documents\GitHub\errant-docs\run-errant\testing_file.txt' , "w", encoding ='utf-8')
-split_f = open( r'C:\Users\MSI\Documents\GitHub\errant-docs\run-errant\split_function.txt' , "w", encoding ='utf-8')
-
+#windows path
+#f = open( r'C:\Users\MSI\Documents\GitHub\errant-docs\run-errant\testing_file.txt' , "w", encoding ='utf-8')
+#split_f = open( r'C:\Users\MSI\Documents\GitHub\errant-docs\run-errant\split_function.txt' , "w", encoding ='utf-8')
+#mac path
+f = open( r'/Users/Jumana/Desktop/git/errant-docs/run-errant/testing_file.txt' , "w", encoding ='utf-8')
+split_f = open( r'/Users/Jumana/Desktop/git/errant-docs/run-errant/split_function.txt' , "w", encoding ='utf-8')
 # Merger resources
 #--edited--# open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB} 
 open_pos = {'adj','adj_comp','adj_num','adv','adv_interrog','adv_rel','noun','noun_prop','noun_num','noun_quant','verb','verb_pseudo'} #Testing a version of open_pos that works with arabic (because camel_tools' morphological analyzer produces textual tags)
@@ -136,10 +139,6 @@ def process_seq_ar(seq, alignment):
         if True in arab_punct_set:
                 return process_seq_ar(seq[:start+1], alignment) + \
                 process_seq_ar(seq[start+1:], alignment) 
-        if spaces_in_t < spaces_in_s and not any(i < 0.70 for i in lev_distance):
-                return process_seq_ar(seq[:start], alignment) + \
-                    process_seq_ar(seq[end+1:], alignment)
-
 
         if s_str == t_str:
             return process_seq_ar(seq[:start], alignment) + \
@@ -147,7 +146,14 @@ def process_seq_ar(seq, alignment):
                 process_seq_ar(seq[end+1:], alignment)
 
 
-                        
+        if spaces_in_t > spaces_in_s and not any(i < 0.65 for i in lev_distance):
+                split_f.write(s_str_spaces+"z\n")
+                split_f.write(t_str_spaces+"z\n")
+                return process_seq_ar(seq[:start], alignment) + \
+                    merge_edits(seq[start:end+1]) + \
+                    process_seq_ar(seq[end+1:], alignment)
+
+              
         # Split rules take effect when we get to smallest chunks
         if end-start <2:
 
