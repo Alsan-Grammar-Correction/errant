@@ -111,26 +111,31 @@ def process_seq_ar(seq, alignment):
         f.write(str(correct_tok_dict)+"\n")
         f.write(str(set(ops))+"\n")
         f.write("     \n       \n")
-
         #split_f.write("o :"+str(o)+"\n")
         #split_f.write("c :"+str(c)+"\n")
+        split_f.write("s_str_spaces  :"+s_str_spaces+"\n")
+
         split_f.write("t_str_spaces :"+t_str_spaces+"\n")
-        lev_distance = [char_cost(tok.text , t_str_spaces) for tok in o]
-        split_f.write("s_str_spaces :"+s_str_spaces+"\n")
+        lev_distance = [char_cost(tok.text , s_str_spaces) for tok in c]
         #ww = [char_cost(tok , t_str_spaces[0]) for tok in o]
         spaces_in_s=len(re.findall(r"[\s]+", s_str_spaces))
         spaces_in_t=len(re.findall(r"[\s]+", t_str_spaces))
         split_f.write("lev_distance: "+str(lev_distance)+"     \n")
         #split_f.write("t_str_spaces :"+str(spaces_in_t)+"\n")
-        split_f.write("t_str_spaces :"+str(t_str_spaces.count(' '))+"\n")
         split_f.write("s_str_spaces :"+str(s_str_spaces.count(' '))+"\n")
+        split_f.write("t_str_spaces :"+str(t_str_spaces.count(' '))+"\n")
         
         split_f.write("#####################################################\n")
 
 #        split_f.write("alignment :"+str(alignment)+"\n")
 #        split_f.write("seq :"+str(seq)+"\n")
     #---------------------END TESTING SPACE---------------------#
-   
+
+        if spaces_in_t < spaces_in_s and any(i > 0.70 for i in lev_distance):
+                return process_seq_ar(seq[:start], alignment) + \
+                    process_seq_ar(seq[end+1:], alignment)
+
+
         if s_str == t_str:
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
