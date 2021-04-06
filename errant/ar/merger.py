@@ -130,8 +130,13 @@ def process_seq_ar(seq, alignment):
 #        split_f.write("alignment :"+str(alignment)+"\n")
 #        split_f.write("seq :"+str(seq)+"\n")
     #---------------------END TESTING SPACE---------------------#
-
-        if spaces_in_t < spaces_in_s and any(i > 0.70 for i in lev_distance):
+            ##If a punctation mark is encontered, remove it
+            ##I wrote this to remove splits involving punctation marks            
+        arab_punct_set=set([is_punct(tok) for tok in c])
+        if True in arab_punct_set:
+                return process_seq_ar(seq[:start+1], alignment) + \
+                process_seq_ar(seq[start+1:], alignment) 
+        if spaces_in_t < spaces_in_s and not any(i < 0.70 for i in lev_distance):
                 return process_seq_ar(seq[:start], alignment) + \
                     process_seq_ar(seq[end+1:], alignment)
 
@@ -142,25 +147,6 @@ def process_seq_ar(seq, alignment):
                 process_seq_ar(seq[end+1:], alignment)
 
 
-#split_f
-#        if char_cost(s_str , t_str) > 0.8 and 'T' not in ops and 'D' not in ops:
-
-#                if fuzz.partial_ratio( str(s_str),c[1] )>=50:
-            
-#                    return process_seq_ar(seq[:start], alignment) + \
-#                    merge_edits(seq[start:end+1]) + \
-#                    process_seq_ar(seq[end+1:], alignment)
-        # Merge same POS or auxiliary/infinitive/phrasal verbs:
-        # [to eat -> eating], [watch -> look at]
-        pos_set = set([tok.pos for tok in o]+[tok.pos for tok in c]) 
-        #w=set([is_punct(tok) for tok in o]) # This is not applied on Arabic
-        if len(o) != len(c) and (len(pos_set) == 1 or \
-            pos_set.issubset({'part','part_dem','part_det','part_focus','part_fut','part_interrog','part_neg','part_restrict','part_verb','part_voc','verb','verb_pseudo'})):               # Not sure if it is language dependent. This is not applied on Arabic
-            return process_seq_ar(seq[:start], alignment) + \
-                merge_edits(seq[start:end+1]) + \
-                process_seq_ar(seq[end+1:], alignment)
-
-     
                         
         # Split rules take effect when we get to smallest chunks
         if end-start <2:
@@ -176,16 +162,11 @@ def process_seq_ar(seq, alignment):
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
 
-            ##If a punctation mark is encontered, remove it
-            ##I wrote this to remove splits involving punctation marks            
-            arab_punct_set=set([is_punct(tok) for tok in c])
-            if True in arab_punct_set:
-                return process_seq_ar(seq[:start+1], alignment) + \
-                process_seq_ar(seq[start+1:], alignment) 
+
   
 
         # Set content word flag
-        if not pos_set.isdisjoint(open_pos): content = True                     # Not sure if it is language dependent.
+        #if not pos_set.isdisjoint(open_pos): content = True                     # Not sure if it is language dependent.
     # Merge sequences that contain content words
     if content: return merge_edits(seq)
     else: return seq
