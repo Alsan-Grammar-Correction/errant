@@ -4,19 +4,19 @@ from string import punctuation
 import Levenshtein
 import spacy.symbols as POS
 from errant.edit import Edit
+import errant.parsedToken 
 import re
-from fuzzywuzzy import fuzz
 
 # Merger resources
-open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB}              # Not sure if it is language dependent. 
 #Arabic punctation regex
 arab_punct_rx=r"[\".,:;!?،؛؟]"
 arab_punct = re.compile(arab_punct_rx)
-
+open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB}
 # Input: An Alignment object
 # Output: A list of Edit objects
 def get_rule_edits(alignment, lang):
     edits = []
+    
     # Split alignment into groups of M, T and rest. (T has a number after it)
     for op, group in groupby(alignment.align_seq, 
             lambda x: x[0][0] if x[0][0] in {"M", "T"} else False):
@@ -61,83 +61,60 @@ def process_seq_ar(seq, alignment):
         # Get the tokens in orig and cor. They will now never be empty.
         o = alignment.orig[seq[start][1]:seq[end][2]]
         c = alignment.cor[seq[start][3]:seq[end][4]]
-        # Merge possessive suffixes: [friends -> friend 's]
-        if o[-1].tag == "POS" or c[-1].tag == "POS":                              # what is POS? + change tag_ to tag
-            return process_seq_ar(seq[:end-1], alignment) + \
-                merge_edits(seq[end-1:end+1]) + \
-                process_seq_ar(seq[end+1:], alignment)
-        # Case changes
-        if o[-1].lower == c[-1].lower:                                              # This is not applied on Arabic
-            # Merge first token I or D: [Cat -> The big cat]
-            if start == 0 and (len(o) == 1 and c[0].text[0].isupper()) or \
-                    (len(c) == 1 and o[0].text[0].isupper()):                       # This is not applied on Arabic
-                return merge_edits(seq[start:end+1]) + \
-                    process_seq_ar(seq[end+1:], alignment)
-            # Merge with previous punctuation: [, we -> . We], [we -> . We]
-            if (len(o) > 1 and is_punct(o[-2])) or \
-                    (len(c) > 1 and is_punct(c[-2])):
-                return process_seq_ar(seq[:end-1], alignment) + \
-                    merge_edits(seq[end-1:end+1]) + \
-                    process_seq_ar(seq[end+1:], alignment)
-        # Merge whitespace/hyphens: [acat -> a cat], [sub - way -> subway]
-        ##If a punctation mark is encontered, remove it
-        ##I wrote this to remove splits involving punctation marks
-        if any(arab_punct.match(line.text) for line in c):
-            c = filter(lambda i: not arab_punct.search(i), c)
-            return process_seq_ar(seq[:start+1], alignment) + \
-                process_seq_ar(seq[start+1:], alignment)
+ 
         #hyphens removed (they were messing up some edits but might rewrite it later)
-        s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
-        t_str = sub("['-]", "", "".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
+        s_str = sub("[']", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
+        t_str = sub("[']", "", "".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
+        
+        s_str_spaces = sub("['-]", " ", " ".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
+        t_str_spaces = sub("['-]", " ", " ".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
+        
+
         if s_str == t_str:
             return process_seq_ar(seq[:start], alignment) + \
                 merge_edits(seq[start:end+1]) + \
                 process_seq_ar(seq[end+1:], alignment)
-        #######################################################
-        #instead of merging them only when they are equal \
-        #they are now merged if the distance between them is \
-        #less than 15
-        
-        # if char_cost(s_str , t_str) >= 0.75 and 'I' in ops and 'S' in ops:        
-        if char_cost(s_str , t_str) > 0.8 and 'T' not in ops and 'D' not in ops:
-            if o[0].tag == 'noun_prop' or\
-                c[1].tag =='verb' and c[0].tag =='pron_rel' or\
-                o[0].tag == 'noun' or\
-                c[1].tag =='prep' and c[0].tag =='verb':
-                if fuzz.partial_ratio( str(s_str),c[1].text )>=50:
-            
-                    return process_seq_ar(seq[:start], alignment) + \
-                    merge_edits(seq[start:end+1]) + \
+
+
+        #The levenshtein distance of the original sentnce when compared to each token in the correction sentence
+        lev_distance = [char_cost(tok.text , s_str_spaces) for tok in c]
+        #The levenshtein distance of the correction when compared to each token in the original sentence
+        lev_distance2 = [char_cost(tok.text , t_str_spaces) for tok in o]
+        #The number of spaces in the original sentence
+        spaces_in_s=len(re.findall(r"[\s]+", s_str_spaces))
+        #The number of spaces in the corrected sentence
+        spaces_in_t=len(re.findall(r"[\s]+", t_str_spaces))
+
+#if the distance between the source sentence and it's correction is >= 0.7 (very similar)
+# and if the spaces in the original sentence are less than the spaces in the source and there aren't new tokens added, then it is a split
+    if char_cost(s_str , t_str) >= 0.7:
+        if spaces_in_t > spaces_in_s and not any(i < 0.39 for i in lev_distance) and not any(i < 0.8 for i in lev_distance2):
+                return process_seq_ar(seq[:start], alignment) + \
                     process_seq_ar(seq[end+1:], alignment)
-                    
-        # Merge same POS or auxiliary/infinitive/phrasal verbs:
-        # [to eat -> eating], [watch -> look at]
-        pos_set = set([tok.pos for tok in o]+[tok.pos for tok in c])            # This is not applied on Arabic
-        if len(o) != len(c) and (len(pos_set) == 1 or \
-                pos_set.issubset({POS.AUX, POS.PART, POS.VERB})):               # Not sure if it is language dependent. This is not applied on Arabic
-            return process_seq_ar(seq[:start], alignment) + \
-                merge_edits(seq[start:end+1]) + \
-                process_seq_ar(seq[end+1:], alignment)
+
+              
+
+              
         # Split rules take effect when we get to smallest chunks
         if end-start <2:
+  
             # Split adjacent substitutions
             if len(o) == len(c) == 2:
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
+
             # Split similar substitutions at sequence boundaries
             if (ops[start] == "S" and char_cost(o[0].text, c[0].text) > 0.75) or \
                     (ops[end] == "S" and char_cost(o[-1].text, c[-1].text) > 0.75):
                 return process_seq_ar(seq[:start+1], alignment) + \
                     process_seq_ar(seq[start+1:], alignment)
-            # Split final determiners
-            if end == len(seq)-1 and ((ops[-1] in {"D", "S"} and \
-                    o[-1].pos == POS.DET) or (ops[-1] in {"I", "S"} and \
-                    c[-1].pos == POS.DET)):                                     # This is not applied on Arabic
-                return process_seq_ar(seq[:-1], alignment) + [seq[-1]]
+
+
+  
+
         # Set content word flag
-        if not pos_set.isdisjoint(open_pos): content = True                     # Not sure if it is language dependent.
     # Merge sequences that contain content words
-    if content: return merge_edits(seq)
+    if content: return merge_edits(seq) #I will remove this, it was left for now as it's removal causes errors
     else: return seq
 
 # Input 1: A sequence of adjacent D, I and/or S alignments
@@ -219,9 +196,14 @@ def process_seq_en(seq, alignment):
     else: return seq
 
 # Check whether token is punctuation
+#First, check the token's type:
+#If the token was a parsedToken, check if the POS=PUNC
+#Else if the token was a string, then check if it matches the arab punct regex
 def is_punct(token):
-    return token.pos == POS.PUNCT or token.text in punctuation or arab_punct.search(token)   # needs Arabic punctuations
-
+    if(isinstance(token,errant.parsedToken.ParsedToken)):
+        return token.pos=="punc" or token.pos == POS.PUNCT or token.text in punctuation   # needs Arabic punctuations
+    elif(isinstance(token, str)):
+       return bool(arab_punct.match(token))
 # Calculate the cost of character alignment; i.e. char similarity
 # Input 1: string a 
 # Input 2: string b 

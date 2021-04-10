@@ -20,7 +20,7 @@ setup(
     url = "https://github.com/chrisjbryant/errant",    
     keywords = ["automatic annotation", "grammatical errors", "natural language processing"],
     python_requires = ">= 3.3",
-    install_requires = ["spacy>=2.2.0, <3.0", "python-Levenshtein==0.12.0", "camel-tools", "fuzzywuzzy"],
+    install_requires = ["spacy>=2.2.0, <3.0", "python-Levenshtein==0.12.0", "camel-tools"],
     packages = find_packages(),    
     include_package_data=True,
     entry_points = {
