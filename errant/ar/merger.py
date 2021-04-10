@@ -6,21 +6,12 @@ import spacy.symbols as POS
 from errant.edit import Edit
 import errant.parsedToken 
 import re
-from fuzzywuzzy import fuzz
-#windows path
-#f = open( r'C:\Users\MSI\Documents\GitHub\errant-docs\run-errant\testing_file.txt' , "w", encoding ='utf-8')
-#split_f = open( r'C:\Users\MSI\Documents\GitHub\errant-docs\run-errant\split_function.txt' , "w", encoding ='utf-8')
-#mac path
-f = open( r'/Users/Jumana/Desktop/git/errant-docs/run-errant/testing_file.txt' , "w", encoding ='utf-8')
-split_f = open( r'/Users/Jumana/Desktop/git/errant-docs/run-errant/split_function.txt' , "w", encoding ='utf-8')
-# Merger resources
-#--edited--# open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB} 
-open_pos = {'adj','adj_comp','adj_num','adv','adv_interrog','adv_rel','noun','noun_prop','noun_num','noun_quant','verb','verb_pseudo'} #Testing a version of open_pos that works with arabic (because camel_tools' morphological analyzer produces textual tags)
 
+# Merger resources
 #Arabic punctation regex
 arab_punct_rx=r"[\".,:;!?،؛؟]"
 arab_punct = re.compile(arab_punct_rx)
-
+open_pos = {POS.ADJ, POS.AUX, POS.ADV, POS.NOUN, POS.VERB}
 # Input: An Alignment object
 # Output: A list of Edit objects
 def get_rule_edits(alignment, lang):
@@ -72,73 +63,12 @@ def process_seq_ar(seq, alignment):
         c = alignment.cor[seq[start][3]:seq[end][4]]
  
         #hyphens removed (they were messing up some edits but might rewrite it later)
-        s_str = sub("['-]", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
-        t_str = sub("['-]", "", "".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
+        s_str = sub("[']", "", "".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
+        t_str = sub("[']", "", "".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
         
         s_str_spaces = sub("['-]", " ", " ".join([tok.lower for tok in o]))             # change lower_ to lower. This is not applied on Arabic
         t_str_spaces = sub("['-]", " ", " ".join([tok.lower for tok in c]))             # change lower_ to lower. This is not applied on Arabic
         
-        split_f.write("char cost: "+str(char_cost(s_str , t_str))+"\n")
-        split_f.write("char cost (with spaces): "+str(char_cost(s_str_spaces , t_str_spaces))+"\n")
-
-    #---------------------START TESTING SPACE---------------------#
-        correct_pos=list()
-        original_pos=list()
-
-        correct_token=list()
-        original_token=list()
-
-        #correct_ops=list()
-        #original_ops=list()
-    
-        correct_tok_dict={}
-        origonal_tok_dict={}
-    
-        for tok in c:
-            correct_token.append(tok.text)
-            correct_pos.append(str(tok.pos))
-            
-
-        for tok in o:
-            original_token.append(tok.text)
-            original_pos.append(str(tok.pos))
-  
-        correct_tok_dict=dict(zip(correct_token, correct_pos))
-        origonal_tok_dict=dict(zip(original_token, original_pos))
-
-        f.write("seq: "+str(seq) +"\n")
-        f.write("original: "+str(sub("['-]", " ", " ".join([tok.lower for tok in o])) )+"\n")
-        f.write("correction: "+str(sub("['-]", " ", " ".join([tok.lower for tok in c])))+"\n")
-        f.write("original: "+str(origonal_tok_dict)+"\n")
-        f.write("correction: "+str(correct_tok_dict)+"\n")
-        f.write(str(correct_tok_dict)+"\n")
-        f.write(str(set(ops))+"\n")
-        f.write("     \n       \n")
-        #split_f.write("o :"+str(o)+"\n")
-        #split_f.write("c :"+str(c)+"\n")
-        split_f.write("s_str_spaces  :"+s_str_spaces+"\n")
-
-        split_f.write("t_str_spaces :"+t_str_spaces+"\n")
-        lev_distance = [char_cost(tok.text , s_str_spaces) for tok in c]
-        #ww = [char_cost(tok , t_str_spaces[0]) for tok in o]
-        spaces_in_s=len(re.findall(r"[\s]+", s_str_spaces))
-        spaces_in_t=len(re.findall(r"[\s]+", t_str_spaces))
-        split_f.write("lev_distance: "+str(lev_distance)+"     \n")
-        #split_f.write("t_str_spaces :"+str(spaces_in_t)+"\n")
-        split_f.write("s_str_spaces :"+str(s_str_spaces.count(' '))+"\n")
-        split_f.write("t_str_spaces :"+str(t_str_spaces.count(' '))+"\n")
-        
-        split_f.write("#####################################################\n")
-
-#        split_f.write("alignment :"+str(alignment)+"\n")
-#        split_f.write("seq :"+str(seq)+"\n")
-    #---------------------END TESTING SPACE---------------------#
-            ##If a punctation mark is encontered, remove it
-            ##I wrote this to remove splits involving punctation marks            
-        arab_punct_set=set([is_punct(tok) for tok in c])
-        if True in arab_punct_set:
-                return process_seq_ar(seq[:start+1], alignment) + \
-                process_seq_ar(seq[start+1:], alignment) 
 
         if s_str == t_str:
             return process_seq_ar(seq[:start], alignment) + \
@@ -146,17 +76,28 @@ def process_seq_ar(seq, alignment):
                 process_seq_ar(seq[end+1:], alignment)
 
 
-        if spaces_in_t > spaces_in_s and not any(i < 0.65 for i in lev_distance):
-                split_f.write(s_str_spaces+"z\n")
-                split_f.write(t_str_spaces+"z\n")
+        #The levenshtein distance of the original sentnce when compared to each token in the correction sentence
+        lev_distance = [char_cost(tok.text , s_str_spaces) for tok in c]
+        #The levenshtein distance of the correction when compared to each token in the original sentence
+        lev_distance2 = [char_cost(tok.text , t_str_spaces) for tok in o]
+        #The number of spaces in the original sentence
+        spaces_in_s=len(re.findall(r"[\s]+", s_str_spaces))
+        #The number of spaces in the corrected sentence
+        spaces_in_t=len(re.findall(r"[\s]+", t_str_spaces))
+
+#if the distance between the source sentence and it's correction is >= 0.7 (very similar)
+# and if the spaces in the original sentence are less than the spaces in the source and there aren't new tokens added, then it is a split
+    if char_cost(s_str , t_str) >= 0.7:
+        if spaces_in_t > spaces_in_s and not any(i < 0.39 for i in lev_distance) and not any(i < 0.8 for i in lev_distance2):
                 return process_seq_ar(seq[:start], alignment) + \
-                    merge_edits(seq[start:end+1]) + \
                     process_seq_ar(seq[end+1:], alignment)
+
+              
 
               
         # Split rules take effect when we get to smallest chunks
         if end-start <2:
-
+  
             # Split adjacent substitutions
             if len(o) == len(c) == 2:
                 return process_seq_ar(seq[:start+1], alignment) + \
@@ -172,9 +113,8 @@ def process_seq_ar(seq, alignment):
   
 
         # Set content word flag
-        #if not pos_set.isdisjoint(open_pos): content = True                     # Not sure if it is language dependent.
     # Merge sequences that contain content words
-    if content: return merge_edits(seq)
+    if content: return merge_edits(seq) #I will remove this, it was left for now as it's removal causes errors
     else: return seq
 
 # Input 1: A sequence of adjacent D, I and/or S alignments
